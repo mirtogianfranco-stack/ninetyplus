@@ -51,265 +51,295 @@
    "end": 3.45
   },
   {
-   "word": "Manchester",
+   "word": "Paris",
    "start": 3.77,
-   "end": 4.448
+   "end": 4.183
+  },
+  {
+   "word": "put",
+   "start": 4.203,
+   "end": 4.472
+  },
+  {
+   "word": "four",
+   "start": 4.492,
+   "end": 4.76
+  },
+  {
+   "word": "past",
+   "start": 4.78,
+   "end": 5.121
+  },
+  {
+   "word": "Manchester",
+   "start": 5.141,
+   "end": 5.843
   },
   {
    "word": "City",
-   "start": 4.468,
-   "end": 4.797
+   "start": 5.863,
+   "end": 6.204
   },
   {
-   "word": "led",
-   "start": 4.817,
-   "end": 5.077
-  },
-  {
-   "word": "two-nil",
-   "start": 5.097,
-   "end": 5.635
-  },
-  {
-   "word": "and",
-   "start": 5.655,
-   "end": 5.845
-  },
-  {
-   "word": "still",
-   "start": 5.865,
-   "end": 6.194
-  },
-  {
-   "word": "lost",
-   "start": 6.214,
-   "end": 6.543
-  },
-  {
-   "word": "four-two",
-   "start": 6.563,
-   "end": 7.102
-  },
-  {
-   "word": "to",
-   "start": 7.122,
-   "end": 7.311
-  },
-  {
-   "word": "Paris.",
-   "start": 7.331,
-   "end": 7.73
-  },
-  {
-   "word": "Pick",
-   "start": 8.05,
-   "end": 8.37
-  },
-  {
-   "word": "one,",
-   "start": 8.39,
-   "end": 8.71
-  },
-  {
-   "word": "gone.",
-   "start": 8.91,
-   "end": 9.48
-  },
-  {
-   "word": "Aston",
-   "start": 9.8,
-   "end": 10.31
-  },
-  {
-   "word": "Villa",
-   "start": 10.33,
-   "end": 10.752
-  },
-  {
-   "word": "won",
-   "start": 10.772,
-   "end": 11.105
-  },
-  {
-   "word": "six-nil.",
-   "start": 11.125,
-   "end": 11.9
-  },
-  {
-   "word": "Jackson",
-   "start": 12.1,
-   "end": 12.604
-  },
-  {
-   "word": "and",
-   "start": 12.624,
-   "end": 12.8
-  },
-  {
-   "word": "Barkley",
-   "start": 12.82,
-   "end": 13.258
-  },
-  {
-   "word": "scored",
-   "start": 13.278,
-   "end": 13.651
-  },
-  {
-   "word": "two",
-   "start": 13.671,
-   "end": 13.913
-  },
-  {
-   "word": "each.",
-   "start": 13.933,
-   "end": 14.24
-  },
-  {
-   "word": "Pick",
-   "start": 14.56,
-   "end": 14.915
-  },
-  {
-   "word": "two,",
-   "start": 14.935,
-   "end": 15.29
-  },
-  {
-   "word": "landed.",
-   "start": 15.49,
-   "end": 16.16
-  },
-  {
-   "word": "Mbappe",
-   "start": 16.48,
-   "end": 17.117
-  },
-  {
-   "word": "scored",
-   "start": 17.137,
-   "end": 17.556
-  },
-  {
-   "word": "in",
-   "start": 17.576,
-   "end": 17.775
-  },
-  {
-   "word": "Rome,",
-   "start": 17.795,
-   "end": 18.14
-  },
-  {
-   "word": "and",
-   "start": 18.34,
-   "end": 18.526
-  },
-  {
-   "word": "Madrid",
-   "start": 18.546,
-   "end": 19.005
-  },
-  {
-   "word": "came",
-   "start": 19.025,
-   "end": 19.348
-  },
-  {
-   "word": "back",
-   "start": 19.368,
-   "end": 19.622
-  },
-  {
-   "word": "late",
-   "start": 19.642,
-   "end": 19.964
-  },
-  {
-   "word": "to",
-   "start": 19.984,
-   "end": 20.17
-  },
-  {
-   "word": "win",
-   "start": 20.19,
-   "end": 20.444
-  },
-  {
-   "word": "four-three.",
-   "start": 20.464,
-   "end": 21.06
-  },
-  {
-   "word": "Pick",
-   "start": 21.38,
-   "end": 21.724
-  },
-  {
-   "word": "three,",
-   "start": 21.744,
-   "end": 22.18
-  },
-  {
-   "word": "landed.",
-   "start": 22.38,
-   "end": 23.05
-  },
-  {
-   "word": "Two",
-   "start": 23.37,
-   "end": 23.634
-  },
-  {
-   "word": "from",
-   "start": 23.654,
-   "end": 23.918
-  },
-  {
-   "word": "three",
-   "start": 23.938,
-   "end": 24.273
-  },
-  {
-   "word": "tonight.",
-   "start": 24.293,
-   "end": 24.77
-  },
-  {
-   "word": "Follow,",
-   "start": 25.09,
-   "end": 25.66
+   "word": "at",
+   "start": 6.224,
+   "end": 6.348
   },
   {
    "word": "the",
-   "start": 25.86,
-   "end": 25.988
+   "start": 6.368,
+   "end": 6.493
+  },
+  {
+   "word": "Etihad.",
+   "start": 6.513,
+   "end": 7.07
+  },
+  {
+   "word": "City",
+   "start": 7.27,
+   "end": 7.669
+  },
+  {
+   "word": "got",
+   "start": 7.689,
+   "end": 8.005
+  },
+  {
+   "word": "two,",
+   "start": 8.025,
+   "end": 8.34
+  },
+  {
+   "word": "it",
+   "start": 8.54,
+   "end": 8.686
+  },
+  {
+   "word": "was",
+   "start": 8.706,
+   "end": 8.936
+  },
+  {
+   "word": "never",
+   "start": 8.956,
+   "end": 9.351
+  },
+  {
+   "word": "close.",
+   "start": 9.371,
+   "end": 9.85
+  },
+  {
+   "word": "Pick",
+   "start": 10.17,
+   "end": 10.49
+  },
+  {
+   "word": "one,",
+   "start": 10.51,
+   "end": 10.83
+  },
+  {
+   "word": "gone.",
+   "start": 11.03,
+   "end": 11.6
+  },
+  {
+   "word": "Aston",
+   "start": 11.92,
+   "end": 12.43
+  },
+  {
+   "word": "Villa",
+   "start": 12.45,
+   "end": 12.872
+  },
+  {
+   "word": "won",
+   "start": 12.892,
+   "end": 13.225
+  },
+  {
+   "word": "six-nil.",
+   "start": 13.245,
+   "end": 14.02
+  },
+  {
+   "word": "Jackson",
+   "start": 14.22,
+   "end": 14.724
+  },
+  {
+   "word": "and",
+   "start": 14.744,
+   "end": 14.92
+  },
+  {
+   "word": "Barkley",
+   "start": 14.94,
+   "end": 15.378
+  },
+  {
+   "word": "scored",
+   "start": 15.398,
+   "end": 15.771
+  },
+  {
+   "word": "two",
+   "start": 15.791,
+   "end": 16.033
+  },
+  {
+   "word": "each.",
+   "start": 16.053,
+   "end": 16.36
+  },
+  {
+   "word": "Pick",
+   "start": 16.68,
+   "end": 17.035
+  },
+  {
+   "word": "two,",
+   "start": 17.055,
+   "end": 17.41
+  },
+  {
+   "word": "landed.",
+   "start": 17.61,
+   "end": 18.28
+  },
+  {
+   "word": "Mbappe",
+   "start": 18.6,
+   "end": 19.237
+  },
+  {
+   "word": "scored",
+   "start": 19.257,
+   "end": 19.676
+  },
+  {
+   "word": "in",
+   "start": 19.696,
+   "end": 19.895
+  },
+  {
+   "word": "Rome,",
+   "start": 19.915,
+   "end": 20.26
+  },
+  {
+   "word": "and",
+   "start": 20.46,
+   "end": 20.646
+  },
+  {
+   "word": "Madrid",
+   "start": 20.666,
+   "end": 21.125
+  },
+  {
+   "word": "came",
+   "start": 21.145,
+   "end": 21.468
+  },
+  {
+   "word": "back",
+   "start": 21.488,
+   "end": 21.742
+  },
+  {
+   "word": "late",
+   "start": 21.762,
+   "end": 22.084
+  },
+  {
+   "word": "to",
+   "start": 22.104,
+   "end": 22.29
+  },
+  {
+   "word": "win",
+   "start": 22.31,
+   "end": 22.564
+  },
+  {
+   "word": "four-three.",
+   "start": 22.584,
+   "end": 23.18
+  },
+  {
+   "word": "Pick",
+   "start": 23.5,
+   "end": 23.844
+  },
+  {
+   "word": "three,",
+   "start": 23.864,
+   "end": 24.3
+  },
+  {
+   "word": "landed.",
+   "start": 24.5,
+   "end": 25.17
+  },
+  {
+   "word": "Two",
+   "start": 25.49,
+   "end": 25.754
+  },
+  {
+   "word": "from",
+   "start": 25.774,
+   "end": 26.038
+  },
+  {
+   "word": "three",
+   "start": 26.058,
+   "end": 26.393
+  },
+  {
+   "word": "tonight.",
+   "start": 26.413,
+   "end": 26.89
+  },
+  {
+   "word": "Follow,",
+   "start": 27.21,
+   "end": 27.78
+  },
+  {
+   "word": "the",
+   "start": 27.98,
+   "end": 28.108
   },
   {
    "word": "weekend",
-   "start": 26.008,
-   "end": 26.582
+   "start": 28.128,
+   "end": 28.702
   },
   {
    "word": "picks",
-   "start": 26.602,
-   "end": 26.953
+   "start": 28.722,
+   "end": 29.073
   },
   {
    "word": "drop",
-   "start": 26.973,
-   "end": 27.324
+   "start": 29.093,
+   "end": 29.444
   },
   {
    "word": "on",
-   "start": 27.344,
-   "end": 27.546
+   "start": 29.464,
+   "end": 29.666
   },
   {
    "word": "Friday.",
-   "start": 27.566,
-   "end": 28.14
+   "start": 29.686,
+   "end": 30.26
   }
  ],
- "duration": 28.36
+ "duration": 30.48
 }
