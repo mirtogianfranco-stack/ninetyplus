@@ -2,6 +2,7 @@ import React from 'react';
 import { Composition, Still } from 'remotion';
 import './index.css';
 import { BrandCard } from './BrandCard';
+import { ProfileLogo } from './ProfileLogo';
 import { PicksVideo } from './picks/PicksVideo';
 import type { PicksEdit } from './picks/types';
 import { SkyStadiumThumb } from './thumbs/SkyStadiumThumb';
@@ -21,6 +22,7 @@ export const RemotionRoot: React.FC = () => (
     {VIDEOS.map((e) => (
       <Composition key={e.id} id={e.id} component={PicksVideo} durationInFrames={Math.ceil(e.endSec * e.fps)} fps={e.fps} width={1080} height={1920} defaultProps={{ edit: e }} />
     ))}
+    <Still id='ProfileLogo' component={ProfileLogo} width={1080} height={1080} />
     <Still id='BrandCard' component={BrandCard} width={1080} height={1920} />
     <Still id='ThumbnailNP001' component={ThumbnailNP001} width={1080} height={1920} />
     <Still id='ThumbnailDemo' component={ThumbnailDemo} width={1080} height={1920} />
