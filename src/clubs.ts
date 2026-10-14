@@ -1,7 +1,7 @@
 // Club colours for the five Ninety Plus leagues: [primary, secondary] per club key (short, lowercase, no spaces).
 // Used for popup label pills, stat cards and table rows so graphics carry the club's colours. Edit files set team: '<key>'.
 // Squads change every summer: promoted clubs are added, relegated ones stay (they may come back up).
-export type League = 'epl' | 'laliga' | 'bundesliga' | 'seriea' | 'mls';
+export type League = 'epl' | 'laliga' | 'bundesliga' | 'seriea' | 'mls' | 'europe';
 
 export const LEAGUES: Record<League, { name: string; short: string }> = {
   epl: { name: 'Premier League', short: 'EPL' },
@@ -9,6 +9,7 @@ export const LEAGUES: Record<League, { name: string; short: string }> = {
   bundesliga: { name: 'Bundesliga', short: 'BUNDESLIGA' },
   seriea: { name: 'Serie A', short: 'SERIE A' },
   mls: { name: 'MLS', short: 'MLS' },
+  europe: { name: 'Champions League (other leagues)', short: 'UCL' },
 };
 
 export const CLUBS: Record<League, Record<string, [string, string]>> = {
@@ -140,6 +141,12 @@ export const CLUBS: Record<League, Record<string, [string, string]>> = {
     stlouis: ['#DD004A', '#0A1A3C'],
     toronto: ['#B81137', '#455560'],
     vancouver: ['#00245E', '#9DC2EA'],
+  },
+  // Champions League clubs from outside the five leagues, added as videos use them.
+  europe: {
+    psg: ['#004170', '#DA291C'],
+    fenerbahce: ['#163962', '#FFED00'],
+    porto: ['#00428C', '#FFFFFF'],
   },
 };
 
