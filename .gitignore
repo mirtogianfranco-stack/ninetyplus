@@ -3,5 +3,22 @@ build/
 out/*
 !out/BrandCard.png
 !out/ThumbnailDemo.png
+.tmp/
+.cache/
+tools/whisper-env/
+public/np-000/
+# large per-video media stays on the build machine (see CLAUDE.md "Media and git")
+public/np-*/**/*.mp4
+public/np-*/**/*.mov
+public/np-*/**/*.wav
+public/np-*/**/*.mp3
+public/np-*/**/*.m4a
+video-projects/**/*.mp4
+video-projects/**/*.mov
+video-projects/**/*.wav
+video-projects/**/*.mp3
+video-projects/**/*.m4a
+**/slice/
+__pycache__/
 .DS_Store
 *.log

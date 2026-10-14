@@ -1,4 +1,4 @@
-// Edit-decision types for a picks video. One PicksEdit per video (src/edits/videoNNN.ts); PicksVideo renders it.
+// Edit-decision types for a picks video. One PicksEdit per video (src/edits/npNNN.ts); PicksVideo renders it.
 // Every timing is a WORD INDEX into `words` (transcript order), never a guessed second. Frames are derived at render time.
 
 export type Word = { word: string; start: number; end: number };
@@ -43,7 +43,7 @@ export type PicksEdit = {
   endSec: number;                 // exact voiceover length
   words: Word[];                  // corrected transcript words
   voiceover: string;              // public path
-  assetsBase: string;             // e.g. 'video-002' -> public/video-002/{sfx,graphics,popups,clips}
+  assetsBase: string;             // e.g. 'np-002' -> public/np-002/{sfx,graphics,popups,clips}
   clipSec: Record<string, number>;
   legs: Leg[];
   shots: Shot[];
@@ -87,7 +87,7 @@ export type PicksEdit = {
     games: { flipWord?: number; away: string; home: string; label: string; team?: string }[] };
   // Video-032, REUSABLE: the promo-code lockup. Sponsor logos slide in, the code chip slams with a light sweep and
   // the letters stagger. Every one of the owner's codes is ROCKETT, so this is built once and reused every video.
-  brand?: 'itzrockett' | 'highlimit' | 'fourfigure';   // palette switch (theme.applyBrand); default itzrockett
+  brand?: 'ninetyplus' | 'itzrockett' | 'highlimit' | 'fourfigure';   // palette switch (theme.applyBrand); default ninetyplus
   captionStyle?: 'classic' | 'glow';   // Video-034: 'glow' = white Montserrat Black words, emphasis words in Anton with a gradient fill + colour glow
   captionGlow?: [string, string];      // glow gradient [top, bottom] for emphasis words (default lime -> hero green)
   codeBlast?: { word: number; untilWord: number; code: string; slamWord: number; kicker?: string; tiles: { image: string; amount: string; word?: number }[]; amountWord: number; amountText?: string; banner?: { word: number; text: string; sub?: string }; foot?: string; sfx?: string; vol?: number };   // Video-034 REUSABLE: the code is the biggest thing on screen for the whole sponsor block (FFAZ-style); tiles pop on their names, amounts land on amountWord, the code re-slams on slamWord

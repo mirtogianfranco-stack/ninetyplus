@@ -40,7 +40,7 @@ if (e.codeBlast) { const c = e.codeBlast; events.push({ t: w(c.word), what: 'cod
 }
 // FACELESS FOOTAGE REUSE (2026-09-21): HLS-001 + FFP-001 lost the FYP for "Unoriginal Content and IP" - every clip was a file ItzRockett had
 // already posted (same md5, HLS-001 even opened on 034's exact hook). With no face/real voice, reused footage is the whole video. Faceless brands get fresh clips only.
-if (e.brand === 'highlimit' || e.brand === 'fourfigure') {
+if (e.brand === 'highlimit' || e.brand === 'fourfigure' || e.brand === 'ninetyplus') {   // Ninety Plus is faceless too
   const fs = await import('node:fs'); const pth = await import('node:path');
   const clipsOf = (s) => new Set([...String(s).matchAll(/([A-Za-z0-9_]+)\.mp4/g)].map((m) => m[1]).filter((n) => n !== 'facecam'));
   const mine = clipsOf(JSON.stringify(e.legs ?? []) + JSON.stringify(e.shots ?? []) + JSON.stringify(e.clipDurations ?? {}));
@@ -62,10 +62,10 @@ if (e.brand === 'highlimit' || e.brand === 'fourfigure') {
     const props = [...fs.readFileSync(thumb, 'utf8').matchAll(/(?:top|bottom|text|label)=['"]([^'"]+)['"]/g)].map((m) => m[1]).join(' | ');
     for (const m of props.matchAll(BAN)) F('BANNED WORD on the thumbnail: "' + m[0] + '" (' + props + ')');
   }
-  const want = idTag.toLowerCase().replace(/^(hls|ffp)(\d+)/, '$1-$2').replace(/^(\d+)$/, 'video-$1');
+  const want = idTag.toLowerCase().replace(/^(hls|ffp|np)(\d+)/, '$1-$2').replace(/^(\d+)$/, 'video-$1');
   const kits = [];
   const walk = (d, depth) => { if (depth > 3 || !fs.existsSync(d)) return; for (const n of fs.readdirSync(d)) { const q = pth.join(d, n); if (fs.statSync(q).isDirectory()) walk(q, depth + 1); else if (n === 'kit.md' && q.toLowerCase().includes(want)) kits.push(q); } };
-  walk(pth.resolve('..', 'video-projects'), 0);
+  walk(pth.resolve('video-projects'), 0);   // Ninety Plus keeps video-projects/ inside the repo
   for (const k of kits) {
     const body = fs.readFileSync(k, 'utf8').split('\n').filter((l) => !/^#|No bet \/|^Files|^Account|^Post before|^CONDITIONAL|^Captions keep|^AI VOICE|^Tags:/i.test(l)).join('\n');
     for (const m of body.matchAll(BAN)) F('BANNED WORD in the publishing kit (' + want + '): "' + m[0] + '"');
@@ -171,7 +171,7 @@ for (const [where, s] of screen) {
 
 // 7. Hook: print the opener so the reviewer checks it against the owner's hook bank (never a stat, a matchup, or a scene-setter).
 const opener = e.words.slice(0, 14).map((x) => x.word).join(' ');
-if (/^(\d|the (bills|lions|bears|chiefs|eagles|cowboys|packers|ravens|bucs|niners|rams|jets|giants|broncos|texans|colts|browns|saints|titans|vikings)|this (week|game|thursday|sunday|monday)|thursday|sunday|monday|tonight)/i.test(opener)) F('HOOK opens on a stat/team/day: "' + opener + '" (hook bank: tell your boys / your girl / no easier way / this is the official...)');
+if (/^(\d|(the )?(arsenal|villa|aston villa|bournemouth|brentford|brighton|burnley|chelsea|palace|crystal palace|everton|fulham|leeds|liverpool|city|man city|manchester city|united|man united|manchester united|newcastle|forest|sunderland|spurs|tottenham|west ham|wolves|real madrid|madrid|barcelona|barca|atletico|athletic|betis|sevilla|valencia|villarreal|sociedad|bayern|dortmund|leverkusen|leipzig|frankfurt|stuttgart|inter|milan|ac milan|juventus|juve|napoli|roma|lazio|atalanta|inter miami|miami|lafc|galaxy|la galaxy|seattle|columbus|cincinnati|orlando|nycfc|red bulls|toronto|vancouver|portland|atlanta)\b|this (week|weekend|game|match|matchday|saturday|sunday|midweek)|matchday|gameweek|saturday|sunday|midweek|tonight)/i.test(opener)) F('HOOK opens on a stat/team/day: "' + opener + '" (hook bank: tell your boys / your girl / no easier way / this is the official...)');
 console.log('HOOK: "' + opener + '"');
 console.log('beats: ' + events.filter((x) => x.dur > 0).length + ' assets, ' + cuts + ' cuts, ' + e.endSec + 's, sfx files: ' + Object.keys(sfxUse).length + ' (' + Object.keys(sfxUse).join(', ') + ')');
 for (const s of warns) console.log('WARN ' + s);
