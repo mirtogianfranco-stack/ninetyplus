@@ -1,0 +1,7 @@
+node_modules/
+build/
+out/*
+!out/BrandCard.png
+!out/ThumbnailDemo.png
+.DS_Store
+*.log
