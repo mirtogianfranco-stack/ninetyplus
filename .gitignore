@@ -6,6 +6,7 @@ out/*
 .tmp/
 .cache/
 tools/whisper-env/
+tools/kokoro-env/
 public/np-000/
 # large per-video media stays on the build machine (see CLAUDE.md "Media and git")
 public/np-*/**/*.mp4

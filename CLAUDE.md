@@ -70,6 +70,7 @@ downloads its own browser. Fonts are local because the cloud proxy's certificate
 | `slicescan.py rmsmap.py bcheck.py mindip.py cut2f.py pause_rms48.py` | voiceover cutting (method in the skill, section 7) |
 | `d-env.sh <cmd>` | runs a heavy command with temp/caches in `.tmp/` and `.cache/` (override with `NP_SCRATCH`) |
 | `setup.sh`, `make-demo-assets.sh` | machine setup; np000 demo media |
+| `setup-kokoro.sh`, `tts.py` | local Kokoro AI voice (model from the kokoro-onnx GitHub release, not Hugging Face) |
 
 ## Guardrails
 
