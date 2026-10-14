@@ -22,3 +22,5 @@ video-projects/**/*.m4a
 __pycache__/
 .DS_Store
 *.log
+tools/kokoro-env/
+tools/kokoro-models/

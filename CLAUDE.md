@@ -38,6 +38,7 @@ thumbnail `src/ThumbnailNP001.tsx`. Every tool takes the bare number: `bash tool
 
 ```
 bash tools/setup.sh            # npm install, Whisper venv in tools/whisper-env, ffmpeg check, Pillow/numpy
+bash tools/setup-kokoro.sh     # free local TTS: tools/kokoro-env + tools/kokoro-models (~350 MB)
 bash tools/make-demo-assets.sh # synthetic media for np000
 bash tools/gate.sh 000         # must print GATE OK
 bash tools/contact-sheet.sh 000 1
@@ -66,6 +67,7 @@ downloads its own browser. Fonts are local because the cloud proxy's certificate
 | `blackbars.mjs` | letterboxed clips |
 | `contact-sheet.sh NNN [step]` | one frame every N seconds -> `.tmp/csNNN/sheet.png` |
 | `newvideo.sh NNN` | folders, carries cutter scripts from the last video, prints checklist |
+| `tts.sh NNN [voice] [speed]` | Kokoro voiceover from `video-projects/np-NNN/script/vo.txt` -> loudnormed `public/np-NNN/voiceover.wav`; voice/speed from `tools/voice.conf` |
 | `voscan.sh NNN` | two blind slicescan passes over `public/np-NNN/voiceover.wav` |
 | `slicescan.py rmsmap.py bcheck.py mindip.py cut2f.py pause_rms48.py` | voiceover cutting (method in the skill, section 7) |
 | `d-env.sh <cmd>` | runs a heavy command with temp/caches in `.tmp/` and `.cache/` (override with `NP_SCRATCH`) |
