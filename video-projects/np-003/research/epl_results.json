@@ -1,0 +1,106 @@
+{
+ "Chelsea": [
+  "H BOU 5-1",
+  "A BRE 0-3",
+  "H HUL 2-2",
+  "A ARS 1-2",
+  "H BHA 4-3",
+  "A FUL 3-2"
+ ],
+ "Brighton & Hove Albion": [
+  "A SUN 2-0",
+  "H ARS 3-0",
+  "A COV 5-0",
+  "H LEE 1-1",
+  "A CHE 3-4",
+  "H AVL 4-0"
+ ],
+ "Crystal Palace": [
+  "H NFO 3-1",
+  "A LEE 0-0",
+  "H IPS 2-3",
+  "A FUL 3-2",
+  "H MNC 1-4",
+  "A EVE 0-2"
+ ],
+ "Manchester City": [
+  "A LIV 3-0",
+  "H SUN 5-3",
+  "A MAN 1-0",
+  "H COV 1-0",
+  "A CRY 4-1",
+  "H BOU 2-1"
+ ],
+ "Ipswich Town": [
+  "H FUL 2-1",
+  "A EVE 0-1",
+  "A CRY 3-2",
+  "H LIV 0-2",
+  "A MAN 2-5",
+  "H SUN 2-1"
+ ],
+ "Nottingham Forest": [
+  "A CRY 1-3",
+  "H COV 0-1",
+  "A AVL 2-1",
+  "H TOT 0-0",
+  "A LIV 2-2",
+  "H LEE 0-1"
+ ],
+ "Arsenal": [
+  "H LEE 2-1",
+  "A BHA 0-3",
+  "A SUN 2-0",
+  "H CHE 2-1",
+  "A AVL 1-0",
+  "H COV 3-0"
+ ],
+ "Brentford": [
+  "A AVL 2-2",
+  "H CHE 3-0",
+  "A BOU 2-2",
+  "H SUN 1-1",
+  "A LEE 1-1",
+  "H TOT 3-0"
+ ],
+ "Liverpool": [
+  "H MNC 0-3",
+  "A BOU 1-0",
+  "H FUL 0-0",
+  "A IPS 2-0",
+  "H NFO 2-2",
+  "A NEW 2-2"
+ ],
+ "Leeds United": [
+  "A ARS 1-2",
+  "H CRY 0-0",
+  "H NEW 4-1",
+  "A BHA 1-1",
+  "H BRE 1-1",
+  "A NFO 1-0"
+ ],
+ "Manchester United": [
+  "H TOT 1-1",
+  "A FUL 1-1",
+  "H MNC 0-1",
+  "A EVE 2-2",
+  "H IPS 5-2",
+  "A HUL 0-2"
+ ],
+ "Newcastle United": [
+  "A COV 1-4",
+  "H HUL 2-1",
+  "A LEE 1-4",
+  "H BOU 2-2",
+  "A TOT 2-0",
+  "H LIV 2-2"
+ ],
+ "Aston Villa": [
+  "H BRE 2-2",
+  "A TOT 3-2",
+  "H NFO 1-2",
+  "A HUL 0-0",
+  "H ARS 0-1",
+  "A BHA 0-4"
+ ]
+}

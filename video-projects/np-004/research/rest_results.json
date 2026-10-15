@@ -1,0 +1,74 @@
+{
+ "Everton": [
+  "A HUL 2-2",
+  "H IPS 1-0",
+  "A TOT 0-0",
+  "H MAN 2-2",
+  "A BOU 1-1",
+  "H CRY 2-0"
+ ],
+ "1. FC Union Berlin": [
+  "H ELV 1-0",
+  "A MUN 0-7",
+  "H S04 1-3",
+  "A B04 0-4",
+  "H SGE 3-3"
+ ],
+ "Borussia Dortmund": [
+  "H SVW 2-2",
+  "A VFB 1-0",
+  "H SCP 3-0",
+  "A TSG 3-2",
+  "H HSV 2-0"
+ ],
+ "Borussia M\u00f6nchengladbach": [
+  "A KOE 1-2",
+  "H M05 3-4",
+  "A SCF 0-5",
+  "H ELV 3-4",
+  "A RBL 0-3"
+ ],
+ "TSG Hoffenheim": [
+  "H HSV 2-3",
+  "A SCP 1-3",
+  "H VFB 2-1",
+  "H DOR 2-3",
+  "A KOE 2-3"
+ ],
+ "Venezia": [
+  "A ATA 1-3",
+  "H LAZ 0-2",
+  "H FIO 2-4",
+  "A FRO 2-3",
+  "A MIL 0-2",
+  "H LEC 0-2"
+ ],
+ "Napoli": [
+  "H FRO 3-0",
+  "A FIO 1-1",
+  "H BOL 1-0",
+  "A INT 2-3",
+  "H COMO 1-2",
+  "A GEN 2-0"
+ ],
+ "Real Betis": [
+  "H OSA 5-2",
+  "A DEP 1-1",
+  "H GET 1-0",
+  "A VIL 2-1",
+  "H RMA 1-0",
+  "A LEV 2-5",
+  "A VAL 1-0",
+  "H RSO 1-0"
+ ],
+ "Barcelona": [
+  "H GET 3-0",
+  "A SEV 3-1",
+  "H RAC 7-2",
+  "A LEV 4-2",
+  "A VAL 5-0",
+  "H RAY 5-2",
+  "H ATH 2-0",
+  "A ELC 5-0"
+ ]
+}
