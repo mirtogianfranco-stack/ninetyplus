@@ -8,10 +8,12 @@ import type { PicksEdit } from './picks/types';
 import { SkyStadiumThumb } from './thumbs/SkyStadiumThumb';
 import { np000 } from './edits/np000';
 import { np001 } from './edits/np001';
+import { np002 } from './edits/np002';
 import { ThumbnailNP001 } from './ThumbnailNP001';
+import { ThumbnailNP002 } from './ThumbnailNP002';
 
 // Every video: import its edit (src/edits/npNNN.ts) and add it here. Composition id = edit id (NP001).
-const VIDEOS: PicksEdit[] = [np000, np001];
+const VIDEOS: PicksEdit[] = [np000, np001, np002];
 
 export const ThumbnailDemo: React.FC = () => (
   <SkyStadiumThumb stoppage top='LIVERPOOL vs CHELSEA' bottom='LATE GOAL' player='brand/player.svg' leftLogo='brand/crest_home.svg' rightLogo='brand/crest_away.svg' />
@@ -25,6 +27,7 @@ export const RemotionRoot: React.FC = () => (
     <Still id='ProfileLogo' component={ProfileLogo} width={1080} height={1080} />
     <Still id='BrandCard' component={BrandCard} width={1080} height={1920} />
     <Still id='ThumbnailNP001' component={ThumbnailNP001} width={1080} height={1920} />
+    <Still id='ThumbnailNP002' component={ThumbnailNP002} width={1080} height={1920} />
     <Still id='ThumbnailDemo' component={ThumbnailDemo} width={1080} height={1920} />
   </>
 );
