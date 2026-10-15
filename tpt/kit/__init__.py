@@ -61,6 +61,9 @@ THEMES = {
     "sky": Theme("#2A9D8F", "#264653", "#F4A261", "#E6F6F4", "Fredoka"),
     "slate": Theme("#334155", "#0F172A", "#22D3EE", "#EEF2F7"),
     "cherry": Theme("#D62839", "#3D0C11", "#FFD166", "#FDECEE", "Fredoka"),
+    "spooky": Theme("#EA580C", "#2E1065", "#A3E635", "#FFF1E6"),
+    "spooky_kids": Theme("#F97316", "#3B0764", "#A3E635", "#FFF4EA", "Fredoka"),
+    "potion": Theme("#6D28D9", "#1E1B4B", "#F97316", "#F1EAFE"),
 }
 
 
@@ -69,10 +72,11 @@ def style(size=11.5, lead=None, color=INK, font="Body", align=0):
 
 
 class Book:
-    def __init__(self, slug, title, sub, grades, theme, cover_art=None, badge_line="NO PREP  •  PRINT & GO  •  ANSWER KEYS"):
+    def __init__(self, slug, title, sub, grades, theme, cover_art=None, badge_line="NO PREP  •  PRINT & GO  •  ANSWER KEYS", ribbon=None):
         self.slug, self.title, self.sub, self.grades = slug, title, sub, grades
         self.t = THEMES[theme] if isinstance(theme, str) else theme
         self.cover_art, self.badge_line = cover_art, badge_line
+        self.ribbon = ribbon
         self.marks, self._prev_marks = {}, {}
 
     # ---------- lifecycle ----------
@@ -233,6 +237,10 @@ class Book:
         c.setFillColor(t.dark); c.setFont(t.display, 34); c.drawCentredString(W / 2, 162, self.grades.upper() if t.display == "Anton" else self.grades)
         c.setFont("BodyB", 11.5); c.drawCentredString(W / 2, 136, self.badge_line)
         c.setFillColor(white); c.setFont("Body", 10); c.drawCentredString(W / 2, 56, STORE)
+        if self.ribbon:  # corner ribbon, e.g. "ONTARIO CURRICULUM"
+            c.saveState(); c.translate(W - 58, H - 58); c.rotate(-45)
+            c.setFillColor(HexColor("#D62828")); c.rect(-160, -15, 320, 30, stroke=0, fill=1)
+            c.setFillColor(white); c.setFont("BodyB", 10.5); c.drawCentredString(0, -4, self.ribbon); c.restoreState()
 
     def guide(self, intro, contents, notes=(), standards=""):
         """contents: list of (mark_or_None, label). Page numbers resolve on the second build pass."""
