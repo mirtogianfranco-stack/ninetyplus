@@ -147,6 +147,10 @@ export const CLUBS: Record<League, Record<string, [string, string]>> = {
     psg: ['#004170', '#DA291C'],
     fenerbahce: ['#163962', '#FFED00'],
     porto: ['#00428C', '#FFFFFF'],
+    ferencvaros: ['#1E8F4E', '#FFFFFF'],
+    plzen: ['#C8102E', '#00427A'],
+    lech: ['#1B4F9C', '#FFFFFF'],
+    besiktas: ['#000000', '#FFFFFF'],
   },
 };
 
