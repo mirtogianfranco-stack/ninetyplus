@@ -12,6 +12,7 @@ import { np002 } from './edits/np002';
 import { np003 } from './edits/np003';
 import { ThumbnailNP001 } from './ThumbnailNP001';
 import { ThumbnailNP002 } from './ThumbnailNP002';
+import { ThumbnailNP003 } from './ThumbnailNP003';
 
 // Every video: import its edit (src/edits/npNNN.ts) and add it here. Composition id = edit id (NP001).
 const VIDEOS: PicksEdit[] = [np000, np001, np002, np003];
@@ -29,6 +30,7 @@ export const RemotionRoot: React.FC = () => (
     <Still id='BrandCard' component={BrandCard} width={1080} height={1920} />
     <Still id='ThumbnailNP001' component={ThumbnailNP001} width={1080} height={1920} />
     <Still id='ThumbnailNP002' component={ThumbnailNP002} width={1080} height={1920} />
+    <Still id='ThumbnailNP003' component={ThumbnailNP003} width={1080} height={1920} />
     <Still id='ThumbnailDemo' component={ThumbnailDemo} width={1080} height={1920} />
   </>
 );
