@@ -699,7 +699,9 @@ const SponsorDuo: React.FC<{ e: PicksEdit; f: number }> = ({ e, f }) => {
 // TextStamp (Video-023): a big rotated word that slams in on its word (slap spring, squash, white flash line), breathes, and whips out.
 // Sits in the lower-middle band by default (y 1130), below pop-ups and above the captions. Optional icon (logo) on the left.
 // a function, not a constant: the brand palette is applied per render (theme.applyBrand), so tones must read it live
-const tones = (): Record<string, [string, string]> => ({ red: ['#e0262f', '#fff'], green: [theme.colors.primary, theme.colors.ink], gold: [theme.colors.gold, theme.colors.ink], white: ['#fff', theme.colors.ink], ink: ['rgba(8,10,16,0.92)', '#fff'] });
+// 'green' is always a real win-green, never the brand primary (Ninety Plus primary is red, so a win read as a loss).
+const WIN_GREEN = '#22C55E';
+const tones = (): Record<string, [string, string]> => ({ red: ['#e0262f', '#fff'], green: [WIN_GREEN, theme.colors.ink], gold: [theme.colors.gold, theme.colors.ink], white: ['#fff', theme.colors.ink], ink: ['rgba(8,10,16,0.92)', '#fff'] });
 const TextStamp: React.FC<{ t: TextStampSpec; dur: number; fps: number; base: string }> = ({ t, dur, fps, base }) => {
   const f = useCurrentFrame();
   const s = spring({ frame: f, fps, config: theme.spring.slap });
@@ -957,7 +959,7 @@ const PayoutTable: React.FC<{ e: PicksEdit; f: number }> = ({ e, f }) => {
   const ex = interpolate(f, [to - 8, to - 1], [0, 1], CLAMP);
   const W = 940;
   const [c1, c2] = teamColors((T as any).team);
-  const tone = (t: string) => (t === 'green' ? theme.colors.primary : t === 'red' ? '#ff4d4d' : '#e5e7eb');
+  const tone = (t: string) => (t === 'green' ? WIN_GREEN : t === 'red' ? '#ff4d4d' : '#e5e7eb');
   // Owner, 2026-09-23: the old flat panel "looks like AI". This is a broadcast stat bar - a team-coloured
   // header with a lean, rows that slide in behind a filling accent bar, and the number big enough to read at a glance.
   return (

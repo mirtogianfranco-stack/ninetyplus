@@ -77,6 +77,7 @@ const words: Word[] = [
 const END_SEC = 30.48;
 const clip = (n: string) => 'np-002/clips/' + n + '.mp4';
 const g = (n: string) => 'np-002/graphics/' + n + '.png';
+const crest = (n: string) => 'np-002/logos/' + n + (n === 'rom' ? '.png' : '.svg');   // football-data.org crests
 
 // 0 "Nobody" | 9 "first" | 10 "Paris" | 12 "four" | 19 "City" | 24 "never" | 28 "gone" | 30 "Villa" | 31 "won" | 41 "landed"
 // 42 "Mbappe" | 46 "and" | 53 "four-three" | 56 "landed" | 57 "Two from three" | 61 "Follow" | 67 "Friday"
@@ -92,25 +93,29 @@ export const np002: PicksEdit = {
   captionGlow: ['#FFFFFF', '#FF2E4D'],
   clipSec: { [clip('results_open')]: 14, [clip('city')]: 14, [clip('villa')]: 14, [clip('madrid')]: 14, [clip('outro')]: 14 },
   legs: [
-    { name: 'city', label: 'MAN CITY', team: 'mancity', anchor: 19, start: 0, end: 11.92, logo: g('mci'),
+    { name: 'city', label: 'MAN CITY', team: 'mancity', anchor: 19, start: 0, end: 11.92, logo: crest('mci'),
       clips: [clip('results_open') + '#1', clip('city') + '#0', clip('city') + '#5'], line: 'WIN OR DRAW · LOST 2-4', revealDur: 1.6,
       stats: [{ word: 12, value: '2-4', label: 'MAN CITY V PSG · FULL TIME', dur: 1.9, sfx: 'bass_impact.MP3', vol: 0.45 }] },
-    { name: 'villa', label: 'ASTON VILLA', team: 'astonvilla', anchor: 30, start: 11.92, end: 18.6, logo: g('avl'),
+    { name: 'villa', label: 'ASTON VILLA', team: 'astonvilla', anchor: 30, start: 11.92, end: 18.6, logo: crest('avl'),
       clips: [clip('villa') + '#0', clip('villa') + '#6'], line: 'TO WIN · WON 6-0', revealDur: 1.7 },
-    { name: 'mbappe', label: 'KYLIAN MBAPPE', team: 'realmadrid', anchor: 42, start: 18.6, end: END_SEC, logo: g('rma'),
+    { name: 'mbappe', label: 'KYLIAN MBAPPE', team: 'realmadrid', anchor: 42, start: 18.6, end: END_SEC, logo: crest('rma'),
       clips: [clip('madrid') + '#0', clip('madrid') + '#5', clip('outro') + '#0', clip('outro') + '#6'], line: 'ANYTIME GOALSCORER · SCORED', revealDur: 1.8 },
   ],
   news: [{ word: 33, dur: 3.0, outlet: 'SKY SPORTS', date: '14 OCT 2026', headline: 'ASTON VILLA 6-0 FENERBAHCE', quote: 'Nicolas Jackson and Ross Barkley both score twice', sfx: 'shutter_sound_camera.MP3', vol: 0.4 }],
   split: [{ word: 46, afterWord: 50, untilWord: 53, title: 'ROMA V REAL MADRID', before: { value: '3-1', label: 'ROMA AHEAD' }, after: { value: '3-4', label: 'FULL TIME' } }],
+  memes: [
+    { word: 10, image: crest('psg'), sfx: 'pop_sound.MP3', vol: 0.4, size: 260, dur: 0.7, x: 410, y: 760 },
+    { word: 47, image: crest('rma'), sfx: 'pop_whoosh.MP3', vol: 0.4, size: 260, dur: 1.3, x: 410, y: 760 },
+  ],
   popups: [
-    { word: 0, dur: 2.8, src: 'receipt.png', label: "LAST NIGHT'S PICKS", team: 'psg', w: 760, h: 439, x: 180, sfx: 'whoosh_motion.MP3', vol: 0.4 },
+    { word: 0, dur: 2.8, src: 'receipt.png', label: "LAST NIGHT'S PICKS", team: 'psg', w: 740, h: 500, x: 200, sfx: 'whoosh_motion.MP3', vol: 0.4 },
   ],
   stamps: [
     { word: 9, text: 'LOSS FIRST', dur: 0.75, tone: 'red', rot: -4, size: 140, sfx: 'punch_sound.MP3', vol: 0.4 },
     { word: 24, text: 'NEVER CLOSE', dur: 1.2, tone: 'white', rot: -3, size: 80, sfx: 'fast_swoosh.MP3', vol: 0.4 },
     { word: 28, text: 'MISSED', dur: 1.0, tone: 'red', rot: 4, size: 140, sfx: 'wrong_answer.MP3', vol: 0.4 },
-    { word: 41, text: 'LANDED', dur: 1.0, tone: 'gold', rot: -4, size: 140, sfx: 'ding_answer_correct.MP3', vol: 0.4 },
-    { word: 56, text: 'LANDED', dur: 1.0, tone: 'gold', rot: 4, size: 140, sfx: 'magic_reveal.MP3', vol: 0.4 },
+    { word: 41, text: 'LANDED', dur: 1.0, tone: 'green', rot: -4, size: 140, sfx: 'ding_answer_correct.MP3', vol: 0.4 },
+    { word: 56, text: 'LANDED', dur: 1.0, tone: 'green', rot: 4, size: 140, sfx: 'magic_reveal.MP3', vol: 0.4 },
     { word: 57, text: 'RECORD 2-1', dur: 1.8, tone: 'gold', rot: -3, size: 130, sfx: 'cinematic_whoosh_impact.MP3', vol: 0.45 },
     { word: 63, text: 'WEEKEND PICKS · FRIDAY', dur: 2.0, tone: 'white', rot: 3, size: 90, sfx: 'title_swoosh.MP3', vol: 0.4 },
   ],
@@ -119,6 +124,6 @@ export const np002: PicksEdit = {
   facecam: { file: 'np-002/facecam.mp4', srcW: 1920, srcH: 1080, head: { x: 960, y: 470 }, targetX: 540, zoom: 1.0, drift: 0, grade: 'none', wash: 'rgba(0,0,0,0)', keyLight: false },
   rail: { tile: 'logo' },
   revealLine: '',
-  brandTag: 'UCL MATCHDAY 2 · RESULTS',
+  brandTag: 'RECORD 2-1 · UCL MATCHDAY 2',
   emphasisWords: ['LOSS,', 'PARIS', 'FOUR', 'GONE.', 'SIX-NIL.', 'LANDED.', 'MBAPPE', 'FOUR-THREE.', 'TWO', 'THREE', 'FRIDAY.'],
 };
