@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(os.path.dirname(HERE), "out")
 os.makedirs(OUT, exist_ok=True)
 
-STORE = "Ninety Plus Classroom"          # change to your TPT store name
+STORE = "North Star Resources"          # change to your TPT store name
 TITLE = "Soccer Stats Math"
 SUB = "Decimals, Percents, Averages & Graphs"
 

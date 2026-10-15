@@ -17,7 +17,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
 from reportlab.platypus import Paragraph
 
-STORE = "Ninety Plus Classroom"  # <- your TPT store name; used on covers, footers, terms
+STORE = "North Star Resources"  # <- your TPT store name; used on covers, footers, terms
 YEAR = 2026
 
 KIT = os.path.dirname(os.path.abspath(__file__))
