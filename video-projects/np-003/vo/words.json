@@ -3,363 +3,363 @@
   {
    "word": "Everyone",
    "start": 0.03,
-   "end": 0.646
+   "end": 0.512
   },
   {
    "word": "is",
-   "start": 0.666,
-   "end": 0.787
+   "start": 0.532,
+   "end": 0.624
   },
   {
    "word": "sleeping",
-   "start": 0.807,
-   "end": 1.353
+   "start": 0.644,
+   "end": 1.07
   },
   {
    "word": "on",
-   "start": 1.373,
-   "end": 1.565
+   "start": 1.09,
+   "end": 1.237
   },
   {
    "word": "the",
-   "start": 1.585,
-   "end": 1.706
+   "start": 1.257,
+   "end": 1.349
   },
   {
    "word": "Europa",
-   "start": 1.726,
-   "end": 2.342
+   "start": 1.369,
+   "end": 1.851
   },
   {
    "word": "League",
-   "start": 2.362,
-   "end": 2.695
+   "start": 1.871,
+   "end": 2.13
   },
   {
    "word": "tonight.",
-   "start": 2.715,
-   "end": 3.19
+   "start": 2.15,
+   "end": 2.52
   },
   {
    "word": "Leverkusen",
-   "start": 3.5,
-   "end": 4.495
+   "start": 2.84,
+   "end": 3.606
   },
   {
    "word": "won",
-   "start": 4.515,
-   "end": 4.785
+   "start": 3.626,
+   "end": 3.83
   },
   {
    "word": "their",
-   "start": 4.805,
-   "end": 5.002
+   "start": 3.85,
+   "end": 3.998
   },
   {
    "word": "opener",
-   "start": 5.022,
-   "end": 5.51
+   "start": 4.018,
+   "end": 4.391
   },
   {
    "word": "two-nil,",
-   "start": 5.53,
-   "end": 6.09
+   "start": 4.411,
+   "end": 4.84
   },
   {
    "word": "with",
-   "start": 6.28,
-   "end": 6.476
+   "start": 5.04,
+   "end": 5.188
   },
   {
    "word": "fourteen",
-   "start": 6.496,
-   "end": 7.051
+   "start": 5.208,
+   "end": 5.637
   },
   {
    "word": "goals",
-   "start": 7.071,
-   "end": 7.483
+   "start": 5.657,
+   "end": 5.974
   },
   {
    "word": "in",
-   "start": 7.503,
-   "end": 7.699
+   "start": 5.994,
+   "end": 6.142
   },
   {
    "word": "five",
-   "start": 7.719,
-   "end": 8.059
+   "start": 6.162,
+   "end": 6.423
   },
   {
    "word": "league",
-   "start": 8.079,
-   "end": 8.418
+   "start": 6.443,
+   "end": 6.703
   },
   {
    "word": "games.",
-   "start": 8.438,
-   "end": 8.85
+   "start": 6.723,
+   "end": 7.04
   },
   {
    "word": "Lech",
-   "start": 9.17,
-   "end": 9.447
+   "start": 7.36,
+   "end": 7.59
   },
   {
    "word": "lost",
-   "start": 9.467,
-   "end": 9.819
+   "start": 7.61,
+   "end": 7.903
   },
   {
    "word": "their",
-   "start": 9.839,
-   "end": 10.042
+   "start": 7.923,
+   "end": 8.091
   },
   {
    "word": "first",
-   "start": 10.062,
-   "end": 10.488
+   "start": 8.111,
+   "end": 8.467
   },
   {
    "word": "game.",
-   "start": 10.508,
-   "end": 10.86
+   "start": 8.487,
+   "end": 8.78
   },
   {
    "word": "Leverkusen",
-   "start": 11.06,
-   "end": 12.007
+   "start": 8.98,
+   "end": 9.733
   },
   {
    "word": "to",
-   "start": 12.027,
-   "end": 12.214
+   "start": 9.753,
+   "end": 9.899
   },
   {
    "word": "win.",
-   "start": 12.234,
-   "end": 12.49
+   "start": 9.919,
+   "end": 10.12
   },
   {
    "word": "Ferencvaros",
-   "start": 12.81,
-   "end": 13.801
+   "start": 10.44,
+   "end": 11.248
   },
   {
    "word": "went",
-   "start": 13.821,
-   "end": 14.138
+   "start": 11.268,
+   "end": 11.524
   },
   {
    "word": "to",
-   "start": 14.158,
-   "end": 14.34
+   "start": 11.544,
+   "end": 11.69
   },
   {
    "word": "Celtic",
-   "start": 14.36,
-   "end": 14.812
+   "start": 11.71,
+   "end": 12.077
   },
   {
    "word": "and",
-   "start": 14.832,
-   "end": 15.014
+   "start": 12.097,
+   "end": 12.242
   },
   {
    "word": "won",
-   "start": 15.034,
-   "end": 15.283
+   "start": 12.262,
+   "end": 12.463
   },
   {
    "word": "three-one.",
-   "start": 15.303,
-   "end": 15.89
+   "start": 12.483,
+   "end": 12.96
   },
   {
    "word": "Plzen",
-   "start": 16.21,
-   "end": 16.753
+   "start": 13.28,
+   "end": 13.709
   },
   {
    "word": "lost",
-   "start": 16.773,
-   "end": 17.155
+   "start": 13.729,
+   "end": 14.029
   },
   {
    "word": "their",
-   "start": 17.175,
-   "end": 17.397
+   "start": 14.049,
+   "end": 14.221
   },
   {
    "word": "opener.",
-   "start": 17.417,
-   "end": 17.96
+   "start": 14.241,
+   "end": 14.67
   },
   {
    "word": "Ferencvaros",
-   "start": 18.16,
-   "end": 19.204
+   "start": 14.87,
+   "end": 15.777
   },
   {
    "word": "to",
-   "start": 19.224,
-   "end": 19.416
+   "start": 15.797,
+   "end": 15.963
   },
   {
    "word": "win.",
-   "start": 19.436,
-   "end": 19.7
+   "start": 15.983,
+   "end": 16.21
   },
   {
    "word": "Every",
-   "start": 20.02,
-   "end": 20.352
+   "start": 16.53,
+   "end": 16.772
   },
   {
    "word": "Hoffenheim",
-   "start": 20.372,
-   "end": 21.057
+   "start": 16.792,
+   "end": 17.297
   },
   {
    "word": "league",
-   "start": 21.077,
-   "end": 21.41
+   "start": 17.317,
+   "end": 17.559
   },
   {
    "word": "game",
-   "start": 21.43,
-   "end": 21.762
+   "start": 17.579,
+   "end": 17.821
   },
   {
    "word": "this",
-   "start": 21.782,
-   "end": 22.044
+   "start": 17.841,
+   "end": 18.031
   },
   {
    "word": "season",
-   "start": 22.064,
-   "end": 22.538
+   "start": 18.051,
+   "end": 18.399
   },
   {
    "word": "has",
-   "start": 22.558,
-   "end": 22.82
+   "start": 18.419,
+   "end": 18.608
   },
   {
    "word": "had",
-   "start": 22.84,
-   "end": 23.102
+   "start": 18.628,
+   "end": 18.818
   },
   {
    "word": "three",
-   "start": 23.122,
-   "end": 23.454
+   "start": 18.838,
+   "end": 19.08
   },
   {
    "word": "or",
-   "start": 23.474,
-   "end": 23.595
+   "start": 19.1,
+   "end": 19.185
   },
   {
    "word": "more",
-   "start": 23.615,
-   "end": 23.877
+   "start": 19.205,
+   "end": 19.395
   },
   {
    "word": "goals.",
-   "start": 23.897,
-   "end": 24.3
+   "start": 19.415,
+   "end": 19.71
   },
   {
    "word": "Besiktas",
-   "start": 24.62,
-   "end": 25.211
+   "start": 20.03,
+   "end": 20.547
   },
   {
    "word": "scored",
-   "start": 25.231,
-   "end": 25.619
+   "start": 20.567,
+   "end": 20.906
   },
   {
    "word": "four",
-   "start": 25.639,
-   "end": 25.891
+   "start": 20.926,
+   "end": 21.144
   },
   {
    "word": "on",
-   "start": 25.911,
-   "end": 26.095
+   "start": 21.164,
+   "end": 21.324
   },
   {
    "word": "matchday",
-   "start": 26.115,
-   "end": 26.638
+   "start": 21.344,
+   "end": 21.801
   },
   {
    "word": "one.",
-   "start": 26.658,
-   "end": 26.91
+   "start": 21.821,
+   "end": 22.04
   },
   {
    "word": "Three",
-   "start": 27.11,
-   "end": 27.471
+   "start": 22.24,
+   "end": 22.536
   },
   {
    "word": "plus",
-   "start": 27.491,
-   "end": 27.853
+   "start": 22.556,
+   "end": 22.851
   },
   {
    "word": "goals.",
-   "start": 27.873,
-   "end": 28.31
+   "start": 22.871,
+   "end": 23.23
   },
   {
    "word": "Two",
-   "start": 28.62,
-   "end": 28.926
+   "start": 23.55,
+   "end": 23.793
   },
   {
    "word": "from",
-   "start": 28.946,
-   "end": 29.251
+   "start": 23.813,
+   "end": 24.056
   },
   {
    "word": "three",
-   "start": 29.271,
-   "end": 29.659
+   "start": 24.076,
+   "end": 24.384
   },
   {
    "word": "so",
-   "start": 29.679,
-   "end": 29.984
+   "start": 24.404,
+   "end": 24.647
   },
   {
    "word": "far.",
-   "start": 30.004,
-   "end": 30.31
+   "start": 24.667,
+   "end": 24.91
   },
   {
    "word": "Follow,",
-   "start": 30.51,
-   "end": 31.08
+   "start": 25.11,
+   "end": 25.55
   },
   {
    "word": "results",
-   "start": 31.28,
-   "end": 31.828
+   "start": 25.75,
+   "end": 26.206
   },
   {
    "word": "drop",
-   "start": 31.848,
-   "end": 32.183
+   "start": 26.226,
+   "end": 26.504
   },
   {
    "word": "tonight.",
-   "start": 32.203,
-   "end": 32.68
+   "start": 26.524,
+   "end": 26.92
   }
  ],
- "duration": 32.9
+ "duration": 27.14
 }

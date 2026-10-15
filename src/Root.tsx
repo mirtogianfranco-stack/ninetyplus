@@ -9,11 +9,12 @@ import { SkyStadiumThumb } from './thumbs/SkyStadiumThumb';
 import { np000 } from './edits/np000';
 import { np001 } from './edits/np001';
 import { np002 } from './edits/np002';
+import { np003 } from './edits/np003';
 import { ThumbnailNP001 } from './ThumbnailNP001';
 import { ThumbnailNP002 } from './ThumbnailNP002';
 
 // Every video: import its edit (src/edits/npNNN.ts) and add it here. Composition id = edit id (NP001).
-const VIDEOS: PicksEdit[] = [np000, np001, np002];
+const VIDEOS: PicksEdit[] = [np000, np001, np002, np003];
 
 export const ThumbnailDemo: React.FC = () => (
   <SkyStadiumThumb stoppage top='LIVERPOOL vs CHELSEA' bottom='LATE GOAL' player='brand/player.svg' leftLogo='brand/crest_home.svg' rightLogo='brand/crest_away.svg' />

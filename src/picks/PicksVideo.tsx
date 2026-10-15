@@ -297,7 +297,9 @@ const MysteryGames: React.FC<{ e: PicksEdit; f: number }> = ({ e, f }) => {
   const one = M.games.length === 1;
   // 4+ games wrap into a centred grid - a flat row of 5 runs off both edges (Video-039, the 5-team slip)
   const many = M.games.length >= 4;
-  const CW = one ? 620 : many ? 300 : 420, CH = one ? 400 : many ? 212 : 300;
+  // 3 games: narrower cards, or the row (3 x 420 + gaps) runs off both edges of the 1080 frame (NP003)
+  const three = M.games.length === 3;
+  const CW = one ? 620 : many ? 300 : three ? 316 : 420, CH = one ? 400 : many ? 212 : three ? 250 : 300;
   return (
     <div style={{ position: 'absolute', left: many ? 60 : (1080 - (CW * M.games.length + 28 * (M.games.length - 1))) / 2, top: SAFE.top + (many ? 90 : 150), width: many ? 960 : CW * M.games.length + 28 * (M.games.length - 1), display: 'flex', flexWrap: many ? 'wrap' : 'nowrap', justifyContent: 'center', gap: many ? 18 : 28, zIndex: 9, opacity: Math.min(s * 1.6, 1) * (1 - ex), transform: 'translateY(' + (interpolate(s, [0, 1], [-70, 0]) - ex * 40).toFixed(1) + 'px)' }}>
       {M.games.map((g, i) => {
@@ -313,15 +315,16 @@ const MysteryGames: React.FC<{ e: PicksEdit; f: number }> = ({ e, f }) => {
           <div key={i} style={{ width: CW, height: CH, perspective: 1200, opacity: Math.min(si * 1.6, 1), transform: 'scale(' + interpolate(si, [0, 0.7, 1], [0.6, 1.06, 1], CLAMP).toFixed(3) + ')' }}>
             <div style={{ position: 'relative', width: '100%', height: '100%', transformStyle: 'preserve-3d', transform: 'rotateY(' + rot.toFixed(1) + 'deg)' }}>
               <div style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', background: 'linear-gradient(160deg, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0.06) 40%, rgba(255,255,255,0) 62%), linear-gradient(150deg, #3a4a6b 0%, #1e2940 100%)', borderRadius: 24, border: '3px solid rgba(255,255,255,0.45)', boxShadow: '0 22px 50px rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: showFront ? 0 : 1 }}>
-                <div style={{ fontFamily: theme.fonts.display, fontSize: many ? 120 : 190, color: 'rgba(255,255,255,0.9)', lineHeight: 1, textShadow: '0 0 30px rgba(0,0,0,0.8)' }}>?</div>
+                <div style={{ fontFamily: theme.fonts.display, fontSize: many || three ? 120 : 190, color: 'rgba(255,255,255,0.9)', lineHeight: 1, textShadow: '0 0 30px rgba(0,0,0,0.8)' }}>?</div>
               </div>
               <div style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', background: 'linear-gradient(160deg, rgba(255,255,255,0.42) 0%, rgba(255,255,255,0.10) 38%, rgba(255,255,255,0) 60%), radial-gradient(ellipse 80% 70% at 50% 35%, rgba(255,255,255,0.35), rgba(255,255,255,0) 70%), linear-gradient(135deg,' + c1 + ' 0%, #3d6fd6 55%, ' + c2 + ' 140%)', borderRadius: 24, border: '4px solid rgba(255,255,255,0.85)', boxShadow: '0 22px 50px rgba(0,0,0,0.65)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 10, opacity: showFront ? 1 : 0 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: many ? 14 : 26 }}>
-                  <Img src={staticFile(g.away)} style={{ width: one ? 170 : many ? 86 : 118, height: one ? 170 : many ? 86 : 118, filter: 'drop-shadow(0 8px 14px rgba(0,0,0,0.45))', maxWidth: 'none', objectFit: 'contain' }} />
-                  <div style={{ fontFamily: theme.fonts.display, fontSize: many ? 26 : 40, color: 'rgba(255,255,255,0.8)' }}>AT</div>
-                  <Img src={staticFile(g.home)} style={{ width: one ? 170 : many ? 86 : 118, height: one ? 170 : many ? 86 : 118, filter: 'drop-shadow(0 8px 14px rgba(0,0,0,0.45))', maxWidth: 'none', objectFit: 'contain' }} />
+                  <Img src={staticFile(g.home)} style={{ width: one ? 170 : many || three ? 86 : 118, height: one ? 170 : many || three ? 86 : 118, filter: 'drop-shadow(0 8px 14px rgba(0,0,0,0.45))', maxWidth: 'none', objectFit: 'contain' }} />
+                  {/* soccer order: home v away (Ninety Plus); was the NFL 'away AT home' */}
+                  <div style={{ fontFamily: theme.fonts.display, fontSize: many || three ? 26 : 40, color: 'rgba(255,255,255,0.8)' }}>V</div>
+                  <Img src={staticFile(g.away)} style={{ width: one ? 170 : many || three ? 86 : 118, height: one ? 170 : many || three ? 86 : 118, filter: 'drop-shadow(0 8px 14px rgba(0,0,0,0.45))', maxWidth: 'none', objectFit: 'contain' }} />
                 </div>
-                <div style={{ fontFamily: theme.fonts.display, fontSize: many ? 21 : 30, color: '#fff', letterSpacing: many ? 1 : 3, whiteSpace: 'nowrap' }}>{g.label}</div>
+                <div style={{ fontFamily: theme.fonts.display, fontSize: many || three ? 21 : 30, color: '#fff', letterSpacing: many || three ? 1 : 3, whiteSpace: 'nowrap' }}>{g.label}</div>
               </div>
             </div>
           </div>

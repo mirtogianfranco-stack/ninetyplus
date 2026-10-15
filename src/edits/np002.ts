@@ -76,7 +76,6 @@ const words: Word[] = [
 ];
 const END_SEC = 30.48;
 const clip = (n: string) => 'np-002/clips/' + n + '.mp4';
-const g = (n: string) => 'np-002/graphics/' + n + '.png';
 const crest = (n: string) => 'np-002/logos/' + n + (n === 'rom' ? '.png' : '.svg');   // football-data.org crests
 
 // 0 "Nobody" | 9 "first" | 10 "Paris" | 12 "four" | 19 "City" | 24 "never" | 28 "gone" | 30 "Villa" | 31 "won" | 41 "landed"
