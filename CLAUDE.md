@@ -1,7 +1,8 @@
 # Ninety Plus - soccer picks shorts
 
 Faceless 9:16 picks videos (Shorts / TikTok / Reels) for the Premier League, LaLiga, Bundesliga, Serie A and MLS,
-built in Remotion from one edit file per video. Owner: mirtogianfranco. Brand: **Ninety Plus**, stoppage-time red.
+built in Remotion from one edit file per video. Owner: mirtogianfranco (US Eastern time: give kick-offs and deadlines in ET; avoid "last night"/"tonight" in
+on-screen copy, viewers are in many time zones). Brand: **Ninety Plus**, stoppage-time red.
 
 **Before touching any edit file, voiceover or gate: load the `ninetyplus-build` skill** (`.claude/skills/`). It holds
 the binding editorial rules. This file is the map; the skill is the law.

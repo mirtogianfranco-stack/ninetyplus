@@ -12,7 +12,7 @@ Ferencvaros 2-1, Benfica 4-1, Hoffenheim 2-3 Besiktas (5 goals). Record: 5-1. We
 **YouTube Shorts title:** 3 from 3 in the Europa League 💥 (record now 5-1)
 
 ## Facebook
-Three from three in the Europa League last night. Record 5-1. #EuropaLeague #UEL #football
+Three from three in the Europa League. Record 5-1. #EuropaLeague #UEL #football
 
 ## Sources
 - ESPN full-time feed: Ferencvaros 2-1 Viktoria Plzen, Benfica 4-1 Celtic, Hoffenheim 2-3 Besiktas
