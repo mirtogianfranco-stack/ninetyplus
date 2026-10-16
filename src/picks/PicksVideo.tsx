@@ -1032,7 +1032,8 @@ const Tally: React.FC<{ e: PicksEdit; f: number }> = ({ e, f }) => {
             const [c1, c2] = teamColors(it.team);
             return (
               <div key={i} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, opacity: T.blurUntilStamped ? Math.max(0.55, si) : si, transform: 'translateY(' + (stamped ? interpolate(si, [0, 1], [24, 0]) : 0).toFixed(1) + 'px) scale(' + (stamped ? interpolate(si, [0, 1], [0.92, 1]) : 0.92).toFixed(3) + ')' }}>
-                <div style={{ width: 150, height: 150, borderRadius: '50%', overflow: 'hidden', border: '4px solid ' + (stamped ? c2 : 'rgba(255,255,255,0.25)'), background: c1, boxShadow: '0 8px 18px rgba(0,0,0,0.5)' }}>
+                {/* 6 chips (NP005): 150px circles overflow the 940 card, so shrink */}
+                <div style={{ width: T.items.length > 5 ? 124 : 150, height: T.items.length > 5 ? 124 : 150, borderRadius: '50%', overflow: 'hidden', border: '4px solid ' + (stamped ? c2 : 'rgba(255,255,255,0.25)'), background: c1, boxShadow: '0 8px 18px rgba(0,0,0,0.5)' }}>
                   <Img src={staticFile(it.image)} style={{ width: '100%', height: '100%', maxWidth: 'none', objectFit: 'cover', display: 'block', filter: blur > 0.3 ? 'blur(' + blur.toFixed(1) + 'px)' : undefined, transform: 'scale(1.08)' }} />
                 </div>
                 <div style={{ fontFamily: theme.fonts.display, fontSize: 72, lineHeight: 1, color: '#fff', fontVariantNumeric: 'tabular-nums', opacity: stamped ? si : 0 }}>{it.value}</div>
