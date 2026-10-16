@@ -18,6 +18,7 @@ from reportlab.pdfgen import canvas
 from reportlab.platypus import Paragraph
 
 STORE = "North Star Resources"  # <- your TPT store name; used on covers, footers, terms
+STORE_URL = ""  # <- paste your TPT store link here to make it clickable on the follow page
 YEAR = 2026
 
 KIT = os.path.dirname(os.path.abspath(__file__))
@@ -64,6 +65,8 @@ THEMES = {
     "spooky": Theme("#EA580C", "#2E1065", "#A3E635", "#FFF1E6"),
     "spooky_kids": Theme("#F97316", "#3B0764", "#A3E635", "#FFF4EA", "Fredoka"),
     "potion": Theme("#6D28D9", "#1E1B4B", "#F97316", "#F1EAFE"),
+    "remember": Theme("#9B1C1C", "#1E293B", "#D4AF37", "#FDF2F2"),
+    "remember_kids": Theme("#B91C1C", "#1E293B", "#D4AF37", "#FEF2F2", "Fredoka"),
 }
 
 
@@ -272,12 +275,62 @@ class Book:
                 p.drawOn(self.c, M + 8, y - h); y -= h + 4
             y -= 12
 
+    def follow_page(self):
+        """'Thank you / follow me' page with the store star. Added to every product before the terms."""
+        self.page("follow")
+        c, t = self.c, self.t
+        y = self.header("Thank You!", STORE, name=False)
+        icon = os.path.join(ROOT, "brand", "store-icon-star-only.png")
+        if os.path.exists(icon):
+            c.drawImage(icon, W / 2 - 75, y - 160, 150, 150, mask="auto")
+        y -= 204
+        c.setFillColor(t.dark); c.setFont("Anton", 30)
+        c.drawCentredString(W / 2, y, "THANK YOU FOR CHOOSING NORTH STAR!" if STORE == "North Star Resources" else f"THANK YOU FROM {STORE.upper()}!")
+        y -= 34
+        boxes = [("Follow my store", "Click the green <b>Follow</b> button on my TPT store page. You'll get an email every time I "
+                  "post a new resource or freebie, including new Ontario-aligned seasonal packs."),
+                 ("Leave a review", "Go to <b>My Purchases</b> on TPT and click <b>Leave a Review</b>. You earn TPT credits toward "
+                  "future purchases, and your feedback helps me make even better resources."),
+                 ("Questions or ideas?", "Use the <b>Q&amp;A</b> tab on any of my products. I read every question and love hearing "
+                  "what you'd like to see next.")]
+        for head, body in boxes:
+            c.setFillColor(t.light); c.setStrokeColor(t.primary); c.setLineWidth(2); c.roundRect(M, y - 120, W - 2 * M, 112, 14, fill=1)
+            c.setFillColor(t.primary); c.setFont("BodyB", 16); c.drawString(M + 18, y - 32, head)
+            self.para(body, M + 18, y - 42, W - 2 * M - 36, style(12.5, 17))
+            y -= 132
+        if STORE_URL:
+            c.setFillColor(t.primary); c.setFont("BodyB", 13); c.drawCentredString(W / 2, y - 14, STORE_URL)
+            c.linkURL(STORE_URL, (M, y - 22, W - M, y), relative=0)
+
+    def promo_page(self, product_pdf, name, blurb):
+        """Freebie upsell page: the paid product's cover plus a pitch."""
+        self.page("promo")
+        c, t = self.c, self.t
+        y = self.header("Want More?", "The full resource", name=False)
+        tmp = tempfile.mkdtemp()
+        subprocess.run(["pdftoppm", "-r", "70", "-png", "-f", "1", "-l", "1", product_pdf, os.path.join(tmp, "c")], check=True)
+        img = os.path.join(tmp, sorted(os.listdir(tmp))[0])
+        cw, ch = 250, 250 * 11 / 8.5
+        c.saveState(); c.setFillColor(Color(0, 0, 0, alpha=0.25)); c.rect(M + 6, y - ch - 6, cw, ch, stroke=0, fill=1); c.restoreState()
+        c.drawImage(img, M, y - ch, cw, ch)
+        x = M + cw + 24
+        yy = self.para(f"<b>Loved this sample?</b>", x, y - 4, W - M - x, style(18, 24, t.primary, "BodyB")) - 8
+        yy = self.para(f"Get the complete <b>{name}</b> in my TPT store.", x, yy, W - M - x, style(13.5, 19)) - 10
+        self.para(blurb, x, yy, W - M - x, style(12, 17))
+        y -= ch + 30
+        self.para(f"Search <b>{STORE}</b> on Teachers Pay Teachers, or find it in my store. Follow me to hear about new "
+                  "freebies first!", M, y, W - 2 * M, style(13, 18))
+
     def terms(self):
+        self.follow_page()
         self.page("terms")
         y = self.header("Terms of Use", STORE, name=False)
+        first = ("<b>Thank you</b> for downloading this free resource! If you enjoy it, please leave a review on TPT. It "
+                 "helps other teachers find it.") if getattr(self, "freebie", False) else (
+                 "<b>Thank you</b> for your purchase! If this resource helped your class, please leave a review on TPT. "
+                 "You earn TPT credits toward future purchases, and it helps other teachers find it.")
         for txt in [
-            "<b>Thank you</b> for your purchase! If this resource helped your class, please leave a review on TPT. "
-            "You earn TPT credits toward future purchases, and it helps other teachers find it.",
+            first,
             "<b>You may:</b> use this resource with your own students; make copies for your class; post it to a "
             "password-protected class page (such as Google Classroom) that only your students can access.",
             "<b>You may not:</b> share it with other teachers, a grade-level team or a whole school (additional licenses are "
@@ -289,7 +342,7 @@ class Book:
             y = self.para(txt, M, y, W - 2 * M) - 12
 
     # ---------- marketing ----------
-    def extras(self, inside, feature, feature_line, key_page, preview, listing):
+    def extras(self, inside, feature, feature_line, key_page, preview, listing, key_line=("Answer keys included", "EASY CHECKING  •  SUB-FRIENDLY")):
         """inside: up to 6 page numbers for the 'What's inside' thumb; feature: hero interior page;
         key_page: answer-key page for thumb 4; preview: page numbers for the watermarked preview PDF."""
         from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -334,7 +387,7 @@ class Book:
         im.save(os.path.join(d, "thumb2-inside.png"))
         im = base(up(feature_line[0]), feature_line[1].upper())
         cc = card(pages[feature - 1], 1200); im.paste(cc, ((S - cc.width) // 2, 340), cc); im.save(os.path.join(d, "thumb3-feature.png"))
-        im = base(up("Answer keys included"), "EASY CHECKING  •  SUB-FRIENDLY")
+        im = base(up(key_line[0]), key_line[1])
         cc = card(pages[key_page - 1], 1200); im.paste(cc, ((S - cc.width) // 2, 340), cc); im.save(os.path.join(d, "thumb4-keys.png"))
         # watermarked preview
         wm_path = os.path.join(tmp, "wm.pdf"); wc = canvas.Canvas(wm_path, pagesize=letter)
