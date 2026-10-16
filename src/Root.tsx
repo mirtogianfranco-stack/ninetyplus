@@ -15,6 +15,7 @@ import { ThumbnailNP001 } from './ThumbnailNP001';
 import { ThumbnailNP002 } from './ThumbnailNP002';
 import { ThumbnailNP003 } from './ThumbnailNP003';
 import { ThumbnailNP004 } from './ThumbnailNP004';
+import { PromoVideo, PROMOS, FPS as PROMO_FPS } from './promo/PromoVideo';
 
 // Every video: import its edit (src/edits/npNNN.ts) and add it here. Composition id = edit id (NP001).
 const VIDEOS: PicksEdit[] = [np000, np001, np002, np003, np004];
@@ -27,6 +28,9 @@ export const RemotionRoot: React.FC = () => (
   <>
     {VIDEOS.map((e) => (
       <Composition key={e.id} id={e.id} component={PicksVideo} durationInFrames={Math.ceil(e.endSec * e.fps)} fps={e.fps} width={1080} height={1920} defaultProps={{ edit: e }} />
+    ))}
+    {PROMOS.map((p) => (
+      <Composition key={p.id} id={p.id} component={PromoVideo} durationInFrames={p.frames} fps={PROMO_FPS} width={1080} height={1920} defaultProps={{ id: p.id }} />
     ))}
     <Still id='ProfileLogo' component={ProfileLogo} width={1080} height={1080} />
     <Still id='BrandCard' component={BrandCard} width={1080} height={1920} />

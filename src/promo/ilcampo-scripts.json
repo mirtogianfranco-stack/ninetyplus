@@ -1,0 +1,39 @@
+{
+  "videos": [
+    {
+      "id": "IC001",
+      "title": "3 drills: first touch",
+      "scenes": [
+        { "kind": "hook", "lines": ["Three drills that fix your first touch.", "Save this one."], "big": ["FIX YOUR", "FIRST TOUCH"], "badge": "3 DRILLS" },
+        { "kind": "drill", "variant": "wall", "n": 1, "title": "WALL PASSES", "chips": ["2-TOUCH → 1-TOUCH", "BOTH FEET"], "lines": ["Drill one. Wall passes.", "Two touch, then one touch, both feet."] },
+        { "kind": "drill", "variant": "gate", "n": 2, "title": "THE CONE GATE", "chips": ["OPEN YOUR BODY", "TOUCH THROUGH"], "lines": ["Drill two. The cone gate.", "Take your first touch across your body, through the gate."] },
+        { "kind": "drill", "variant": "scan", "n": 3, "title": "SCAN FIRST", "chips": ["CHECK SHOULDER", "CALL THE COLOUR"], "lines": ["Drill three. Scan first.", "Check your shoulder before the ball arrives."] },
+        { "kind": "calendar", "big": ["10 MIN A DAY", "× 30 DAYS"], "lines": ["Ten minutes a day, for one month.", "Watch what changes."] },
+        { "kind": "cta", "ask": "WANT A COACH ON IT?", "button": "DM TO BOOK", "lines": ["Want a coach on it?", "Il Campo Training Centre, Oakville. || Eel Kahmpo Training Centre, Oakville.", "Send us a message to book."] }
+      ]
+    },
+    {
+      "id": "IC002",
+      "title": "One hour of real training",
+      "scenes": [
+        { "kind": "hook", "lines": ["This is what one hour of real training looks like."], "big": ["ONE HOUR", "OF REAL TRAINING"], "badge": "60 MIN" },
+        { "kind": "clock", "seg": 0, "title": "ACTIVATION", "sub": "BALL AT YOUR FEET FROM MINUTE ONE", "lines": ["Ten minutes. Activation.", "Ball at your feet from minute one."] },
+        { "kind": "clock", "seg": 1, "title": "TECHNIQUE", "sub": "HUNDREDS OF TOUCHES · GAME SPEED", "lines": ["Twenty minutes. Technique.", "Hundreds of touches, at game speed."] },
+        { "kind": "clock", "seg": 2, "title": "SMALL-SIDED GAMES", "sub": "REAL DECISIONS UNDER PRESSURE", "lines": ["Twenty minutes. Small sided games.", "Real decisions, under pressure."] },
+        { "kind": "clock", "seg": 3, "title": "FEEDBACK", "sub": "ONE THING TO FIX FOR NEXT TIME", "lines": ["Ten minutes. Feedback.", "One thing to fix before next time."] },
+        { "kind": "cta", "ask": "THAT'S THE HOUR.", "button": "BOOK YOUR FIRST SESSION", "lines": ["That's the hour.", "Train it at Il Campo, in Oakville. || Train it at Eel Kahmpo, in Oakville.", "Message us to book your first session."] }
+      ]
+    },
+    {
+      "id": "IC003",
+      "title": "Reps get you picked",
+      "scenes": [
+        { "kind": "kinetic", "groups": ["TALENT", "GETS YOU", "NOTICED."], "lines": ["Talent gets you noticed."] },
+        { "kind": "kinetic", "groups": ["REPS", "GET YOU", "PICKED."], "accent": true, "lines": ["Reps get you picked."] },
+        { "kind": "triple", "groups": ["EVERY TOUCH.", "EVERY SPRINT.", "EVERY SESSION."], "lines": ["Every touch. Every sprint. Every session."] },
+        { "kind": "brand", "lines": ["Il Campo Training Centre. Oakville. || Eel Kahmpo Training Centre. Oakville."] },
+        { "kind": "cta", "ask": "YOUR NEXT LEVEL STARTS HERE", "button": "BOOK YOUR FIRST SESSION", "lines": ["Your next level starts here.", "Book your first session today."] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+ "words": [
+  {
+   "word": "This",
+   "start": 0.03,
+   "end": 0.271
+  },
+  {
+   "word": "is",
+   "start": 0.291,
+   "end": 0.402
+  },
+  {
+   "word": "what",
+   "start": 0.422,
+   "end": 0.663
+  },
+  {
+   "word": "one",
+   "start": 0.683,
+   "end": 0.925
+  },
+  {
+   "word": "hour",
+   "start": 0.945,
+   "end": 1.186
+  },
+  {
+   "word": "of",
+   "start": 1.206,
+   "end": 1.317
+  },
+  {
+   "word": "real",
+   "start": 1.337,
+   "end": 1.644
+  },
+  {
+   "word": "training",
+   "start": 1.664,
+   "end": 2.167
+  },
+  {
+   "word": "looks",
+   "start": 2.187,
+   "end": 2.493
+  },
+  {
+   "word": "like.",
+   "start": 2.513,
+   "end": 2.82
+  },
+  {
+   "word": "Ten",
+   "start": 3.22,
+   "end": 3.509
+  },
+  {
+   "word": "minutes.",
+   "start": 3.529,
+   "end": 4.05
+  },
+  {
+   "word": "Activation.",
+   "start": 4.25,
+   "end": 5.2
+  },
+  {
+   "word": "Ball",
+   "start": 5.59,
+   "end": 5.929
+  },
+  {
+   "word": "at",
+   "start": 5.949,
+   "end": 6.072
+  },
+  {
+   "word": "your",
+   "start": 6.092,
+   "end": 6.287
+  },
+  {
+   "word": "feet",
+   "start": 6.307,
+   "end": 6.646
+  },
+  {
+   "word": "from",
+   "start": 6.666,
+   "end": 6.933
+  },
+  {
+   "word": "minute",
+   "start": 6.953,
+   "end": 7.363
+  },
+  {
+   "word": "one.",
+   "start": 7.383,
+   "end": 7.65
+  },
+  {
+   "word": "Twenty",
+   "start": 8.05,
+   "end": 8.49
+  },
+  {
+   "word": "minutes.",
+   "start": 8.51,
+   "end": 8.95
+  },
+  {
+   "word": "Technique.",
+   "start": 9.15,
+   "end": 9.8
+  },
+  {
+   "word": "Hundreds",
+   "start": 10.2,
+   "end": 10.855
+  },
+  {
+   "word": "of",
+   "start": 10.875,
+   "end": 11.005
+  },
+  {
+   "word": "touches,",
+   "start": 11.025,
+   "end": 11.53
+  },
+  {
+   "word": "at",
+   "start": 11.73,
+   "end": 11.882
+  },
+  {
+   "word": "game",
+   "start": 11.902,
+   "end": 12.313
+  },
+  {
+   "word": "speed.",
+   "start": 12.333,
+   "end": 12.83
+  },
+  {
+   "word": "Twenty",
+   "start": 13.23,
+   "end": 13.67
+  },
+  {
+   "word": "minutes.",
+   "start": 13.69,
+   "end": 14.13
+  },
+  {
+   "word": "Small",
+   "start": 14.33,
+   "end": 14.739
+  },
+  {
+   "word": "sided",
+   "start": 14.759,
+   "end": 15.241
+  },
+  {
+   "word": "games.",
+   "start": 15.261,
+   "end": 15.67
+  },
+  {
+   "word": "Real",
+   "start": 16.07,
+   "end": 16.45
+  },
+  {
+   "word": "decisions,",
+   "start": 16.47,
+   "end": 17.17
+  },
+  {
+   "word": "under",
+   "start": 17.37,
+   "end": 17.805
+  },
+  {
+   "word": "pressure.",
+   "start": 17.825,
+   "end": 18.35
+  },
+  {
+   "word": "Ten",
+   "start": 18.75,
+   "end": 19.039
+  },
+  {
+   "word": "minutes.",
+   "start": 19.059,
+   "end": 19.58
+  },
+  {
+   "word": "Feedback.",
+   "start": 19.78,
+   "end": 20.43
+  },
+  {
+   "word": "One",
+   "start": 20.83,
+   "end": 21.08
+  },
+  {
+   "word": "thing",
+   "start": 21.1,
+   "end": 21.351
+  },
+  {
+   "word": "to",
+   "start": 21.371,
+   "end": 21.553
+  },
+  {
+   "word": "fix",
+   "start": 21.573,
+   "end": 21.891
+  },
+  {
+   "word": "before",
+   "start": 21.911,
+   "end": 22.297
+  },
+  {
+   "word": "next",
+   "start": 22.317,
+   "end": 22.702
+  },
+  {
+   "word": "time.",
+   "start": 22.722,
+   "end": 23.04
+  },
+  {
+   "word": "That's",
+   "start": 23.44,
+   "end": 23.87
+  },
+  {
+   "word": "the",
+   "start": 23.89,
+   "end": 24.05
+  },
+  {
+   "word": "hour.",
+   "start": 24.07,
+   "end": 24.41
+  },
+  {
+   "word": "Train",
+   "start": 24.81,
+   "end": 25.235
+  },
+  {
+   "word": "it",
+   "start": 25.255,
+   "end": 25.383
+  },
+  {
+   "word": "at",
+   "start": 25.403,
+   "end": 25.531
+  },
+  {
+   "word": "Il",
+   "start": 25.551,
+   "end": 25.827
+  },
+  {
+   "word": "Campo,",
+   "start": 25.847,
+   "end": 26.42
+  },
+  {
+   "word": "in",
+   "start": 26.62,
+   "end": 26.873
+  },
+  {
+   "word": "Oakville.",
+   "start": 26.893,
+   "end": 27.51
+  },
+  {
+   "word": "Message",
+   "start": 27.91,
+   "end": 28.4
+  },
+  {
+   "word": "us",
+   "start": 28.42,
+   "end": 28.618
+  },
+  {
+   "word": "to",
+   "start": 28.638,
+   "end": 28.837
+  },
+  {
+   "word": "book",
+   "start": 28.857,
+   "end": 29.128
+  },
+  {
+   "word": "your",
+   "start": 29.148,
+   "end": 29.346
+  },
+  {
+   "word": "first",
+   "start": 29.366,
+   "end": 29.783
+  },
+  {
+   "word": "session.",
+   "start": 29.803,
+   "end": 30.22
+  }
+ ],
+ "duration": 30.44
+}
