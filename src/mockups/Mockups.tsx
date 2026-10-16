@@ -15,7 +15,7 @@ const D = () => theme.fonts.display;
 const H = () => theme.fonts.heavy;
 
 // Night stadium: floodlight blooms, a stand silhouette, a pitch with perspective lines, tinted by the club colour.
-const Stadium: React.FC<{ tint: string; dim?: number }> = ({ tint, dim = 0 }) => (
+export const Stadium: React.FC<{ tint: string; dim?: number }> = ({ tint, dim = 0 }) => (
   <AbsoluteFill style={{ background: INK, overflow: 'hidden' }}>
     <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, #050407 0%, #120a10 38%, ' + tint + '55 62%, #0b2a17 74%, #061a0e 100%)' }} />
     {[14, 86].map((x) => (
