@@ -4,6 +4,7 @@ import './index.css';
 import { BrandCard } from './BrandCard';
 import { MockupA, MockupB, MockupC } from './mockups/Mockups';
 import { NP005Card, NP005_CARD_FRAMES } from './mockups/CardVideo';
+import { NP006Card, NP006_CARD_FRAMES } from './mockups/CardVideo006';
 import { ProfileLogo } from './ProfileLogo';
 import { PicksVideo } from './picks/PicksVideo';
 import type { PicksEdit } from './picks/types';
@@ -36,6 +37,7 @@ export const RemotionRoot: React.FC = () => (
     ))}
     <Still id='ProfileLogo' component={ProfileLogo} width={1080} height={1080} />
     <Composition id='NP005C' component={NP005Card} durationInFrames={NP005_CARD_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id='NP006C' component={NP006Card} durationInFrames={NP006_CARD_FRAMES} fps={30} width={1080} height={1920} />
     <Still id='MockupA' component={MockupA} width={1080} height={1920} />
     <Still id='MockupB' component={MockupB} width={1080} height={1920} />
     <Still id='MockupC' component={MockupC} width={1080} height={1920} />
