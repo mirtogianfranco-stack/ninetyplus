@@ -1,0 +1,315 @@
+{
+ "words": [
+  {
+   "word": "This",
+   "start": 0.03,
+   "end": 0.231
+  },
+  {
+   "word": "might",
+   "start": 0.251,
+   "end": 0.508
+  },
+  {
+   "word": "be",
+   "start": 0.528,
+   "end": 0.73
+  },
+  {
+   "word": "the",
+   "start": 0.75,
+   "end": 0.84
+  },
+  {
+   "word": "easiest",
+   "start": 0.86,
+   "end": 1.283
+  },
+  {
+   "word": "goals",
+   "start": 1.303,
+   "end": 1.615
+  },
+  {
+   "word": "pick",
+   "start": 1.635,
+   "end": 1.837
+  },
+  {
+   "word": "in",
+   "start": 1.857,
+   "end": 2.003
+  },
+  {
+   "word": "Europe.",
+   "start": 2.023,
+   "end": 2.39
+  },
+  {
+   "word": "Gladbach",
+   "start": 2.67,
+   "end": 3.211
+  },
+  {
+   "word": "and",
+   "start": 3.231,
+   "end": 3.398
+  },
+  {
+   "word": "Hoffenheim",
+   "start": 3.418,
+   "end": 4.022
+  },
+  {
+   "word": "have",
+   "start": 4.042,
+   "end": 4.272
+  },
+  {
+   "word": "played",
+   "start": 4.292,
+   "end": 4.646
+  },
+  {
+   "word": "ten",
+   "start": 4.666,
+   "end": 4.895
+  },
+  {
+   "word": "league",
+   "start": 4.915,
+   "end": 5.207
+  },
+  {
+   "word": "games",
+   "start": 5.227,
+   "end": 5.582
+  },
+  {
+   "word": "between",
+   "start": 5.602,
+   "end": 6.081
+  },
+  {
+   "word": "them.",
+   "start": 6.101,
+   "end": 6.33
+  },
+  {
+   "word": "Every",
+   "start": 6.61,
+   "end": 6.929
+  },
+  {
+   "word": "single",
+   "start": 6.949,
+   "end": 7.404
+  },
+  {
+   "word": "one",
+   "start": 7.424,
+   "end": 7.675
+  },
+  {
+   "word": "had",
+   "start": 7.695,
+   "end": 7.947
+  },
+  {
+   "word": "three",
+   "start": 7.967,
+   "end": 8.286
+  },
+  {
+   "word": "or",
+   "start": 8.306,
+   "end": 8.422
+  },
+  {
+   "word": "more",
+   "start": 8.442,
+   "end": 8.693
+  },
+  {
+   "word": "goals.",
+   "start": 8.713,
+   "end": 9.1
+  },
+  {
+   "word": "Three",
+   "start": 9.3,
+   "end": 9.636
+  },
+  {
+   "word": "plus",
+   "start": 9.656,
+   "end": 9.992
+  },
+  {
+   "word": "goals.",
+   "start": 10.012,
+   "end": 10.42
+  },
+  {
+   "word": "Union",
+   "start": 10.7,
+   "end": 11.19
+  },
+  {
+   "word": "Berlin",
+   "start": 11.21,
+   "end": 11.637
+  },
+  {
+   "word": "have",
+   "start": 11.657,
+   "end": 11.892
+  },
+  {
+   "word": "let",
+   "start": 11.912,
+   "end": 12.147
+  },
+  {
+   "word": "in",
+   "start": 12.167,
+   "end": 12.338
+  },
+  {
+   "word": "seventeen,",
+   "start": 12.358,
+   "end": 13.04
+  },
+  {
+   "word": "and",
+   "start": 13.24,
+   "end": 13.464
+  },
+  {
+   "word": "their",
+   "start": 13.484,
+   "end": 13.709
+  },
+  {
+   "word": "strikers",
+   "start": 13.729,
+   "end": 14.441
+  },
+  {
+   "word": "are",
+   "start": 14.461,
+   "end": 14.604
+  },
+  {
+   "word": "out.",
+   "start": 14.624,
+   "end": 14.93
+  },
+  {
+   "word": "Dortmund",
+   "start": 15.12,
+   "end": 15.724
+  },
+  {
+   "word": "to",
+   "start": 15.744,
+   "end": 15.933
+  },
+  {
+   "word": "win.",
+   "start": 15.952,
+   "end": 16.21
+  },
+  {
+   "word": "Venezia",
+   "start": 16.49,
+   "end": 17.069
+  },
+  {
+   "word": "have",
+   "start": 17.089,
+   "end": 17.336
+  },
+  {
+   "word": "lost",
+   "start": 17.356,
+   "end": 17.668
+  },
+  {
+   "word": "all",
+   "start": 17.688,
+   "end": 17.935
+  },
+  {
+   "word": "six",
+   "start": 17.955,
+   "end": 18.268
+  },
+  {
+   "word": "league",
+   "start": 18.288,
+   "end": 18.601
+  },
+  {
+   "word": "games.",
+   "start": 18.621,
+   "end": 19.0
+  },
+  {
+   "word": "Napoli",
+   "start": 19.2,
+   "end": 19.715
+  },
+  {
+   "word": "to",
+   "start": 19.735,
+   "end": 19.944
+  },
+  {
+   "word": "win.",
+   "start": 19.964,
+   "end": 20.25
+  },
+  {
+   "word": "Comment",
+   "start": 20.53,
+   "end": 21.025
+  },
+  {
+   "word": "your",
+   "start": 21.045,
+   "end": 21.246
+  },
+  {
+   "word": "pick,",
+   "start": 21.266,
+   "end": 21.54
+  },
+  {
+   "word": "and",
+   "start": 21.74,
+   "end": 21.926
+  },
+  {
+   "word": "follow",
+   "start": 21.946,
+   "end": 22.338
+  },
+  {
+   "word": "for",
+   "start": 22.358,
+   "end": 22.544
+  },
+  {
+   "word": "the",
+   "start": 22.564,
+   "end": 22.681
+  },
+  {
+   "word": "results.",
+   "start": 22.701,
+   "end": 23.23
+  }
+ ],
+ "duration": 23.45
+}
