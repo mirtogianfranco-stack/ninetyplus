@@ -104,8 +104,8 @@ def sounds(b, rows, key):
                 c.setStrokeColor(KEYRED); c.setLineWidth(3); c.circle(cx, cy, 30)
 
 
-def trace(b, words):
-    y = b.header("Trace Halloween Words", "Early printing")
+def trace(b, words, title="Trace Halloween Words"):
+    y = b.header(title, "Early printing")
     c = b.c
     for word, icon in words:
         ICONS[icon](c, M + 40, y - 74, 56)

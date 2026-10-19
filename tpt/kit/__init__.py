@@ -65,6 +65,9 @@ THEMES = {
     "spooky": Theme("#EA580C", "#2E1065", "#A3E635", "#FFF1E6"),
     "spooky_kids": Theme("#F97316", "#3B0764", "#A3E635", "#FFF4EA", "Fredoka"),
     "potion": Theme("#6D28D9", "#1E1B4B", "#F97316", "#F1EAFE"),
+    "frost": Theme("#0369A1", "#0C1E3A", "#F43F5E", "#E0F2FE"),
+    "frost_kids": Theme("#0284C7", "#0C1E3A", "#F43F5E", "#E6F4FD", "Fredoka"),
+    "evergreen": Theme("#15803D", "#0C1E3A", "#F43F5E", "#E8F5EC"),
     "remember": Theme("#9B1C1C", "#1E293B", "#D4AF37", "#FDF2F2"),
     "remember_kids": Theme("#B91C1C", "#1E293B", "#D4AF37", "#FEF2F2", "Fredoka"),
 }

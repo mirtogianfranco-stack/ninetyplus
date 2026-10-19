@@ -38,7 +38,7 @@ def make_bundle(slug, title, subtitle, items, bundle_price, dark, primary, strip
         return im, d
 
     total = sum(p for _, _, p in items); save = round(100 * (1 - bundle_price / total))
-    n = len(items); cols = 2 if n <= 4 else 4; rows = -(-n // cols)
+    n = len(items); cols = 2 if n <= 4 else 3 if n <= 6 else 4; rows = -(-n // cols)
     im, d = base(title.upper(), f"{subtitle}  •  {n} RESOURCES  •  SAVE {save}%")
     h = 460 if cols == 4 else 480
     cw = card(covers[0], h).width
