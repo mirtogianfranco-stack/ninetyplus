@@ -1,0 +1,355 @@
+{
+ "words": [
+  {
+   "word": "Coming",
+   "start": 0.03,
+   "end": 0.358
+  },
+  {
+   "word": "off",
+   "start": 0.378,
+   "end": 0.532
+  },
+  {
+   "word": "a",
+   "start": 0.552,
+   "end": 0.706
+  },
+  {
+   "word": "perfect",
+   "start": 0.726,
+   "end": 1.17
+  },
+  {
+   "word": "card,",
+   "start": 1.19,
+   "end": 1.46
+  },
+  {
+   "word": "here",
+   "start": 1.66,
+   "end": 1.957
+  },
+  {
+   "word": "are",
+   "start": 1.977,
+   "end": 2.116
+  },
+  {
+   "word": "four",
+   "start": 2.136,
+   "end": 2.433
+  },
+  {
+   "word": "more.",
+   "start": 2.453,
+   "end": 2.75
+  },
+  {
+   "word": "Como",
+   "start": 2.97,
+   "end": 3.299
+  },
+  {
+   "word": "create",
+   "start": 3.319,
+   "end": 3.764
+  },
+  {
+   "word": "almost",
+   "start": 3.784,
+   "end": 4.287
+  },
+  {
+   "word": "three",
+   "start": 4.307,
+   "end": 4.578
+  },
+  {
+   "word": "expected",
+   "start": 4.598,
+   "end": 5.159
+  },
+  {
+   "word": "goals",
+   "start": 5.179,
+   "end": 5.508
+  },
+  {
+   "word": "a",
+   "start": 5.528,
+   "end": 5.682
+  },
+  {
+   "word": "game",
+   "start": 5.702,
+   "end": 5.973
+  },
+  {
+   "word": "at",
+   "start": 5.993,
+   "end": 6.089
+  },
+  {
+   "word": "home,",
+   "start": 6.109,
+   "end": 6.38
+  },
+  {
+   "word": "and",
+   "start": 6.58,
+   "end": 6.749
+  },
+  {
+   "word": "United's",
+   "start": 6.769,
+   "end": 7.441
+  },
+  {
+   "word": "back",
+   "start": 7.461,
+   "end": 7.693
+  },
+  {
+   "word": "line",
+   "start": 7.713,
+   "end": 8.008
+  },
+  {
+   "word": "is",
+   "start": 8.028,
+   "end": 8.134
+  },
+  {
+   "word": "banged",
+   "start": 8.154,
+   "end": 8.511
+  },
+  {
+   "word": "up.",
+   "start": 8.531,
+   "end": 8.7
+  },
+  {
+   "word": "Both",
+   "start": 8.9,
+   "end": 9.233
+  },
+  {
+   "word": "teams",
+   "start": 9.253,
+   "end": 9.657
+  },
+  {
+   "word": "score.",
+   "start": 9.677,
+   "end": 10.01
+  },
+  {
+   "word": "Leipzig",
+   "start": 10.23,
+   "end": 10.742
+  },
+  {
+   "word": "concede",
+   "start": 10.762,
+   "end": 11.216
+  },
+  {
+   "word": "almost",
+   "start": 11.236,
+   "end": 11.748
+  },
+  {
+   "word": "three",
+   "start": 11.768,
+   "end": 12.044
+  },
+  {
+   "word": "expected",
+   "start": 12.064,
+   "end": 12.636
+  },
+  {
+   "word": "goals",
+   "start": 12.656,
+   "end": 12.991
+  },
+  {
+   "word": "a",
+   "start": 13.011,
+   "end": 13.168
+  },
+  {
+   "word": "game",
+   "start": 13.188,
+   "end": 13.464
+  },
+  {
+   "word": "away.",
+   "start": 13.484,
+   "end": 13.76
+  },
+  {
+   "word": "Real",
+   "start": 13.96,
+   "end": 14.295
+  },
+  {
+   "word": "Madrid",
+   "start": 14.315,
+   "end": 14.793
+  },
+  {
+   "word": "to",
+   "start": 14.813,
+   "end": 15.006
+  },
+  {
+   "word": "win.",
+   "start": 15.026,
+   "end": 15.29
+  },
+  {
+   "word": "Villa",
+   "start": 15.51,
+   "end": 15.844
+  },
+  {
+   "word": "are",
+   "start": 15.864,
+   "end": 15.986
+  },
+  {
+   "word": "unbeaten",
+   "start": 16.006,
+   "end": 16.624
+  },
+  {
+   "word": "in",
+   "start": 16.644,
+   "end": 16.836
+  },
+  {
+   "word": "this",
+   "start": 16.856,
+   "end": 17.12
+  },
+  {
+   "word": "competition.",
+   "start": 17.14,
+   "end": 17.97
+  },
+  {
+   "word": "Aston",
+   "start": 18.17,
+   "end": 18.63
+  },
+  {
+   "word": "Villa",
+   "start": 18.65,
+   "end": 19.03
+  },
+  {
+   "word": "to",
+   "start": 19.05,
+   "end": 19.27
+  },
+  {
+   "word": "win.",
+   "start": 19.29,
+   "end": 19.59
+  },
+  {
+   "word": "Bayern",
+   "start": 19.81,
+   "end": 20.331
+  },
+  {
+   "word": "and",
+   "start": 20.351,
+   "end": 20.534
+  },
+  {
+   "word": "Arsenal",
+   "start": 20.554,
+   "end": 21.075
+  },
+  {
+   "word": "barely",
+   "start": 21.095,
+   "end": 21.48
+  },
+  {
+   "word": "give",
+   "start": 21.5,
+   "end": 21.751
+  },
+  {
+   "word": "anything",
+   "start": 21.771,
+   "end": 22.292
+  },
+  {
+   "word": "away.",
+   "start": 22.312,
+   "end": 22.63
+  },
+  {
+   "word": "Three",
+   "start": 22.83,
+   "end": 23.21
+  },
+  {
+   "word": "goals",
+   "start": 23.23,
+   "end": 23.69
+  },
+  {
+   "word": "or",
+   "start": 23.71,
+   "end": 23.85
+  },
+  {
+   "word": "fewer.",
+   "start": 23.87,
+   "end": 24.33
+  },
+  {
+   "word": "Which",
+   "start": 24.55,
+   "end": 24.835
+  },
+  {
+   "word": "one",
+   "start": 24.855,
+   "end": 25.078
+  },
+  {
+   "word": "breaks",
+   "start": 25.098,
+   "end": 25.505
+  },
+  {
+   "word": "first?",
+   "start": 25.525,
+   "end": 25.87
+  },
+  {
+   "word": "Comment",
+   "start": 26.07,
+   "end": 26.57
+  },
+  {
+   "word": "your",
+   "start": 26.59,
+   "end": 26.793
+  },
+  {
+   "word": "pick.",
+   "start": 26.813,
+   "end": 27.09
+  }
+ ],
+ "duration": 27.31
+}
