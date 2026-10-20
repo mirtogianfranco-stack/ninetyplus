@@ -181,9 +181,9 @@ export const NP010Card: React.FC = () => {
       {/* PICK 1: Como v United, both teams score */}
       <Scene from={S1} to={S2}>
         <Hero from={S1} n={1} img='bruno' glow='rgba(218,41,28,0.85)' h='com' a='mun' time='12:45 PM' pill='BOTH TEAMS SCORE' pillAt={at(26)}
-          claim={<>COMO<br />AT HOME<br /><span style={{ color: GOLD }}>CREATE</span></>}>
+          claim={<>COMO<br />CREATE<br /><span style={{ color: GOLD }}>CHANCES</span></>}>
           <Big at={at(12)} value='2.8' label='EXPECTED GOALS A GAME · COMO AT HOME' top={700} />
-          <div style={{ position: 'absolute', left: 90, top: 900, display: 'flex', flexDirection: 'column', gap: 12 }}>
+          <div style={{ position: 'absolute', left: 90, top: 960, display: 'flex', flexDirection: 'row', gap: 12 }}>
             <Chip at={at(21)} tag='DOUBT'>MARTÍNEZ</Chip>
             <Chip at={at(22)} tag='DOUBT'>SHAW</Chip>
           </div>
