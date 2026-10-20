@@ -79,7 +79,7 @@ const Big: React.FC<{ at: number; value: string; label: string; top: number; col
   );
 };
 
-const EMPH = new Set(['EVERY', 'SIX,', 'FIVE', 'RISKIEST', 'FIVE.', 'THIRTEEN', 'FOLLOW']);
+const EMPH = new Set(['EVERY.', 'SINGLE.', 'LEG.', 'LANDED!', 'SIX,', 'FIVE', 'RISKIEST', 'FIVE.', 'THIRTEEN', 'FOLLOW']);
 const Captions: React.FC = () => {
   const f = useCurrentFrame();
   const t = f / FPS;
@@ -129,7 +129,7 @@ export const NP009Card: React.FC = () => {
       <Scene from={0} to={S1}>
         <Fan from={-12} />
         <Card from={-14} top={620} />
-        <Big at={at(2)} value='5/5' label='ALL LANDED' top={1190} color={GREEN} size={170} />
+        <Big at={at(3)} value='5/5' label='ALL LANDED' top={1190} color={GREEN} size={170} />
       </Scene>
       <Scene from={S1} to={END + 10}>
         <Big at={at(36)} value='5/5' label='TUESDAY' top={560} color={GREEN} size={230} />
@@ -148,8 +148,9 @@ export const NP009Card: React.FC = () => {
       </Scene>
       <Captions />
       <Audio src={staticFile('np-009/voiceover.wav')} />
+      <Audio src={staticFile('np-009/music/bed.wav')} volume={0.16} />
       {hit(0, 'bass_impact.MP3', 0.5)}
-      {hit(at(2), 'cinematic_whoosh_impact.MP3', 0.45)}
+      {hit(at(3), 'cinematic_whoosh_impact.MP3', 0.45)}
       {hit(at(8), 'ding_answer_correct.MP3', 0.35, 0.8)}
       {hit(at(13), 'pop_sound.MP3', 0.4, 0.6)}
       {hit(at(18), 'ding_answer_correct.MP3', 0.35, 0.8)}

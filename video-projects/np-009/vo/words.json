@@ -1,280 +1,280 @@
 {
  "words": [
   {
-   "word": "Every",
+   "word": "Every.",
    "start": 0.03,
-   "end": 0.367
+   "end": 0.58
   },
   {
-   "word": "single",
-   "start": 0.387,
-   "end": 0.866
+   "word": "Single.",
+   "start": 0.78,
+   "end": 1.3
   },
   {
-   "word": "leg",
-   "start": 0.886,
-   "end": 1.151
+   "word": "Leg.",
+   "start": 1.5,
+   "end": 1.99
   },
   {
-   "word": "landed.",
-   "start": 1.171,
-   "end": 1.65
+   "word": "Landed!",
+   "start": 2.19,
+   "end": 2.76
   },
   {
    "word": "Paris",
-   "start": 1.89,
-   "end": 2.26
+   "start": 3.0,
+   "end": 3.37
   },
   {
    "word": "and",
-   "start": 2.28,
-   "end": 2.455
+   "start": 3.39,
+   "end": 3.565
   },
   {
    "word": "Barcelona",
-   "start": 2.475,
-   "end": 3.235
+   "start": 3.585,
+   "end": 4.345
   },
   {
    "word": "scored",
-   "start": 3.255,
-   "end": 3.625
+   "start": 4.365,
+   "end": 4.735
   },
   {
    "word": "six,",
-   "start": 3.645,
-   "end": 3.95
+   "start": 4.755,
+   "end": 5.06
   },
   {
    "word": "four",
-   "start": 4.15,
-   "end": 4.48
+   "start": 5.26,
+   "end": 5.59
   },
   {
    "word": "two.",
-   "start": 4.5,
-   "end": 4.83
+   "start": 5.61,
+   "end": 5.94
   },
   {
    "word": "City",
-   "start": 5.07,
-   "end": 5.398
+   "start": 6.18,
+   "end": 6.508
   },
   {
    "word": "put",
-   "start": 5.418,
-   "end": 5.677
+   "start": 6.528,
+   "end": 6.787
   },
   {
    "word": "five",
-   "start": 5.697,
-   "end": 6.025
+   "start": 6.807,
+   "end": 7.135
   },
   {
    "word": "past",
-   "start": 6.045,
-   "end": 6.373
+   "start": 7.155,
+   "end": 7.483
   },
   {
    "word": "AEK.",
-   "start": 6.393,
-   "end": 7.07
+   "start": 7.503,
+   "end": 8.18
   },
   {
    "word": "Roma",
-   "start": 7.27,
-   "end": 7.74
+   "start": 8.38,
+   "end": 8.85
   },
   {
    "word": "won",
-   "start": 7.76,
-   "end": 8.067
+   "start": 8.87,
+   "end": 9.177
   },
   {
    "word": "four",
-   "start": 8.087,
-   "end": 8.393
+   "start": 9.197,
+   "end": 9.503
   },
   {
    "word": "nil.",
-   "start": 8.413,
-   "end": 8.72
+   "start": 9.523,
+   "end": 9.83
   },
   {
    "word": "Liverpool",
-   "start": 8.96,
-   "end": 9.567
+   "start": 10.07,
+   "end": 10.678
   },
   {
    "word": "and",
-   "start": 9.587,
-   "end": 9.756
+   "start": 10.698,
+   "end": 10.866
   },
   {
    "word": "Villarreal",
-   "start": 9.776,
-   "end": 10.571
+   "start": 10.886,
+   "end": 11.682
   },
   {
    "word": "went",
-   "start": 10.591,
-   "end": 10.885
+   "start": 11.702,
+   "end": 11.995
   },
   {
    "word": "four",
-   "start": 10.905,
-   "end": 11.136
+   "start": 12.015,
+   "end": 12.246
   },
   {
    "word": "three.",
-   "start": 11.156,
-   "end": 11.45
+   "start": 12.266,
+   "end": 12.56
   },
   {
    "word": "And",
-   "start": 11.69,
-   "end": 11.888
+   "start": 12.8,
+   "end": 12.998
   },
   {
    "word": "the",
-   "start": 11.908,
-   "end": 12.034
+   "start": 13.018,
+   "end": 13.144
   },
   {
    "word": "riskiest",
-   "start": 12.054,
-   "end": 12.688
+   "start": 13.164,
+   "end": 13.798
   },
   {
    "word": "one",
-   "start": 12.708,
-   "end": 12.979
+   "start": 13.818,
+   "end": 14.089
   },
   {
    "word": "hit.",
-   "start": 12.999,
-   "end": 13.27
+   "start": 14.109,
+   "end": 14.38
   },
   {
    "word": "Stuttgart",
-   "start": 13.47,
-   "end": 14.084
+   "start": 14.58,
+   "end": 15.194
   },
   {
    "word": "and",
-   "start": 14.104,
-   "end": 14.295
+   "start": 15.214,
+   "end": 15.405
   },
   {
    "word": "Atl\u00e9tico,",
-   "start": 14.315,
-   "end": 15.07
+   "start": 15.425,
+   "end": 16.18
   },
   {
    "word": "one",
-   "start": 15.27,
-   "end": 15.565
+   "start": 16.38,
+   "end": 16.675
   },
   {
    "word": "all.",
-   "start": 15.585,
-   "end": 15.88
+   "start": 16.695,
+   "end": 16.99
   },
   {
    "word": "Five",
-   "start": 16.12,
-   "end": 16.471
+   "start": 17.23,
+   "end": 17.581
   },
   {
    "word": "from",
-   "start": 16.491,
-   "end": 16.769
+   "start": 17.601,
+   "end": 17.879
   },
   {
    "word": "five.",
-   "start": 16.789,
-   "end": 17.14
+   "start": 17.899,
+   "end": 18.25
   },
   {
    "word": "Thirteen",
-   "start": 17.34,
-   "end": 17.939
+   "start": 18.45,
+   "end": 19.049
   },
   {
    "word": "and",
-   "start": 17.959,
-   "end": 18.171
+   "start": 19.069,
+   "end": 19.281
   },
   {
    "word": "four",
-   "start": 18.191,
-   "end": 18.481
+   "start": 19.301,
+   "end": 19.591
   },
   {
    "word": "on",
-   "start": 18.501,
-   "end": 18.713
+   "start": 19.611,
+   "end": 19.823
   },
   {
    "word": "the",
-   "start": 18.733,
-   "end": 18.868
+   "start": 19.843,
+   "end": 19.978
   },
   {
    "word": "season.",
-   "start": 18.888,
-   "end": 19.41
+   "start": 19.998,
+   "end": 20.52
   },
   {
    "word": "Wednesday's",
-   "start": 19.65,
-   "end": 20.342
+   "start": 20.76,
+   "end": 21.452
   },
   {
    "word": "card",
-   "start": 20.362,
-   "end": 20.737
+   "start": 21.472,
+   "end": 21.847
   },
   {
    "word": "is",
-   "start": 20.757,
-   "end": 20.895
+   "start": 21.867,
+   "end": 22.005
   },
   {
    "word": "next.",
-   "start": 20.915,
-   "end": 21.37
+   "start": 22.025,
+   "end": 22.48
   },
   {
    "word": "Follow",
-   "start": 21.57,
-   "end": 21.874
+   "start": 22.68,
+   "end": 22.984
   },
   {
    "word": "so",
-   "start": 21.894,
-   "end": 22.09
+   "start": 23.004,
+   "end": 23.2
   },
   {
    "word": "you",
-   "start": 22.11,
-   "end": 22.252
+   "start": 23.22,
+   "end": 23.362
   },
   {
    "word": "don't",
-   "start": 22.272,
-   "end": 22.576
+   "start": 23.382,
+   "end": 23.686
   },
   {
    "word": "miss",
-   "start": 22.596,
-   "end": 22.792
+   "start": 23.706,
+   "end": 23.902
   },
   {
    "word": "it.",
-   "start": 22.812,
-   "end": 22.9
+   "start": 23.922,
+   "end": 24.01
   }
  ],
- "duration": 23.12
+ "duration": 24.23
 }
