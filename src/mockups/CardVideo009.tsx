@@ -132,10 +132,9 @@ export const NP009Card: React.FC = () => {
         <Big at={at(2)} value='5/5' label='ALL LANDED' top={1190} color={GREEN} size={170} />
       </Scene>
       <Scene from={S1} to={END + 10}>
-        <Fan from={S1} />
-        <Big at={at(36)} value='5/5' label='TUESDAY' top={640} color={GREEN} />
-        <Big at={at(39)} value='13-4' label='SEASON' top={880} color={GOLD} />
-        <div style={{ position: 'absolute', top: 1140, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 8 }}>
+        <Big at={at(36)} value='5/5' label='TUESDAY' top={560} color={GREEN} size={230} />
+        <Big at={at(39)} value='13-4' label='SEASON' top={850} color={GOLD} size={230} />
+        <div style={{ position: 'absolute', top: 1150, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 8 }}>
           {STRIP.map((r, i) => {
             const s = spring({ frame: f - at(41) - i * 2, fps: FPS, config: theme.spring.snappy });
             return <div key={i} style={{ width: 48, height: 48, borderRadius: 10, background: r === 'W' ? GREEN : RED, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: D(), fontSize: 28, color: '#0B0A0D', opacity: f >= at(41) ? s : 0, transform: 'scale(' + s + ')', boxShadow: i >= 12 ? '0 0 14px ' + GREEN : undefined }}>{r}</div>;
