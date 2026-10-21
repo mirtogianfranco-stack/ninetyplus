@@ -10,6 +10,7 @@ import { NP008Card, NP008_CARD_FRAMES } from './mockups/CardVideo008';
 import { NP009Card, NP009_CARD_FRAMES } from './mockups/CardVideo009';
 import { NP010Card, NP010_CARD_FRAMES } from './mockups/CardVideo010';
 import { ProfileLogo } from './ProfileLogo';
+import { ListingVideo, LISTING_FRAMES } from './listing/ListingVideo';
 import { PicksVideo } from './picks/PicksVideo';
 import type { PicksEdit } from './picks/types';
 import { SkyStadiumThumb } from './thumbs/SkyStadiumThumb';
@@ -39,6 +40,7 @@ export const RemotionRoot: React.FC = () => (
     {VIDEOS.map((e) => (
       <Composition key={e.id} id={e.id} component={PicksVideo} durationInFrames={Math.ceil(e.endSec * e.fps)} fps={e.fps} width={1080} height={1920} defaultProps={{ edit: e }} />
     ))}
+    <Composition id='ListingDemo' component={ListingVideo} durationInFrames={LISTING_FRAMES} fps={30} width={1080} height={1920} />
     <Still id='ProfileLogo' component={ProfileLogo} width={1080} height={1080} />
     <Composition id='NP005C' component={NP005Card} durationInFrames={NP005_CARD_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id='NP006C' component={NP006Card} durationInFrames={NP006_CARD_FRAMES} fps={30} width={1080} height={1920} />

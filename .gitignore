@@ -23,3 +23,8 @@ video-projects/**/*.m4a
 __pycache__/
 .DS_Store
 *.log
+
+# listing demo: media stays local like np-* (images are committed)
+public/demo-listing/**/*.wav
+public/demo-listing/**/*.mp3
+/listing-demo.mp4
