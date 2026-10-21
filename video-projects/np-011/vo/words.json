@@ -1,0 +1,285 @@
+{
+ "words": [
+  {
+   "word": "So",
+   "start": 0.03,
+   "end": 0.252
+  },
+  {
+   "word": "close",
+   "start": 0.272,
+   "end": 0.616
+  },
+  {
+   "word": "to",
+   "start": 0.636,
+   "end": 0.798
+  },
+  {
+   "word": "another",
+   "start": 0.818,
+   "end": 1.162
+  },
+  {
+   "word": "perfect",
+   "start": 1.182,
+   "end": 1.647
+  },
+  {
+   "word": "card.",
+   "start": 1.667,
+   "end": 1.95
+  },
+  {
+   "word": "Bayern",
+   "start": 2.19,
+   "end": 2.657
+  },
+  {
+   "word": "and",
+   "start": 2.677,
+   "end": 2.84
+  },
+  {
+   "word": "Arsenal",
+   "start": 2.86,
+   "end": 3.327
+  },
+  {
+   "word": "finished",
+   "start": 3.347,
+   "end": 3.753
+  },
+  {
+   "word": "two",
+   "start": 3.773,
+   "end": 3.996
+  },
+  {
+   "word": "all.",
+   "start": 4.016,
+   "end": 4.24
+  },
+  {
+   "word": "Four",
+   "start": 4.44,
+   "end": 4.72
+  },
+  {
+   "word": "goals,",
+   "start": 4.74,
+   "end": 5.17
+  },
+  {
+   "word": "one",
+   "start": 5.37,
+   "end": 5.618
+  },
+  {
+   "word": "too",
+   "start": 5.638,
+   "end": 5.885
+  },
+  {
+   "word": "many.",
+   "start": 5.905,
+   "end": 6.22
+  },
+  {
+   "word": "But",
+   "start": 6.46,
+   "end": 6.687
+  },
+  {
+   "word": "Como",
+   "start": 6.707,
+   "end": 7.058
+  },
+  {
+   "word": "put",
+   "start": 7.078,
+   "end": 7.305
+  },
+  {
+   "word": "four",
+   "start": 7.325,
+   "end": 7.553
+  },
+  {
+   "word": "past",
+   "start": 7.573,
+   "end": 7.862
+  },
+  {
+   "word": "United.",
+   "start": 7.882,
+   "end": 8.48
+  },
+  {
+   "word": "Real",
+   "start": 8.68,
+   "end": 9.014
+  },
+  {
+   "word": "Madrid",
+   "start": 9.034,
+   "end": 9.511
+  },
+  {
+   "word": "beat",
+   "start": 9.531,
+   "end": 9.865
+  },
+  {
+   "word": "Leipzig",
+   "start": 9.885,
+   "end": 10.503
+  },
+  {
+   "word": "four",
+   "start": 10.523,
+   "end": 10.786
+  },
+  {
+   "word": "one.",
+   "start": 10.806,
+   "end": 11.07
+  },
+  {
+   "word": "And",
+   "start": 11.27,
+   "end": 11.48
+  },
+  {
+   "word": "Villa",
+   "start": 11.5,
+   "end": 11.863
+  },
+  {
+   "word": "won",
+   "start": 11.883,
+   "end": 12.17
+  },
+  {
+   "word": "three",
+   "start": 12.19,
+   "end": 12.553
+  },
+  {
+   "word": "one.",
+   "start": 12.573,
+   "end": 12.86
+  },
+  {
+   "word": "Three",
+   "start": 13.1,
+   "end": 13.438
+  },
+  {
+   "word": "from",
+   "start": 13.458,
+   "end": 13.724
+  },
+  {
+   "word": "four.",
+   "start": 13.744,
+   "end": 14.01
+  },
+  {
+   "word": "Sixteen",
+   "start": 14.21,
+   "end": 14.826
+  },
+  {
+   "word": "and",
+   "start": 14.846,
+   "end": 15.038
+  },
+  {
+   "word": "five",
+   "start": 15.058,
+   "end": 15.392
+  },
+  {
+   "word": "on",
+   "start": 15.412,
+   "end": 15.604
+  },
+  {
+   "word": "the",
+   "start": 15.624,
+   "end": 15.745
+  },
+  {
+   "word": "season.",
+   "start": 15.765,
+   "end": 16.24
+  },
+  {
+   "word": "Follow",
+   "start": 16.48,
+   "end": 16.87
+  },
+  {
+   "word": "for",
+   "start": 16.89,
+   "end": 17.075
+  },
+  {
+   "word": "the",
+   "start": 17.095,
+   "end": 17.212
+  },
+  {
+   "word": "weekend",
+   "start": 17.232,
+   "end": 17.758
+  },
+  {
+   "word": "picks,",
+   "start": 17.778,
+   "end": 18.1
+  },
+  {
+   "word": "and",
+   "start": 18.3,
+   "end": 18.492
+  },
+  {
+   "word": "our",
+   "start": 18.512,
+   "end": 18.774
+  },
+  {
+   "word": "first",
+   "start": 18.794,
+   "end": 19.198
+  },
+  {
+   "word": "ever",
+   "start": 19.218,
+   "end": 19.48
+  },
+  {
+   "word": "pick",
+   "start": 19.5,
+   "end": 19.763
+  },
+  {
+   "word": "of",
+   "start": 19.783,
+   "end": 19.904
+  },
+  {
+   "word": "the",
+   "start": 19.924,
+   "end": 20.045
+  },
+  {
+   "word": "weekend.",
+   "start": 20.065,
+   "end": 20.61
+  }
+ ],
+ "duration": 20.83
+}
