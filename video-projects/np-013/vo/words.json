@@ -1,0 +1,355 @@
+{
+ "words": [
+  {
+   "word": "Bold",
+   "start": 0.03,
+   "end": 0.452
+  },
+  {
+   "word": "card,",
+   "start": 0.472,
+   "end": 0.82
+  },
+  {
+   "word": "and",
+   "start": 1.02,
+   "end": 1.208
+  },
+  {
+   "word": "we're",
+   "start": 1.228,
+   "end": 1.416
+  },
+  {
+   "word": "owning",
+   "start": 1.436,
+   "end": 1.831
+  },
+  {
+   "word": "it.",
+   "start": 1.851,
+   "end": 1.97
+  },
+  {
+   "word": "Chelsea",
+   "start": 2.19,
+   "end": 2.662
+  },
+  {
+   "word": "games",
+   "start": 2.682,
+   "end": 3.031
+  },
+  {
+   "word": "have",
+   "start": 3.051,
+   "end": 3.277
+  },
+  {
+   "word": "had",
+   "start": 3.297,
+   "end": 3.523
+  },
+  {
+   "word": "three",
+   "start": 3.543,
+   "end": 3.83
+  },
+  {
+   "word": "plus",
+   "start": 3.85,
+   "end": 4.137
+  },
+  {
+   "word": "goals",
+   "start": 4.157,
+   "end": 4.506
+  },
+  {
+   "word": "in",
+   "start": 4.526,
+   "end": 4.691
+  },
+  {
+   "word": "six",
+   "start": 4.711,
+   "end": 4.998
+  },
+  {
+   "word": "of",
+   "start": 5.018,
+   "end": 5.121
+  },
+  {
+   "word": "seven.",
+   "start": 5.141,
+   "end": 5.49
+  },
+  {
+   "word": "Chelsea",
+   "start": 5.69,
+   "end": 6.272
+  },
+  {
+   "word": "and",
+   "start": 6.292,
+   "end": 6.498
+  },
+  {
+   "word": "Spurs,",
+   "start": 6.518,
+   "end": 6.95
+  },
+  {
+   "word": "three",
+   "start": 7.15,
+   "end": 7.461
+  },
+  {
+   "word": "plus",
+   "start": 7.481,
+   "end": 7.792
+  },
+  {
+   "word": "goals.",
+   "start": 7.812,
+   "end": 8.19
+  },
+  {
+   "word": "Palace",
+   "start": 8.41,
+   "end": 8.758
+  },
+  {
+   "word": "concede",
+   "start": 8.778,
+   "end": 9.249
+  },
+  {
+   "word": "almost",
+   "start": 9.269,
+   "end": 9.801
+  },
+  {
+   "word": "three",
+   "start": 9.821,
+   "end": 10.108
+  },
+  {
+   "word": "expected",
+   "start": 10.128,
+   "end": 10.722
+  },
+  {
+   "word": "goals",
+   "start": 10.742,
+   "end": 11.09
+  },
+  {
+   "word": "a",
+   "start": 11.11,
+   "end": 11.274
+  },
+  {
+   "word": "game",
+   "start": 11.294,
+   "end": 11.581
+  },
+  {
+   "word": "at",
+   "start": 11.601,
+   "end": 11.703
+  },
+  {
+   "word": "home.",
+   "start": 11.723,
+   "end": 12.01
+  },
+  {
+   "word": "Newcastle",
+   "start": 12.21,
+   "end": 12.843
+  },
+  {
+   "word": "to",
+   "start": 12.863,
+   "end": 13.039
+  },
+  {
+   "word": "win.",
+   "start": 13.059,
+   "end": 13.3
+  },
+  {
+   "word": "Brighton",
+   "start": 13.52,
+   "end": 13.934
+  },
+  {
+   "word": "have",
+   "start": 13.954,
+   "end": 14.151
+  },
+  {
+   "word": "scored",
+   "start": 14.171,
+   "end": 14.476
+  },
+  {
+   "word": "twenty",
+   "start": 14.496,
+   "end": 14.855
+  },
+  {
+   "word": "three",
+   "start": 14.875,
+   "end": 15.126
+  },
+  {
+   "word": "already,",
+   "start": 15.146,
+   "end": 15.56
+  },
+  {
+   "word": "and",
+   "start": 15.76,
+   "end": 15.928
+  },
+  {
+   "word": "Liverpool's",
+   "start": 15.948,
+   "end": 16.618
+  },
+  {
+   "word": "back",
+   "start": 16.638,
+   "end": 16.869
+  },
+  {
+   "word": "line",
+   "start": 16.889,
+   "end": 17.182
+  },
+  {
+   "word": "is",
+   "start": 17.202,
+   "end": 17.308
+  },
+  {
+   "word": "stretched",
+   "start": 17.328,
+   "end": 17.809
+  },
+  {
+   "word": "thin.",
+   "start": 17.829,
+   "end": 18.06
+  },
+  {
+   "word": "Both",
+   "start": 18.26,
+   "end": 18.593
+  },
+  {
+   "word": "teams",
+   "start": 18.613,
+   "end": 19.017
+  },
+  {
+   "word": "score.",
+   "start": 19.037,
+   "end": 19.37
+  },
+  {
+   "word": "And",
+   "start": 19.59,
+   "end": 19.768
+  },
+  {
+   "word": "Isak",
+   "start": 19.788,
+   "end": 20.164
+  },
+  {
+   "word": "has",
+   "start": 20.184,
+   "end": 20.429
+  },
+  {
+   "word": "five",
+   "start": 20.449,
+   "end": 20.759
+  },
+  {
+   "word": "goals",
+   "start": 20.779,
+   "end": 21.155
+  },
+  {
+   "word": "in",
+   "start": 21.175,
+   "end": 21.353
+  },
+  {
+   "word": "six",
+   "start": 21.373,
+   "end": 21.684
+  },
+  {
+   "word": "games.",
+   "start": 21.704,
+   "end": 22.08
+  },
+  {
+   "word": "Isak",
+   "start": 22.28,
+   "end": 22.697
+  },
+  {
+   "word": "to",
+   "start": 22.717,
+   "end": 22.916
+  },
+  {
+   "word": "score.",
+   "start": 22.936,
+   "end": 23.28
+  },
+  {
+   "word": "Which",
+   "start": 23.49,
+   "end": 23.752
+  },
+  {
+   "word": "leg",
+   "start": 23.772,
+   "end": 23.977
+  },
+  {
+   "word": "breaks",
+   "start": 23.997,
+   "end": 24.372
+  },
+  {
+   "word": "first?",
+   "start": 24.392,
+   "end": 24.71
+  },
+  {
+   "word": "Comment",
+   "start": 24.91,
+   "end": 25.41
+  },
+  {
+   "word": "your",
+   "start": 25.43,
+   "end": 25.633
+  },
+  {
+   "word": "pick.",
+   "start": 25.653,
+   "end": 25.93
+  }
+ ],
+ "duration": 26.15
+}
