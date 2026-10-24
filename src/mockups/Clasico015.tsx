@@ -6,7 +6,7 @@ import words from '../../video-projects/np-015/vo/words.json';
 
 // NP-015: EL CLÁSICO special. Barcelona to win + both teams score v Real Madrid, Sun 25 Oct 2026, 4:00 PM ET, Camp Nou.
 // Sources: Understat 2026-27 LaLiga (Barcelona 39 goals in 9; Madrid scored in 8 of 9); team news Sports Mole / Forbes 21-24 Oct
-// (Eric García, Christensen out, Koundé highly unlikely; Vinícius suspended). Kick-off ESPN esp.1 (20:00 UTC). Gate does not cover it.
+// (Eric García, Christensen out, Koundé highly unlikely; Vini Jr suspended). Kick-off ESPN esp.1 (20:00 UTC). Gate does not cover it.
 
 const RED = '#FF2E4D';
 const GOLD = '#FFD23F';
@@ -25,8 +25,8 @@ const CL = { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' } as const;
 type Cfg = { damping: number; stiffness: number; mass: number };
 const useSpring = (from: number, cfg: Cfg = theme.spring.snappy) => spring({ frame: useCurrentFrame() - from, fps: FPS, config: cfg });
 
-// Word indices: open 0-10, Barcelona 11-24, Madrid 25-35, reveal 36-42, comment 43-end.
-const S1 = at(11), S2 = at(25), S3 = at(36), S4 = at(43);
+// Word indices: open 0-10, Barcelona 11-24, Madrid 25-36, reveal 37-43, comment + follow 44-end.
+const S1 = at(11), S2 = at(25), S3 = at(37), S4 = at(44);
 
 const Scene: React.FC<{ from: number; to: number; children: React.ReactNode }> = ({ from, to, children }) => {
   const f = useCurrentFrame();
@@ -120,7 +120,7 @@ const Form: React.FC<{ at: number; top: number; results: string[] }> = ({ at: a,
   );
 };
 
-const EMPH = new Set(['MONDAY.', 'FOLLOW', 'BIGGEST', 'TROUBLE.', 'THIRTY', 'PATCHED', 'EIGHT', 'VINÍCIUS.', 'WIN,', 'SCORE.', 'COMMENT']);
+const EMPH = new Set(['MONDAY.', 'FOLLOW', 'BIGGEST', 'TROUBLE.', 'THIRTY', 'PATCHED', 'EIGHT', 'JUNIOR.', 'WIN,', 'SCORE.', 'COMMENT']);
 const Captions: React.FC = () => {
   const f = useCurrentFrame();
   const t = f / FPS;
@@ -140,9 +140,9 @@ export const NP015Clasico: React.FC = () => {
   const f = useCurrentFrame();
   const END = Math.ceil(NP015_SEC * FPS);
   const tint = f < S1 ? '#6a5200' : f < S2 ? '#7a0033' : f < S3 ? '#6a5a20' : '#6a5200';
-  const p = useSpring(at(36), theme.spring.slap);
-  const p2 = useSpring(at(40), theme.spring.slap);
-  const shake = f >= at(36) && f < at(36) + 10 ? Math.sin(f * 2.5) * (10 - (f - at(36))) : 0;
+  const p = useSpring(at(37), theme.spring.slap);
+  const p2 = useSpring(at(41), theme.spring.slap);
+  const shake = f >= at(37) && f < at(37) + 10 ? Math.sin(f * 2.5) * (10 - (f - at(37))) : 0;
   const hit = (from: number, name: string, vol = 0.4, dur = 1.2) => <Sequence from={Math.max(0, from - 1)} durationInFrames={Math.round(dur * FPS)} layout='none'><Audio src={sfx(name)} volume={vol} /></Sequence>;
   return (
     <AbsoluteFill style={{ background: '#0B0A0D' }}>
@@ -172,21 +172,21 @@ export const NP015Clasico: React.FC = () => {
             claim={<>MADRID<br /><span style={{ color: GOLD }}>ALWAYS</span><br />SCORE</>}>
             <Big at={at(30)} value='8/9' label='LALIGA GAMES WITH A MADRID GOAL' top={680} />
             <div style={{ position: 'absolute', left: 90, top: 900, display: 'flex', flexDirection: 'column', gap: 12 }}>
-              <Chip at={at(35)} tag='SUSPENDED'>VINÍCIUS</Chip>
+              <Chip at={at(35)} tag='SUSPENDED'>VINI JR</Chip>
             </div>
           </CrestHero>
         </Scene>
         {/* REVEAL: two pills */}
         <Scene from={S3} to={S4}>
           <Matchup from={S3} top={430} size={260} />
-          {f >= at(36) ? (
+          {f >= at(37) ? (
             <div style={{ position: 'absolute', left: 0, right: 0, top: 840, display: 'flex', justifyContent: 'center' }}>
               <div style={{ background: 'linear-gradient(180deg, ' + GREEN + ', #15803d)', border: '6px solid ' + GOLD, borderRadius: 26, padding: '14px 40px', boxShadow: '0 0 60px rgba(255,210,63,0.6)', transform: 'scale(' + interpolate(p, [0, 0.6, 1], [2, 0.92, 1], CL) + ') rotate(-2deg)', opacity: Math.min(1, p * 2) }}>
                 <div style={{ fontFamily: D(), fontSize: 104, color: '#0B0A0D', whiteSpace: 'nowrap' }}>BARÇA TO WIN</div>
               </div>
             </div>
           ) : null}
-          {f >= at(40) ? (
+          {f >= at(41) ? (
             <div style={{ position: 'absolute', left: 0, right: 0, top: 1030, display: 'flex', justifyContent: 'center' }}>
               <div style={{ background: 'linear-gradient(180deg, ' + GREEN + ', #15803d)', border: '6px solid ' + GOLD, borderRadius: 26, padding: '12px 36px', boxShadow: '0 0 60px rgba(255,210,63,0.6)', transform: 'scale(' + interpolate(p2, [0, 0.6, 1], [2, 0.92, 1], CL) + ') rotate(2deg)', opacity: Math.min(1, p2 * 2) }}>
                 <div style={{ fontFamily: D(), fontSize: 84, color: '#0B0A0D', whiteSpace: 'nowrap' }}>+ BOTH TEAMS SCORE</div>
@@ -198,12 +198,12 @@ export const NP015Clasico: React.FC = () => {
         <Scene from={S4} to={END + 10}>
           <SeriesMark from={S4} top={420} scale={0.8} />
           <Matchup from={S4 + 4} top={780} size={220} />
-          {f >= at(50) ? (
+          {f >= at(51) ? (
             <div style={{ position: 'absolute', top: 280, left: 0, right: 0, display: 'flex', justifyContent: 'center' }}>
               <div style={{ background: 'rgba(11,10,13,0.9)', border: '4px solid ' + GOLD, color: '#fff', fontFamily: D(), fontSize: 52, padding: '10px 26px', borderRadius: 16 }}>WEEKEND RESULTS DROP <span style={{ color: GOLD }}>MONDAY</span> · FOLLOW</div>
             </div>
           ) : null}
-          {f >= at(47) && f < at(50) ? (
+          {f >= at(48) && f < at(51) ? (
             <div style={{ position: 'absolute', top: 280, left: 0, right: 0, display: 'flex', justifyContent: 'center' }}>
               <div style={{ background: GOLD, color: '#0B0A0D', fontFamily: D(), fontSize: 60, padding: '10px 28px', borderRadius: 16, boxShadow: '0 14px 40px rgba(255,210,63,0.45)', transform: 'translateY(' + Math.sin(f / 4) * 6 + 'px)', display: 'flex', alignItems: 'center', gap: 16 }}>WHO WINS? COMMENT <div style={{ width: 0, height: 0, borderLeft: '16px solid transparent', borderRight: '16px solid transparent', borderTop: '22px solid #0B0A0D' }} /></div>
             </div>
@@ -222,12 +222,12 @@ export const NP015Clasico: React.FC = () => {
       {hit(S2, 'fast_swoosh.MP3')}
       {hit(at(30), 'punch_sound.MP3', 0.4, 0.6)}
       {hit(at(35), 'wrong_answer.MP3', 0.25)}
-      {hit(at(36) - 30, 'riser_sound_4sec.MP3', 0.3, 1)}
-      {hit(at(36), 'cinematic_whoosh_impact.MP3', 0.55)}
-      {hit(at(40), 'bass_impact.MP3', 0.5)}
+      {hit(at(37) - 30, 'riser_sound_4sec.MP3', 0.3, 1)}
+      {hit(at(37), 'cinematic_whoosh_impact.MP3', 0.55)}
+      {hit(at(41), 'bass_impact.MP3', 0.5)}
       {hit(S4, 'title_swoosh.MP3')}
-      {hit(at(47), 'pop_whoosh.MP3', 0.4, 0.6)}
-      {hit(at(50), 'pop_sound.MP3', 0.4, 0.6)}
+      {hit(at(48), 'pop_whoosh.MP3', 0.4, 0.6)}
+      {hit(at(51), 'pop_sound.MP3', 0.4, 0.6)}
     </AbsoluteFill>
   );
 };
