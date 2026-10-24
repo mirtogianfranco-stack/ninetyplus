@@ -120,7 +120,7 @@ const Form: React.FC<{ at: number; top: number; results: string[] }> = ({ at: a,
   );
 };
 
-const EMPH = new Set(['BIGGEST', 'TROUBLE.', 'THIRTY', 'PATCHED', 'EIGHT', 'VINÍCIUS.', 'WIN,', 'SCORE.', 'COMMENT']);
+const EMPH = new Set(['MONDAY.', 'FOLLOW', 'BIGGEST', 'TROUBLE.', 'THIRTY', 'PATCHED', 'EIGHT', 'VINÍCIUS.', 'WIN,', 'SCORE.', 'COMMENT']);
 const Captions: React.FC = () => {
   const f = useCurrentFrame();
   const t = f / FPS;
@@ -198,7 +198,12 @@ export const NP015Clasico: React.FC = () => {
         <Scene from={S4} to={END + 10}>
           <SeriesMark from={S4} top={420} scale={0.8} />
           <Matchup from={S4 + 4} top={780} size={220} />
-          {f >= at(47) ? (
+          {f >= at(50) ? (
+            <div style={{ position: 'absolute', top: 280, left: 0, right: 0, display: 'flex', justifyContent: 'center' }}>
+              <div style={{ background: 'rgba(11,10,13,0.9)', border: '4px solid ' + GOLD, color: '#fff', fontFamily: D(), fontSize: 52, padding: '10px 26px', borderRadius: 16 }}>WEEKEND RESULTS DROP <span style={{ color: GOLD }}>MONDAY</span> · FOLLOW</div>
+            </div>
+          ) : null}
+          {f >= at(47) && f < at(50) ? (
             <div style={{ position: 'absolute', top: 280, left: 0, right: 0, display: 'flex', justifyContent: 'center' }}>
               <div style={{ background: GOLD, color: '#0B0A0D', fontFamily: D(), fontSize: 60, padding: '10px 28px', borderRadius: 16, boxShadow: '0 14px 40px rgba(255,210,63,0.45)', transform: 'translateY(' + Math.sin(f / 4) * 6 + 'px)', display: 'flex', alignItems: 'center', gap: 16 }}>WHO WINS? COMMENT <div style={{ width: 0, height: 0, borderLeft: '16px solid transparent', borderRight: '16px solid transparent', borderTop: '22px solid #0B0A0D' }} /></div>
             </div>
@@ -222,6 +227,7 @@ export const NP015Clasico: React.FC = () => {
       {hit(at(40), 'bass_impact.MP3', 0.5)}
       {hit(S4, 'title_swoosh.MP3')}
       {hit(at(47), 'pop_whoosh.MP3', 0.4, 0.6)}
+      {hit(at(50), 'pop_sound.MP3', 0.4, 0.6)}
     </AbsoluteFill>
   );
 };

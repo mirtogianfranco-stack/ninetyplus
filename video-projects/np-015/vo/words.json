@@ -168,88 +168,138 @@
   {
    "word": "even",
    "start": 11.84,
-   "end": 12.235
+   "end": 12.202
   },
   {
    "word": "without",
-   "start": 12.255,
-   "end": 12.719
+   "start": 12.222,
+   "end": 12.648
   },
   {
    "word": "Vin\u00edcius.",
-   "start": 12.739,
-   "end": 13.48
+   "start": 12.668,
+   "end": 13.54
   },
   {
    "word": "Barcelona",
-   "start": 13.74,
-   "end": 14.611
+   "start": 13.8,
+   "end": 14.671
   },
   {
    "word": "to",
-   "start": 14.631,
-   "end": 14.833
+   "start": 14.691,
+   "end": 14.893
   },
   {
    "word": "win,",
-   "start": 14.853,
-   "end": 15.13
+   "start": 14.913,
+   "end": 15.19
   },
   {
    "word": "and",
-   "start": 15.33,
-   "end": 15.522
+   "start": 15.39,
+   "end": 15.582
   },
   {
    "word": "both",
-   "start": 15.542,
-   "end": 15.874
+   "start": 15.602,
+   "end": 15.934
   },
   {
    "word": "teams",
-   "start": 15.894,
-   "end": 16.297
+   "start": 15.954,
+   "end": 16.357
   },
   {
    "word": "score.",
-   "start": 16.317,
-   "end": 16.65
+   "start": 16.377,
+   "end": 16.71
   },
   {
    "word": "Who",
-   "start": 16.91,
-   "end": 17.179
+   "start": 16.97,
+   "end": 17.239
   },
   {
    "word": "wins",
-   "start": 17.199,
-   "end": 17.54
+   "start": 17.259,
+   "end": 17.6
   },
   {
    "word": "El",
-   "start": 17.56,
-   "end": 17.757
+   "start": 17.62,
+   "end": 17.817
   },
   {
    "word": "Cl\u00e1sico?",
-   "start": 17.777,
-   "end": 18.48
+   "start": 17.837,
+   "end": 18.54
   },
   {
    "word": "Comment",
-   "start": 18.68,
-   "end": 19.2
+   "start": 18.74,
+   "end": 19.26
   },
   {
    "word": "your",
-   "start": 19.22,
-   "end": 19.431
+   "start": 19.28,
+   "end": 19.491
   },
   {
    "word": "pick.",
-   "start": 19.451,
-   "end": 19.74
+   "start": 19.511,
+   "end": 19.8
+  },
+  {
+   "word": "Weekend",
+   "start": 20.06,
+   "end": 20.623
+  },
+  {
+   "word": "results",
+   "start": 20.643,
+   "end": 21.206
+  },
+  {
+   "word": "drop",
+   "start": 21.226,
+   "end": 21.57
+  },
+  {
+   "word": "Monday.",
+   "start": 21.59,
+   "end": 22.08
+  },
+  {
+   "word": "Follow",
+   "start": 22.28,
+   "end": 22.587
+  },
+  {
+   "word": "so",
+   "start": 22.607,
+   "end": 22.804
+  },
+  {
+   "word": "you",
+   "start": 22.824,
+   "end": 22.968
+  },
+  {
+   "word": "don't",
+   "start": 22.988,
+   "end": 23.294
+  },
+  {
+   "word": "miss",
+   "start": 23.314,
+   "end": 23.512
+  },
+  {
+   "word": "them.",
+   "start": 23.532,
+   "end": 23.73
   }
  ],
- "duration": 19.96
+ "duration": 23.95
 }
