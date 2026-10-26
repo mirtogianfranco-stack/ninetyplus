@@ -15,6 +15,9 @@ import { NP013Card, NP013_CARD_FRAMES } from './mockups/CardVideo013';
 import { NP014Card, NP014_CARD_FRAMES } from './mockups/CardVideo014';
 import { NP015Clasico, NP015_FRAMES } from './mockups/Clasico015';
 import { NP016Results, NP016_FRAMES } from './mockups/WeekendResults016';
+import { NP017Card } from './cards/NP017';
+import { spec as np017 } from './cards/np017';
+import { cardFrames } from './templates/CardTemplate';
 import { ProfileLogo } from './ProfileLogo';
 import { PicksVideo } from './picks/PicksVideo';
 import type { PicksEdit } from './picks/types';
@@ -58,6 +61,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id='NP014C' component={NP014Card} durationInFrames={NP014_CARD_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id='NP015K' component={NP015Clasico} durationInFrames={NP015_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id='NP016R' component={NP016Results} durationInFrames={NP016_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id='NP017' component={NP017Card} durationInFrames={cardFrames(np017)} fps={30} width={1080} height={1920} />
     <Still id='MockupA' component={MockupA} width={1080} height={1920} />
     <Still id='MockupB' component={MockupB} width={1080} height={1920} />
     <Still id='MockupC' component={MockupC} width={1080} height={1920} />
