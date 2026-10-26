@@ -18,6 +18,12 @@ import { NP016Results, NP016_FRAMES } from './mockups/WeekendResults016';
 import { NP017Card } from './cards/NP017';
 import { spec as np017 } from './cards/np017';
 import { cardFrames } from './templates/CardTemplate';
+import { spotlightFrames } from './templates/SpotlightTemplate';
+import { resultsFrames } from './templates/ResultsTemplate';
+import { NP012Spot } from './spotlights/NP012';
+import { spec as np012s } from './spotlights/np012';
+import { NP016Res } from './results/NP016';
+import { spec as np016r } from './results/np016';
 import { ProfileLogo } from './ProfileLogo';
 import { PicksVideo } from './picks/PicksVideo';
 import type { PicksEdit } from './picks/types';
@@ -61,6 +67,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id='NP014C' component={NP014Card} durationInFrames={NP014_CARD_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id='NP015K' component={NP015Clasico} durationInFrames={NP015_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id='NP016R' component={NP016Results} durationInFrames={NP016_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id='NP012T' component={NP012Spot} durationInFrames={spotlightFrames(np012s)} fps={30} width={1080} height={1920} />
+    <Composition id='NP016T' component={NP016Res} durationInFrames={resultsFrames(np016r)} fps={30} width={1080} height={1920} />
     <Composition id='NP017' component={NP017Card} durationInFrames={cardFrames(np017)} fps={30} width={1080} height={1920} />
     <Still id='MockupA' component={MockupA} width={1080} height={1920} />
     <Still id='MockupB' component={MockupB} width={1080} height={1920} />

@@ -18,7 +18,10 @@ src/
   clubs.ts              club colours by league (epl, laliga, bundesliga, seriea, mls) - add promoted clubs here
   thumbs/SkyStadiumThumb.tsx   cover template; Ninety Plus uses the `stoppage` variant
   edits/npNNN.ts        one per video; np000 is the pipeline demo (synthetic assets)
-  templates/CardTemplate.tsx   reusable Weekend Card picks video (the current look); a video = src/cards/npNNN.ts (CardSpec) + NPNNN.tsx
+  templates/             every video type is a template driven by a short spec file (the current way to build):
+    CardTemplate.tsx      multi-pick card (Weekend Card / Midweek Card / Best of the Rest)  -> src/cards/npNNN.ts
+    SpotlightTemplate.tsx one game, one pick (Pick of the Weekend, big-game specials)        -> src/spotlights/npNNN.ts
+    ResultsTemplate.tsx   results graded card by card (one card or many)                     -> src/results/npNNN.ts
   mockups/              hand-built Weekend Card era videos (np-005..np-016), Pick of the Weekend, Clásico, results
   BrandCard.tsx         brand sheet still
 public/
@@ -64,8 +67,9 @@ downloads its own browser. Fonts are local because the cloud proxy's certificate
 | Tool | What it does |
 |---|---|
 | `gate.sh NNN` | bundles the edit, runs the three checkers; must print GATE OK before any review |
-| `card-gate.sh NNN` | the gate for template card videos (src/cards/npNNN.ts): word indices, assets, banned words, hook rule, readable durations, dead air; must print CARD GATE OK |
-| `make-beat.py out.wav SEC --drop T` | original synthesized music bed (no samples, nothing to Content-ID) |
+| `card-gate.sh NNN` | the gate for template videos (cards / spotlights / results): word indices, assets, banned words, hook rule, readable durations, dead air, stamp vs rows; must print CARD GATE OK |
+| `card-beat.sh NNN [style]` | original beat for a template video with a breakdown + drop before every scene; style rotates with the video number |
+| `make-beat.py out.wav SEC --drop T --drops ...` | original synthesized music bed, 5 styles (trap/drill/house/phonk/edm), no samples, nothing to Content-ID |
 | `overlap-check.mjs` | cards/stats/popups/memes colliding in time+space, missing files |
 | `retention-gate.mjs` | frame-0 asset, dead air >3s, SFX reuse, readable durations, banned words (voice, screen, thumbnail, kit), hook rule, opener/footage reuse |
 | `blackbars.mjs` | letterboxed clips |
