@@ -32,329 +32,329 @@
   },
   {
    "word": "Pick",
-   "start": 2.52,
-   "end": 2.78
+   "start": 2.7,
+   "end": 2.96
   },
   {
    "word": "of",
-   "start": 2.8,
-   "end": 2.92
+   "start": 2.98,
+   "end": 3.1
   },
   {
    "word": "the",
-   "start": 2.94,
-   "end": 3.06
+   "start": 3.12,
+   "end": 3.24
   },
   {
    "word": "weekend.",
-   "start": 3.08,
-   "end": 3.62
+   "start": 3.26,
+   "end": 3.8
   },
   {
    "word": "Lazio",
-   "start": 3.82,
-   "end": 4.373
+   "start": 4.0,
+   "end": 4.553
   },
   {
    "word": "won.",
-   "start": 4.393,
-   "end": 4.66
+   "start": 4.573,
+   "end": 4.84
   },
   {
    "word": "Landed.",
-   "start": 4.86,
-   "end": 5.4
+   "start": 5.04,
+   "end": 5.58
   },
   {
    "word": "Premier",
-   "start": 5.62,
-   "end": 6.094
+   "start": 5.98,
+   "end": 6.454
   },
   {
    "word": "League",
-   "start": 6.114,
-   "end": 6.447
+   "start": 6.474,
+   "end": 6.807
   },
   {
    "word": "card.",
-   "start": 6.467,
-   "end": 6.8
+   "start": 6.827,
+   "end": 7.16
   },
   {
    "word": "Newcastle",
-   "start": 7.0,
-   "end": 7.652
+   "start": 7.36,
+   "end": 8.012
   },
   {
    "word": "won",
-   "start": 7.672,
-   "end": 7.921
+   "start": 8.032,
+   "end": 8.281
   },
   {
    "word": "and",
-   "start": 7.941,
-   "end": 8.123
+   "start": 8.301,
+   "end": 8.483
   },
   {
    "word": "Isak",
-   "start": 8.143,
-   "end": 8.527
+   "start": 8.503,
+   "end": 8.887
   },
   {
    "word": "scored,",
-   "start": 8.547,
-   "end": 8.93
+   "start": 8.907,
+   "end": 9.29
   },
   {
    "word": "but",
-   "start": 9.13,
-   "end": 9.338
+   "start": 9.49,
+   "end": 9.698
   },
   {
    "word": "Chelsea",
-   "start": 9.358,
-   "end": 9.794
+   "start": 9.718,
+   "end": 10.154
   },
   {
    "word": "and",
-   "start": 9.814,
-   "end": 9.965
+   "start": 10.174,
+   "end": 10.325
   },
   {
    "word": "Spurs",
-   "start": 9.985,
-   "end": 10.308
+   "start": 10.345,
+   "end": 10.668
   },
   {
    "word": "stayed",
-   "start": 10.328,
-   "end": 10.65
+   "start": 10.688,
+   "end": 11.01
   },
   {
    "word": "under",
-   "start": 10.67,
-   "end": 10.935
+   "start": 11.03,
+   "end": 11.295
   },
   {
    "word": "three,",
-   "start": 10.955,
-   "end": 11.22
+   "start": 11.315,
+   "end": 11.58
   },
   {
    "word": "and",
-   "start": 11.42,
-   "end": 11.581
+   "start": 11.78,
+   "end": 11.941
   },
   {
    "word": "Brighton",
-   "start": 11.601,
-   "end": 12.065
+   "start": 11.961,
+   "end": 12.425
   },
   {
    "word": "couldn't",
-   "start": 12.085,
-   "end": 12.488
+   "start": 12.445,
+   "end": 12.848
   },
   {
    "word": "score.",
-   "start": 12.508,
-   "end": 12.79
+   "start": 12.868,
+   "end": 13.15
   },
   {
    "word": "Bust.",
-   "start": 12.99,
-   "end": 13.42
+   "start": 13.35,
+   "end": 13.78
   },
   {
    "word": "Best",
-   "start": 13.64,
-   "end": 13.956
+   "start": 14.18,
+   "end": 14.496
   },
   {
    "word": "of",
-   "start": 13.976,
-   "end": 14.09
+   "start": 14.516,
+   "end": 14.63
   },
   {
    "word": "the",
-   "start": 14.11,
-   "end": 14.224
+   "start": 14.65,
+   "end": 14.764
   },
   {
    "word": "rest.",
-   "start": 14.244,
-   "end": 14.56
+   "start": 14.784,
+   "end": 15.1
   },
   {
    "word": "Atl\u00e9tico,",
-   "start": 14.76,
-   "end": 15.52
+   "start": 15.3,
+   "end": 16.06
   },
   {
    "word": "Inter,",
-   "start": 15.71,
-   "end": 16.28
+   "start": 16.25,
+   "end": 16.82
   },
   {
    "word": "and",
-   "start": 16.48,
-   "end": 16.645
+   "start": 17.02,
+   "end": 17.185
   },
   {
    "word": "Hoffenheim",
-   "start": 16.665,
-   "end": 17.262
+   "start": 17.205,
+   "end": 17.802
   },
   {
    "word": "with",
-   "start": 17.282,
-   "end": 17.447
+   "start": 17.822,
+   "end": 17.987
   },
   {
    "word": "three",
-   "start": 17.467,
-   "end": 17.755
+   "start": 18.007,
+   "end": 18.295
   },
   {
    "word": "goals",
-   "start": 17.775,
-   "end": 18.125
+   "start": 18.315,
+   "end": 18.665
   },
   {
    "word": "after",
-   "start": 18.145,
-   "end": 18.433
+   "start": 18.685,
+   "end": 18.973
   },
   {
    "word": "the",
-   "start": 18.453,
-   "end": 18.557
+   "start": 18.993,
+   "end": 19.097
   },
   {
    "word": "seventy",
-   "start": 18.577,
-   "end": 19.05
+   "start": 19.117,
+   "end": 19.59
   },
   {
    "word": "ninth",
-   "start": 19.07,
-   "end": 19.42
+   "start": 19.61,
+   "end": 19.96
   },
   {
    "word": "minute.",
-   "start": 19.44,
-   "end": 19.79
+   "start": 19.98,
+   "end": 20.33
   },
   {
    "word": "Landed.",
-   "start": 19.99,
-   "end": 20.53
+   "start": 20.53,
+   "end": 21.07
   },
   {
    "word": "El",
-   "start": 20.75,
-   "end": 20.945
+   "start": 21.47,
+   "end": 21.665
   },
   {
    "word": "Cl\u00e1sico.",
-   "start": 20.965,
-   "end": 21.66
+   "start": 21.685,
+   "end": 22.38
   },
   {
    "word": "Both",
-   "start": 21.86,
-   "end": 22.158
+   "start": 22.58,
+   "end": 22.878
   },
   {
    "word": "teams",
-   "start": 22.178,
-   "end": 22.539
+   "start": 22.898,
+   "end": 23.259
   },
   {
    "word": "scored,",
-   "start": 22.559,
-   "end": 22.92
+   "start": 23.279,
+   "end": 23.64
   },
   {
    "word": "but",
-   "start": 23.12,
-   "end": 23.364
+   "start": 23.84,
+   "end": 24.084
   },
   {
    "word": "Madrid",
-   "start": 23.384,
-   "end": 23.826
+   "start": 24.104,
+   "end": 24.546
   },
   {
    "word": "won.",
-   "start": 23.846,
-   "end": 24.09
+   "start": 24.566,
+   "end": 24.81
   },
   {
    "word": "Bust.",
-   "start": 24.29,
-   "end": 24.72
+   "start": 25.01,
+   "end": 25.44
   },
   {
    "word": "Twenty",
-   "start": 24.94,
-   "end": 25.405
+   "start": 25.84,
+   "end": 26.305
   },
   {
    "word": "one",
-   "start": 25.425,
-   "end": 25.683
+   "start": 26.325,
+   "end": 26.583
   },
   {
    "word": "and",
-   "start": 25.703,
-   "end": 25.891
+   "start": 26.603,
+   "end": 26.791
   },
   {
    "word": "eight",
-   "start": 25.911,
-   "end": 26.168
+   "start": 26.811,
+   "end": 27.068
   },
   {
    "word": "on",
-   "start": 26.188,
-   "end": 26.376
+   "start": 27.088,
+   "end": 27.276
   },
   {
    "word": "the",
-   "start": 26.396,
-   "end": 26.515
+   "start": 27.296,
+   "end": 27.415
   },
   {
    "word": "season.",
-   "start": 26.535,
-   "end": 27.0
+   "start": 27.435,
+   "end": 27.9
   },
   {
    "word": "Follow",
-   "start": 27.2,
-   "end": 27.523
+   "start": 28.1,
+   "end": 28.423
   },
   {
    "word": "for",
-   "start": 27.543,
-   "end": 27.695
+   "start": 28.443,
+   "end": 28.595
   },
   {
    "word": "next",
-   "start": 27.715,
-   "end": 28.039
+   "start": 28.615,
+   "end": 28.939
   },
   {
    "word": "weekend's",
-   "start": 28.059,
-   "end": 28.554
+   "start": 28.959,
+   "end": 29.454
   },
   {
    "word": "picks.",
-   "start": 28.574,
-   "end": 28.84
+   "start": 29.474,
+   "end": 29.74
   }
  ],
- "duration": 29.06
+ "duration": 29.96
 }
