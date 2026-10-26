@@ -1,0 +1,360 @@
+{
+ "words": [
+  {
+   "word": "Every",
+   "start": 0.02,
+   "end": 0.329
+  },
+  {
+   "word": "card",
+   "start": 0.349,
+   "end": 0.658
+  },
+  {
+   "word": "from",
+   "start": 0.678,
+   "end": 0.922
+  },
+  {
+   "word": "the",
+   "start": 0.942,
+   "end": 1.053
+  },
+  {
+   "word": "weekend,",
+   "start": 1.073,
+   "end": 1.58
+  },
+  {
+   "word": "graded.",
+   "start": 1.78,
+   "end": 2.3
+  },
+  {
+   "word": "Pick",
+   "start": 2.52,
+   "end": 2.78
+  },
+  {
+   "word": "of",
+   "start": 2.8,
+   "end": 2.92
+  },
+  {
+   "word": "the",
+   "start": 2.94,
+   "end": 3.06
+  },
+  {
+   "word": "weekend.",
+   "start": 3.08,
+   "end": 3.62
+  },
+  {
+   "word": "Lazio",
+   "start": 3.82,
+   "end": 4.373
+  },
+  {
+   "word": "won.",
+   "start": 4.393,
+   "end": 4.66
+  },
+  {
+   "word": "Landed.",
+   "start": 4.86,
+   "end": 5.4
+  },
+  {
+   "word": "Premier",
+   "start": 5.62,
+   "end": 6.094
+  },
+  {
+   "word": "League",
+   "start": 6.114,
+   "end": 6.447
+  },
+  {
+   "word": "card.",
+   "start": 6.467,
+   "end": 6.8
+  },
+  {
+   "word": "Newcastle",
+   "start": 7.0,
+   "end": 7.652
+  },
+  {
+   "word": "won",
+   "start": 7.672,
+   "end": 7.921
+  },
+  {
+   "word": "and",
+   "start": 7.941,
+   "end": 8.123
+  },
+  {
+   "word": "Isak",
+   "start": 8.143,
+   "end": 8.527
+  },
+  {
+   "word": "scored,",
+   "start": 8.547,
+   "end": 8.93
+  },
+  {
+   "word": "but",
+   "start": 9.13,
+   "end": 9.338
+  },
+  {
+   "word": "Chelsea",
+   "start": 9.358,
+   "end": 9.794
+  },
+  {
+   "word": "and",
+   "start": 9.814,
+   "end": 9.965
+  },
+  {
+   "word": "Spurs",
+   "start": 9.985,
+   "end": 10.308
+  },
+  {
+   "word": "stayed",
+   "start": 10.328,
+   "end": 10.65
+  },
+  {
+   "word": "under",
+   "start": 10.67,
+   "end": 10.935
+  },
+  {
+   "word": "three,",
+   "start": 10.955,
+   "end": 11.22
+  },
+  {
+   "word": "and",
+   "start": 11.42,
+   "end": 11.581
+  },
+  {
+   "word": "Brighton",
+   "start": 11.601,
+   "end": 12.065
+  },
+  {
+   "word": "couldn't",
+   "start": 12.085,
+   "end": 12.488
+  },
+  {
+   "word": "score.",
+   "start": 12.508,
+   "end": 12.79
+  },
+  {
+   "word": "Bust.",
+   "start": 12.99,
+   "end": 13.42
+  },
+  {
+   "word": "Best",
+   "start": 13.64,
+   "end": 13.956
+  },
+  {
+   "word": "of",
+   "start": 13.976,
+   "end": 14.09
+  },
+  {
+   "word": "the",
+   "start": 14.11,
+   "end": 14.224
+  },
+  {
+   "word": "rest.",
+   "start": 14.244,
+   "end": 14.56
+  },
+  {
+   "word": "Atl\u00e9tico,",
+   "start": 14.76,
+   "end": 15.52
+  },
+  {
+   "word": "Inter,",
+   "start": 15.71,
+   "end": 16.28
+  },
+  {
+   "word": "and",
+   "start": 16.48,
+   "end": 16.645
+  },
+  {
+   "word": "Hoffenheim",
+   "start": 16.665,
+   "end": 17.262
+  },
+  {
+   "word": "with",
+   "start": 17.282,
+   "end": 17.447
+  },
+  {
+   "word": "three",
+   "start": 17.467,
+   "end": 17.755
+  },
+  {
+   "word": "goals",
+   "start": 17.775,
+   "end": 18.125
+  },
+  {
+   "word": "after",
+   "start": 18.145,
+   "end": 18.433
+  },
+  {
+   "word": "the",
+   "start": 18.453,
+   "end": 18.557
+  },
+  {
+   "word": "seventy",
+   "start": 18.577,
+   "end": 19.05
+  },
+  {
+   "word": "ninth",
+   "start": 19.07,
+   "end": 19.42
+  },
+  {
+   "word": "minute.",
+   "start": 19.44,
+   "end": 19.79
+  },
+  {
+   "word": "Landed.",
+   "start": 19.99,
+   "end": 20.53
+  },
+  {
+   "word": "El",
+   "start": 20.75,
+   "end": 20.945
+  },
+  {
+   "word": "Cl\u00e1sico.",
+   "start": 20.965,
+   "end": 21.66
+  },
+  {
+   "word": "Both",
+   "start": 21.86,
+   "end": 22.158
+  },
+  {
+   "word": "teams",
+   "start": 22.178,
+   "end": 22.539
+  },
+  {
+   "word": "scored,",
+   "start": 22.559,
+   "end": 22.92
+  },
+  {
+   "word": "but",
+   "start": 23.12,
+   "end": 23.364
+  },
+  {
+   "word": "Madrid",
+   "start": 23.384,
+   "end": 23.826
+  },
+  {
+   "word": "won.",
+   "start": 23.846,
+   "end": 24.09
+  },
+  {
+   "word": "Bust.",
+   "start": 24.29,
+   "end": 24.72
+  },
+  {
+   "word": "Twenty",
+   "start": 24.94,
+   "end": 25.405
+  },
+  {
+   "word": "one",
+   "start": 25.425,
+   "end": 25.683
+  },
+  {
+   "word": "and",
+   "start": 25.703,
+   "end": 25.891
+  },
+  {
+   "word": "eight",
+   "start": 25.911,
+   "end": 26.168
+  },
+  {
+   "word": "on",
+   "start": 26.188,
+   "end": 26.376
+  },
+  {
+   "word": "the",
+   "start": 26.396,
+   "end": 26.515
+  },
+  {
+   "word": "season.",
+   "start": 26.535,
+   "end": 27.0
+  },
+  {
+   "word": "Follow",
+   "start": 27.2,
+   "end": 27.523
+  },
+  {
+   "word": "for",
+   "start": 27.543,
+   "end": 27.695
+  },
+  {
+   "word": "next",
+   "start": 27.715,
+   "end": 28.039
+  },
+  {
+   "word": "weekend's",
+   "start": 28.059,
+   "end": 28.554
+  },
+  {
+   "word": "picks.",
+   "start": 28.574,
+   "end": 28.84
+  }
+ ],
+ "duration": 29.06
+}
