@@ -26,6 +26,7 @@ import { spec as np012s } from './spotlights/np012';
 import { NP016Res } from './results/NP016';
 import { spec as np016r } from './results/np016';
 import { ProfileLogo } from './ProfileLogo';
+import { XHeader } from './XHeader';
 import { PicksVideo } from './picks/PicksVideo';
 import type { PicksEdit } from './picks/types';
 import { SkyStadiumThumb } from './thumbs/SkyStadiumThumb';
@@ -56,6 +57,7 @@ export const RemotionRoot: React.FC = () => (
       <Composition key={e.id} id={e.id} component={PicksVideo} durationInFrames={Math.ceil(e.endSec * e.fps)} fps={e.fps} width={1080} height={1920} defaultProps={{ edit: e }} />
     ))}
     <Still id='ProfileLogo' component={ProfileLogo} width={1080} height={1080} />
+    <Still id='XHeader' component={XHeader} width={1500} height={500} />
     <Composition id='NP005C' component={NP005Card} durationInFrames={NP005_CARD_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id='NP006C' component={NP006Card} durationInFrames={NP006_CARD_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id='NP007C' component={NP007Card} durationInFrames={NP007_CARD_FRAMES} fps={30} width={1080} height={1920} />
