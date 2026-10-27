@@ -43,3 +43,9 @@ volume is). Seasonal products need to be listed **4-6 weeks early**.
 Copy the closest file in `products/`, change the content and `LISTING`, then run `python3 products/<file>.py`.
 Output goes to `out/<slug>.pdf` plus `out/<slug>_listing/` (preview PDF, 4 thumbnails, listing.md).
 Set the store name once in `kit/__init__.py` (`STORE`).
+
+## Big project for the new year: full-year plans, Grades 1-6 (target launch: July-August back-to-school)
+1. Long-range plans per grade (Math 2020, Language 2023, Science 2022, Social Studies): units by month, every expectation mapped.
+2. Day-by-day plans, one grade and subject at a time (start with Math), sold by month, then as a full-year bundle per grade.
+3. Work from the official Ontario curriculum documents for exact expectation codes.
+4. Cross-link daily plans to existing seasonal products (Halloween, Remembrance Day, Winter, Jan-Feb).
