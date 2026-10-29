@@ -1,0 +1,345 @@
+{
+ "words": [
+  {
+   "word": "Bold",
+   "start": 0.03,
+   "end": 0.422
+  },
+  {
+   "word": "card",
+   "start": 0.442,
+   "end": 0.766
+  },
+  {
+   "word": "again,",
+   "start": 0.786,
+   "end": 1.11
+  },
+  {
+   "word": "and",
+   "start": 1.31,
+   "end": 1.47
+  },
+  {
+   "word": "it",
+   "start": 1.49,
+   "end": 1.59
+  },
+  {
+   "word": "starts",
+   "start": 1.61,
+   "end": 2.01
+  },
+  {
+   "word": "at",
+   "start": 2.03,
+   "end": 2.13
+  },
+  {
+   "word": "the",
+   "start": 2.15,
+   "end": 2.25
+  },
+  {
+   "word": "Etihad.",
+   "start": 2.27,
+   "end": 2.73
+  },
+  {
+   "word": "Haaland",
+   "start": 2.95,
+   "end": 3.432
+  },
+  {
+   "word": "has",
+   "start": 3.452,
+   "end": 3.683
+  },
+  {
+   "word": "nine",
+   "start": 3.703,
+   "end": 3.997
+  },
+  {
+   "word": "goals",
+   "start": 4.017,
+   "end": 4.374
+  },
+  {
+   "word": "in",
+   "start": 4.394,
+   "end": 4.562
+  },
+  {
+   "word": "eight",
+   "start": 4.582,
+   "end": 4.813
+  },
+  {
+   "word": "games.",
+   "start": 4.833,
+   "end": 5.19
+  },
+  {
+   "word": "Haaland",
+   "start": 5.39,
+   "end": 5.905
+  },
+  {
+   "word": "to",
+   "start": 5.925,
+   "end": 6.106
+  },
+  {
+   "word": "score.",
+   "start": 6.126,
+   "end": 6.44
+  },
+  {
+   "word": "Bournemouth",
+   "start": 6.66,
+   "end": 7.167
+  },
+  {
+   "word": "create",
+   "start": 7.187,
+   "end": 7.636
+  },
+  {
+   "word": "two",
+   "start": 7.656,
+   "end": 7.87
+  },
+  {
+   "word": "and",
+   "start": 7.89,
+   "end": 8.046
+  },
+  {
+   "word": "a",
+   "start": 8.066,
+   "end": 8.221
+  },
+  {
+   "word": "half",
+   "start": 8.241,
+   "end": 8.514
+  },
+  {
+   "word": "expected",
+   "start": 8.534,
+   "end": 9.1
+  },
+  {
+   "word": "goals",
+   "start": 9.12,
+   "end": 9.451
+  },
+  {
+   "word": "a",
+   "start": 9.471,
+   "end": 9.627
+  },
+  {
+   "word": "game",
+   "start": 9.647,
+   "end": 9.92
+  },
+  {
+   "word": "at",
+   "start": 9.94,
+   "end": 10.037
+  },
+  {
+   "word": "home.",
+   "start": 10.057,
+   "end": 10.33
+  },
+  {
+   "word": "Bournemouth",
+   "start": 10.53,
+   "end": 11.067
+  },
+  {
+   "word": "to",
+   "start": 11.087,
+   "end": 11.252
+  },
+  {
+   "word": "win.",
+   "start": 11.272,
+   "end": 11.5
+  },
+  {
+   "word": "Palace",
+   "start": 11.72,
+   "end": 12.087
+  },
+  {
+   "word": "have",
+   "start": 12.107,
+   "end": 12.344
+  },
+  {
+   "word": "conceded",
+   "start": 12.364,
+   "end": 12.989
+  },
+  {
+   "word": "nineteen",
+   "start": 13.009,
+   "end": 13.569
+  },
+  {
+   "word": "in",
+   "start": 13.589,
+   "end": 13.762
+  },
+  {
+   "word": "eight.",
+   "start": 13.782,
+   "end": 14.02
+  },
+  {
+   "word": "Spurs",
+   "start": 14.22,
+   "end": 14.632
+  },
+  {
+   "word": "and",
+   "start": 14.652,
+   "end": 14.848
+  },
+  {
+   "word": "Palace,",
+   "start": 14.868,
+   "end": 15.28
+  },
+  {
+   "word": "three",
+   "start": 15.48,
+   "end": 15.779
+  },
+  {
+   "word": "plus",
+   "start": 15.799,
+   "end": 16.098
+  },
+  {
+   "word": "goals.",
+   "start": 16.118,
+   "end": 16.48
+  },
+  {
+   "word": "And",
+   "start": 16.7,
+   "end": 16.865
+  },
+  {
+   "word": "Arsenal",
+   "start": 16.885,
+   "end": 17.357
+  },
+  {
+   "word": "have",
+   "start": 17.377,
+   "end": 17.603
+  },
+  {
+   "word": "the",
+   "start": 17.623,
+   "end": 17.726
+  },
+  {
+   "word": "best",
+   "start": 17.746,
+   "end": 18.034
+  },
+  {
+   "word": "defence",
+   "start": 18.054,
+   "end": 18.465
+  },
+  {
+   "word": "in",
+   "start": 18.485,
+   "end": 18.649
+  },
+  {
+   "word": "the",
+   "start": 18.669,
+   "end": 18.772
+  },
+  {
+   "word": "league.",
+   "start": 18.792,
+   "end": 19.08
+  },
+  {
+   "word": "Arsenal,",
+   "start": 19.28,
+   "end": 19.86
+  },
+  {
+   "word": "win",
+   "start": 20.06,
+   "end": 20.347
+  },
+  {
+   "word": "or",
+   "start": 20.367,
+   "end": 20.5
+  },
+  {
+   "word": "draw",
+   "start": 20.52,
+   "end": 20.883
+  },
+  {
+   "word": "at",
+   "start": 20.903,
+   "end": 21.037
+  },
+  {
+   "word": "Anfield.",
+   "start": 21.057,
+   "end": 21.65
+  },
+  {
+   "word": "Which",
+   "start": 21.87,
+   "end": 22.139
+  },
+  {
+   "word": "leg",
+   "start": 22.159,
+   "end": 22.37
+  },
+  {
+   "word": "breaks",
+   "start": 22.39,
+   "end": 22.774
+  },
+  {
+   "word": "first?",
+   "start": 22.794,
+   "end": 23.12
+  },
+  {
+   "word": "Comment",
+   "start": 23.32,
+   "end": 23.82
+  },
+  {
+   "word": "your",
+   "start": 23.84,
+   "end": 24.043
+  },
+  {
+   "word": "pick.",
+   "start": 24.063,
+   "end": 24.34
+  }
+ ],
+ "duration": 24.56
+}
