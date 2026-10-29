@@ -9,7 +9,7 @@ export const spec: CardSpec = {
   words,
   title: ['WEEKEND', 'CARD'],
   tag: 'PREMIER LEAGUE',
-  record: '21-8',
+  record: '25-8',
   fan: { left: { img: 'haaland' }, right: { img: 'saka' }, centers: ['bou', 'cry'], glows: ['rgba(108,171,221,0.8)', 'rgba(239,1,7,0.75)'] },
   picks: [
     {

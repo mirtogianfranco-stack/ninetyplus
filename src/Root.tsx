@@ -27,6 +27,8 @@ import { NP012Spot } from './spotlights/NP012';
 import { spec as np012s } from './spotlights/np012';
 import { NP016Res } from './results/NP016';
 import { spec as np016r } from './results/np016';
+import { NP021Res } from './results/NP021';
+import { spec as np021 } from './results/np021';
 import { ProfileLogo } from './ProfileLogo';
 import { XHeader } from './XHeader';
 import { PicksVideo } from './picks/PicksVideo';
@@ -76,6 +78,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id='NP016T' component={NP016Res} durationInFrames={resultsFrames(np016r)} fps={30} width={1080} height={1920} />
     <Still id='NP017X' component={() => <XCard spec={np017} />} width={1200} height={675} />
     <Still id='NP017XT' component={() => <XCard spec={np017} tall />} width={1080} height={1350} />
+    <Composition id='NP021' component={NP021Res} durationInFrames={resultsFrames(np021)} fps={30} width={1080} height={1920} />
     <Composition id='NP018' component={NP018Card} durationInFrames={cardFrames(np018)} fps={30} width={1080} height={1920} />
     <Still id='NP018X' component={() => <XCard spec={np018} />} width={1200} height={675} />
     <Still id='NP018XT' component={() => <XCard spec={np018} tall />} width={1080} height={1350} />

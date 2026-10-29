@@ -84,7 +84,7 @@ export const ResultsTemplate: React.FC<{ spec: ResultsSpec }> = ({ spec }) => {
     const s = useSpring(from, theme.spring.smooth);
     const tc = c.titleColor === 'gold' ? GOLD : c.titleColor === 'green' ? GREEN : RED;
     const top = c.rows.length >= 4 ? 380 : 420;
-    const rowsEnd = top + 110 + c.rows.length * 76;
+    const rowsEnd = top + 125 + c.rows.length * 86;
     const st = useSpring(at(c.stamp.word), theme.spring.slap);
     const sc = c.stamp.win ? GREEN : RED;
     return (
