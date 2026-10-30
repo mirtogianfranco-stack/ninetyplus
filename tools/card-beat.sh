@@ -4,7 +4,7 @@
 set -eu
 cd "$(dirname "$0")/.."
 n="$1"; v="np$n"; style="${2:-}"
-f=""; for d in cards spotlights results; do [ -f "src/$d/$v.ts" ] && f="src/$d/$v.ts"; done
+f=""; for d in cards spotlights results previews; do [ -f "src/$d/$v.ts" ] && f="src/$d/$v.ts"; done
 [ -n "$f" ] || { echo "no spec for $v"; exit 1; }
 npx esbuild "$f" --bundle --platform=node --format=cjs --outfile=out/card.cjs --loader:.json=json --log-level=error
 read -r secs drops < <(node -e '
@@ -13,6 +13,7 @@ const st=(i)=>W[i].start;
 let d;
 if (k==="card") d=[st(s.picks[0].from-1), ...s.picks.slice(1).map(x=>st(x.from)), st(s.outroWord)];
 else if (k==="spotlight") d=[st(s.scenes[0].from-1), ...s.scenes.slice(1).map(x=>st(x.from)), st(s.reveal.pills[0].word), st(s.outro.from)];
+else if (k==="preview") d=[st(s.chapters[0].from), ...s.chapters.slice(1).map(x=>st(x.from)), st(s.recap.from), st(s.outro.from)];
 else d=[st(s.cards[0].from-1), ...s.cards.slice(1).map(x=>st(x.from)), st(s.outro.from)];
 console.log((s.words.duration+1.2).toFixed(2), d.map(x=>x.toFixed(2)).join(","))')
 first="${drops%%,*}"; rest="${drops#*,}"

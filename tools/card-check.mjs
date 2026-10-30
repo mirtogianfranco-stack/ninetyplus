@@ -90,6 +90,38 @@ if (kind === 'card') {
   });
   ok(spec.outro.from, 'outro'); ok(spec.outro.record.word, 'record'); ok(spec.outro.banner.word, 'banner');
   beatsIdx.push(spec.outro.from, spec.outro.record.word, spec.outro.banner.word);
+} else if (kind === 'preview') {
+  // long-form: chapters of panels. Readable minimums are longer (a panel should hold >= 3s), dead air is judged per panel.
+  texts.push(spec.title.join(' '), spec.dates, spec.outro.banner.text, ...spec.outro.lines);
+  ok(spec.intro.listWord, 'intro list'); beatsIdx.push(spec.intro.listWord);
+  let prev = -1;
+  spec.chapters.forEach((c, i) => {
+    crests.add(c.h); crests.add(c.a);
+    texts.push(c.label, c.league, c.hName, c.aName, c.time, c.venue ?? '');
+    const end = i + 1 < spec.chapters.length ? spec.chapters[i + 1].from : spec.recap.from;
+    if (!ok(c.from, `chapter ${i + 1}`) || !ok(end, `chapter ${i + 1} end`)) return;
+    if (c.from <= prev) fails.push(`chapter ${i + 1} starts before chapter ${i}`);
+    prev = c.from; beatsIdx.push(c.from);
+    if (!c.panels.some((p) => p.kind === 'pick')) fails.push(`chapter ${i + 1} (${c.label}) never shows THE PICK`);
+    let pw = c.from;
+    c.panels.forEach((p, k) => {
+      const where = `chapter ${i + 1} panel ${k + 1} (${p.kind})`;
+      if (!ok(p.word, where)) return;
+      if (p.word < pw || p.word >= end) fails.push(`${where} word ${p.word} out of order / outside its chapter`);
+      if (k === 0 && t(p.word) - t(c.from) < 2.0) warns.push(`chapter ${i + 1} title card only ${(t(p.word) - t(c.from)).toFixed(1)}s`);
+      const to = k + 1 < c.panels.length ? c.panels[k + 1].word : end;
+      if (to < N && t(to) - t(p.word) < 2.5) fails.push(`${where} on screen ${(t(to) - t(p.word)).toFixed(2)}s (< 2.5s)`);
+      pw = p.word; beatsIdx.push(p.word);
+      if (p.focus) crests.add(p.focus);
+      if (p.kind === 'player') { if (p.img) imgs.add(p.img); if (p.crest) crests.add(p.crest); }
+      if (p.kind === 'form') p.rows.forEach((r) => crests.add(r.crest));
+      if (p.kind === 'table') p.rows.forEach((r) => { crests.add(r.crest); texts.push(r.team); });
+      texts.push(p.kind === 'stat' ? p.value + ' ' + p.label + ' ' + (p.sub ?? '') : p.kind === 'point' ? p.tag + ' ' + p.text.join(' ') : p.kind === 'player' ? p.name + ' ' + p.lines.flat().join(' ') : p.kind === 'pick' ? p.text + ' ' + (p.note ?? '') : p.label ?? '');
+    });
+  });
+  ok(spec.recap.from, 'recap'); ok(spec.outro.from, 'outro'); ok(spec.outro.banner.word, 'banner');
+  beatsIdx.push(spec.recap.from, spec.outro.from, spec.outro.banner.word);
+  for (const g of spec.recap.groups) { texts.push(g.title.join(' '), g.tag); for (const r of g.rows) { crests.add(r.h); crests.add(r.a); texts.push(r.t, r.time); } }
 } else fails.push(`unknown spec kind '${kind}'`);
 
 // assets
@@ -117,7 +149,8 @@ if (/^(arsenal|chelsea|liverpool|city|united|madrid|barcelona|barca|inter|milan|
 const beats = [...new Set(beatsIdx.filter((i) => Number.isInteger(i) && i < N))].map(t).sort((a, b) => a - b);
 let gap = 0; for (let i = 1; i < beats.length; i++) gap = Math.max(gap, beats[i] - beats[i - 1]);
 gap = Math.max(gap, spec.words.duration - beats[beats.length - 1]);
-if (gap > 4.5) fails.push(`dead air: ${gap.toFixed(1)}s with no new element`); else if (gap > 3.5) warns.push(`longest stretch without a new element ${gap.toFixed(1)}s`);
+const DEAD = kind === 'preview' ? [12, 9] : [4.5, 3.5];
+if (gap > DEAD[0]) fails.push(`dead air: ${gap.toFixed(1)}s with no new element`); else if (gap > DEAD[1]) warns.push(`longest stretch without a new element ${gap.toFixed(1)}s`);
 
 for (const w of warns) console.log('WARN', w);
 for (const f of fails) console.log('FAIL', f);

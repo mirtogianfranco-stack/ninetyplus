@@ -22,6 +22,9 @@ src/
     CardTemplate.tsx      multi-pick card (Weekend Card / Midweek Card / Best of the Rest)  -> src/cards/npNNN.ts
     SpotlightTemplate.tsx one game, one pick (Pick of the Weekend, big-game specials)        -> src/spotlights/npNNN.ts
     ResultsTemplate.tsx   results graded card by card (one card or many)                     -> src/results/npNNN.ts
+    PreviewTemplate.tsx   16:9 long-form Weekend Preview for YouTube (Thursdays, 6-10 min)   -> src/previews/npNNN.ts
+                          chapters per game, panels (stat/compare/form/player/point/table/pick), recap, outro; np099 = pilot
+    XCard / XResults / XSpotlight.tsx   X + Instagram stills straight from a card / results / spotlight spec
   mockups/              hand-built Weekend Card era videos (np-005..np-016), Pick of the Weekend, Clásico, results
   BrandCard.tsx         brand sheet still
 public/
@@ -68,6 +71,7 @@ downloads its own browser. Fonts are local because the cloud proxy's certificate
 |---|---|
 | `gate.sh NNN` | bundles the edit, runs the three checkers; must print GATE OK before any review |
 | `card-gate.sh NNN` | the gate for template videos (cards / spotlights / results): word indices, assets, banned words, hook rule, readable durations, dead air, stamp vs rows; must print CARD GATE OK |
+| `preview-chapters.mjs NNN` | YouTube chapter timestamps for a preview video's description (flags chapters under 10s) |
 | `card-beat.sh NNN [style]` | original beat for a template video with a breakdown + drop before every scene; style rotates with the video number |
 | `make-beat.py out.wav SEC --drop T --drops ...` | original synthesized music bed, 5 styles (trap/drill/house/phonk/edm), no samples, nothing to Content-ID |
 | `overlap-check.mjs` | cards/stats/popups/memes colliding in time+space, missing files |

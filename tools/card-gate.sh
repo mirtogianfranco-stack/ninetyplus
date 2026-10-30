@@ -4,7 +4,7 @@
 set -u
 cd "$(dirname "$0")/.."
 n="$1"; case "$n" in [0-9]*) v="np$n";; *) v="$n";; esac
-f=""; for d in cards spotlights results; do [ -f "src/$d/$v.ts" ] && f="src/$d/$v.ts"; done
+f=""; for d in cards spotlights results previews; do [ -f "src/$d/$v.ts" ] && f="src/$d/$v.ts"; done
 [ -n "$f" ] || { echo "no src/{cards,spotlights,results}/$v.ts"; exit 1; }
 mkdir -p out
 npx esbuild "$f" --bundle --platform=node --format=cjs --outfile=out/card.cjs --loader:.json=json --log-level=error || exit 1
