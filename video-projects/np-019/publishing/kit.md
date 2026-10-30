@@ -22,7 +22,7 @@ Pick of the Weekend record 1-0 · season 25-8, every card graded in public. 18+ 
 ## Facebook
 Pick of the Weekend #2: Milan v Inter, both teams score. Both sides have scored in every Serie A game this season. #SerieA #MilanInter
 
-## X (image NP019X.png; video link in the first reply)
+## X (tall image NP019XT.png, or wide NP019X.png; video link in the first reply)
 PICK OF THE WEEKEND #2 🔴
 
 Milan v Inter, both teams score
