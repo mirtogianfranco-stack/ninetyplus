@@ -10,7 +10,7 @@ export const spec: CardSpec = {
   title: ['WEEKEND', 'CARD'],
   tag: 'PREMIER LEAGUE',
   record: '25-8',
-  fan: { left: { img: 'haaland' }, right: { img: 'saka' }, centers: ['bou', 'cry'], glows: ['rgba(108,171,221,0.8)', 'rgba(239,1,7,0.75)'] },
+  fan: { left: { img: 'haaland' }, right: { crest: 'ars' }, centers: ['bou', 'cry'], glows: ['rgba(108,171,221,0.8)', 'rgba(239,1,7,0.75)'] },
   picks: [
     {
       from: 9, h: 'mci', a: 'bha', time: 'SAT 11:00 AM', hero: { img: 'haaland', glow: 'rgba(108,171,221,0.85)' },
@@ -28,7 +28,7 @@ export const spec: CardSpec = {
       devices: [{ kind: 'big', word: 37, value: '19', label: 'GOALS PALACE HAVE CONCEDED IN 8', color: 'red' }],
     },
     {
-      from: 46, h: 'liv', a: 'ars', time: 'SUN 11:30 AM', hero: { img: 'saka', glow: 'rgba(239,1,7,0.8)' },
+      from: 46, h: 'liv', a: 'ars', time: 'SUN 11:30 AM', hero: { crest: 'ars', glow: 'rgba(239,1,7,0.75)' },
       claim: ['ARSENAL', 'BEST DEFENCE', 'IN THE LEAGUE'], pill: 'ARSENAL WIN OR DRAW', pillWord: 56, row: 'ARSENAL WIN OR DRAW',
       devices: [{ kind: 'big', word: 50, value: '1.02', label: 'EXPECTED GOALS CONCEDED A GAME · BEST IN THE LEAGUE', color: 'green' }],
     },
