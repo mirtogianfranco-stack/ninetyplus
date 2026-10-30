@@ -36,8 +36,8 @@ export const XCard: React.FC<{ spec: CardSpec; tall?: boolean; handle?: string }
         <div style={{ fontFamily: HV(), fontSize: tall ? 26 : 22, letterSpacing: 4, color: 'rgba(255,255,255,0.85)' }}>SEASON <span style={{ color: GOLD }}>{spec.record}</span></div>
       </div>
       <div style={{ position: 'absolute', top: tall ? 160 : 100, left: pad, right: pad, display: 'flex', alignItems: 'baseline', justifyContent: 'space-between' }}>
-        <div style={{ fontFamily: D(), fontSize: tall ? 120 : 84, lineHeight: 0.95, color: '#fff', letterSpacing: 2 }}>{spec.title[0]} <span style={{ color: RED }}>{spec.title[1]}</span></div>
-        <div style={{ fontFamily: HV(), fontSize: tall ? 24 : 20, letterSpacing: 3, color: 'rgba(255,255,255,0.75)' }}>{spec.tag}</div>
+        <div style={{ fontFamily: D(), fontSize: Math.min(tall ? 120 : 84, Math.floor((tall ? 1350 : 1500) / (spec.title.join(' ').length + 4))), lineHeight: 0.95, color: '#fff', letterSpacing: 2, whiteSpace: 'nowrap' }}>{spec.title[0]} <span style={{ color: RED }}>{spec.title[1]}</span></div>
+        <div style={{ fontFamily: HV(), fontSize: tall ? 24 : 20, letterSpacing: 3, color: 'rgba(255,255,255,0.75)', whiteSpace: 'nowrap', marginLeft: 20 }}>{spec.tag}</div>
       </div>
       {/* rows */}
       <div style={{ position: 'absolute', top: tall ? 330 : 205, left: pad, right: pad, display: 'flex', flexDirection: 'column', gap: tall ? 22 : 12 }}>
@@ -46,8 +46,8 @@ export const XCard: React.FC<{ spec: CardSpec; tall?: boolean; handle?: string }
             <div style={{ fontFamily: D(), fontSize: fs, color: RED, width: fs * 0.7 }}>{i + 1}</div>
             <Img src={crest(p.h)} style={{ width: rowH * 0.6, height: rowH * 0.6, objectFit: 'contain', filter: OUTLINE }} />
             <Img src={crest(p.a)} style={{ width: rowH * 0.6, height: rowH * 0.6, objectFit: 'contain', filter: OUTLINE }} />
-            <div style={{ fontFamily: D(), fontSize: fs, color: '#fff', flex: 1, whiteSpace: 'nowrap' }}>{p.row ?? p.pill}</div>
-            <div style={{ fontFamily: HV(), fontSize: tall ? 22 : 18, color: 'rgba(255,255,255,0.75)', letterSpacing: 1, whiteSpace: 'nowrap', textAlign: 'right' }}>{p.time}<br />ET</div>
+            <div style={{ fontFamily: D(), fontSize: Math.min(fs, Math.floor(((tall ? 1080 : 1200) - 2 * pad - 44 - fs * 0.7 - 2 * rowH * 0.6 - 3 * 18 - (tall ? 125 : 110)) / ((p.row ?? p.pill).length * 0.5))), color: '#fff', flex: 1, whiteSpace: 'nowrap', overflow: 'hidden' }}>{p.row ?? p.pill}</div>
+            <div style={{ fontFamily: HV(), fontSize: tall ? 19 : 16, color: 'rgba(255,255,255,0.75)', letterSpacing: 1, whiteSpace: 'nowrap', textAlign: 'right', flexShrink: 0 }}>{p.time}<br />ET</div>
           </div>
         ))}
       </div>
