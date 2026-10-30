@@ -1,0 +1,320 @@
+{
+ "words": [
+  {
+   "word": "Der",
+   "start": 0.03,
+   "end": 0.279
+  },
+  {
+   "word": "Klassiker",
+   "start": 0.299,
+   "end": 0.818
+  },
+  {
+   "word": "headlines",
+   "start": 0.838,
+   "end": 1.423
+  },
+  {
+   "word": "the",
+   "start": 1.443,
+   "end": 1.558
+  },
+  {
+   "word": "rest",
+   "start": 1.578,
+   "end": 1.894
+  },
+  {
+   "word": "of",
+   "start": 1.914,
+   "end": 2.029
+  },
+  {
+   "word": "Europe.",
+   "start": 2.049,
+   "end": 2.5
+  },
+  {
+   "word": "Bayern",
+   "start": 2.76,
+   "end": 3.144
+  },
+  {
+   "word": "create",
+   "start": 3.164,
+   "end": 3.684
+  },
+  {
+   "word": "over",
+   "start": 3.704,
+   "end": 4.021
+  },
+  {
+   "word": "four",
+   "start": 4.041,
+   "end": 4.29
+  },
+  {
+   "word": "expected",
+   "start": 4.31,
+   "end": 4.964
+  },
+  {
+   "word": "goals",
+   "start": 4.984,
+   "end": 5.369
+  },
+  {
+   "word": "a",
+   "start": 5.389,
+   "end": 5.571
+  },
+  {
+   "word": "game",
+   "start": 5.591,
+   "end": 5.908
+  },
+  {
+   "word": "at",
+   "start": 5.928,
+   "end": 6.043
+  },
+  {
+   "word": "home.",
+   "start": 6.063,
+   "end": 6.38
+  },
+  {
+   "word": "Bayern",
+   "start": 6.58,
+   "end": 6.989
+  },
+  {
+   "word": "to",
+   "start": 7.009,
+   "end": 7.204
+  },
+  {
+   "word": "win.",
+   "start": 7.224,
+   "end": 7.49
+  },
+  {
+   "word": "Stuttgart",
+   "start": 7.75,
+   "end": 8.279
+  },
+  {
+   "word": "have",
+   "start": 8.299,
+   "end": 8.523
+  },
+  {
+   "word": "lost",
+   "start": 8.543,
+   "end": 8.827
+  },
+  {
+   "word": "five",
+   "start": 8.847,
+   "end": 9.132
+  },
+  {
+   "word": "of",
+   "start": 9.152,
+   "end": 9.254
+  },
+  {
+   "word": "seven.",
+   "start": 9.274,
+   "end": 9.62
+  },
+  {
+   "word": "Leverkusen",
+   "start": 9.82,
+   "end": 10.733
+  },
+  {
+   "word": "to",
+   "start": 10.753,
+   "end": 10.933
+  },
+  {
+   "word": "win.",
+   "start": 10.953,
+   "end": 11.2
+  },
+  {
+   "word": "Racing",
+   "start": 11.46,
+   "end": 11.916
+  },
+  {
+   "word": "have",
+   "start": 11.936,
+   "end": 12.188
+  },
+  {
+   "word": "conceded",
+   "start": 12.208,
+   "end": 12.868
+  },
+  {
+   "word": "twenty",
+   "start": 12.888,
+   "end": 13.344
+  },
+  {
+   "word": "six",
+   "start": 13.364,
+   "end": 13.684
+  },
+  {
+   "word": "in",
+   "start": 13.704,
+   "end": 13.888
+  },
+  {
+   "word": "ten.",
+   "start": 13.908,
+   "end": 14.16
+  },
+  {
+   "word": "Real",
+   "start": 14.36,
+   "end": 14.714
+  },
+  {
+   "word": "Madrid",
+   "start": 14.734,
+   "end": 15.237
+  },
+  {
+   "word": "to",
+   "start": 15.257,
+   "end": 15.461
+  },
+  {
+   "word": "win.",
+   "start": 15.481,
+   "end": 15.76
+  },
+  {
+   "word": "And",
+   "start": 16.02,
+   "end": 16.192
+  },
+  {
+   "word": "Juventus",
+   "start": 16.212,
+   "end": 16.894
+  },
+  {
+   "word": "concede",
+   "start": 16.914,
+   "end": 17.405
+  },
+  {
+   "word": "the",
+   "start": 17.425,
+   "end": 17.532
+  },
+  {
+   "word": "fewest",
+   "start": 17.552,
+   "end": 18.043
+  },
+  {
+   "word": "chances",
+   "start": 18.063,
+   "end": 18.554
+  },
+  {
+   "word": "in",
+   "start": 18.574,
+   "end": 18.745
+  },
+  {
+   "word": "Serie",
+   "start": 18.765,
+   "end": 19.128
+  },
+  {
+   "word": "A.",
+   "start": 19.148,
+   "end": 19.32
+  },
+  {
+   "word": "Juventus",
+   "start": 19.52,
+   "end": 20.348
+  },
+  {
+   "word": "and",
+   "start": 20.368,
+   "end": 20.579
+  },
+  {
+   "word": "Napoli,",
+   "start": 20.599,
+   "end": 21.35
+  },
+  {
+   "word": "two",
+   "start": 21.55,
+   "end": 21.859
+  },
+  {
+   "word": "goals",
+   "start": 21.879,
+   "end": 22.352
+  },
+  {
+   "word": "or",
+   "start": 22.372,
+   "end": 22.517
+  },
+  {
+   "word": "fewer.",
+   "start": 22.537,
+   "end": 23.01
+  },
+  {
+   "word": "Which",
+   "start": 23.27,
+   "end": 23.55
+  },
+  {
+   "word": "leg",
+   "start": 23.57,
+   "end": 23.79
+  },
+  {
+   "word": "breaks",
+   "start": 23.81,
+   "end": 24.21
+  },
+  {
+   "word": "first?",
+   "start": 24.23,
+   "end": 24.57
+  },
+  {
+   "word": "Comment",
+   "start": 24.77,
+   "end": 25.29
+  },
+  {
+   "word": "your",
+   "start": 25.31,
+   "end": 25.521
+  },
+  {
+   "word": "pick.",
+   "start": 25.541,
+   "end": 25.83
+  }
+ ],
+ "duration": 26.05
+}

@@ -32,8 +32,8 @@ Script (George):
 |---|---|---|---|---|
 | Leverkusen to win v Stuttgart | Sat 10:30 AM | Stuttgart 2.7 xGA/g away, lost 5 of 7 | ~1.55 | ~64% |
 | Bayern to win v Dortmund | Sat 1:30 PM | Bayern 4.37 xG/g, 0.81 xGA/g at home | ~1.60 | ~62% |
-| Real Madrid to win at Racing | Sun 9:15 AM | Racing 15-26 goals in 10; Madrid W8 of 10 | ~1.38 | ~73% |
-| Juventus v Napoli 2 goals or fewer | Sun 1:45 PM | Juve 0.56 xGA/g (best in Serie A), 3+ goals in only 2 of 8 | ~1.45 | ~70% |
+| Real Madrid to win at Racing | Sun 10:15 AM (ESPN) | Racing 15-26 goals in 10; Madrid W8 of 10 | ~1.38 | ~73% |
+| Juventus v Napoli 2 goals or fewer | Sun 2:45 PM (ESPN) | Juve 0.56 xGA/g (best in Serie A), 3+ goals in only 2 of 8 | ~1.45 | ~70% |
 Combined ~4.96, $5 -> ~$24.80, ~20% (owner only).
 Script draft (George):
   Der Klassiker headlines the rest of Europe.
