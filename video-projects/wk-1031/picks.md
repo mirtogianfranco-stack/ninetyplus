@@ -46,3 +46,9 @@ Script draft (George):
 ## Also this week
 - np-021 Midweek Results (results template): Thu after Fiorentina v Atalanta (3:45 PM ET). So far Dortmund 3-2 ✅, Monza 1-2 Napoli BTTS ✅, Liverpool-Chelsea BTTS ✅ (1-1 at HT).
 - Weekend Results (results template): Mon.
+
+## Results notes (for the Monday Weekend Results video)
+- Spurs 2-0 Palace (3+ goals, LOST by one): Palace's Mateta sent off on 13' (ESPN), which killed the game as a contest.
+  Owner: Kudus missed a wide-open chance he scores 99/100 times. Owner's observation, not in ESPN data: say it as
+  opinion ("a chance Kudus buries nine times out of ten"), no stat on screen.
+- Bayern 2-2 Dortmund, Leverkusen 2-4 Stuttgart, City 0-1 Brighton (Haaland blank), Bournemouth 2-0 Leeds.
