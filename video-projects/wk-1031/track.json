@@ -1,0 +1,11 @@
+{"picks": [
+ {"card": "Premier League card", "label": "Haaland to score v Brighton", "league": "eng.1", "date": "20261031", "home": "Manchester City", "away": "Brighton", "type": "scorer", "player": "Haaland"},
+ {"card": "Premier League card", "label": "Bournemouth to win v Leeds", "league": "eng.1", "date": "20261031", "home": "Bournemouth", "away": "Leeds", "type": "win", "team": "home"},
+ {"card": "Premier League card", "label": "Spurs v Palace 3+ goals", "league": "eng.1", "date": "20261031", "home": "Tottenham", "away": "Crystal Palace", "type": "goals_over", "n": 3},
+ {"card": "Premier League card", "label": "Arsenal win or draw at Liverpool", "league": "eng.1", "date": "20261101", "home": "Liverpool", "away": "Arsenal", "type": "win_or_draw", "team": "away"},
+ {"card": "Pick of the Weekend #2", "label": "Milan v Inter both teams score", "league": "ita.1", "date": "20261031", "home": "Milan", "away": "Inter", "type": "btts"},
+ {"card": "Best of the Rest", "label": "Leverkusen to win v Stuttgart", "league": "ger.1", "date": "20261031", "home": "Leverkusen", "away": "Stuttgart", "type": "win", "team": "home"},
+ {"card": "Best of the Rest", "label": "Bayern to win v Dortmund", "league": "ger.1", "date": "20261031", "home": "Bayern", "away": "Dortmund", "type": "win", "team": "home"},
+ {"card": "Best of the Rest", "label": "Real Madrid to win at Racing", "league": "esp.1", "date": "20261101", "home": "Racing", "away": "Real Madrid", "type": "win", "team": "away"},
+ {"card": "Best of the Rest", "label": "Juve v Napoli 2 goals or fewer", "league": "ita.1", "date": "20261101", "home": "Juventus", "away": "Napoli", "type": "goals_under", "n": 2}
+]}
