@@ -52,3 +52,4 @@ Script draft (George):
   Owner: Kudus missed a wide-open chance he scores 99/100 times. Owner's observation, not in ESPN data: say it as
   opinion ("a chance Kudus buries nine times out of ten"), no stat on screen.
 - Bayern 2-2 Dortmund, Leverkusen 2-4 Stuttgart, City 0-1 Brighton (Haaland blank), Bournemouth 2-0 Leeds.
+- Milan 3-1 Inter (Pick of the Weekend #2, BTTS) LANDED: Pulisic 4', Rabiot 10', Bastoni 22' (both teams scored by 22'), Diego Moreira free-kick 43'. Series 2-0.
