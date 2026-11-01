@@ -85,6 +85,7 @@ if (kind === 'card') {
     for (const r of c.rows) { crests.add(r.h); crests.add(r.a); texts.push(r.t); if (ok(r.word, `card ${i + 1} row`) && (r.word < c.from || r.word >= end)) fails.push(`card ${i + 1} row '${r.t}' marks outside its scene`); beatsIdx.push(r.word); }
     if (ok(c.stamp.word, `card ${i + 1} stamp`)) { if (c.stamp.word < c.from || c.stamp.word >= end) fails.push(`card ${i + 1} stamp outside its scene`); else if (t(end) - t(c.stamp.word) < 0.6) warns.push(`card ${i + 1} stamp on screen only ${(t(end) - t(c.stamp.word)).toFixed(2)}s`); }
     if (c.goals) { crests.add(c.goals.crest); ok(c.goals.word, 'goals'); beatsIdx.push(c.goals.word); }
+    if (c.note && ok(c.note.word, 'note')) beatsIdx.push(c.note.word);
     const stampWin = c.stamp.win, rowsWin = c.rows.every((r) => r.win);
     if (stampWin !== rowsWin) fails.push(`card ${i + 1} stamp says ${stampWin ? 'LANDED' : 'BUST'} but rows say ${rowsWin ? 'all won' : 'a leg lost'}`);
   });

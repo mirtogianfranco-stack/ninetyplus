@@ -39,7 +39,7 @@ export const XResults: React.FC<{ spec: ResultsSpec; card?: number; tall?: boole
         <div style={{ fontFamily: HV(), fontSize: tall ? 26 : 22, letterSpacing: 4, color: 'rgba(255,255,255,0.85)' }}>{spec.outro.record.label} <span style={{ color: GOLD }}>{spec.outro.record.value}</span></div>
       </div>
       <div style={{ position: 'absolute', top: tall ? 160 : 98, left: pad, right: pad, display: 'flex', alignItems: 'baseline', justifyContent: 'space-between' }}>
-        <div style={{ fontFamily: D(), fontSize: tall ? 110 : 76, lineHeight: 0.95, color: '#fff', letterSpacing: 2 }}>{c.title[0]} <span style={{ color: tc }}>{c.title[1]}</span></div>
+        <div style={{ fontFamily: D(), fontSize: Math.min(tall ? 110 : 76, Math.floor((tall ? 1350 : 1100) / (c.title.join(' ').length + 4))), lineHeight: 0.95, color: '#fff', letterSpacing: 2, whiteSpace: 'nowrap' }}>{c.title[0]} <span style={{ color: tc }}>{c.title[1]}</span></div>
         <div style={{ fontFamily: HV(), fontSize: tall ? 24 : 20, letterSpacing: 3, color: 'rgba(255,255,255,0.75)' }}>{c.rows.filter((r) => r.win).length}/{n} LEGS</div>
       </div>
       <div style={{ position: 'absolute', top: tall ? 320 : 196, left: pad, right: tall ? pad : 400, display: 'flex', flexDirection: 'column', gap: tall ? 18 : 10 }}>
@@ -61,7 +61,7 @@ export const XResults: React.FC<{ spec: ResultsSpec; card?: number; tall?: boole
         <div style={{ border: (tall ? 12 : 9) + 'px solid ' + sc, color: sc, borderRadius: 20, padding: tall ? '6px 46px' : '4px 26px', fontFamily: D(), fontSize: tall ? 128 : 84, letterSpacing: 6, background: 'rgba(11,10,13,0.85)', transform: 'rotate(-8deg)', boxShadow: '0 0 50px ' + sc + '88', textShadow: '0 0 30px ' + sc + '99' }}>{win ? 'LANDED' : 'BUST'}</div>
       </div>
       <div style={{ position: 'absolute', bottom: tall ? 70 : 26, left: pad, right: pad, display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontFamily: HV(), fontSize: tall ? 22 : 16, letterSpacing: 2, color: 'rgba(255,255,255,0.7)' }}>
-        <div style={{ whiteSpace: 'nowrap' }}>BACKED BY xG · EVERY CARD GRADED</div>
+        <div style={{ whiteSpace: 'nowrap' }}>{spec.outro.line.length > 24 ? '' : 'BACKED BY xG · EVERY CARD GRADED'}</div>
         <div style={{ background: GOLD, color: '#0B0A0D', fontFamily: D(), fontSize: tall ? 30 : 24, letterSpacing: 1, padding: tall ? '8px 18px' : '6px 14px', borderRadius: 10, whiteSpace: 'nowrap' }}>{spec.outro.line}</div>
       </div>
       <div style={{ position: 'absolute', bottom: tall ? 26 : 8, left: 0, right: 0, textAlign: 'center', fontFamily: HV(), fontSize: tall ? 16 : 12, letterSpacing: 2, color: 'rgba(255,255,255,0.4)' }}>18+ · OPINIONS ONLY</div>
