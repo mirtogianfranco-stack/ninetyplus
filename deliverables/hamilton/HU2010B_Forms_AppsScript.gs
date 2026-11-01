@@ -8,11 +8,16 @@
  *  4. Approve the permissions (it only creates Forms and Sheets in your Drive).
  *  5. Open "Execution log": it prints the share link and edit link for each form.
  *
+ * BEFORE RUNNING: upload HU2010B_2027_Showcase_Plan.jpg to your Google Drive (any folder).
+ *  The parent form shows it above the 2027 question. If it is missing, the form still builds
+ *  and the log tells you.
+ *
  * Each form gets its own response spreadsheet. Running it again makes new copies.
  * Edit any question afterwards in the normal Google Forms editor.
  */
 
 var TEAM = 'Hamilton United 2010 Boys · U17 OPDL';
+var SHOWCASE_IMAGE = 'HU2010B_2027_Showcase_Plan.jpg';
 var POSITIONS = ['Goalkeeper', 'Centre back', 'Full back / wing back', 'Defensive midfield',
   'Central midfield', 'Attacking midfield', 'Winger', 'Striker'];
 
@@ -68,22 +73,14 @@ var PARENT_FORM = [
   ['text', 'Parent / guardian 1: name', true],
   ['text', 'Parent / guardian 1: mobile (for the WhatsApp parent chat)', true],
   ['text', 'Parent / guardian 1: email', true],
-  ['text', 'Parent / guardian 2: name, mobile, email', false],
 
-  ['page', 'Emergency and medical'],
-  ['text', 'Emergency contact (if parents cannot be reached): name, relationship, phone', true],
+  ['page', 'Medical'],
   ['para', 'Allergies, medical conditions or medication staff should know about', false],
   ['para', 'Concussion or major injury in the last 2 years (with dates)', false],
 
-  ['page', 'Forms and consents'],
-  ['choice', 'Rowan’s Law concussion forms completed (player and parent)?', true,
-    ['Yes', 'Not yet, will complete before first session']],
-  ['choice', 'Photo / video consent (team social media, Veo game footage)', true,
-    ['Yes, both', 'Veo game footage only', 'No']],
-  ['choice', 'OK to add your mobile to the WhatsApp parent chat?', true, ['Yes', 'No']],
-
   ['page', '2027 showcase and tournament plan'],
-  ['choice', 'Which path do you prefer for 2027?', true,
+  ['image', '2027 Showcase & Tournament Plan: three options', SHOWCASE_IMAGE],
+  ['choice', 'Which path do you prefer for 2027? (see the plan above)', true,
     ['Option 1: Local showcase path', 'Option 2: USA showcase (Dallas Cup, Mar 21-28)',
      'Option 3: Hybrid (2 Ontario events + Jefferson Cup)', 'No preference']],
   ['choice', 'If we go to the U.S., which travel model works for your family?', true,
@@ -99,7 +96,7 @@ var PARENT_FORM = [
      'Fundraising committee: Events', 'Fundraising committee: Sponsorship',
      'Team manager support', 'Social coordinator', 'Game-day filming (Veo)',
      'First-aid trained parent']],
-  ['para', 'Business or contacts that could sponsor the team (optional)', false],
+  ['para', 'Do you have any business or contacts that could sponsor the team? (optional)', false],
   ['para', 'Fundraising ideas you would back (optional)', false],
 
   ['page', 'Anything else'],
@@ -118,6 +115,15 @@ function buildForm_(title, description, items) {
   items.forEach(function (q) {
     var kind = q[0], t = q[1], req = q[2], item;
     switch (kind) {
+      case 'image':
+        var files = DriveApp.getFilesByName(q[2]);
+        if (files.hasNext()) {
+          form.addImageItem().setTitle(t).setImage(files.next().getBlob())
+            .setAlignment(FormApp.Alignment.CENTER);
+        } else {
+          Logger.log('Image "%s" not found in Drive: upload it and add it in the form editor.', q[2]);
+        }
+        return;
       case 'page':
         if (first) { form.addSectionHeaderItem().setTitle(t); first = false; }
         else form.addPageBreakItem().setTitle(t);
