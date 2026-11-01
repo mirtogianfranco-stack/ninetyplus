@@ -53,3 +53,5 @@ Script draft (George):
   opinion ("a chance Kudus buries nine times out of ten"), no stat on screen.
 - Bayern 2-2 Dortmund, Leverkusen 2-4 Stuttgart, City 0-1 Brighton (Haaland blank), Bournemouth 2-0 Leeds.
 - Milan 3-1 Inter (Pick of the Weekend #2, BTTS) LANDED: Pulisic 4', Rabiot 10', Bastoni 22' (both teams scored by 22'), Diego Moreira free-kick 43'. Series 2-0.
+- Racing 0-3 Real Madrid WON: Mbappé pen 11', Bellingham 21', Yan Diomande 36'.
+- Liverpool 0-1 Arsenal (Arsenal win or draw) WON: Havertz 16'.
