@@ -23,6 +23,8 @@ import { NP099Preview } from './previews/NP099';
 import { spec as np099 } from './previews/np099';
 import { previewFrames } from './templates/PreviewTemplate';
 import { NP020Card } from './cards/NP020';
+import { NP023Card } from './cards/NP023';
+import { spec as np023 } from './cards/np023';
 import { spec as np020 } from './cards/np020';
 import { cardFrames } from './templates/CardTemplate';
 import { spotlightFrames } from './templates/SpotlightTemplate';
@@ -106,6 +108,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id='NP020' component={NP020Card} durationInFrames={cardFrames(np020)} fps={30} width={1080} height={1920} />
     <Still id='NP020X' component={() => <XCard spec={np020} />} width={1200} height={675} />
     <Still id='NP020XT' component={() => <XCard spec={np020} tall />} width={1080} height={1350} />
+    <Composition id='NP023' component={NP023Card} durationInFrames={cardFrames(np023)} fps={30} width={1080} height={1920} />
+    <Still id='NP023X' component={() => <XCard spec={np023} />} width={1200} height={675} />
+    <Still id='NP023XT' component={() => <XCard spec={np023} tall />} width={1080} height={1350} />
     <Composition id='NP017' component={NP017Card} durationInFrames={cardFrames(np017)} fps={30} width={1080} height={1920} />
     <Still id='MockupA' component={MockupA} width={1080} height={1920} />
     <Still id='MockupB' component={MockupB} width={1080} height={1920} />
