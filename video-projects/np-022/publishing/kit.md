@@ -1,4 +1,4 @@
-# NP-022 publishing kit: Weekend Results, 31 Oct - 1 Nov 2026. Legs 5-4, season 30-12, Pick of the Weekend 2-0. Voice: George. Results template, house beat. Post Sun 1 Nov 7:00-8:00 PM ET.
+# NP-022 publishing kit: Weekend Results, 31 Oct - 1 Nov 2026. Legs 5-4, season 30-12, Pick of the Weekend 2-0. Voice: George. Results template, house beat. Post Mon 2 Nov ~8:00 AM ET.
 
 ## TikTok / Instagram Reels / YouTube Shorts
 **Caption:**
