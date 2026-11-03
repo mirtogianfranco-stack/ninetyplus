@@ -1,0 +1,6 @@
+{"picks": [
+ {"card": "Champions League card", "label": "Inter to win at Feyenoord", "league": "uefa.champions", "date": "20261103", "home": "Feyenoord", "away": "Inter", "type": "win", "team": "away"},
+ {"card": "Champions League card", "label": "Villarreal v PSG 3+ goals", "league": "uefa.champions", "date": "20261103", "home": "Villarreal", "away": "Paris", "type": "goals_over", "n": 3},
+ {"card": "Champions League card", "label": "Liverpool to win at Fenerbahce", "league": "uefa.champions", "date": "20261104", "home": "Fenerbahce", "away": "Liverpool", "type": "win", "team": "away"},
+ {"card": "Champions League card", "label": "Como win or draw at Lens", "league": "uefa.champions", "date": "20261104", "home": "Lens", "away": "Como", "type": "win_or_draw", "team": "away"}
+]}
