@@ -1,0 +1,52 @@
+=== eng.1
+Erling Haaland           Manchester City       9 g (0 pen) scored in 7/9 | last 5 team games: 4 with a goal
+Alexander Isak           Liverpool             6 g (0 pen) scored in 5/9 | last 5 team games: 3 with a goal
+Marcus Tavernier         AFC Bournemouth       5 g (0 pen) scored in 5/9 | last 5 team games: 2 with a goal
+João Pedro               Chelsea               5 g (0 pen) scored in 4/9 | last 5 team games: 1 with a goal
+Morgan Rogers            Chelsea               5 g (0 pen) scored in 5/9 | last 5 team games: 2 with a goal
+Nicolas Jackson          Aston Villa           5 g (0 pen) scored in 4/9 | last 5 team games: 4 with a goal
+Thierno Barry            Everton               4 g (0 pen) scored in 4/9 | last 5 team games: 3 with a goal
+Rayan Cherki             Manchester City       4 g (0 pen) scored in 3/9 | last 5 team games: 2 with a goal
+Bryan Mbeumo             Manchester United     4 g (0 pen) scored in 4/9 | last 5 team games: 2 with a goal
+Evanilson                AFC Bournemouth       4 g (0 pen) scored in 4/9 | last 5 team games: 4 with a goal
+Kai Havertz              Arsenal               3 g (0 pen) scored in 3/9 | last 5 team games: 1 with a goal
+Bukayo Saka              Arsenal               3 g (1 pen) scored in 3/9 | last 5 team games: 0 with a goal
+=== esp.1
+Raphinha                 Barcelona            15 g (3 pen) scored in 8/11 | last 5 team games: 3 with a goal
+Kylian Mbappé            Real Madrid          12 g (3 pen) scored in 7/11 | last 5 team games: 3 with a goal
+Lamine Yamal             Barcelona            10 g (1 pen) scored in 6/11 | last 5 team games: 2 with a goal
+Ante Budimir             Osasuna               8 g (4 pen) scored in 7/11 | last 5 team games: 4 with a goal
+Yassir Zabiri            Racing Santander      8 g (0 pen) scored in 5/11 | last 5 team games: 2 with a goal
+Sergio Camello           Rayo Vallecano        7 g (0 pen) scored in 5/10 | last 5 team games: 1 with a goal
+Roberto Fernández        Espanyol              6 g (0 pen) scored in 4/11 | last 5 team games: 0 with a goal
+Fer Niño                 Elche                 6 g (1 pen) scored in 5/11 | last 5 team games: 2 with a goal
+Pierre-Emerick Aubameyan Deportivo             5 g (0 pen) scored in 5/11 | last 5 team games: 0 with a goal
+Álex Baena               Atlético Madrid       5 g (0 pen) scored in 4/11 | last 5 team games: 1 with a goal
+Fermín López             Barcelona             5 g (0 pen) scored in 4/11 | last 5 team games: 1 with a goal
+Lucas Boyé               Alavés                5 g (1 pen) scored in 3/11 | last 5 team games: 1 with a goal
+=== ger.1
+Niclas Füllkrug          Werder Bremen         9 g (3 pen) scored in 7/8 | last 5 team games: 5 with a goal
+Patrik Schick            Bayer Leverkusen      7 g (0 pen) scored in 7/8 | last 5 team games: 4 with a goal
+Michael Olise            Bayern Munich         6 g (0 pen) scored in 4/8 | last 5 team games: 3 with a goal
+Younes Ebnoutalib        Eintracht Frankfurt   6 g (0 pen) scored in 4/8 | last 5 team games: 3 with a goal
+Michael Gregoritsch      FC Augsburg           5 g (1 pen) scored in 4/8 | last 5 team games: 2 with a goal
+Ermedin Demirovic        VfB Stuttgart         5 g (0 pen) scored in 3/8 | last 5 team games: 2 with a goal
+Phillip Tietz            Mainz                 5 g (0 pen) scored in 4/8 | last 5 team games: 2 with a goal
+Luis Díaz                Bayern Munich         4 g (0 pen) scored in 2/8 | last 5 team games: 1 with a goal
+Antonio Nusa             RB Leipzig            4 g (1 pen) scored in 4/8 | last 5 team games: 2 with a goal
+Yuito Suzuki             SC Freiburg           4 g (0 pen) scored in 2/8 | last 5 team games: 1 with a goal
+Igor Matanovic           SC Freiburg           4 g (0 pen) scored in 3/8 | last 5 team games: 1 with a goal
+Maurice Krattenmacher    SV Elversberg         4 g (0 pen) scored in 3/8 | last 5 team games: 1 with a goal
+=== ita.1
+Gustavo Varela           Monza                 9 g (2 pen) scored in 7/10 | last 5 team games: 4 with a goal
+Donyell Malen            AS Roma               8 g (0 pen) scored in 5/10 | last 5 team games: 2 with a goal
+Antonio Raimondo         Frosinone             8 g (0 pen) scored in 4/10 | last 5 team games: 2 with a goal
+Nikola Krstovic          Atalanta              6 g (0 pen) scored in 4/10 | last 5 team games: 3 with a goal
+Anastasios Douvikas      Como                  5 g (0 pen) scored in 4/10 | last 5 team games: 2 with a goal
+Adrien Rabiot            AC Milan              5 g (0 pen) scored in 5/10 | last 5 team games: 3 with a goal
+Marcus Thuram            Internazionale        5 g (0 pen) scored in 5/10 | last 5 team games: 3 with a goal
+Daniel Maldini           Cagliari              5 g (1 pen) scored in 5/10 | last 5 team games: 2 with a goal
+Giacomo Calo             Frosinone             5 g (1 pen) scored in 5/10 | last 5 team games: 4 with a goal
+Kevin De Bruyne          Napoli                4 g (1 pen) scored in 3/10 | last 5 team games: 2 with a goal
+Alphadjo Cissè           AC Milan              4 g (0 pen) scored in 3/10 | last 5 team games: 1 with a goal
+Ché Adams                Torino                4 g (0 pen) scored in 4/10 | last 5 team games: 2 with a goal

@@ -21,3 +21,11 @@
 - Roma v Sassuolo, Sat 2:45 PM: Roma win. Sassuolo no clean sheet (0/10), away 0-1-4.
 - Villarreal v Getafe, Sun 12:30 PM: Villarreal win. Getafe 0 away goals in 5 away games (0-12).
 - Malaga v Racing, Sat 8:00 AM: BTTS. Racing away 0-0-5 (4-18), Malaga winless.
+## Anytime goalscorer options (ESPN scoring plays through 5 Nov, tools/espn-scorers.py -> scorers.txt)
+- Isak at Palace, Sun 9:00 AM: 6 goals, scored in 5/9, 3 of last 5; Palace conceded 21 (most).
+- Mbappe at Valencia, Sat 3:00 PM: 12 goals in 11, scored in 7/11; Valencia home 0-2-4, 11 conceded in 6.
+- Haaland at Forest, Sat 12:30 PM: 9 in 9, scored in 7/9 (blanked v Brighton); Forest only 3 conceded at home.
+- Raphinha at Atletico, Sun 3:00 PM: 15 in 11, scored in 8/11; Atleti conceded only 8 in 11.
+- Fullkrug at Stuttgart, Sat 12:30 PM: 9 in 8, scored in 7/8 and in each of Werder's last 5.
+- Schick at Cologne, Sun 9:30 AM: 7 in 8, scored in 7/8.
+- Malen v Sassuolo, Sat 2:45 PM: 8 goals; Sassuolo no clean sheet in 10.
