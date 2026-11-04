@@ -1,0 +1,385 @@
+{
+ "words": [
+  {
+   "word": "What",
+   "start": 0.03,
+   "end": 0.237
+  },
+  {
+   "word": "a",
+   "start": 0.257,
+   "end": 0.407
+  },
+  {
+   "word": "night.",
+   "start": 0.427,
+   "end": 0.69
+  },
+  {
+   "word": "Como",
+   "start": 0.89,
+   "end": 1.365
+  },
+  {
+   "word": "scored",
+   "start": 1.385,
+   "end": 1.79
+  },
+  {
+   "word": "nine",
+   "start": 1.81,
+   "end": 2.143
+  },
+  {
+   "word": "in",
+   "start": 2.163,
+   "end": 2.356
+  },
+  {
+   "word": "France.",
+   "start": 2.376,
+   "end": 2.78
+  },
+  {
+   "word": "Champions",
+   "start": 2.98,
+   "end": 3.62
+  },
+  {
+   "word": "League",
+   "start": 3.64,
+   "end": 3.95
+  },
+  {
+   "word": "card,",
+   "start": 3.97,
+   "end": 4.28
+  },
+  {
+   "word": "graded.",
+   "start": 4.48,
+   "end": 5.03
+  },
+  {
+   "word": "Inter",
+   "start": 5.29,
+   "end": 5.711
+  },
+  {
+   "word": "won",
+   "start": 5.731,
+   "end": 6.005
+  },
+  {
+   "word": "three",
+   "start": 6.025,
+   "end": 6.373
+  },
+  {
+   "word": "nil",
+   "start": 6.393,
+   "end": 6.667
+  },
+  {
+   "word": "in",
+   "start": 6.687,
+   "end": 6.888
+  },
+  {
+   "word": "Rotterdam.",
+   "start": 6.908,
+   "end": 7.55
+  },
+  {
+   "word": "Paris",
+   "start": 7.81,
+   "end": 8.156
+  },
+  {
+   "word": "scored",
+   "start": 8.176,
+   "end": 8.522
+  },
+  {
+   "word": "six",
+   "start": 8.542,
+   "end": 8.828
+  },
+  {
+   "word": "at",
+   "start": 8.848,
+   "end": 8.95
+  },
+  {
+   "word": "Villarreal,",
+   "start": 8.97,
+   "end": 9.56
+  },
+  {
+   "word": "three",
+   "start": 9.76,
+   "end": 10.067
+  },
+  {
+   "word": "of",
+   "start": 10.087,
+   "end": 10.198
+  },
+  {
+   "word": "them",
+   "start": 10.218,
+   "end": 10.46
+  },
+  {
+   "word": "inside",
+   "start": 10.48,
+   "end": 10.918
+  },
+  {
+   "word": "thirteen",
+   "start": 10.938,
+   "end": 11.442
+  },
+  {
+   "word": "minutes.",
+   "start": 11.462,
+   "end": 11.9
+  },
+  {
+   "word": "Liverpool",
+   "start": 12.16,
+   "end": 12.787
+  },
+  {
+   "word": "led",
+   "start": 12.807,
+   "end": 13.046
+  },
+  {
+   "word": "twice",
+   "start": 13.066,
+   "end": 13.434
+  },
+  {
+   "word": "in",
+   "start": 13.454,
+   "end": 13.628
+  },
+  {
+   "word": "Istanbul,",
+   "start": 13.648,
+   "end": 14.34
+  },
+  {
+   "word": "and",
+   "start": 14.54,
+   "end": 14.719
+  },
+  {
+   "word": "still",
+   "start": 14.739,
+   "end": 15.051
+  },
+  {
+   "word": "lost",
+   "start": 15.071,
+   "end": 15.383
+  },
+  {
+   "word": "three",
+   "start": 15.403,
+   "end": 15.715
+  },
+  {
+   "word": "two.",
+   "start": 15.735,
+   "end": 15.98
+  },
+  {
+   "word": "And",
+   "start": 16.24,
+   "end": 16.438
+  },
+  {
+   "word": "Como",
+   "start": 16.458,
+   "end": 16.947
+  },
+  {
+   "word": "won",
+   "start": 16.967,
+   "end": 17.237
+  },
+  {
+   "word": "nine",
+   "start": 17.257,
+   "end": 17.601
+  },
+  {
+   "word": "one",
+   "start": 17.621,
+   "end": 17.891
+  },
+  {
+   "word": "at",
+   "start": 17.911,
+   "end": 18.037
+  },
+  {
+   "word": "Lens.",
+   "start": 18.057,
+   "end": 18.4
+  },
+  {
+   "word": "Douvikas",
+   "start": 18.6,
+   "end": 19.09
+  },
+  {
+   "word": "scored",
+   "start": 19.11,
+   "end": 19.43
+  },
+  {
+   "word": "a",
+   "start": 19.45,
+   "end": 19.6
+  },
+  {
+   "word": "hat",
+   "start": 19.62,
+   "end": 19.827
+  },
+  {
+   "word": "trick.",
+   "start": 19.847,
+   "end": 20.11
+  },
+  {
+   "word": "Three",
+   "start": 20.37,
+   "end": 20.708
+  },
+  {
+   "word": "from",
+   "start": 20.728,
+   "end": 20.994
+  },
+  {
+   "word": "four.",
+   "start": 21.014,
+   "end": 21.28
+  },
+  {
+   "word": "Bust.",
+   "start": 21.48,
+   "end": 21.97
+  },
+  {
+   "word": "Thirty",
+   "start": 22.17,
+   "end": 22.589
+  },
+  {
+   "word": "three",
+   "start": 22.609,
+   "end": 22.956
+  },
+  {
+   "word": "and",
+   "start": 22.976,
+   "end": 23.175
+  },
+  {
+   "word": "thirteen",
+   "start": 23.195,
+   "end": 23.761
+  },
+  {
+   "word": "on",
+   "start": 23.781,
+   "end": 23.981
+  },
+  {
+   "word": "the",
+   "start": 24.001,
+   "end": 24.127
+  },
+  {
+   "word": "season.",
+   "start": 24.147,
+   "end": 24.64
+  },
+  {
+   "word": "Pick",
+   "start": 24.9,
+   "end": 25.138
+  },
+  {
+   "word": "of",
+   "start": 25.158,
+   "end": 25.267
+  },
+  {
+   "word": "the",
+   "start": 25.287,
+   "end": 25.396
+  },
+  {
+   "word": "weekend",
+   "start": 25.416,
+   "end": 25.912
+  },
+  {
+   "word": "number",
+   "start": 25.932,
+   "end": 26.3
+  },
+  {
+   "word": "three",
+   "start": 26.32,
+   "end": 26.622
+  },
+  {
+   "word": "drops",
+   "start": 26.642,
+   "end": 27.009
+  },
+  {
+   "word": "Saturday.",
+   "start": 27.029,
+   "end": 27.59
+  },
+  {
+   "word": "Follow",
+   "start": 27.79,
+   "end": 28.094
+  },
+  {
+   "word": "so",
+   "start": 28.114,
+   "end": 28.31
+  },
+  {
+   "word": "you",
+   "start": 28.33,
+   "end": 28.472
+  },
+  {
+   "word": "don't",
+   "start": 28.492,
+   "end": 28.796
+  },
+  {
+   "word": "miss",
+   "start": 28.816,
+   "end": 29.012
+  },
+  {
+   "word": "it.",
+   "start": 29.032,
+   "end": 29.12
+  }
+ ],
+ "duration": 29.34
+}

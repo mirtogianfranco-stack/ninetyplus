@@ -100,7 +100,7 @@ export const ResultsTemplate: React.FC<{ spec: ResultsSpec }> = ({ spec }) => {
           </div>
           {c.rows.map((r, k) => <Row key={k} r={r} n={k} from={from + 6 + k * 4} />)}
         </div>
-        {c.goals && f >= at(c.goals.word) ? (
+        {c.goals && f >= at(c.goals.word) && !(c.note && c.note.word > c.goals.word && f >= at(c.note.word)) ? (
           <div style={{ position: 'absolute', top: rowsEnd + 50, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 14, alignItems: 'center' }}>
             <Img src={crest(c.goals.crest)} style={{ width: 70, height: 70, objectFit: 'contain' }} />
             {c.goals.times.map((g, k) => {
@@ -109,7 +109,7 @@ export const ResultsTemplate: React.FC<{ spec: ResultsSpec }> = ({ spec }) => {
             })}
           </div>
         ) : null}
-        {c.note && f >= at(c.note.word) ? <div style={{ position: 'absolute', top: rowsEnd + 50, left: 0, right: 0, textAlign: 'center', fontFamily: D(), fontSize: 60, color: GOLD }}>{c.note.text}</div> : null}
+        {c.note && f >= at(c.note.word) && !(c.goals && c.goals.word > c.note.word && f >= at(c.goals.word)) ? <div style={{ position: 'absolute', top: rowsEnd + 50, left: 0, right: 0, textAlign: 'center', fontFamily: D(), fontSize: 60, color: GOLD }}>{c.note.text}</div> : null}
         {f >= at(c.stamp.word) ? (
           <div style={{ position: 'absolute', left: 0, right: 0, top: Math.max(720, rowsEnd + (c.goals || c.note ? 170 : 60)), display: 'flex', justifyContent: 'center' }}>
             <div style={{ border: '10px solid ' + sc, color: sc, borderRadius: 20, padding: '4px 40px', fontFamily: D(), fontSize: 150, letterSpacing: 8, background: 'rgba(11,10,13,0.85)', transform: 'rotate(-8deg) scale(' + interpolate(st, [0, 0.6, 1], [2.4, 0.9, 1], CL) + ')', opacity: Math.min(1, st * 2), boxShadow: '0 0 50px ' + sc + '88', textShadow: '0 0 30px ' + sc + '99' }}>{c.stamp.win ? 'LANDED' : 'BUST'}</div>
