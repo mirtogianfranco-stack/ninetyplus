@@ -1,0 +1,420 @@
+{
+ "words": [
+  {
+   "word": "Bounce",
+   "start": 0.03,
+   "end": 0.45
+  },
+  {
+   "word": "back",
+   "start": 0.47,
+   "end": 0.743
+  },
+  {
+   "word": "weekend.",
+   "start": 0.763,
+   "end": 1.33
+  },
+  {
+   "word": "City",
+   "start": 1.53,
+   "end": 1.838
+  },
+  {
+   "word": "and",
+   "start": 1.858,
+   "end": 2.035
+  },
+  {
+   "word": "Liverpool",
+   "start": 2.055,
+   "end": 2.69
+  },
+  {
+   "word": "have",
+   "start": 2.71,
+   "end": 2.953
+  },
+  {
+   "word": "both",
+   "start": 2.973,
+   "end": 3.281
+  },
+  {
+   "word": "lost",
+   "start": 3.301,
+   "end": 3.609
+  },
+  {
+   "word": "two",
+   "start": 3.629,
+   "end": 3.871
+  },
+  {
+   "word": "straight,",
+   "start": 3.891,
+   "end": 4.33
+  },
+  {
+   "word": "and",
+   "start": 4.53,
+   "end": 4.702
+  },
+  {
+   "word": "it",
+   "start": 4.722,
+   "end": 4.83
+  },
+  {
+   "word": "starts",
+   "start": 4.85,
+   "end": 5.277
+  },
+  {
+   "word": "at",
+   "start": 5.297,
+   "end": 5.405
+  },
+  {
+   "word": "the",
+   "start": 5.425,
+   "end": 5.533
+  },
+  {
+   "word": "City",
+   "start": 5.553,
+   "end": 5.852
+  },
+  {
+   "word": "Ground.",
+   "start": 5.872,
+   "end": 6.3
+  },
+  {
+   "word": "Forest",
+   "start": 6.56,
+   "end": 6.934
+  },
+  {
+   "word": "have",
+   "start": 6.954,
+   "end": 7.159
+  },
+  {
+   "word": "not",
+   "start": 7.179,
+   "end": 7.384
+  },
+  {
+   "word": "scored",
+   "start": 7.404,
+   "end": 7.722
+  },
+  {
+   "word": "a",
+   "start": 7.742,
+   "end": 7.891
+  },
+  {
+   "word": "single",
+   "start": 7.911,
+   "end": 8.285
+  },
+  {
+   "word": "goal",
+   "start": 8.305,
+   "end": 8.567
+  },
+  {
+   "word": "at",
+   "start": 8.587,
+   "end": 8.679
+  },
+  {
+   "word": "home",
+   "start": 8.699,
+   "end": 8.961
+  },
+  {
+   "word": "this",
+   "start": 8.981,
+   "end": 9.186
+  },
+  {
+   "word": "season.",
+   "start": 9.206,
+   "end": 9.58
+  },
+  {
+   "word": "Manchester",
+   "start": 9.78,
+   "end": 10.551
+  },
+  {
+   "word": "City",
+   "start": 10.571,
+   "end": 10.946
+  },
+  {
+   "word": "to",
+   "start": 10.966,
+   "end": 11.184
+  },
+  {
+   "word": "win.",
+   "start": 11.204,
+   "end": 11.5
+  },
+  {
+   "word": "Palace",
+   "start": 11.76,
+   "end": 12.129
+  },
+  {
+   "word": "have",
+   "start": 12.149,
+   "end": 12.388
+  },
+  {
+   "word": "conceded",
+   "start": 12.408,
+   "end": 13.037
+  },
+  {
+   "word": "twenty",
+   "start": 13.057,
+   "end": 13.491
+  },
+  {
+   "word": "one,",
+   "start": 13.511,
+   "end": 13.75
+  },
+  {
+   "word": "the",
+   "start": 13.95,
+   "end": 14.077
+  },
+  {
+   "word": "most",
+   "start": 14.097,
+   "end": 14.517
+  },
+  {
+   "word": "in",
+   "start": 14.537,
+   "end": 14.737
+  },
+  {
+   "word": "the",
+   "start": 14.757,
+   "end": 14.883
+  },
+  {
+   "word": "league.",
+   "start": 14.903,
+   "end": 15.25
+  },
+  {
+   "word": "Liverpool",
+   "start": 15.45,
+   "end": 16.148
+  },
+  {
+   "word": "to",
+   "start": 16.168,
+   "end": 16.363
+  },
+  {
+   "word": "win.",
+   "start": 16.383,
+   "end": 16.65
+  },
+  {
+   "word": "Palmer",
+   "start": 16.91,
+   "end": 17.281
+  },
+  {
+   "word": "takes",
+   "start": 17.301,
+   "end": 17.673
+  },
+  {
+   "word": "the",
+   "start": 17.693,
+   "end": 17.803
+  },
+  {
+   "word": "penalties,",
+   "start": 17.823,
+   "end": 18.39
+  },
+  {
+   "word": "and",
+   "start": 18.59,
+   "end": 18.771
+  },
+  {
+   "word": "Sunderland",
+   "start": 18.791,
+   "end": 19.442
+  },
+  {
+   "word": "have",
+   "start": 19.462,
+   "end": 19.71
+  },
+  {
+   "word": "lost",
+   "start": 19.73,
+   "end": 20.045
+  },
+  {
+   "word": "six",
+   "start": 20.065,
+   "end": 20.381
+  },
+  {
+   "word": "of",
+   "start": 20.401,
+   "end": 20.515
+  },
+  {
+   "word": "nine.",
+   "start": 20.535,
+   "end": 20.85
+  },
+  {
+   "word": "Palmer",
+   "start": 21.05,
+   "end": 21.467
+  },
+  {
+   "word": "to",
+   "start": 21.487,
+   "end": 21.686
+  },
+  {
+   "word": "score.",
+   "start": 21.706,
+   "end": 22.05
+  },
+  {
+   "word": "And",
+   "start": 22.31,
+   "end": 22.468
+  },
+  {
+   "word": "United",
+   "start": 22.488,
+   "end": 23.062
+  },
+  {
+   "word": "have",
+   "start": 23.082,
+   "end": 23.3
+  },
+  {
+   "word": "not",
+   "start": 23.32,
+   "end": 23.538
+  },
+  {
+   "word": "kept",
+   "start": 23.558,
+   "end": 23.835
+  },
+  {
+   "word": "a",
+   "start": 23.855,
+   "end": 24.013
+  },
+  {
+   "word": "clean",
+   "start": 24.033,
+   "end": 24.369
+  },
+  {
+   "word": "sheet",
+   "start": 24.389,
+   "end": 24.666
+  },
+  {
+   "word": "all",
+   "start": 24.686,
+   "end": 24.904
+  },
+  {
+   "word": "season.",
+   "start": 24.924,
+   "end": 25.32
+  },
+  {
+   "word": "United",
+   "start": 25.52,
+   "end": 26.278
+  },
+  {
+   "word": "and",
+   "start": 26.298,
+   "end": 26.511
+  },
+  {
+   "word": "Villa,",
+   "start": 26.531,
+   "end": 26.9
+  },
+  {
+   "word": "both",
+   "start": 27.1,
+   "end": 27.446
+  },
+  {
+   "word": "teams",
+   "start": 27.466,
+   "end": 27.884
+  },
+  {
+   "word": "score.",
+   "start": 27.904,
+   "end": 28.25
+  },
+  {
+   "word": "Which",
+   "start": 28.51,
+   "end": 28.79
+  },
+  {
+   "word": "leg",
+   "start": 28.81,
+   "end": 29.03
+  },
+  {
+   "word": "breaks",
+   "start": 29.05,
+   "end": 29.45
+  },
+  {
+   "word": "first?",
+   "start": 29.47,
+   "end": 29.81
+  },
+  {
+   "word": "Comment",
+   "start": 30.01,
+   "end": 30.53
+  },
+  {
+   "word": "your",
+   "start": 30.55,
+   "end": 30.761
+  },
+  {
+   "word": "pick.",
+   "start": 30.781,
+   "end": 31.07
+  }
+ ],
+ "duration": 31.29
+}
