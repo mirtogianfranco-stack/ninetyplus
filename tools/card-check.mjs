@@ -91,6 +91,7 @@ if (kind === 'card') {
   });
   ok(spec.outro.from, 'outro'); ok(spec.outro.record.word, 'record'); ok(spec.outro.banner.word, 'banner');
   beatsIdx.push(spec.outro.from, spec.outro.record.word, spec.outro.banner.word);
+  for (const x of spec.outro.next ?? []) { if (ok(x.word, 'next')) beatsIdx.push(x.word); texts.push(x.day + ' ' + x.text); }
 } else if (kind === 'preview') {
   // long-form: chapters of panels. Readable minimums are longer (a panel should hold >= 3s), dead air is judged per panel.
   texts.push(spec.title.join(' '), spec.dates, spec.outro.banner.text, ...spec.outro.lines);

@@ -20,6 +20,7 @@ export const spec: ResultsSpec = {
       goals: { word: 46, crest: 'com', times: ["7'", "32'", "57'"] },
       stamp: { word: 54, win: false } },
   ],
-  outro: { from: 55, line: '3 OF 4 LEGS · CHAMPIONS LEAGUE', record: { word: 55, label: 'SEASON', value: '33-13' }, banner: { word: 62, text: 'PICK OF THE WEEKEND #3 SATURDAY · FOLLOW' } },
+  outro: { from: 55, line: '3 OF 4 LEGS · CHAMPIONS LEAGUE', record: { word: 55, label: 'SEASON', value: '33-13' }, banner: { word: 77, text: 'FOLLOW SO YOU DON\'T MISS THEM' },
+    next: [{ word: 62, day: 'FRI', text: 'PREMIER LEAGUE CARD' }, { word: 67, day: 'SAT', text: 'BEST OF THE REST' }, { word: 72, day: 'SAT', text: 'PICK OF THE WEEKEND #3' }] },
   emph: ['NINE', 'SIX', 'TWICE', 'HAT', 'BUST.', 'FOLLOW'],
 };

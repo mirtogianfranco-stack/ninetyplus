@@ -311,75 +311,115 @@
    "end": 24.64
   },
   {
-   "word": "Pick",
+   "word": "Premier",
    "start": 24.9,
-   "end": 25.138
+   "end": 25.323
+  },
+  {
+   "word": "League",
+   "start": 25.343,
+   "end": 25.64
+  },
+  {
+   "word": "picks",
+   "start": 25.66,
+   "end": 25.957
+  },
+  {
+   "word": "drop",
+   "start": 25.977,
+   "end": 26.273
+  },
+  {
+   "word": "Friday.",
+   "start": 26.293,
+   "end": 26.78
+  },
+  {
+   "word": "Best",
+   "start": 26.98,
+   "end": 27.316
   },
   {
    "word": "of",
-   "start": 25.158,
-   "end": 25.267
+   "start": 27.336,
+   "end": 27.458
   },
   {
    "word": "the",
-   "start": 25.287,
-   "end": 25.396
+   "start": 27.478,
+   "end": 27.601
   },
   {
-   "word": "weekend",
-   "start": 25.416,
-   "end": 25.912
+   "word": "rest",
+   "start": 27.621,
+   "end": 27.957
   },
   {
-   "word": "number",
-   "start": 25.932,
-   "end": 26.3
+   "word": "and",
+   "start": 27.977,
+   "end": 28.171
   },
   {
-   "word": "three",
-   "start": 26.32,
-   "end": 26.622
+   "word": "pick",
+   "start": 28.191,
+   "end": 28.455
   },
   {
-   "word": "drops",
-   "start": 26.642,
-   "end": 27.009
+   "word": "of",
+   "start": 28.475,
+   "end": 28.598
+  },
+  {
+   "word": "the",
+   "start": 28.618,
+   "end": 28.74
+  },
+  {
+   "word": "weekend,",
+   "start": 28.76,
+   "end": 29.31
   },
   {
    "word": "Saturday.",
-   "start": 27.029,
-   "end": 27.59
+   "start": 29.51,
+   "end": 30.16
   },
   {
    "word": "Follow",
-   "start": 27.79,
-   "end": 28.094
+   "start": 30.36,
+   "end": 30.675
   },
   {
    "word": "so",
-   "start": 28.114,
-   "end": 28.31
+   "start": 30.695,
+   "end": 30.899
   },
   {
    "word": "you",
-   "start": 28.33,
-   "end": 28.472
+   "start": 30.919,
+   "end": 31.066
   },
   {
-   "word": "don't",
-   "start": 28.492,
-   "end": 28.796
+   "word": "do",
+   "start": 31.086,
+   "end": 31.29
+  },
+  {
+   "word": "not",
+   "start": 31.31,
+   "end": 31.513
   },
   {
    "word": "miss",
-   "start": 28.816,
-   "end": 29.012
+   "start": 31.533,
+   "end": 31.737
   },
   {
-   "word": "it.",
-   "start": 29.032,
-   "end": 29.12
+   "word": "them.",
+   "start": 31.757,
+   "end": 31.96
   }
  ],
- "duration": 29.34
+ "duration": 32.18
 }

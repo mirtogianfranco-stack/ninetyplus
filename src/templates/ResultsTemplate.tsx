@@ -20,7 +20,8 @@ export type ResultsSpec = {
     rows: ResultRow[]; stamp: { word: number; win: boolean }; note?: { word: number; text: string };
     goals?: { word: number; crest: string; times: string[] };
   }[];
-  outro: { from: number; line: string; record: { word: number; label: string; value: string }; banner: { word: number; text: string } };
+  outro: { from: number; line: string; record: { word: number; label: string; value: string }; banner: { word: number; text: string };
+    next?: { word: number; day: string; text: string }[] };   // 'COMING UP' rows (one per upcoming video), each on its word
   tints?: string[];
   emph?: string[];
   musicVolume?: number;
@@ -149,6 +150,7 @@ export const ResultsTemplate: React.FC<{ spec: ResultsSpec }> = ({ spec }) => {
   sounds.push(hit(O0, 'title_swoosh.MP3'));
   sounds.push(hit(at(spec.outro.record.word), 'bass_impact.MP3', 0.5));
   sounds.push(hit(at(spec.outro.banner.word), 'pop_sound.MP3', 0.4, 0.6));
+  (spec.outro.next ?? []).forEach((x, i) => sounds.push(hit(at(x.word), i % 2 ? 'pop_whoosh.MP3' : 'whoosh_motion.MP3', 0.3, 0.8)));
 
   return (
     <AbsoluteFill style={{ background: '#0B0A0D' }}>
@@ -183,8 +185,18 @@ export const ResultsTemplate: React.FC<{ spec: ResultsSpec }> = ({ spec }) => {
             <div style={{ fontFamily: D(), fontSize: 240, color: GOLD, textShadow: '0 0 30px rgba(255,210,63,0.6)', transform: 'scale(' + interpolate(recS, [0, 0.6, 1], [1.6, 0.95, 1], CL) + ')' }}>{spec.outro.record.value}</div>
           </div>
         ) : null}
+        {(spec.outro.next ?? []).map((x, i) => {
+          if (f < at(x.word)) return null;
+          const s = spring({ frame: f - at(x.word), fps: FPS, config: theme.spring.slap });
+          return (
+            <div key={i} style={{ position: 'absolute', top: 960 + i * 96, left: 90, right: 90, display: 'flex', alignItems: 'center', gap: 18, background: 'rgba(11,10,13,0.85)', border: '2px solid rgba(255,255,255,0.22)', borderRadius: 18, padding: '12px 20px', opacity: Math.min(1, s * 2), transform: 'translateX(' + interpolate(s, [0, 1], [i % 2 ? 140 : -140, 0], CL) + 'px)' }}>
+              <div style={{ background: RED, color: '#fff', fontFamily: HV(), fontSize: 24, letterSpacing: 3, padding: '6px 12px', borderRadius: 8, whiteSpace: 'nowrap' }}>{x.day}</div>
+              <div style={{ fontFamily: D(), fontSize: 50, color: '#fff', whiteSpace: 'nowrap' }}>{x.text}</div>
+            </div>
+          );
+        })}
         {f >= at(spec.outro.banner.word) ? (
-          <div style={{ position: 'absolute', top: 960, left: 0, right: 0, display: 'flex', justifyContent: 'center' }}>
+          <div style={{ position: 'absolute', top: spec.outro.next ? 960 + spec.outro.next.length * 96 + 20 : 960, left: 0, right: 0, display: 'flex', justifyContent: 'center' }}>
             <div style={{ background: GOLD, color: '#0B0A0D', fontFamily: D(), fontSize: 58, padding: '10px 28px', borderRadius: 16, boxShadow: '0 14px 40px rgba(255,210,63,0.45)', transform: 'translateY(' + Math.sin(f / 4) * 6 + 'px)' }}>{spec.outro.banner.text}</div>
           </div>
         ) : null}
