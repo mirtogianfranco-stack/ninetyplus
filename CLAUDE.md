@@ -65,6 +65,19 @@ downloads its own browser. Fonts are local because the cloud proxy's certificate
    `npx remotion render src/index.ts NPNNN out/npNNN.mp4`.
 6. Thumbnail + publishing kit.
 
+## Weekly schedule (owner, Nov 2026)
+
+| Day | Video |
+|---|---|
+| Mon | Weekend Results (Short) |
+| Tue | Midweek / Champions League card (Short) when there are fixtures |
+| Wed/Thu | Midweek / Champions League review (Short) |
+| **Thu** | **Data Story** (long-form 16:9 YouTube, PreviewTemplate topic chapters + StoryThumb thumbnail, ESPN data; no picks) |
+| Fri | Premier League card (Short) |
+| Sat | Best of the Rest + Pick of the Weekend (Shorts) |
+
+Live tracking of every card: `tools/track.py <track.json>` (scheduled check-ins), X live posts offered per result.
+
 ## Tools
 
 | Tool | What it does |
