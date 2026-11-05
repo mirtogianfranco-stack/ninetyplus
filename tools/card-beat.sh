@@ -13,7 +13,7 @@ const st=(i)=>W[i].start;
 let d;
 if (k==="card") d=[st(s.picks[0].from-1), ...s.picks.slice(1).map(x=>st(x.from)), st(s.outroWord)];
 else if (k==="spotlight") d=[st(s.scenes[0].from-1), ...s.scenes.slice(1).map(x=>st(x.from)), st(s.reveal.pills[0].word), st(s.outro.from)];
-else if (k==="preview") d=[st(s.chapters[0].from), ...s.chapters.slice(1).map(x=>st(x.from)), st(s.recap.from), st(s.outro.from)];
+else if (k==="preview") d=[st(s.chapters[0].from), ...s.chapters.slice(1).map(x=>st(x.from)), ...(s.recap?[st(s.recap.from)]:[]), st(s.outro.from)];
 else d=[st(s.cards[0].from-1), ...s.cards.slice(1).map(x=>st(x.from)), st(s.outro.from)];
 console.log((s.words.duration+1.2).toFixed(2), d.map(x=>x.toFixed(2)).join(","))')
 first="${drops%%,*}"; rest="${drops#*,}"

@@ -98,13 +98,13 @@ if (kind === 'card') {
   ok(spec.intro.listWord, 'intro list'); beatsIdx.push(spec.intro.listWord);
   let prev = -1;
   spec.chapters.forEach((c, i) => {
-    crests.add(c.h); crests.add(c.a);
-    texts.push(c.label, c.league, c.hName, c.aName, c.time, c.venue ?? '');
-    const end = i + 1 < spec.chapters.length ? spec.chapters[i + 1].from : spec.recap.from;
+    crests.add(c.h); if (!c.topic) crests.add(c.a);
+    texts.push(c.label, c.league, c.hName, c.aName, c.time, c.venue ?? '', ...(c.topic ?? []));
+    const end = i + 1 < spec.chapters.length ? spec.chapters[i + 1].from : (spec.recap ?? spec.outro).from;
     if (!ok(c.from, `chapter ${i + 1}`) || !ok(end, `chapter ${i + 1} end`)) return;
     if (c.from <= prev) fails.push(`chapter ${i + 1} starts before chapter ${i}`);
     prev = c.from; beatsIdx.push(c.from);
-    if (!c.panels.some((p) => p.kind === 'pick')) fails.push(`chapter ${i + 1} (${c.label}) never shows THE PICK`);
+    if (!c.topic && !c.panels.some((p) => p.kind === 'pick')) fails.push(`chapter ${i + 1} (${c.label}) never shows THE PICK`);
     let pw = c.from;
     c.panels.forEach((p, k) => {
       const where = `chapter ${i + 1} panel ${k + 1} (${p.kind})`;
@@ -115,15 +115,17 @@ if (kind === 'card') {
       if (to < N && t(to) - t(p.word) < 2.5) fails.push(`${where} on screen ${(t(to) - t(p.word)).toFixed(2)}s (< 2.5s)`);
       pw = p.word; beatsIdx.push(p.word);
       if (p.focus) crests.add(p.focus);
+      if (p.kind === 'compare' && p.crests) p.crests.forEach((k) => k && crests.add(k));
       if (p.kind === 'player') { if (p.img) imgs.add(p.img); if (p.crest) crests.add(p.crest); }
       if (p.kind === 'form') p.rows.forEach((r) => crests.add(r.crest));
       if (p.kind === 'table') p.rows.forEach((r) => { crests.add(r.crest); texts.push(r.team); });
       texts.push(p.kind === 'stat' ? p.value + ' ' + p.label + ' ' + (p.sub ?? '') : p.kind === 'point' ? p.tag + ' ' + p.text.join(' ') : p.kind === 'player' ? p.name + ' ' + p.lines.flat().join(' ') : p.kind === 'pick' ? p.text + ' ' + (p.note ?? '') : p.label ?? '');
     });
   });
-  ok(spec.recap.from, 'recap'); ok(spec.outro.from, 'outro'); ok(spec.outro.banner.word, 'banner');
-  beatsIdx.push(spec.recap.from, spec.outro.from, spec.outro.banner.word);
-  for (const g of spec.recap.groups) { texts.push(g.title.join(' '), g.tag); for (const r of g.rows) { crests.add(r.h); crests.add(r.a); texts.push(r.t, r.time); } }
+  if (spec.recap) { ok(spec.recap.from, 'recap'); beatsIdx.push(spec.recap.from); }
+  ok(spec.outro.from, 'outro'); ok(spec.outro.banner.word, 'banner');
+  beatsIdx.push(spec.outro.from, spec.outro.banner.word);
+  for (const g of spec.recap?.groups ?? []) { texts.push(g.title.join(' '), g.tag); for (const r of g.rows) { crests.add(r.h); crests.add(r.a); texts.push(r.t, r.time); } }
 } else fails.push(`unknown spec kind '${kind}'`);
 
 // assets

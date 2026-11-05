@@ -1,0 +1,198 @@
+{
+ "games": [
+  {
+   "date": "20260823",
+   "name": "AVL @ BHA",
+   "bha": {
+    "possessionPct": "72.9",
+    "totalShots": "21",
+    "shotsOnTarget": "6",
+    "wonCorners": "5"
+   },
+   "opp": {
+    "possessionPct": "27.1",
+    "totalShots": "6",
+    "shotsOnTarget": "0",
+    "wonCorners": "2"
+   }
+  },
+  {
+   "date": "20260830",
+   "name": "BHA @ CHE",
+   "opp": {
+    "possessionPct": "25.6",
+    "totalShots": "17",
+    "shotsOnTarget": "6",
+    "wonCorners": "4"
+   },
+   "bha": {
+    "possessionPct": "74.4",
+    "totalShots": "15",
+    "shotsOnTarget": "6",
+    "wonCorners": "7"
+   }
+  },
+  {
+   "date": "20260905",
+   "name": "LEE @ BHA",
+   "bha": {
+    "possessionPct": "66.8",
+    "totalShots": "20",
+    "shotsOnTarget": "5",
+    "wonCorners": "7"
+   },
+   "opp": {
+    "possessionPct": "33.2",
+    "totalShots": "10",
+    "shotsOnTarget": "5",
+    "wonCorners": "6"
+   }
+  },
+  {
+   "date": "20260913",
+   "name": "BHA @ COV",
+   "opp": {
+    "possessionPct": "30.6",
+    "totalShots": "14",
+    "shotsOnTarget": "6",
+    "wonCorners": "5"
+   },
+   "bha": {
+    "possessionPct": "69.4",
+    "totalShots": "22",
+    "shotsOnTarget": "7",
+    "wonCorners": "3"
+   }
+  },
+  {
+   "date": "20260919",
+   "name": "ARS @ BHA",
+   "bha": {
+    "possessionPct": "40.2",
+    "totalShots": "17",
+    "shotsOnTarget": "5",
+    "wonCorners": "5"
+   },
+   "opp": {
+    "possessionPct": "59.8",
+    "totalShots": "11",
+    "shotsOnTarget": "2",
+    "wonCorners": "6"
+   }
+  },
+  {
+   "date": "20261010",
+   "name": "BHA @ SUN",
+   "opp": {
+    "possessionPct": "62.3",
+    "totalShots": "12",
+    "shotsOnTarget": "3",
+    "wonCorners": "7"
+   },
+   "bha": {
+    "possessionPct": "37.7",
+    "totalShots": "13",
+    "shotsOnTarget": "4",
+    "wonCorners": "5"
+   }
+  },
+  {
+   "date": "20261018",
+   "name": "CRY @ BHA",
+   "bha": {
+    "possessionPct": "57.2",
+    "totalShots": "17",
+    "shotsOnTarget": "9",
+    "wonCorners": "8"
+   },
+   "opp": {
+    "possessionPct": "42.8",
+    "totalShots": "5",
+    "shotsOnTarget": "1",
+    "wonCorners": "5"
+   }
+  },
+  {
+   "date": "20261025",
+   "name": "BHA @ LIV",
+   "opp": {
+    "possessionPct": "35.6",
+    "totalShots": "13",
+    "shotsOnTarget": "4",
+    "wonCorners": "4"
+   },
+   "bha": {
+    "possessionPct": "64.4",
+    "totalShots": "17",
+    "shotsOnTarget": "1",
+    "wonCorners": "2"
+   }
+  },
+  {
+   "date": "20261031",
+   "name": "BHA @ MNC",
+   "opp": {
+    "possessionPct": "62.4",
+    "totalShots": "21",
+    "shotsOnTarget": "6",
+    "wonCorners": "8"
+   },
+   "bha": {
+    "possessionPct": "37.6",
+    "totalShots": "7",
+    "shotsOnTarget": "3",
+    "wonCorners": "2"
+   }
+  }
+ ],
+ "scorers": [
+  [
+   "(own goal)",
+   3
+  ],
+  [
+   "Jack Hinshelwood",
+   3
+  ],
+  [
+   "Pascal Gross",
+   3
+  ],
+  [
+   "Charalambos Kostoulas",
+   3
+  ],
+  [
+   "Yasin Ayari",
+   3
+  ],
+  [
+   "Maxim De Cuyper",
+   2
+  ],
+  [
+   "Malick Yalcouy\u00e9",
+   2
+  ],
+  [
+   "Luka Vuskovic",
+   1
+  ],
+  [
+   "Lewis Dunk",
+   1
+  ],
+  [
+   "Chema Andr\u00e9s",
+   1
+  ],
+  [
+   "Jaouen Hadjam",
+   1
+  ],
+  [
+   "Diego G\u00f3mez",
+   1
+  ]
+ ]
+}

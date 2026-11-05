@@ -1,0 +1,189 @@
+{
+ "league": {
+  "gf": 243,
+  "sot": 755.0,
+  "sh": 2462.0
+ },
+ "teams": {
+  "Arsenal": {
+   "gp": 9,
+   "gf": 14,
+   "ga": 5,
+   "sh": 117.0,
+   "sot": 38.0,
+   "sha": 103.0,
+   "sota": 24.0
+  },
+  "Coventry City": {
+   "gp": 9,
+   "gf": 9,
+   "ga": 16,
+   "sh": 97.0,
+   "sot": 29.0,
+   "sha": 151.0,
+   "sota": 38.0
+  },
+  "Hull City": {
+   "gp": 9,
+   "gf": 11,
+   "ga": 10,
+   "sh": 94.0,
+   "sot": 29.0,
+   "sha": 131.0,
+   "sota": 43.0
+  },
+  "Manchester United": {
+   "gp": 9,
+   "gf": 10,
+   "ga": 15,
+   "sh": 167.0,
+   "sot": 45.0,
+   "sha": 105.0,
+   "sota": 44.0
+  },
+  "Everton": {
+   "gp": 9,
+   "gf": 9,
+   "ga": 9,
+   "sh": 125.0,
+   "sot": 43.0,
+   "sha": 133.0,
+   "sota": 36.0
+  },
+  "Crystal Palace": {
+   "gp": 9,
+   "gf": 9,
+   "ga": 21,
+   "sh": 90.0,
+   "sot": 31.0,
+   "sha": 169.0,
+   "sota": 54.0
+  },
+  "Ipswich Town": {
+   "gp": 9,
+   "gf": 14,
+   "ga": 18,
+   "sh": 99.0,
+   "sot": 37.0,
+   "sha": 144.0,
+   "sota": 47.0
+  },
+  "Sunderland": {
+   "gp": 9,
+   "gf": 7,
+   "ga": 17,
+   "sh": 113.0,
+   "sot": 34.0,
+   "sha": 125.0,
+   "sota": 34.0
+  },
+  "Nottingham Forest": {
+   "gp": 9,
+   "gf": 6,
+   "ga": 12,
+   "sh": 152.0,
+   "sot": 31.0,
+   "sha": 89.0,
+   "sota": 27.0
+  },
+  "Leeds United": {
+   "gp": 9,
+   "gf": 9,
+   "ga": 8,
+   "sh": 105.0,
+   "sot": 33.0,
+   "sha": 125.0,
+   "sota": 39.0
+  },
+  "Brentford": {
+   "gp": 9,
+   "gf": 16,
+   "ga": 9,
+   "sh": 126.0,
+   "sot": 36.0,
+   "sha": 135.0,
+   "sota": 38.0
+  },
+  "Tottenham Hotspur": {
+   "gp": 9,
+   "gf": 10,
+   "ga": 10,
+   "sh": 149.0,
+   "sot": 40.0,
+   "sha": 109.0,
+   "sota": 31.0
+  },
+  "Brighton & Hove Albion": {
+   "gp": 9,
+   "gf": 24,
+   "ga": 7,
+   "sh": 149.0,
+   "sot": 46.0,
+   "sha": 109.0,
+   "sota": 33.0
+  },
+  "Aston Villa": {
+   "gp": 9,
+   "gf": 10,
+   "ga": 13,
+   "sh": 107.0,
+   "sot": 27.0,
+   "sha": 140.0,
+   "sota": 43.0
+  },
+  "Manchester City": {
+   "gp": 9,
+   "gf": 20,
+   "ga": 10,
+   "sh": 138.0,
+   "sot": 50.0,
+   "sha": 95.0,
+   "sota": 34.0
+  },
+  "AFC Bournemouth": {
+   "gp": 9,
+   "gf": 14,
+   "ga": 13,
+   "sh": 127.0,
+   "sot": 45.0,
+   "sha": 94.0,
+   "sota": 32.0
+  },
+  "Newcastle United": {
+   "gp": 9,
+   "gf": 12,
+   "ga": 15,
+   "sh": 113.0,
+   "sot": 29.0,
+   "sha": 154.0,
+   "sota": 46.0
+  },
+  "Liverpool": {
+   "gp": 9,
+   "gf": 11,
+   "ga": 9,
+   "sh": 140.0,
+   "sot": 39.0,
+   "sha": 110.0,
+   "sota": 28.0
+  },
+  "Fulham": {
+   "gp": 9,
+   "gf": 9,
+   "ga": 11,
+   "sh": 129.0,
+   "sot": 41.0,
+   "sha": 128.0,
+   "sota": 34.0
+  },
+  "Chelsea": {
+   "gp": 9,
+   "gf": 19,
+   "ga": 15,
+   "sh": 125.0,
+   "sot": 52.0,
+   "sha": 113.0,
+   "sota": 50.0
+  }
+ }
+}

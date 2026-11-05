@@ -11,7 +11,7 @@ import { Stadium } from '../mockups/Mockups';
 
 export type Panel =
   | { kind: 'stat'; word: number; value: string; label: string; sub?: string; color?: 'gold' | 'red' | 'green'; focus?: string }
-  | { kind: 'compare'; word: number; label: string; h: number; a: number; fmt?: string; better?: 'high' | 'low'; focus?: string }
+  | { kind: 'compare'; word: number; label: string; h: number; a: number; fmt?: string; better?: 'high' | 'low'; focus?: string; names?: [string, string]; crests?: [string, string] }   // names/crests override the chapter's two teams ('' = no crest)
   | { kind: 'form'; word: number; label: string; rows: { crest: string; results: string[] }[]; focus?: string }
   | { kind: 'player'; word: number; name: string; img?: string; crest?: string; lines: [string, string][]; focus?: string }
   | { kind: 'point'; word: number; tag: string; text: string[]; color?: 'gold' | 'red' | 'green'; focus?: string }
@@ -23,6 +23,7 @@ export type Chapter = {
   league: string;                   // 'SERIE A'
   h: string; a: string;             // crest keys
   hName: string; aName: string;     // 'MILAN', 'INTER'
+  topic?: [string, string];         // data-story chapter: a topic title instead of a match (h = the crest shown; a/hName/aName unused)
   time: string;                     // 'SAT 3:45 PM' (ET appended)
   venue?: string;
   glow?: [string, string];          // home / away glow colours
@@ -37,7 +38,7 @@ export type PreviewSpec = {
   record: string;                   // season record
   intro: { listWord: number };      // word the rundown starts appearing on
   chapters: Chapter[];
-  recap: { from: number; groups: { title: [string, string]; tag: string; rows: { h: string; a: string; t: string; time: string }[] }[] };
+  recap?: { from: number; groups: { title: [string, string]; tag: string; rows: { h: string; a: string; t: string; time: string }[] }[] };
   outro: { from: number; lines: string[]; banner: { word: number; text: string } };
   tints?: string[];
   musicVolume?: number;
@@ -60,7 +61,7 @@ export const previewFrames = (s: PreviewSpec) => Math.ceil(s.words.duration * FP
 // Chapter start times in seconds (intro, each chapter, recap, outro) - shared with tools/preview-chapters.mjs.
 export const previewSections = (s: PreviewSpec) => {
   const t = (i: number) => s.words.words[i].start;
-  return [{ label: 'Intro', start: 0 }, ...s.chapters.map((c) => ({ label: c.label, start: t(c.from) })), { label: 'The full card', start: t(s.recap.from) }, { label: 'Outro', start: t(s.outro.from) }];
+  return [{ label: 'Intro', start: 0 }, ...s.chapters.map((c) => ({ label: c.label, start: t(c.from) })), ...(s.recap ? [{ label: 'The full card', start: t(s.recap.from) }] : []), { label: 'Outro', start: t(s.outro.from) }];
 };
 
 export const PreviewTemplate: React.FC<{ spec: PreviewSpec }> = ({ spec }) => {
@@ -74,7 +75,7 @@ export const PreviewTemplate: React.FC<{ spec: PreviewSpec }> = ({ spec }) => {
   const END = previewFrames(spec);
   const C = spec.chapters;
   const cs = C.map((c) => at(c.from));
-  const recap = at(spec.recap.from);
+  const recap = spec.recap ? at(spec.recap.from) : at(spec.outro.from);
   const outro = at(spec.outro.from);
   let cur = -1; cs.forEach((s, i) => { if (f >= s) cur = i; });
   const sec = f >= outro ? C.length + 1 : f >= recap ? C.length : cur;   // -1 intro, 0..n-1 chapters, n recap, n+1 outro
@@ -101,11 +102,12 @@ export const PreviewTemplate: React.FC<{ spec: PreviewSpec }> = ({ spec }) => {
   const Intro: React.FC = () => {
     const s = sp(-10);
     const lw = at(spec.intro.listWord);
+    const tfs = Math.min(190, Math.floor(1850 / Math.max(spec.title[0].length, spec.title[1].length)));   // keeps clear of the rundown on the right
     return (
       <>
         <div style={{ position: 'absolute', left: 120, top: 200, opacity: s, transform: 'translateX(' + interpolate(s, [0, 1], [-120, 0]) + 'px)' }}>
-          <div style={{ fontFamily: D(), fontSize: 190, lineHeight: 0.9, color: '#fff' }}>{spec.title[0]}</div>
-          <div style={{ fontFamily: D(), fontSize: 190, lineHeight: 0.9, color: RED, textShadow: '0 0 40px rgba(255,46,77,0.5)' }}>{spec.title[1]}</div>
+          <div style={{ fontFamily: D(), fontSize: tfs, lineHeight: 0.9, color: '#fff', whiteSpace: 'nowrap' }}>{spec.title[0]}</div>
+          <div style={{ fontFamily: D(), fontSize: tfs, lineHeight: 0.9, color: RED, textShadow: '0 0 40px rgba(255,46,77,0.5)', whiteSpace: 'nowrap' }}>{spec.title[1]}</div>
           <div style={{ marginTop: 20, fontFamily: HV(), fontSize: 30, letterSpacing: 6, color: GOLD }}>{spec.dates}</div>
         </div>
         <div style={{ position: 'absolute', right: 110, top: 190, width: 760, display: 'flex', flexDirection: 'column', gap: 12 }}>
@@ -117,9 +119,9 @@ export const PreviewTemplate: React.FC<{ spec: PreviewSpec }> = ({ spec }) => {
               <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 16, background: 'rgba(11,10,13,0.75)', border: '1px solid rgba(255,255,255,0.15)', borderRadius: 16, padding: '10px 18px', opacity: r, transform: 'translateX(' + interpolate(r, [0, 1], [80, 0]) + 'px)' }}>
                 <div style={{ fontFamily: D(), fontSize: 36, color: RED, width: 34 }}>{i + 1}</div>
                 <Img src={crest(c.h)} style={{ width: 50, height: 50, objectFit: 'contain', filter: OUTLINE }} />
-                <Img src={crest(c.a)} style={{ width: 50, height: 50, objectFit: 'contain', filter: OUTLINE }} />
-                <div style={{ fontFamily: D(), fontSize: 38, color: '#fff', flex: 1, whiteSpace: 'nowrap' }}>{c.hName} v {c.aName}</div>
-                <div style={{ fontFamily: HV(), fontSize: 16, letterSpacing: 1, color: 'rgba(255,255,255,0.65)', textAlign: 'right', whiteSpace: 'nowrap' }}>{c.league}<br />{c.time} ET</div>
+                {c.topic ? null : <Img src={crest(c.a)} style={{ width: 50, height: 50, objectFit: 'contain', filter: OUTLINE }} />}
+                <div style={{ fontFamily: D(), fontSize: 38, color: '#fff', flex: 1, whiteSpace: 'nowrap' }}>{c.topic ? c.topic.join(' ') : c.hName + ' v ' + c.aName}</div>
+                {c.topic ? null : <div style={{ fontFamily: HV(), fontSize: 16, letterSpacing: 1, color: 'rgba(255,255,255,0.65)', textAlign: 'right', whiteSpace: 'nowrap' }}>{c.league}<br />{c.time} ET</div>}
               </div>
             );
           })}
@@ -136,6 +138,18 @@ export const PreviewTemplate: React.FC<{ spec: PreviewSpec }> = ({ spec }) => {
     const side = (k: string, g: string, left: boolean) => (
       <Img src={crest(k)} style={{ position: 'absolute', [left ? 'left' : 'right']: 230, top: 250, width: 360, height: 360, objectFit: 'contain', opacity: s, transform: 'translateX(' + interpolate(s, [0, 1], [left ? -300 : 300, 0]) + 'px) scale(' + (1 + (f - from) * 0.0007) + ')', filter: 'drop-shadow(0 0 50px ' + g + ') drop-shadow(0 20px 30px rgba(0,0,0,0.6))' }} />
     );
+    if (c.topic) {
+      return (
+        <>
+          {side(c.h, gh, true)}
+          <div style={{ position: 'absolute', left: 720, right: 100, top: 300, opacity: s, transform: 'translateX(' + interpolate(s, [0, 1], [120, 0]) + 'px)' }}>
+            <div style={{ display: 'inline-block', background: RED, color: '#fff', fontFamily: HV(), fontSize: 26, letterSpacing: 4, padding: '8px 18px', borderRadius: 8, marginBottom: 24 }}>PART {i + 1} OF {C.length}</div>
+            <div style={{ fontFamily: D(), fontSize: 140, lineHeight: 0.92, color: '#fff' }}>{c.topic[0]}</div>
+            <div style={{ fontFamily: D(), fontSize: 140, lineHeight: 0.92, color: GOLD, textShadow: '0 0 40px rgba(255,210,63,0.45)' }}>{c.topic[1]}</div>
+          </div>
+        </>
+      );
+    }
     return (
       <>
         {side(c.h, gh, true)}
@@ -154,6 +168,12 @@ export const PreviewTemplate: React.FC<{ spec: PreviewSpec }> = ({ spec }) => {
 
   const Strip: React.FC<{ c: Chapter; from: number }> = ({ c, from }) => {
     const s = sp(from, theme.spring.snappy);
+    if (c.topic) return (
+      <div style={{ position: 'absolute', top: 110, left: 70, display: 'flex', alignItems: 'center', gap: 14, opacity: s }}>
+        <Img src={crest(c.h)} style={{ width: 52, height: 52, objectFit: 'contain', filter: OUTLINE }} />
+        <div style={{ fontFamily: D(), fontSize: 36, color: '#fff' }}>{c.topic[0]} <span style={{ color: GOLD }}>{c.topic[1]}</span></div>
+      </div>
+    );
     return (
       <div style={{ position: 'absolute', top: 110, left: 70, display: 'flex', alignItems: 'center', gap: 14, opacity: s }}>
         <Img src={crest(c.h)} style={{ width: 52, height: 52, objectFit: 'contain', filter: OUTLINE }} />
@@ -201,13 +221,13 @@ export const PreviewTemplate: React.FC<{ spec: PreviewSpec }> = ({ spec }) => {
       return (
         <div style={{ ...base, top: 280 }}>
           {label(p.label)}
-          {[[c.h, c.hName, p.h], [c.a, c.aName, p.a]].map(([k, n, v], i) => {
+          {[[p.crests ? p.crests[0] : c.h, p.names ? p.names[0] : c.hName, p.h], [p.crests ? p.crests[1] : c.a, p.names ? p.names[1] : c.aName, p.a]].map(([k, n, v], i) => {
             const g = sp(from + 6 + i * 6);
             const col = v === best ? GOLD : 'rgba(255,255,255,0.55)';
             return (
               <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 20, marginBottom: 26 }}>
-                <Img src={crest(k as string)} style={{ width: 90, height: 90, objectFit: 'contain', filter: OUTLINE }} />
-                <div style={{ width: 230, fontFamily: D(), fontSize: 46, color: '#fff' }}>{n}</div>
+                {k ? <Img src={crest(k as string)} style={{ width: 90, height: 90, objectFit: 'contain', filter: OUTLINE }} /> : <div style={{ width: 90 }} />}
+                <div style={{ width: 300, fontFamily: D(), fontSize: 46, color: '#fff' }}>{n}</div>
                 <div style={{ flex: 1, height: 64, background: 'rgba(255,255,255,0.08)', borderRadius: 14, overflow: 'hidden' }}>
                   <div style={{ width: ((v as number) / max) * 100 * g + '%', height: '100%', background: col, borderRadius: 14, boxShadow: v === best ? '0 0 30px ' + GOLD : 'none' }} />
                 </div>
@@ -315,7 +335,7 @@ export const PreviewTemplate: React.FC<{ spec: PreviewSpec }> = ({ spec }) => {
 
   // ---------- recap + outro ----------
   const Recap: React.FC = () => {
-    const G = spec.recap.groups;
+    const G = spec.recap!.groups;
     const w = G.length === 1 ? 1100 : G.length === 2 ? 840 : 560;
     return (
       <div style={{ position: 'absolute', left: 0, right: 0, top: 280, display: 'flex', justifyContent: 'center', gap: 26 }}>
@@ -422,7 +442,7 @@ export const PreviewTemplate: React.FC<{ spec: PreviewSpec }> = ({ spec }) => {
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(90deg, rgba(11,10,13,0.8) 0%, rgba(11,10,13,0.35) 60%, rgba(11,10,13,0.15) 100%)' }} />
       <Fade from={0} to={cs[0]}><Intro /></Fade>
       {C.map((c, i) => (f >= cs[i] - 1 && f < (i + 1 < C.length ? cs[i + 1] : recap) + 6 ? <ChapterScene key={i} c={c} i={i} /> : null))}
-      <Fade from={recap} to={outro}><Recap /></Fade>
+      {spec.recap ? <Fade from={recap} to={outro}><Recap /></Fade> : null}
       <Fade from={outro} to={END + 10}><Outro /></Fade>
       <Header />
       <Subs />
