@@ -1,0 +1,375 @@
+{
+ "words": [
+  {
+   "word": "Best",
+   "start": 0.03,
+   "end": 0.385
+  },
+  {
+   "word": "of",
+   "start": 0.405,
+   "end": 0.535
+  },
+  {
+   "word": "the",
+   "start": 0.555,
+   "end": 0.685
+  },
+  {
+   "word": "rest,",
+   "start": 0.705,
+   "end": 1.06
+  },
+  {
+   "word": "and",
+   "start": 1.26,
+   "end": 1.449
+  },
+  {
+   "word": "this",
+   "start": 1.469,
+   "end": 1.728
+  },
+  {
+   "word": "week",
+   "start": 1.748,
+   "end": 2.076
+  },
+  {
+   "word": "it",
+   "start": 2.096,
+   "end": 2.216
+  },
+  {
+   "word": "crosses",
+   "start": 2.236,
+   "end": 2.703
+  },
+  {
+   "word": "the",
+   "start": 2.723,
+   "end": 2.843
+  },
+  {
+   "word": "Atlantic.",
+   "start": 2.863,
+   "end": 3.47
+  },
+  {
+   "word": "Leipzig",
+   "start": 3.73,
+   "end": 4.252
+  },
+  {
+   "word": "have",
+   "start": 4.272,
+   "end": 4.523
+  },
+  {
+   "word": "won",
+   "start": 4.543,
+   "end": 4.793
+  },
+  {
+   "word": "all",
+   "start": 4.813,
+   "end": 5.064
+  },
+  {
+   "word": "four",
+   "start": 5.084,
+   "end": 5.335
+  },
+  {
+   "word": "home",
+   "start": 5.355,
+   "end": 5.674
+  },
+  {
+   "word": "games.",
+   "start": 5.694,
+   "end": 6.08
+  },
+  {
+   "word": "Eighteen",
+   "start": 6.28,
+   "end": 6.815
+  },
+  {
+   "word": "scored,",
+   "start": 6.835,
+   "end": 7.29
+  },
+  {
+   "word": "none",
+   "start": 7.49,
+   "end": 7.779
+  },
+  {
+   "word": "conceded.",
+   "start": 7.799,
+   "end": 8.55
+  },
+  {
+   "word": "Leipzig",
+   "start": 8.75,
+   "end": 9.301
+  },
+  {
+   "word": "to",
+   "start": 9.321,
+   "end": 9.515
+  },
+  {
+   "word": "win.",
+   "start": 9.535,
+   "end": 9.8
+  },
+  {
+   "word": "Sassuolo",
+   "start": 10.06,
+   "end": 10.731
+  },
+  {
+   "word": "have",
+   "start": 10.751,
+   "end": 10.962
+  },
+  {
+   "word": "not",
+   "start": 10.982,
+   "end": 11.192
+  },
+  {
+   "word": "kept",
+   "start": 11.212,
+   "end": 11.48
+  },
+  {
+   "word": "a",
+   "start": 11.5,
+   "end": 11.653
+  },
+  {
+   "word": "clean",
+   "start": 11.673,
+   "end": 11.998
+  },
+  {
+   "word": "sheet",
+   "start": 12.018,
+   "end": 12.286
+  },
+  {
+   "word": "all",
+   "start": 12.306,
+   "end": 12.517
+  },
+  {
+   "word": "season.",
+   "start": 12.537,
+   "end": 12.92
+  },
+  {
+   "word": "Roma",
+   "start": 13.12,
+   "end": 13.557
+  },
+  {
+   "word": "to",
+   "start": 13.577,
+   "end": 13.785
+  },
+  {
+   "word": "win.",
+   "start": 13.805,
+   "end": 14.09
+  },
+  {
+   "word": "Valencia",
+   "start": 14.35,
+   "end": 14.851
+  },
+  {
+   "word": "have",
+   "start": 14.871,
+   "end": 15.083
+  },
+  {
+   "word": "scored",
+   "start": 15.103,
+   "end": 15.43
+  },
+  {
+   "word": "three",
+   "start": 15.45,
+   "end": 15.72
+  },
+  {
+   "word": "goals",
+   "start": 15.74,
+   "end": 16.067
+  },
+  {
+   "word": "at",
+   "start": 16.087,
+   "end": 16.183
+  },
+  {
+   "word": "home",
+   "start": 16.203,
+   "end": 16.473
+  },
+  {
+   "word": "all",
+   "start": 16.493,
+   "end": 16.705
+  },
+  {
+   "word": "season.",
+   "start": 16.725,
+   "end": 17.11
+  },
+  {
+   "word": "Real",
+   "start": 17.3,
+   "end": 17.641
+  },
+  {
+   "word": "Madrid",
+   "start": 17.661,
+   "end": 18.145
+  },
+  {
+   "word": "to",
+   "start": 18.165,
+   "end": 18.362
+  },
+  {
+   "word": "win",
+   "start": 18.382,
+   "end": 18.65
+  },
+  {
+   "word": "by",
+   "start": 18.67,
+   "end": 18.939
+  },
+  {
+   "word": "two",
+   "start": 18.959,
+   "end": 19.227
+  },
+  {
+   "word": "or",
+   "start": 19.247,
+   "end": 19.372
+  },
+  {
+   "word": "more.",
+   "start": 19.392,
+   "end": 19.66
+  },
+  {
+   "word": "And",
+   "start": 19.92,
+   "end": 20.106
+  },
+  {
+   "word": "Columbus",
+   "start": 20.126,
+   "end": 20.725
+  },
+  {
+   "word": "have",
+   "start": 20.745,
+   "end": 21.0
+  },
+  {
+   "word": "won",
+   "start": 21.02,
+   "end": 21.275
+  },
+  {
+   "word": "five",
+   "start": 21.295,
+   "end": 21.619
+  },
+  {
+   "word": "straight.",
+   "start": 21.639,
+   "end": 22.1
+  },
+  {
+   "word": "Columbus",
+   "start": 22.3,
+   "end": 22.897
+  },
+  {
+   "word": "Crew,",
+   "start": 22.917,
+   "end": 23.24
+  },
+  {
+   "word": "win",
+   "start": 23.44,
+   "end": 23.763
+  },
+  {
+   "word": "or",
+   "start": 23.783,
+   "end": 23.934
+  },
+  {
+   "word": "draw",
+   "start": 23.954,
+   "end": 24.362
+  },
+  {
+   "word": "in",
+   "start": 24.382,
+   "end": 24.619
+  },
+  {
+   "word": "Chicago.",
+   "start": 24.639,
+   "end": 25.39
+  },
+  {
+   "word": "Which",
+   "start": 25.65,
+   "end": 25.93
+  },
+  {
+   "word": "leg",
+   "start": 25.95,
+   "end": 26.17
+  },
+  {
+   "word": "breaks",
+   "start": 26.19,
+   "end": 26.59
+  },
+  {
+   "word": "first?",
+   "start": 26.61,
+   "end": 26.95
+  },
+  {
+   "word": "Comment",
+   "start": 27.15,
+   "end": 27.67
+  },
+  {
+   "word": "your",
+   "start": 27.69,
+   "end": 27.901
+  },
+  {
+   "word": "pick.",
+   "start": 27.921,
+   "end": 28.21
+  }
+ ],
+ "duration": 28.43
+}
