@@ -1,0 +1,11 @@
+{"picks": [
+ {"card": "Premier League card", "label": "City to win at Forest", "league": "eng.1", "date": "20261107", "home": "Nottingham", "away": "Manchester City", "type": "win", "team": "away"},
+ {"card": "Premier League card", "label": "Liverpool to win at Palace", "league": "eng.1", "date": "20261108", "home": "Crystal Palace", "away": "Liverpool", "type": "win", "team": "away"},
+ {"card": "Premier League card", "label": "Palmer to score at Sunderland", "league": "eng.1", "date": "20261108", "home": "Sunderland", "away": "Chelsea", "type": "scorer", "player": "Palmer"},
+ {"card": "Premier League card", "label": "United v Villa both teams score", "league": "eng.1", "date": "20261108", "home": "Manchester United", "away": "Aston Villa", "type": "btts"},
+ {"card": "Best of the Rest", "label": "Leipzig to win v Augsburg", "league": "ger.1", "date": "20261107", "home": "Leipzig", "away": "Augsburg", "type": "win", "team": "home"},
+ {"card": "Best of the Rest", "label": "Roma to win v Sassuolo", "league": "ita.1", "date": "20261107", "home": "Roma", "away": "Sassuolo", "type": "win", "team": "home"},
+ {"card": "Best of the Rest", "label": "Real Madrid to win by 2+ at Valencia", "league": "esp.1", "date": "20261107", "home": "Valencia", "away": "Real Madrid", "type": "win_by", "team": "away", "n": 2},
+ {"card": "Best of the Rest", "label": "Columbus win or draw at Chicago", "league": "usa.1", "date": "20261107", "home": "Chicago", "away": "Columbus", "type": "win_or_draw", "team": "away"},
+ {"card": "Pick of the Weekend #3", "label": "Atletico v Barcelona 3+ goals", "league": "esp.1", "date": "20261108", "home": "Atl", "away": "Barcelona", "type": "goals_over", "n": 3}
+]}

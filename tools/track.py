@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Live grader for a weekend's picks from ESPN. Usage: python3 tools/track.py video-projects/wk-1031/track.json [--json]
 Each pick: {card, label, league, date(YYYYMMDD), home, away (ESPN displayName substrings), type, ...}
-types: win(team='home'|'away'), win_or_draw(team), goals_over(n: 3+ means >= n), goals_under(n: n or fewer),
+types: win(team='home'|'away'), win_by(team, n: winning margin >= n), win_or_draw(team), goals_over(n: 3+ means >= n), goals_under(n: n or fewer),
 btts, scorer(player substring)."""
 import json, sys, urllib.request
 
@@ -30,6 +30,8 @@ def grade(p):
     me = (h, a) if p.get('team') == 'home' else (a, h)
     if t == 'win': ok = me[0] > me[1]; v = 'WON' if done and ok else 'LOST' if done else ('winning' if ok else 'level' if h == a else 'losing')
     elif t == 'win_or_draw': ok = me[0] >= me[1]; v = 'WON' if done and ok else 'LOST' if done else ('on track' if ok else 'losing')
+    elif t == 'win_by':
+        ok = me[0] - me[1] >= p['n']; v = 'WON' if done and ok else 'LOST' if done else (f'margin {me[0]-me[1]}, need {p["n"]}')
     elif t == 'goals_over':
         ok = h + a >= p['n']; v = 'WON' if ok else 'LOST' if done else f'{h+a}/{p["n"]} goals'
     elif t == 'goals_under':
