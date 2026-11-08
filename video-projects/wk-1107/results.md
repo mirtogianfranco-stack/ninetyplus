@@ -7,3 +7,5 @@
 - Palace 1-3 Liverpool WON: Mac Allister 40', Wirtz 54', Isak 89'; Nketiah pen 90+5' (CRY)
 - Sunderland 1-0 Chelsea, Palmer to score LOST: Le Fee pen 36'
 - Man United 4-4 Aston Villa, BTTS WON (8 goals; United scored 90+2' and 90+6' Dorgu header to draw). PL card 2/4 BUST.
+- Atletico 1-2 Barcelona (3+ goals) WON: Giuliano Simeone 10' (ATM), Fermin Lopez 45' + 66' (BAR). POTW 3-0.
+- WEEKEND 7-2 legs; cards: POTW landed, Best of the Rest landed 4/4, Premier League bust 2/4. Season 33-13 -> 40-15.
