@@ -6,3 +6,4 @@
 - Chicago 3-4 Columbus WON (win or draw): Lewandowski pens 8' 22', Haile-Selassie 45+4' (CHI); Tapia 16' 62', Zaroury 23', Brais Mendez 90+3' winner (CLB). Best of the Rest 4/4 LANDED.
 - Palace 1-3 Liverpool WON: Mac Allister 40', Wirtz 54', Isak 89'; Nketiah pen 90+5' (CRY)
 - Sunderland 1-0 Chelsea, Palmer to score LOST: Le Fee pen 36'
+- Man United 4-4 Aston Villa, BTTS WON (8 goals; United scored 90+2' and 90+6' Dorgu header to draw). PL card 2/4 BUST.
