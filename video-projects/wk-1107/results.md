@@ -4,3 +4,5 @@
 - Roma 3-0 Sassuolo WON: Hermoso 27', Walukiewicz OG 30', Rodrigo Mora 58'
 - Valencia 0-3 Real Madrid WON (by 2+): Valverde 28', Arda Guler 36', Mbappe 75'; Gaya red 79'
 - Chicago 3-4 Columbus WON (win or draw): Lewandowski pens 8' 22', Haile-Selassie 45+4' (CHI); Tapia 16' 62', Zaroury 23', Brais Mendez 90+3' winner (CLB). Best of the Rest 4/4 LANDED.
+- Palace 1-3 Liverpool WON: Mac Allister 40', Wirtz 54', Isak 89'; Nketiah pen 90+5' (CRY)
+- Sunderland 1-0 Chelsea, Palmer to score LOST: Le Fee pen 36'
