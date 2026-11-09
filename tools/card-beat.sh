@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 n="$1"; v="np$n"; style="${2:-}"
 f=""; for d in cards spotlights results previews; do [ -f "src/$d/$v.ts" ] && f="src/$d/$v.ts"; done
 [ -n "$f" ] || { echo "no spec for $v"; exit 1; }
-npx esbuild "$f" --bundle --platform=node --format=cjs --outfile=out/card.cjs --loader:.json=json --log-level=error
+npx esbuild "$f" --bundle --platform=node --format=cjs --outfile=out/card.cjs --loader:.json=json --resolve-extensions=.ts,.tsx,.js,.json --log-level=error
 read -r secs drops < <(node -e '
 const s=require("./out/card.cjs").spec, W=s.words.words, k=s.kind||"card";
 const st=(i)=>W[i].start;

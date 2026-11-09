@@ -1,0 +1,2070 @@
+{
+ "words": [
+  {
+   "word": "Nobody",
+   "start": 0.03,
+   "end": 0.563
+  },
+  {
+   "word": "saw",
+   "start": 0.583,
+   "end": 0.839
+  },
+  {
+   "word": "this",
+   "start": 0.859,
+   "end": 1.115
+  },
+  {
+   "word": "coming.",
+   "start": 1.135,
+   "end": 1.53
+  },
+  {
+   "word": "Brighton",
+   "start": 1.93,
+   "end": 2.49
+  },
+  {
+   "word": "are",
+   "start": 2.51,
+   "end": 2.635
+  },
+  {
+   "word": "third",
+   "start": 2.655,
+   "end": 2.998
+  },
+  {
+   "word": "in",
+   "start": 3.018,
+   "end": 3.215
+  },
+  {
+   "word": "the",
+   "start": 3.235,
+   "end": 3.36
+  },
+  {
+   "word": "Premier",
+   "start": 3.38,
+   "end": 3.867
+  },
+  {
+   "word": "League.",
+   "start": 3.887,
+   "end": 4.23
+  },
+  {
+   "word": "They",
+   "start": 4.43,
+   "end": 4.641
+  },
+  {
+   "word": "beat",
+   "start": 4.661,
+   "end": 5.025
+  },
+  {
+   "word": "Arsenal,",
+   "start": 5.045,
+   "end": 5.64
+  },
+  {
+   "word": "they",
+   "start": 5.84,
+   "end": 6.057
+  },
+  {
+   "word": "won",
+   "start": 6.077,
+   "end": 6.373
+  },
+  {
+   "word": "at",
+   "start": 6.393,
+   "end": 6.531
+  },
+  {
+   "word": "the",
+   "start": 6.551,
+   "end": 6.688
+  },
+  {
+   "word": "Etihad,",
+   "start": 6.708,
+   "end": 7.32
+  },
+  {
+   "word": "and",
+   "start": 7.52,
+   "end": 7.691
+  },
+  {
+   "word": "they",
+   "start": 7.711,
+   "end": 7.881
+  },
+  {
+   "word": "have",
+   "start": 7.901,
+   "end": 8.136
+  },
+  {
+   "word": "the",
+   "start": 8.156,
+   "end": 8.263
+  },
+  {
+   "word": "best",
+   "start": 8.283,
+   "end": 8.581
+  },
+  {
+   "word": "goal",
+   "start": 8.601,
+   "end": 8.899
+  },
+  {
+   "word": "difference",
+   "start": 8.919,
+   "end": 9.407
+  },
+  {
+   "word": "in",
+   "start": 9.427,
+   "end": 9.598
+  },
+  {
+   "word": "the",
+   "start": 9.618,
+   "end": 9.725
+  },
+  {
+   "word": "country.",
+   "start": 9.745,
+   "end": 10.17
+  },
+  {
+   "word": "So,",
+   "start": 10.57,
+   "end": 11.06
+  },
+  {
+   "word": "are",
+   "start": 11.26,
+   "end": 11.404
+  },
+  {
+   "word": "Brighton",
+   "start": 11.424,
+   "end": 12.062
+  },
+  {
+   "word": "for",
+   "start": 12.082,
+   "end": 12.309
+  },
+  {
+   "word": "real?",
+   "start": 12.329,
+   "end": 12.72
+  },
+  {
+   "word": "We",
+   "start": 12.92,
+   "end": 13.113
+  },
+  {
+   "word": "went",
+   "start": 13.133,
+   "end": 13.467
+  },
+  {
+   "word": "through",
+   "start": 13.487,
+   "end": 13.822
+  },
+  {
+   "word": "the",
+   "start": 13.842,
+   "end": 13.964
+  },
+  {
+   "word": "numbers.",
+   "start": 13.984,
+   "end": 14.46
+  },
+  {
+   "word": "Four",
+   "start": 14.66,
+   "end": 14.976
+  },
+  {
+   "word": "parts.",
+   "start": 14.996,
+   "end": 15.48
+  },
+  {
+   "word": "The",
+   "start": 15.68,
+   "end": 15.854
+  },
+  {
+   "word": "hype,",
+   "start": 15.874,
+   "end": 16.34
+  },
+  {
+   "word": "the",
+   "start": 16.54,
+   "end": 16.71
+  },
+  {
+   "word": "case",
+   "start": 16.73,
+   "end": 17.185
+  },
+  {
+   "word": "for,",
+   "start": 17.205,
+   "end": 17.47
+  },
+  {
+   "word": "the",
+   "start": 17.67,
+   "end": 17.847
+  },
+  {
+   "word": "catch,",
+   "start": 17.867,
+   "end": 18.34
+  },
+  {
+   "word": "and",
+   "start": 18.54,
+   "end": 18.725
+  },
+  {
+   "word": "the",
+   "start": 18.745,
+   "end": 18.862
+  },
+  {
+   "word": "verdict.",
+   "start": 18.882,
+   "end": 19.41
+  },
+  {
+   "word": "Part",
+   "start": 19.81,
+   "end": 20.173
+  },
+  {
+   "word": "one.",
+   "start": 20.193,
+   "end": 20.48
+  },
+  {
+   "word": "The",
+   "start": 20.68,
+   "end": 20.857
+  },
+  {
+   "word": "hype.",
+   "start": 20.877,
+   "end": 21.35
+  },
+  {
+   "word": "After",
+   "start": 21.75,
+   "end": 22.105
+  },
+  {
+   "word": "nine",
+   "start": 22.125,
+   "end": 22.48
+  },
+  {
+   "word": "games,",
+   "start": 22.5,
+   "end": 22.93
+  },
+  {
+   "word": "Arsenal",
+   "start": 23.12,
+   "end": 23.665
+  },
+  {
+   "word": "lead",
+   "start": 23.685,
+   "end": 24.018
+  },
+  {
+   "word": "on",
+   "start": 24.038,
+   "end": 24.229
+  },
+  {
+   "word": "twenty",
+   "start": 24.249,
+   "end": 24.724
+  },
+  {
+   "word": "four",
+   "start": 24.744,
+   "end": 25.006
+  },
+  {
+   "word": "points.",
+   "start": 25.026,
+   "end": 25.5
+  },
+  {
+   "word": "Manchester",
+   "start": 25.7,
+   "end": 26.44
+  },
+  {
+   "word": "City",
+   "start": 26.46,
+   "end": 26.82
+  },
+  {
+   "word": "have",
+   "start": 26.84,
+   "end": 27.124
+  },
+  {
+   "word": "twenty",
+   "start": 27.144,
+   "end": 27.656
+  },
+  {
+   "word": "one.",
+   "start": 27.676,
+   "end": 27.96
+  },
+  {
+   "word": "And",
+   "start": 28.16,
+   "end": 28.395
+  },
+  {
+   "word": "Brighton",
+   "start": 28.415,
+   "end": 29.075
+  },
+  {
+   "word": "are",
+   "start": 29.095,
+   "end": 29.245
+  },
+  {
+   "word": "third,",
+   "start": 29.265,
+   "end": 29.67
+  },
+  {
+   "word": "on",
+   "start": 29.87,
+   "end": 30.085
+  },
+  {
+   "word": "nineteen.",
+   "start": 30.105,
+   "end": 30.79
+  },
+  {
+   "word": "They",
+   "start": 31.19,
+   "end": 31.352
+  },
+  {
+   "word": "have",
+   "start": 31.372,
+   "end": 31.595
+  },
+  {
+   "word": "scored",
+   "start": 31.615,
+   "end": 31.959
+  },
+  {
+   "word": "twenty",
+   "start": 31.979,
+   "end": 32.383
+  },
+  {
+   "word": "four",
+   "start": 32.403,
+   "end": 32.626
+  },
+  {
+   "word": "goals,",
+   "start": 32.646,
+   "end": 32.99
+  },
+  {
+   "word": "more",
+   "start": 33.19,
+   "end": 33.476
+  },
+  {
+   "word": "than",
+   "start": 33.496,
+   "end": 33.705
+  },
+  {
+   "word": "anyone",
+   "start": 33.725,
+   "end": 34.316
+  },
+  {
+   "word": "in",
+   "start": 34.336,
+   "end": 34.545
+  },
+  {
+   "word": "the",
+   "start": 34.565,
+   "end": 34.698
+  },
+  {
+   "word": "league.",
+   "start": 34.718,
+   "end": 35.08
+  },
+  {
+   "word": "They",
+   "start": 35.48,
+   "end": 35.669
+  },
+  {
+   "word": "have",
+   "start": 35.689,
+   "end": 35.948
+  },
+  {
+   "word": "conceded",
+   "start": 35.968,
+   "end": 36.644
+  },
+  {
+   "word": "just",
+   "start": 36.664,
+   "end": 37.062
+  },
+  {
+   "word": "seven.",
+   "start": 37.082,
+   "end": 37.48
+  },
+  {
+   "word": "Their",
+   "start": 37.68,
+   "end": 37.881
+  },
+  {
+   "word": "goal",
+   "start": 37.901,
+   "end": 38.25
+  },
+  {
+   "word": "difference,",
+   "start": 38.27,
+   "end": 38.84
+  },
+  {
+   "word": "plus",
+   "start": 39.04,
+   "end": 39.348
+  },
+  {
+   "word": "seventeen,",
+   "start": 39.368,
+   "end": 40.07
+  },
+  {
+   "word": "is",
+   "start": 40.27,
+   "end": 40.393
+  },
+  {
+   "word": "the",
+   "start": 40.413,
+   "end": 40.537
+  },
+  {
+   "word": "best",
+   "start": 40.557,
+   "end": 40.895
+  },
+  {
+   "word": "in",
+   "start": 40.915,
+   "end": 41.11
+  },
+  {
+   "word": "the",
+   "start": 41.13,
+   "end": 41.253
+  },
+  {
+   "word": "Premier",
+   "start": 41.273,
+   "end": 41.755
+  },
+  {
+   "word": "League",
+   "start": 41.775,
+   "end": 42.113
+  },
+  {
+   "word": "by",
+   "start": 42.133,
+   "end": 42.4
+  },
+  {
+   "word": "seven.",
+   "start": 42.42,
+   "end": 42.83
+  },
+  {
+   "word": "And",
+   "start": 43.23,
+   "end": 43.38
+  },
+  {
+   "word": "they",
+   "start": 43.4,
+   "end": 43.549
+  },
+  {
+   "word": "have",
+   "start": 43.569,
+   "end": 43.776
+  },
+  {
+   "word": "kept",
+   "start": 43.796,
+   "end": 44.058
+  },
+  {
+   "word": "six",
+   "start": 44.078,
+   "end": 44.341
+  },
+  {
+   "word": "clean",
+   "start": 44.361,
+   "end": 44.681
+  },
+  {
+   "word": "sheets,",
+   "start": 44.701,
+   "end": 45.02
+  },
+  {
+   "word": "level",
+   "start": 45.21,
+   "end": 45.618
+  },
+  {
+   "word": "with",
+   "start": 45.638,
+   "end": 45.832
+  },
+  {
+   "word": "Arsenal",
+   "start": 45.852,
+   "end": 46.402
+  },
+  {
+   "word": "for",
+   "start": 46.422,
+   "end": 46.616
+  },
+  {
+   "word": "the",
+   "start": 46.636,
+   "end": 46.759
+  },
+  {
+   "word": "most",
+   "start": 46.779,
+   "end": 47.187
+  },
+  {
+   "word": "in",
+   "start": 47.207,
+   "end": 47.401
+  },
+  {
+   "word": "the",
+   "start": 47.421,
+   "end": 47.543
+  },
+  {
+   "word": "league.",
+   "start": 47.563,
+   "end": 47.9
+  },
+  {
+   "word": "Part",
+   "start": 48.3,
+   "end": 48.724
+  },
+  {
+   "word": "two.",
+   "start": 48.744,
+   "end": 49.08
+  },
+  {
+   "word": "The",
+   "start": 49.28,
+   "end": 49.456
+  },
+  {
+   "word": "case",
+   "start": 49.476,
+   "end": 49.946
+  },
+  {
+   "word": "for.",
+   "start": 49.966,
+   "end": 50.24
+  },
+  {
+   "word": "Arsenal",
+   "start": 50.64,
+   "end": 51.13
+  },
+  {
+   "word": "have",
+   "start": 51.15,
+   "end": 51.386
+  },
+  {
+   "word": "lost",
+   "start": 51.406,
+   "end": 51.705
+  },
+  {
+   "word": "one",
+   "start": 51.725,
+   "end": 51.96
+  },
+  {
+   "word": "league",
+   "start": 51.98,
+   "end": 52.279
+  },
+  {
+   "word": "game",
+   "start": 52.299,
+   "end": 52.598
+  },
+  {
+   "word": "all",
+   "start": 52.618,
+   "end": 52.853
+  },
+  {
+   "word": "season.",
+   "start": 52.873,
+   "end": 53.3
+  },
+  {
+   "word": "It",
+   "start": 53.5,
+   "end": 53.633
+  },
+  {
+   "word": "was",
+   "start": 53.653,
+   "end": 53.863
+  },
+  {
+   "word": "at",
+   "start": 53.883,
+   "end": 54.017
+  },
+  {
+   "word": "Brighton,",
+   "start": 54.037,
+   "end": 54.63
+  },
+  {
+   "word": "three",
+   "start": 54.83,
+   "end": 55.221
+  },
+  {
+   "word": "nil.",
+   "start": 55.241,
+   "end": 55.55
+  },
+  {
+   "word": "Then",
+   "start": 55.95,
+   "end": 56.265
+  },
+  {
+   "word": "on",
+   "start": 56.285,
+   "end": 56.516
+  },
+  {
+   "word": "Saturday,",
+   "start": 56.536,
+   "end": 57.27
+  },
+  {
+   "word": "Brighton",
+   "start": 57.47,
+   "end": 57.999
+  },
+  {
+   "word": "went",
+   "start": 58.019,
+   "end": 58.341
+  },
+  {
+   "word": "to",
+   "start": 58.361,
+   "end": 58.547
+  },
+  {
+   "word": "the",
+   "start": 58.567,
+   "end": 58.684
+  },
+  {
+   "word": "Etihad",
+   "start": 58.704,
+   "end": 59.233
+  },
+  {
+   "word": "and",
+   "start": 59.253,
+   "end": 59.439
+  },
+  {
+   "word": "beat",
+   "start": 59.459,
+   "end": 59.781
+  },
+  {
+   "word": "Manchester",
+   "start": 59.801,
+   "end": 60.467
+  },
+  {
+   "word": "City,",
+   "start": 60.487,
+   "end": 60.81
+  },
+  {
+   "word": "one",
+   "start": 61.01,
+   "end": 61.365
+  },
+  {
+   "word": "nil.",
+   "start": 61.385,
+   "end": 61.74
+  },
+  {
+   "word": "This",
+   "start": 62.14,
+   "end": 62.388
+  },
+  {
+   "word": "is",
+   "start": 62.408,
+   "end": 62.522
+  },
+  {
+   "word": "not",
+   "start": 62.542,
+   "end": 62.79
+  },
+  {
+   "word": "a",
+   "start": 62.81,
+   "end": 62.991
+  },
+  {
+   "word": "team",
+   "start": 63.011,
+   "end": 63.326
+  },
+  {
+   "word": "that",
+   "start": 63.346,
+   "end": 63.594
+  },
+  {
+   "word": "only",
+   "start": 63.614,
+   "end": 63.997
+  },
+  {
+   "word": "beats",
+   "start": 64.017,
+   "end": 64.399
+  },
+  {
+   "word": "the",
+   "start": 64.419,
+   "end": 64.533
+  },
+  {
+   "word": "bottom",
+   "start": 64.553,
+   "end": 64.935
+  },
+  {
+   "word": "half.",
+   "start": 64.955,
+   "end": 65.27
+  },
+  {
+   "word": "On",
+   "start": 65.47,
+   "end": 65.72
+  },
+  {
+   "word": "average,",
+   "start": 65.74,
+   "end": 66.35
+  },
+  {
+   "word": "they",
+   "start": 66.55,
+   "end": 66.751
+  },
+  {
+   "word": "take",
+   "start": 66.771,
+   "end": 67.119
+  },
+  {
+   "word": "more",
+   "start": 67.139,
+   "end": 67.414
+  },
+  {
+   "word": "shots",
+   "start": 67.434,
+   "end": 67.782
+  },
+  {
+   "word": "than",
+   "start": 67.802,
+   "end": 68.003
+  },
+  {
+   "word": "their",
+   "start": 68.023,
+   "end": 68.224
+  },
+  {
+   "word": "opponents.",
+   "start": 68.244,
+   "end": 68.96
+  },
+  {
+   "word": "Sixteen",
+   "start": 69.16,
+   "end": 69.77
+  },
+  {
+   "word": "point",
+   "start": 69.79,
+   "end": 70.19
+  },
+  {
+   "word": "six",
+   "start": 70.21,
+   "end": 70.54
+  },
+  {
+   "word": "a",
+   "start": 70.56,
+   "end": 70.75
+  },
+  {
+   "word": "game,",
+   "start": 70.77,
+   "end": 71.1
+  },
+  {
+   "word": "against",
+   "start": 71.3,
+   "end": 71.749
+  },
+  {
+   "word": "twelve",
+   "start": 71.769,
+   "end": 72.15
+  },
+  {
+   "word": "point",
+   "start": 72.17,
+   "end": 72.552
+  },
+  {
+   "word": "one.",
+   "start": 72.572,
+   "end": 72.82
+  },
+  {
+   "word": "And",
+   "start": 73.22,
+   "end": 73.417
+  },
+  {
+   "word": "only",
+   "start": 73.437,
+   "end": 73.85
+  },
+  {
+   "word": "Chelsea",
+   "start": 73.87,
+   "end": 74.429
+  },
+  {
+   "word": "and",
+   "start": 74.449,
+   "end": 74.645
+  },
+  {
+   "word": "Manchester",
+   "start": 74.665,
+   "end": 75.368
+  },
+  {
+   "word": "City",
+   "start": 75.388,
+   "end": 75.73
+  },
+  {
+   "word": "get",
+   "start": 75.75,
+   "end": 76.019
+  },
+  {
+   "word": "more",
+   "start": 76.039,
+   "end": 76.308
+  },
+  {
+   "word": "shots",
+   "start": 76.328,
+   "end": 76.669
+  },
+  {
+   "word": "on",
+   "start": 76.689,
+   "end": 76.886
+  },
+  {
+   "word": "target",
+   "start": 76.906,
+   "end": 77.392
+  },
+  {
+   "word": "per",
+   "start": 77.412,
+   "end": 77.609
+  },
+  {
+   "word": "game.",
+   "start": 77.629,
+   "end": 77.97
+  },
+  {
+   "word": "Part",
+   "start": 78.37,
+   "end": 78.755
+  },
+  {
+   "word": "three.",
+   "start": 78.775,
+   "end": 79.16
+  },
+  {
+   "word": "The",
+   "start": 79.36,
+   "end": 79.531
+  },
+  {
+   "word": "catch.",
+   "start": 79.551,
+   "end": 80.01
+  },
+  {
+   "word": "Across",
+   "start": 80.41,
+   "end": 80.902
+  },
+  {
+   "word": "the",
+   "start": 80.922,
+   "end": 81.073
+  },
+  {
+   "word": "league,",
+   "start": 81.093,
+   "end": 81.5
+  },
+  {
+   "word": "about",
+   "start": 81.7,
+   "end": 82.104
+  },
+  {
+   "word": "one",
+   "start": 82.124,
+   "end": 82.386
+  },
+  {
+   "word": "in",
+   "start": 82.406,
+   "end": 82.598
+  },
+  {
+   "word": "three",
+   "start": 82.618,
+   "end": 82.951
+  },
+  {
+   "word": "shots",
+   "start": 82.971,
+   "end": 83.304
+  },
+  {
+   "word": "on",
+   "start": 83.324,
+   "end": 83.516
+  },
+  {
+   "word": "target",
+   "start": 83.536,
+   "end": 84.01
+  },
+  {
+   "word": "ends",
+   "start": 84.03,
+   "end": 84.363
+  },
+  {
+   "word": "up",
+   "start": 84.383,
+   "end": 84.575
+  },
+  {
+   "word": "in",
+   "start": 84.595,
+   "end": 84.786
+  },
+  {
+   "word": "the",
+   "start": 84.806,
+   "end": 84.928
+  },
+  {
+   "word": "net.",
+   "start": 84.948,
+   "end": 85.21
+  },
+  {
+   "word": "Thirty",
+   "start": 85.41,
+   "end": 85.821
+  },
+  {
+   "word": "two",
+   "start": 85.841,
+   "end": 86.108
+  },
+  {
+   "word": "percent.",
+   "start": 86.128,
+   "end": 86.61
+  },
+  {
+   "word": "Brighton",
+   "start": 87.01,
+   "end": 87.554
+  },
+  {
+   "word": "score",
+   "start": 87.574,
+   "end": 87.906
+  },
+  {
+   "word": "with",
+   "start": 87.926,
+   "end": 88.118
+  },
+  {
+   "word": "fifty",
+   "start": 88.138,
+   "end": 88.541
+  },
+  {
+   "word": "two",
+   "start": 88.561,
+   "end": 88.823
+  },
+  {
+   "word": "percent",
+   "start": 88.843,
+   "end": 89.316
+  },
+  {
+   "word": "of",
+   "start": 89.336,
+   "end": 89.457
+  },
+  {
+   "word": "theirs.",
+   "start": 89.477,
+   "end": 89.81
+  },
+  {
+   "word": "The",
+   "start": 90.01,
+   "end": 90.137
+  },
+  {
+   "word": "highest",
+   "start": 90.157,
+   "end": 90.654
+  },
+  {
+   "word": "rate",
+   "start": 90.674,
+   "end": 91.022
+  },
+  {
+   "word": "in",
+   "start": 91.042,
+   "end": 91.244
+  },
+  {
+   "word": "the",
+   "start": 91.264,
+   "end": 91.391
+  },
+  {
+   "word": "league.",
+   "start": 91.411,
+   "end": 91.76
+  },
+  {
+   "word": "At",
+   "start": 92.16,
+   "end": 92.303
+  },
+  {
+   "word": "the",
+   "start": 92.323,
+   "end": 92.467
+  },
+  {
+   "word": "other",
+   "start": 92.487,
+   "end": 92.793
+  },
+  {
+   "word": "end,",
+   "start": 92.813,
+   "end": 93.12
+  },
+  {
+   "word": "opponents",
+   "start": 93.32,
+   "end": 93.964
+  },
+  {
+   "word": "score",
+   "start": 93.984,
+   "end": 94.295
+  },
+  {
+   "word": "with",
+   "start": 94.315,
+   "end": 94.495
+  },
+  {
+   "word": "just",
+   "start": 94.515,
+   "end": 94.893
+  },
+  {
+   "word": "twenty",
+   "start": 94.913,
+   "end": 95.357
+  },
+  {
+   "word": "one",
+   "start": 95.377,
+   "end": 95.623
+  },
+  {
+   "word": "percent",
+   "start": 95.643,
+   "end": 96.087
+  },
+  {
+   "word": "of",
+   "start": 96.107,
+   "end": 96.22
+  },
+  {
+   "word": "their",
+   "start": 96.24,
+   "end": 96.419
+  },
+  {
+   "word": "shots",
+   "start": 96.439,
+   "end": 96.751
+  },
+  {
+   "word": "on",
+   "start": 96.771,
+   "end": 96.95
+  },
+  {
+   "word": "target",
+   "start": 96.97,
+   "end": 97.415
+  },
+  {
+   "word": "against",
+   "start": 97.435,
+   "end": 97.879
+  },
+  {
+   "word": "Brighton.",
+   "start": 97.899,
+   "end": 98.41
+  },
+  {
+   "word": "If",
+   "start": 98.81,
+   "end": 98.929
+  },
+  {
+   "word": "Brighton",
+   "start": 98.949,
+   "end": 99.484
+  },
+  {
+   "word": "finished",
+   "start": 99.504,
+   "end": 99.969
+  },
+  {
+   "word": "and",
+   "start": 99.989,
+   "end": 100.177
+  },
+  {
+   "word": "defended",
+   "start": 100.197,
+   "end": 100.802
+  },
+  {
+   "word": "like",
+   "start": 100.822,
+   "end": 101.149
+  },
+  {
+   "word": "an",
+   "start": 101.169,
+   "end": 101.287
+  },
+  {
+   "word": "average",
+   "start": 101.307,
+   "end": 101.773
+  },
+  {
+   "word": "team,",
+   "start": 101.793,
+   "end": 102.12
+  },
+  {
+   "word": "their",
+   "start": 102.32,
+   "end": 102.495
+  },
+  {
+   "word": "goal",
+   "start": 102.515,
+   "end": 102.821
+  },
+  {
+   "word": "difference",
+   "start": 102.841,
+   "end": 103.342
+  },
+  {
+   "word": "would",
+   "start": 103.362,
+   "end": 103.603
+  },
+  {
+   "word": "be",
+   "start": 103.623,
+   "end": 103.863
+  },
+  {
+   "word": "about",
+   "start": 103.883,
+   "end": 104.254
+  },
+  {
+   "word": "plus",
+   "start": 104.274,
+   "end": 104.579
+  },
+  {
+   "word": "four.",
+   "start": 104.599,
+   "end": 104.84
+  },
+  {
+   "word": "Not",
+   "start": 105.04,
+   "end": 105.288
+  },
+  {
+   "word": "plus",
+   "start": 105.308,
+   "end": 105.623
+  },
+  {
+   "word": "seventeen.",
+   "start": 105.643,
+   "end": 106.36
+  },
+  {
+   "word": "And",
+   "start": 106.76,
+   "end": 106.942
+  },
+  {
+   "word": "fourteen",
+   "start": 106.962,
+   "end": 107.482
+  },
+  {
+   "word": "of",
+   "start": 107.502,
+   "end": 107.616
+  },
+  {
+   "word": "their",
+   "start": 107.636,
+   "end": 107.819
+  },
+  {
+   "word": "twenty",
+   "start": 107.839,
+   "end": 108.291
+  },
+  {
+   "word": "four",
+   "start": 108.311,
+   "end": 108.56
+  },
+  {
+   "word": "goals",
+   "start": 108.58,
+   "end": 108.965
+  },
+  {
+   "word": "came",
+   "start": 108.985,
+   "end": 109.302
+  },
+  {
+   "word": "in",
+   "start": 109.322,
+   "end": 109.504
+  },
+  {
+   "word": "just",
+   "start": 109.524,
+   "end": 109.908
+  },
+  {
+   "word": "three",
+   "start": 109.928,
+   "end": 110.246
+  },
+  {
+   "word": "games.",
+   "start": 110.266,
+   "end": 110.65
+  },
+  {
+   "word": "Four",
+   "start": 110.85,
+   "end": 111.152
+  },
+  {
+   "word": "nil",
+   "start": 111.172,
+   "end": 111.474
+  },
+  {
+   "word": "against",
+   "start": 111.494,
+   "end": 112.037
+  },
+  {
+   "word": "Villa,",
+   "start": 112.057,
+   "end": 112.44
+  },
+  {
+   "word": "five",
+   "start": 112.64,
+   "end": 113.055
+  },
+  {
+   "word": "nil",
+   "start": 113.075,
+   "end": 113.403
+  },
+  {
+   "word": "at",
+   "start": 113.423,
+   "end": 113.577
+  },
+  {
+   "word": "Coventry,",
+   "start": 113.597,
+   "end": 114.36
+  },
+  {
+   "word": "and",
+   "start": 114.56,
+   "end": 114.781
+  },
+  {
+   "word": "five",
+   "start": 114.801,
+   "end": 115.183
+  },
+  {
+   "word": "nil",
+   "start": 115.203,
+   "end": 115.505
+  },
+  {
+   "word": "against",
+   "start": 115.525,
+   "end": 116.068
+  },
+  {
+   "word": "Palace.",
+   "start": 116.088,
+   "end": 116.55
+  },
+  {
+   "word": "Eleven",
+   "start": 116.95,
+   "end": 117.381
+  },
+  {
+   "word": "different",
+   "start": 117.401,
+   "end": 117.896
+  },
+  {
+   "word": "players",
+   "start": 117.916,
+   "end": 118.346
+  },
+  {
+   "word": "have",
+   "start": 118.366,
+   "end": 118.604
+  },
+  {
+   "word": "scored,",
+   "start": 118.624,
+   "end": 118.99
+  },
+  {
+   "word": "and",
+   "start": 119.18,
+   "end": 119.384
+  },
+  {
+   "word": "nobody",
+   "start": 119.404,
+   "end": 119.983
+  },
+  {
+   "word": "has",
+   "start": 120.003,
+   "end": 120.282
+  },
+  {
+   "word": "more",
+   "start": 120.302,
+   "end": 120.581
+  },
+  {
+   "word": "than",
+   "start": 120.601,
+   "end": 120.806
+  },
+  {
+   "word": "three.",
+   "start": 120.826,
+   "end": 121.18
+  },
+  {
+   "word": "Part",
+   "start": 121.58,
+   "end": 121.982
+  },
+  {
+   "word": "four.",
+   "start": 122.002,
+   "end": 122.32
+  },
+  {
+   "word": "The",
+   "start": 122.52,
+   "end": 122.664
+  },
+  {
+   "word": "verdict.",
+   "start": 122.684,
+   "end": 123.32
+  },
+  {
+   "word": "Brighton",
+   "start": 123.72,
+   "end": 124.38
+  },
+  {
+   "word": "are",
+   "start": 124.4,
+   "end": 124.55
+  },
+  {
+   "word": "good.",
+   "start": 124.57,
+   "end": 124.89
+  },
+  {
+   "word": "They",
+   "start": 125.09,
+   "end": 125.281
+  },
+  {
+   "word": "have",
+   "start": 125.301,
+   "end": 125.563
+  },
+  {
+   "word": "beaten",
+   "start": 125.583,
+   "end": 126.056
+  },
+  {
+   "word": "the",
+   "start": 126.076,
+   "end": 126.197
+  },
+  {
+   "word": "top",
+   "start": 126.217,
+   "end": 126.478
+  },
+  {
+   "word": "two,",
+   "start": 126.498,
+   "end": 126.76
+  },
+  {
+   "word": "and",
+   "start": 126.96,
+   "end": 127.141
+  },
+  {
+   "word": "they",
+   "start": 127.161,
+   "end": 127.343
+  },
+  {
+   "word": "control",
+   "start": 127.363,
+   "end": 127.947
+  },
+  {
+   "word": "games.",
+   "start": 127.967,
+   "end": 128.35
+  },
+  {
+   "word": "But",
+   "start": 128.75,
+   "end": 129.044
+  },
+  {
+   "word": "the",
+   "start": 129.064,
+   "end": 129.201
+  },
+  {
+   "word": "finishing",
+   "start": 129.221,
+   "end": 129.828
+  },
+  {
+   "word": "is",
+   "start": 129.848,
+   "end": 129.985
+  },
+  {
+   "word": "running",
+   "start": 130.005,
+   "end": 130.456
+  },
+  {
+   "word": "hot,",
+   "start": 130.476,
+   "end": 130.77
+  },
+  {
+   "word": "and",
+   "start": 130.97,
+   "end": 131.143
+  },
+  {
+   "word": "finishing",
+   "start": 131.163,
+   "end": 131.658
+  },
+  {
+   "word": "like",
+   "start": 131.678,
+   "end": 131.98
+  },
+  {
+   "word": "that",
+   "start": 132.0,
+   "end": 132.237
+  },
+  {
+   "word": "usually",
+   "start": 132.257,
+   "end": 132.881
+  },
+  {
+   "word": "cools",
+   "start": 132.901,
+   "end": 133.267
+  },
+  {
+   "word": "off.",
+   "start": 133.287,
+   "end": 133.46
+  },
+  {
+   "word": "Our",
+   "start": 133.86,
+   "end": 134.12
+  },
+  {
+   "word": "verdict?",
+   "start": 134.14,
+   "end": 134.68
+  },
+  {
+   "word": "A",
+   "start": 134.88,
+   "end": 135.066
+  },
+  {
+   "word": "top",
+   "start": 135.086,
+   "end": 135.342
+  },
+  {
+   "word": "six",
+   "start": 135.362,
+   "end": 135.686
+  },
+  {
+   "word": "team,",
+   "start": 135.706,
+   "end": 136.03
+  },
+  {
+   "word": "for",
+   "start": 136.23,
+   "end": 136.484
+  },
+  {
+   "word": "real.",
+   "start": 136.504,
+   "end": 136.94
+  },
+  {
+   "word": "Title",
+   "start": 137.14,
+   "end": 137.61
+  },
+  {
+   "word": "challengers?",
+   "start": 137.63,
+   "end": 138.38
+  },
+  {
+   "word": "Not",
+   "start": 138.58,
+   "end": 138.925
+  },
+  {
+   "word": "yet.",
+   "start": 138.945,
+   "end": 139.29
+  },
+  {
+   "word": "Update.",
+   "start": 139.69,
+   "end": 140.36
+  },
+  {
+   "word": "Since",
+   "start": 140.56,
+   "end": 140.832
+  },
+  {
+   "word": "we",
+   "start": 140.852,
+   "end": 141.007
+  },
+  {
+   "word": "made",
+   "start": 141.027,
+   "end": 141.298
+  },
+  {
+   "word": "this",
+   "start": 141.318,
+   "end": 141.532
+  },
+  {
+   "word": "video,",
+   "start": 141.552,
+   "end": 141.94
+  },
+  {
+   "word": "Brighton",
+   "start": 142.14,
+   "end": 142.643
+  },
+  {
+   "word": "beat",
+   "start": 142.663,
+   "end": 142.969
+  },
+  {
+   "word": "Brentford",
+   "start": 142.989,
+   "end": 143.557
+  },
+  {
+   "word": "two",
+   "start": 143.577,
+   "end": 143.819
+  },
+  {
+   "word": "nil,",
+   "start": 143.839,
+   "end": 144.08
+  },
+  {
+   "word": "and",
+   "start": 144.28,
+   "end": 144.454
+  },
+  {
+   "word": "moved",
+   "start": 144.474,
+   "end": 144.841
+  },
+  {
+   "word": "up",
+   "start": 144.861,
+   "end": 145.035
+  },
+  {
+   "word": "to",
+   "start": 145.055,
+   "end": 145.228
+  },
+  {
+   "word": "second.",
+   "start": 145.248,
+   "end": 145.68
+  },
+  {
+   "word": "Brentford",
+   "start": 146.08,
+   "end": 146.607
+  },
+  {
+   "word": "had",
+   "start": 146.627,
+   "end": 146.85
+  },
+  {
+   "word": "a",
+   "start": 146.87,
+   "end": 147.032
+  },
+  {
+   "word": "man",
+   "start": 147.052,
+   "end": 147.275
+  },
+  {
+   "word": "sent",
+   "start": 147.295,
+   "end": 147.579
+  },
+  {
+   "word": "off",
+   "start": 147.599,
+   "end": 147.762
+  },
+  {
+   "word": "after",
+   "start": 147.782,
+   "end": 148.065
+  },
+  {
+   "word": "twenty",
+   "start": 148.085,
+   "end": 148.491
+  },
+  {
+   "word": "three",
+   "start": 148.511,
+   "end": 148.795
+  },
+  {
+   "word": "minutes,",
+   "start": 148.815,
+   "end": 149.22
+  },
+  {
+   "word": "but",
+   "start": 149.42,
+   "end": 149.661
+  },
+  {
+   "word": "it",
+   "start": 149.681,
+   "end": 149.792
+  },
+  {
+   "word": "is",
+   "start": 149.812,
+   "end": 149.923
+  },
+  {
+   "word": "now",
+   "start": 149.943,
+   "end": 150.184
+  },
+  {
+   "word": "seven",
+   "start": 150.204,
+   "end": 150.576
+  },
+  {
+   "word": "clean",
+   "start": 150.596,
+   "end": 150.968
+  },
+  {
+   "word": "sheets,",
+   "start": 150.988,
+   "end": 151.36
+  },
+  {
+   "word": "level",
+   "start": 151.56,
+   "end": 151.998
+  },
+  {
+   "word": "with",
+   "start": 152.018,
+   "end": 152.227
+  },
+  {
+   "word": "Arsenal",
+   "start": 152.247,
+   "end": 152.838
+  },
+  {
+   "word": "again.",
+   "start": 152.858,
+   "end": 153.22
+  },
+  {
+   "word": "And",
+   "start": 153.62,
+   "end": 153.801
+  },
+  {
+   "word": "the",
+   "start": 153.821,
+   "end": 153.935
+  },
+  {
+   "word": "goal",
+   "start": 153.955,
+   "end": 154.27
+  },
+  {
+   "word": "difference",
+   "start": 154.29,
+   "end": 154.806
+  },
+  {
+   "word": "is",
+   "start": 154.826,
+   "end": 154.94
+  },
+  {
+   "word": "up",
+   "start": 154.96,
+   "end": 155.141
+  },
+  {
+   "word": "to",
+   "start": 155.161,
+   "end": 155.342
+  },
+  {
+   "word": "plus",
+   "start": 155.362,
+   "end": 155.677
+  },
+  {
+   "word": "nineteen.",
+   "start": 155.697,
+   "end": 156.28
+  },
+  {
+   "word": "Follow",
+   "start": 156.68,
+   "end": 157.042
+  },
+  {
+   "word": "for",
+   "start": 157.062,
+   "end": 157.234
+  },
+  {
+   "word": "a",
+   "start": 157.254,
+   "end": 157.425
+  },
+  {
+   "word": "new",
+   "start": 157.445,
+   "end": 157.744
+  },
+  {
+   "word": "data",
+   "start": 157.764,
+   "end": 158.126
+  },
+  {
+   "word": "story",
+   "start": 158.146,
+   "end": 158.572
+  },
+  {
+   "word": "every",
+   "start": 158.592,
+   "end": 158.891
+  },
+  {
+   "word": "week.",
+   "start": 158.911,
+   "end": 159.21
+  },
+  {
+   "word": "And",
+   "start": 159.41,
+   "end": 159.612
+  },
+  {
+   "word": "tell",
+   "start": 159.632,
+   "end": 159.907
+  },
+  {
+   "word": "us",
+   "start": 159.927,
+   "end": 160.129
+  },
+  {
+   "word": "in",
+   "start": 160.149,
+   "end": 160.351
+  },
+  {
+   "word": "the",
+   "start": 160.371,
+   "end": 160.499
+  },
+  {
+   "word": "comments.",
+   "start": 160.519,
+   "end": 161.09
+  },
+  {
+   "word": "Are",
+   "start": 161.29,
+   "end": 161.434
+  },
+  {
+   "word": "Brighton",
+   "start": 161.454,
+   "end": 162.092
+  },
+  {
+   "word": "for",
+   "start": 162.112,
+   "end": 162.339
+  },
+  {
+   "word": "real?",
+   "start": 162.359,
+   "end": 162.75
+  }
+ ],
+ "duration": 162.97
+}

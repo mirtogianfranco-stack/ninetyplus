@@ -22,6 +22,9 @@ import { spec as np018 } from './cards/np018';
 import { NP099Preview } from './previews/NP099';
 import { NP025Preview } from './previews/NP025';
 import { StoryThumb } from './templates/StoryThumb';
+import { VerticalStory } from './templates/VerticalStory';
+import { spec as np030 } from './previews/np030';
+import { PreviewTemplate } from './templates/PreviewTemplate';
 import { spec as np025 } from './previews/np025';
 import { spec as np099 } from './previews/np099';
 import { previewFrames } from './templates/PreviewTemplate';
@@ -129,6 +132,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id='NP099' component={NP099Preview} durationInFrames={previewFrames(np099)} fps={30} width={1920} height={1080} />
     <Composition id='NP025' component={NP025Preview} durationInFrames={previewFrames(np025)} fps={30} width={1920} height={1080} />
     <Still id='NP025T' component={() => <StoryThumb dir='np-025' crest='bha' lines={['ARE BRIGHTON', 'FOR REAL?']} stat='52%' statLabel='OF SHOTS ON TARGET SCORED · LEAGUE AVERAGE 32%' glow='rgba(0,87,184,0.9)' />} width={1280} height={720} />
+    <Composition id='NP030' component={() => <PreviewTemplate spec={np030} />} durationInFrames={previewFrames(np030)} fps={30} width={1920} height={1080} />
+    <Composition id='NP030V' component={() => <VerticalStory spec={np030} headline={['ARE BRIGHTON', 'FOR REAL?']} />} durationInFrames={previewFrames(np030)} fps={30} width={1080} height={1920} />
     <Composition id='NP020' component={NP020Card} durationInFrames={cardFrames(np020)} fps={30} width={1080} height={1920} />
     <Still id='NP020X' component={() => <XCard spec={np020} />} width={1200} height={675} />
     <Still id='NP020XT' component={() => <XCard spec={np020} tall />} width={1080} height={1350} />
