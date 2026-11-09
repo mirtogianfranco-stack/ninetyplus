@@ -1,0 +1,319 @@
+{
+ "league": {
+  "gf": 273,
+  "sot": 853.0,
+  "sh": 2733.0,
+  "games": 100
+ },
+ "teams": {
+  "Arsenal": {
+   "gp": 10,
+   "gf": 15,
+   "ga": 5,
+   "sh": 138.0,
+   "sot": 48.0,
+   "sha": 110.0,
+   "sota": 26.0,
+   "cs": 7
+  },
+  "Coventry City": {
+   "gp": 10,
+   "gf": 10,
+   "ga": 19,
+   "sh": 112.0,
+   "sot": 33.0,
+   "sha": 167.0,
+   "sota": 45.0,
+   "cs": 1
+  },
+  "Hull City": {
+   "gp": 10,
+   "gf": 11,
+   "ga": 11,
+   "sh": 101.0,
+   "sot": 31.0,
+   "sha": 152.0,
+   "sota": 53.0,
+   "cs": 3
+  },
+  "Manchester United": {
+   "gp": 10,
+   "gf": 14,
+   "ga": 19,
+   "sh": 193.0,
+   "sot": 54.0,
+   "sha": 117.0,
+   "sota": 50.0,
+   "cs": 0
+  },
+  "Everton": {
+   "gp": 10,
+   "gf": 12,
+   "ga": 10,
+   "sh": 141.0,
+   "sot": 50.0,
+   "sha": 148.0,
+   "sota": 40.0,
+   "cs": 4
+  },
+  "Crystal Palace": {
+   "gp": 10,
+   "gf": 10,
+   "ga": 24,
+   "sh": 109.0,
+   "sot": 38.0,
+   "sha": 189.0,
+   "sota": 62.0,
+   "cs": 1
+  },
+  "Ipswich Town": {
+   "gp": 10,
+   "gf": 15,
+   "ga": 20,
+   "sh": 109.0,
+   "sot": 39.0,
+   "sha": 159.0,
+   "sota": 51.0,
+   "cs": 0
+  },
+  "Sunderland": {
+   "gp": 10,
+   "gf": 8,
+   "ga": 17,
+   "sh": 122.0,
+   "sot": 36.0,
+   "sha": 135.0,
+   "sota": 38.0,
+   "cs": 3
+  },
+  "Nottingham Forest": {
+   "gp": 10,
+   "gf": 9,
+   "ga": 13,
+   "sh": 163.0,
+   "sot": 36.0,
+   "sha": 101.0,
+   "sota": 31.0,
+   "cs": 1
+  },
+  "Leeds United": {
+   "gp": 10,
+   "gf": 10,
+   "ga": 8,
+   "sh": 121.0,
+   "sot": 37.0,
+   "sha": 132.0,
+   "sota": 43.0,
+   "cs": 4
+  },
+  "Brentford": {
+   "gp": 10,
+   "gf": 16,
+   "ga": 11,
+   "sh": 131.0,
+   "sot": 36.0,
+   "sha": 155.0,
+   "sota": 44.0,
+   "cs": 3
+  },
+  "Tottenham Hotspur": {
+   "gp": 10,
+   "gf": 10,
+   "ga": 11,
+   "sh": 156.0,
+   "sot": 44.0,
+   "sha": 125.0,
+   "sota": 35.0,
+   "cs": 4
+  },
+  "Brighton & Hove Albion": {
+   "gp": 10,
+   "gf": 26,
+   "ga": 7,
+   "sh": 169.0,
+   "sot": 52.0,
+   "sha": 114.0,
+   "sota": 33.0,
+   "cs": 7
+  },
+  "Aston Villa": {
+   "gp": 10,
+   "gf": 14,
+   "ga": 17,
+   "sh": 119.0,
+   "sot": 33.0,
+   "sha": 166.0,
+   "sota": 52.0,
+   "cs": 2
+  },
+  "Manchester City": {
+   "gp": 10,
+   "gf": 21,
+   "ga": 13,
+   "sh": 150.0,
+   "sot": 54.0,
+   "sha": 106.0,
+   "sota": 39.0,
+   "cs": 3
+  },
+  "AFC Bournemouth": {
+   "gp": 10,
+   "gf": 16,
+   "ga": 14,
+   "sh": 142.0,
+   "sot": 49.0,
+   "sha": 104.0,
+   "sota": 34.0,
+   "cs": 3
+  },
+  "Newcastle United": {
+   "gp": 10,
+   "gf": 13,
+   "ga": 16,
+   "sh": 122.0,
+   "sot": 34.0,
+   "sha": 165.0,
+   "sota": 51.0,
+   "cs": 2
+  },
+  "Liverpool": {
+   "gp": 10,
+   "gf": 14,
+   "ga": 10,
+   "sh": 160.0,
+   "sot": 47.0,
+   "sha": 129.0,
+   "sota": 35.0,
+   "cs": 4
+  },
+  "Fulham": {
+   "gp": 10,
+   "gf": 10,
+   "ga": 12,
+   "sh": 140.0,
+   "sot": 46.0,
+   "sha": 137.0,
+   "sota": 39.0,
+   "cs": 3
+  },
+  "Chelsea": {
+   "gp": 10,
+   "gf": 19,
+   "ga": 16,
+   "sh": 135.0,
+   "sot": 56.0,
+   "sha": 122.0,
+   "sota": 52.0,
+   "cs": 2
+  }
+ },
+ "brighton_games": [
+  [
+   "2026-08-23",
+   "Aston Villa",
+   4,
+   0
+  ],
+  [
+   "2026-08-30",
+   "Chelsea",
+   3,
+   4
+  ],
+  [
+   "2026-09-05",
+   "Leeds United",
+   1,
+   1
+  ],
+  [
+   "2026-09-13",
+   "Coventry City",
+   5,
+   0
+  ],
+  [
+   "2026-09-19",
+   "Arsenal",
+   3,
+   0
+  ],
+  [
+   "2026-10-10",
+   "Sunderland",
+   2,
+   0
+  ],
+  [
+   "2026-10-18",
+   "Crystal Palace",
+   5,
+   0
+  ],
+  [
+   "2026-10-25",
+   "Liverpool",
+   0,
+   2
+  ],
+  [
+   "2026-10-31",
+   "Manchester City",
+   1,
+   0
+  ],
+  [
+   "2026-11-08",
+   "Brentford",
+   2,
+   0
+  ]
+ ],
+ "scorers": [
+  [
+   "Pascal Gross",
+   4
+  ],
+  [
+   "Jack Hinshelwood",
+   3
+  ],
+  [
+   "Charalambos Kostoulas",
+   3
+  ],
+  [
+   "Yasin Ayari",
+   3
+  ],
+  [
+   "Maxim De Cuyper",
+   2
+  ],
+  [
+   "Malick Yalcouy\u00e9",
+   2
+  ],
+  [
+   "Diego G\u00f3mez",
+   2
+  ],
+  [
+   "Luka Vuskovic",
+   1
+  ],
+  [
+   "Lewis Dunk",
+   1
+  ],
+  [
+   "Chema Andr\u00e9s",
+   1
+  ],
+  [
+   "Jaouen Hadjam",
+   1
+  ]
+ ],
+ "own_goals": 3
+}
