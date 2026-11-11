@@ -1,0 +1,310 @@
+{
+ "words": [
+  {
+   "word": "International",
+   "start": 0.02,
+   "end": 0.732
+  },
+  {
+   "word": "break,",
+   "start": 0.752,
+   "end": 1.07
+  },
+  {
+   "word": "but",
+   "start": 1.27,
+   "end": 1.508
+  },
+  {
+   "word": "the",
+   "start": 1.528,
+   "end": 1.638
+  },
+  {
+   "word": "card",
+   "start": 1.658,
+   "end": 1.96
+  },
+  {
+   "word": "does",
+   "start": 1.98,
+   "end": 2.219
+  },
+  {
+   "word": "not",
+   "start": 2.239,
+   "end": 2.477
+  },
+  {
+   "word": "stop.",
+   "start": 2.497,
+   "end": 2.8
+  },
+  {
+   "word": "T\u00fcrkiye",
+   "start": 3.06,
+   "end": 3.487
+  },
+  {
+   "word": "have",
+   "start": 3.507,
+   "end": 3.785
+  },
+  {
+   "word": "lost",
+   "start": 3.805,
+   "end": 4.157
+  },
+  {
+   "word": "all",
+   "start": 4.177,
+   "end": 4.455
+  },
+  {
+   "word": "four",
+   "start": 4.475,
+   "end": 4.753
+  },
+  {
+   "word": "games.",
+   "start": 4.773,
+   "end": 5.2
+  },
+  {
+   "word": "Belgium,",
+   "start": 5.4,
+   "end": 6.05
+  },
+  {
+   "word": "win",
+   "start": 6.25,
+   "end": 6.601
+  },
+  {
+   "word": "or",
+   "start": 6.621,
+   "end": 6.786
+  },
+  {
+   "word": "draw.",
+   "start": 6.806,
+   "end": 7.25
+  },
+  {
+   "word": "Croatia",
+   "start": 7.51,
+   "end": 8.094
+  },
+  {
+   "word": "have",
+   "start": 8.114,
+   "end": 8.362
+  },
+  {
+   "word": "conceded",
+   "start": 8.382,
+   "end": 9.033
+  },
+  {
+   "word": "fourteen",
+   "start": 9.053,
+   "end": 9.57
+  },
+  {
+   "word": "in",
+   "start": 9.59,
+   "end": 9.772
+  },
+  {
+   "word": "four.",
+   "start": 9.792,
+   "end": 10.04
+  },
+  {
+   "word": "England",
+   "start": 10.24,
+   "end": 10.84
+  },
+  {
+   "word": "and",
+   "start": 10.86,
+   "end": 11.072
+  },
+  {
+   "word": "Croatia,",
+   "start": 11.092,
+   "end": 11.77
+  },
+  {
+   "word": "three",
+   "start": 11.97,
+   "end": 12.306
+  },
+  {
+   "word": "plus",
+   "start": 12.326,
+   "end": 12.662
+  },
+  {
+   "word": "goals.",
+   "start": 12.682,
+   "end": 13.09
+  },
+  {
+   "word": "Spain",
+   "start": 13.35,
+   "end": 13.743
+  },
+  {
+   "word": "have",
+   "start": 13.763,
+   "end": 14.018
+  },
+  {
+   "word": "won",
+   "start": 14.038,
+   "end": 14.294
+  },
+  {
+   "word": "four",
+   "start": 14.314,
+   "end": 14.569
+  },
+  {
+   "word": "from",
+   "start": 14.589,
+   "end": 14.845
+  },
+  {
+   "word": "four.",
+   "start": 14.865,
+   "end": 15.12
+  },
+  {
+   "word": "Spain",
+   "start": 15.32,
+   "end": 15.734
+  },
+  {
+   "word": "to",
+   "start": 15.754,
+   "end": 15.951
+  },
+  {
+   "word": "win.",
+   "start": 15.971,
+   "end": 16.24
+  },
+  {
+   "word": "And",
+   "start": 16.49,
+   "end": 16.658
+  },
+  {
+   "word": "both",
+   "start": 16.678,
+   "end": 16.97
+  },
+  {
+   "word": "teams",
+   "start": 16.99,
+   "end": 17.345
+  },
+  {
+   "word": "have",
+   "start": 17.365,
+   "end": 17.595
+  },
+  {
+   "word": "scored",
+   "start": 17.615,
+   "end": 17.97
+  },
+  {
+   "word": "in",
+   "start": 17.99,
+   "end": 18.158
+  },
+  {
+   "word": "every",
+   "start": 18.178,
+   "end": 18.47
+  },
+  {
+   "word": "Netherlands",
+   "start": 18.49,
+   "end": 19.158
+  },
+  {
+   "word": "game.",
+   "start": 19.178,
+   "end": 19.47
+  },
+  {
+   "word": "Netherlands",
+   "start": 19.67,
+   "end": 20.514
+  },
+  {
+   "word": "and",
+   "start": 20.534,
+   "end": 20.749
+  },
+  {
+   "word": "Greece,",
+   "start": 20.769,
+   "end": 21.22
+  },
+  {
+   "word": "both",
+   "start": 21.42,
+   "end": 21.766
+  },
+  {
+   "word": "teams",
+   "start": 21.786,
+   "end": 22.204
+  },
+  {
+   "word": "score.",
+   "start": 22.224,
+   "end": 22.57
+  },
+  {
+   "word": "Which",
+   "start": 22.83,
+   "end": 23.11
+  },
+  {
+   "word": "leg",
+   "start": 23.13,
+   "end": 23.35
+  },
+  {
+   "word": "breaks",
+   "start": 23.37,
+   "end": 23.77
+  },
+  {
+   "word": "first?",
+   "start": 23.79,
+   "end": 24.13
+  },
+  {
+   "word": "Comment",
+   "start": 24.33,
+   "end": 24.85
+  },
+  {
+   "word": "your",
+   "start": 24.87,
+   "end": 25.081
+  },
+  {
+   "word": "pick.",
+   "start": 25.101,
+   "end": 25.39
+  }
+ ],
+ "duration": 25.61
+}
