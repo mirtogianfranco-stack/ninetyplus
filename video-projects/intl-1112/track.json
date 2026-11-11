@@ -1,0 +1,6 @@
+{"picks": [
+ {"card": "Nations League card", "label": "Belgium win or draw at Turkiye", "league": "uefa.nations", "date": "20261112", "home": "rkiye", "away": "Belgium", "type": "win_or_draw", "team": "away"},
+ {"card": "Nations League card", "label": "England v Croatia 3+ goals", "league": "uefa.nations", "date": "20261112", "home": "England", "away": "Croatia", "type": "goals_over", "n": 3},
+ {"card": "Nations League card", "label": "Spain to win at Czechia", "league": "uefa.nations", "date": "20261112", "home": "Czechia", "away": "Spain", "type": "win", "team": "away"},
+ {"card": "Nations League card", "label": "Netherlands v Greece both teams score", "league": "uefa.nations", "date": "20261113", "home": "Netherlands", "away": "Greece", "type": "btts"}
+]}
