@@ -7,8 +7,9 @@ from kit.janfeb import badge100, confetti, heart, GOLD, PURPLE, TEAL, PINK
 from reportlab.lib.colors import white, HexColor
 
 R = random.Random(100)
-ONT = ("The Kindergarten Program (2016): <b>Demonstrating Literacy and Mathematics Behaviours</b> (counting, quantity and "
-       "number relationships). Ontario Mathematics Curriculum (2020), Grades 1-3, <b>Strand B Number, B1 Number Sense</b> "
+ONT = ("The Ontario Curriculum: Kindergarten (2026): <b>A6 Number Sense and Operations</b> (A6.1 explore what numbers are "
+       "used for; A6.7 estimate the number of objects in small collections and check by counting; A6.8 count to 20 by 1s, "
+       "starting from any number). Ontario Mathematics Curriculum (2020), Grades 1-3, <b>Strand B Number, B1 Number Sense</b> "
        "(reading, representing, counting and skip counting whole numbers; place value with tens and ones) and <b>Strand A</b> "
        "(mathematical processes). Writing tasks connect to Ontario Language (2023) Strand D.")
 
@@ -179,7 +180,7 @@ LISTING = dict(
                 "Included: Fill the Hundreds Chart (2 levels), a cut-apart 100 Chart Puzzle with a mat, Skip Count to 100 trains "
                 "(10s, 5s, 2s), a 10 Groups of 10 sorting mat, The 100-Second Challenge (predict and record), When I Am 100 "
                 "Years Old (draw and write), a 100 Days Smarter crown, answer keys, and a teacher guide with a stations plan.\n\n"
-                "Ontario: Kindergarten Program (2016); Math (2020) B1 Number Sense.",
+                "Ontario: Kindergarten (2026) A6 Number Sense and Operations; Math (2020) B1 Number Sense.",
     keywords=["100th day of school", "hundreds chart", "skip counting", "100 days smarter", "kindergarten", "grade 1", "grade 2",
               "Ontario math", "February", "no prep"])
 
