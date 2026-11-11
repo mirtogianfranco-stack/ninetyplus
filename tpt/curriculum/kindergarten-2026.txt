@@ -1,0 +1,163 @@
+
+## STRAND A: Foundations of Language and Mathematics 
+
+A1 Oral and Non-Verbal Communication: communicate orally and non-verbally
+  A1.1 listen and respond
+  A1.2 use language conventions and non-verbal communication
+  ? 
+  A1.3 understand and use new words and develop morphological awareness
+
+A2 Foundations for Reading and Writing: apply early reading and writing skills
+  ? 
+  A2.1 name upper- and lowercase letters (both in and out of order)
+  A2.2 use proper formation patterns to write letters
+  A2.3 isolate and blend phonemes , and segment simple words into phonemes
+  A2.4 identify simple grapheme-phoneme correspondences
+  A2.5 read and spell simple words using phonemic awareness and phonics knowledge
+  A2.6 read short sentences fluently , including those with explicitly taught words, with increasing accuracy, to support comprehension
+
+A3 Understanding and Responding to Texts: understand and respond to a variety of texts by diverse creators from Canada and by diverse First Nations, Métis, and Inuit creators
+  A3.1 identify purposes for choosing different texts
+  A3.2 apply knowledge of words, sentence structure , and punctuation
+  A3.3 read and understand simple texts, using background knowledge and beginning knowledge of words, grammar, and sentence structure
+  A3.4 express personal thoughts and feelings about texts
+  A3.5 make predictions about unfamiliar texts, using background knowledge
+  A3.6 make connections to a variety of texts
+
+A4 Expressing Ideas and Creating Texts: create texts using foundational language knowledge and skills
+  A4.1 use knowledge of letters, words, and sentences, with pictures and symbols, to create simple texts
+  A4.2 use classroom writing resources to support creating simple texts
+
+A5 The Mathematical Processes: apply the mathematical processes (i.e., problem solving; reasoning and proving; reflecting; connecting; communicating; representing; and selecting tools and strategies)
+  ? 
+
+A6 Number Sense and Operations: use numbers and operations
+  A6.1 explore what numbers are used for
+  A6.2 understand when counting forward, the quantity gets bigger and when counting backward, the quantity gets smaller
+  A6.3 identify and write numbers to 20
+  A6.4 subitize quantities to 5
+  A6.5 compose and decompose quantities to 10
+  A6.6 understand the concept of more than, the same (equal), or less than
+  A6.7 estimate the number of objects in small collections and check by counting
+  A6.8 count to 20 by 1s, starting from any number
+  A6.9 solve equal-share problems using concrete materials
+  A6.10 describe relationships between any two numbers from 0 to 20
+  A6.11 recall addition facts to 5 and related subtraction facts
+  A6.12 solve situations involving addition and subtraction to 10 using concrete materials
+  A6.13 identify and explore the value of Canadian coins to 25¢ and coins and bills to $10
+
+A7 Patterns and Relationships : investigate repeating patterns
+  A7.1 identify, describe, and create patterns
+  A7.2 identify the core of a repeating pattern and describe why it is important
+  A7.3 show that patterns can be represented in different ways because the core remains the same
+  A7.4 extend patterns in both directions and identify any missing elements
+
+A8 Data Literacy and Probability : collect and display data to answer questions and communicate information, and explore probability in everyday contexts
+  A8.1 sort objects or data using one attribute
+  A8.2 collect and record data to answer questions of interest, and display it in concrete graphs or picture graphs
+  A8.3 respond to data in concrete graphs and picture graphs by interpreting it and drawing conclusions
+  A8.4 describe how likely familiar events are to happen
+
+A9 Geometric and Spatial Reasoning: describe two-dimensional shapes and three-dimensional objects , and the location and movement of people and objects
+  A9.1 identify, sort , and compare the most common two-dimensional shapes, including circle , hexagon , rhombus , and trapezoid
+  A9.2 identify, sort, and compare the most common three-dimensional objects, including cube , sphere , prisms , cone , and pyramid
+  A9.3 in structures they have made, identify three-dimensional objects and two-dimensional shapes
+  A9.4 construct two-dimensional pictures and three-dimensional structures with matching halves
+  A9.5 put two-dimensional shapes together to make other shapes, break them into smaller shapes, and put them together in different ways
+  A9.6 describe basic spatial relationships and movements, and visualize objects from different perspectives
+  A9.7 give and follow directions for moving from one location to another
+
+A10 Measurement: describe and compare the length, area, mass , or capacity of a variety of objects
+  A10.1 describe different ways that objects can be measured
+  A10.2 compare the length, area, mass, and capacity of objects using concrete materials
+
+## STRAND B: Problem Solving and Innovating
+
+B11 Coding Skills: use foundational coding concepts and skills
+  B11.1 use directional and positional language to create and follow instructions involving movement
+  B11.2 test and refine instructions
+  B11.3 communicate and record step-by-step instructions using symbols, words, or pictures
+
+B12 Scientific Investigation and Engineering Design: use an inquiry process to engage in scientific investigations and to design, build, and test models and structures
+  B12.1 state problems and pose questions
+  B12.2 make predictions and observations while exploring, investigating, and designing
+  B12.3 select materials and tools to carry out investigations and to construct models and structures
+  B12.4 draw conclusions and communicate results
+  B12.5 design, build, and test models and structures
+  B12.6 follow safety rules to help prevent injuries, including concussion, and demonstrate an understanding of the importance of these practices
+
+B13 Exploring Environments: investigate natural and built environments
+  B13.1 ask questions about and describe some natural occurrences
+  B13.2 sort and classify groups of living and non-living things
+  B13.3 compare patterns in natural and built environments
+
+## STRAND C: Self-Regulation and Well-Being
+
+C14 Social Skills: identify and use social skills in play and other contexts
+  C14.1 act and talk with peers and adults by expressing and accepting positive messages
+  C14.2 show the ability to take turns
+  C14.3 demonstrate an awareness of ways of making and keeping friends
+  C14.4 use problem-solving skills in social situations
+
+C15 Self-Regulation: demonstrate independence, self-regulation, and a willingness to take on responsibility
+  C15.1 demonstrate self-reliance and a sense of responsibility
+  C15.2 demonstrate a willingness to try new experiences and to adapt to new situations
+  C15.3 demonstrate self-motivation, initiative, and confidence in their approach to learning
+  C15.4 demonstrate self-control and adapt behaviour to different contexts
+  C15.5 develop empathy for others, and acknowledge and respond to each other’s feelings
+
+C16 Understanding Health Concepts: demonstrate an awareness of their own health and well-being
+  C16.1 demonstrate an understanding of the effects of healthy, active living on the mind and body
+  C16.2 investigate the benefits of nutritious foods and explore ways of ensuring healthy eating
+  C16.3 practise and discuss appropriate personal hygiene that promotes personal, family, and community health
+  C16.4 discuss what action to take when they feel unsafe or uncomfortable, in person or online, and when and how to seek assistance
+  C16.5 discuss and demonstrate in play what makes them happy and unhappy, and why
+
+C17 Active Participation: participate actively and regularly in a variety of activities that require the application of movement concepts
+  C17.1 participate actively in creative movement and other daily physical activities
+  C17.2 demonstrate persistence while engaged in activities that require the use of both large and small muscles
+  C17.3 demonstrate strategies for engaging in cooperative play in a variety of games and activities
+
+C18 Movement Skills and Concepts: develop movement skills and concepts as they use their growing bodies to move in a variety of ways and in a variety of contexts
+  C18.1 demonstrate spatial awareness in activities that require the use of large muscles
+  C18.2 demonstrate control of large muscles with and without equipment
+  C18.3 demonstrate balance, whole-body and hand-eye coordination, and flexibility in movement
+  C18.4 demonstrate control of small muscles while working in a variety of learning areas and when using a variety of materials or equipment
+  C18.5 demonstrate spatial awareness by doing activities that require the use of small muscles
+
+## STRAND D: Belonging and Contributing
+
+D19 Identity and Self-Image : demonstrate a sense of identity and a positive self-image
+  D19.1 recognize personal interests, strengths, and accomplishments
+  D19.2 identify and talk about their own interests and preferences
+  D19.3 express their thoughts and share experiences
+
+D20 Understanding Perspectives and Canadian Identity: show understanding of the multiple perspectives and diversity among individuals, groups, and communities in Canada, and identify areas of connection
+  D20.1 understand that everyone belongs to multiple groups and communities, and that these groups and communities together shape Canadian identity
+  D20.2 describe, both verbally and non-verbally, ways in which they contribute to the various groups to which they belong
+  D20.3 demonstrate respect for different perspectives and identify areas of connection
+
+D21 Self-Confidence: recognize bias in ideas and develop the self-confidence to stand up for themselves and others against prejudice and discrimination
+  D21.1 stand up for themselves, and apply behaviours that enhance their own and others’ well-being
+  D21.2 think critically about fair/unfair and biased behaviour towards both themselves and others, and act with compassion and kindness
+  D21.3 recognize discriminatory and inequitable practices and behaviours and respond appropriately
+
+D22 People and Communities: demonstrate an awareness of their surroundings
+  D22.1 recognize people in their community and talk about what they do
+  D22.2 recognize places and buildings within their community, both natural and human-made, and talk about their functions
+
+D23 Respect and Care for Nature: demonstrate an understanding of the natural world and the need to care for and respect the environment
+  D23.1 identify similarities and differences between local environments
+  D23.2 describe what would happen if something in the local environment changed
+  D23.3 describe ways in which they care for and respect the environment
+
+D24 Responding to Art: respond to a variety of forms of dance, drama, music, and visual arts from various cultures and communities, including using their language and mathematics knowledge and skills
+  D24.1 express their responses to dance and drama
+  D24.2 respond to texts and art forms from various cultures and communities through classroom drama activities and make connections to their own experiences
+  D24.3 express their responses to music by moving, by making connections to their own experiences, or by talking about the musical form
+
+D25 Exploring and Creating Art: explore and create a variety of art forms, including dance, drama, music, and visual arts
+  D25.1 explore the elements of dance, drama, music, and design
+  D25.2 experiment with different materials, techniques, and processes used in a variety of art forms
+  D25.3 use problem-solving skills and imagination to create forms of art
+  D25.4 communicate ideas through dance, drama, music, and visual arts
