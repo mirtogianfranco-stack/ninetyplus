@@ -48,6 +48,8 @@ import { NP012Spot } from './spotlights/NP012';
 import { spec as np012s } from './spotlights/np012';
 import { NP019Spot } from './spotlights/NP019';
 import { NP028Spot } from './spotlights/NP028';
+import { NP033Spot } from './spotlights/NP033';
+import { spec as np033 } from './spotlights/np033';
 import { spec as np028 } from './spotlights/np028';
 import { spec as np019 } from './spotlights/np019';
 import { NP016Res } from './results/NP016';
@@ -119,6 +121,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id='NP028' component={NP028Spot} durationInFrames={spotlightFrames(np028)} fps={30} width={1080} height={1920} />
     <Still id='NP028X' component={() => <XSpotlight spec={np028} />} width={1200} height={675} />
     <Still id='NP028XT' component={() => <XSpotlight spec={np028} tall />} width={1080} height={1350} />
+    <Composition id='NP033' component={NP033Spot} durationInFrames={spotlightFrames(np033)} fps={30} width={1080} height={1920} />
+    <Still id='NP033X' component={() => <XSpotlight spec={np033} />} width={1200} height={675} />
+    <Still id='NP033XT' component={() => <XSpotlight spec={np033} tall />} width={1080} height={1350} />
     <Composition id='NP021' component={NP021Res} durationInFrames={resultsFrames(np021)} fps={30} width={1080} height={1920} />
     <Composition id='NP022' component={NP022Res} durationInFrames={resultsFrames(np022)} fps={30} width={1080} height={1920} />
     <Still id='NP022X0' component={() => <XResults spec={np022} card={0} tall />} width={1080} height={1350} />
