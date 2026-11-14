@@ -15,7 +15,7 @@ export type SpotlightSpec = {
   topline: string;                                  // small line above everything, e.g. 'NINETY PLUS · RECORD 21-8'
   mark: { small: string; big: string; seal?: string; stripe?: [string, string] };  // PICK OF THE / WEEKEND / #2
   badge: string;                                    // chip on each scene header, e.g. 'PICK OF THE WEEKEND #2'
-  matchup: { h: string; a: string; line: string };  // crest keys + 'SERIE A · SAT 2:45 PM ET'
+  matchup: { h: string; a: string; line: string; sep?: string };  // crest keys + 'SERIE A · SAT 2:45 PM ET'; sep '+' for a two-game double (default 'V')
   scenes: { from: number; crest: string; glow: string; label: string; claim: [string, string, string?]; claimColor?: 'gold' | 'red' | 'sky'; dim?: boolean; devices: Device[] }[];
   reveal: { from: number; pills: { text: string; word: number }[] };
   outro: { from: number; record?: { word: number; label: string; value: string }; banners: { word: number; text: string; highlight?: string; until?: number }[] };
@@ -83,7 +83,7 @@ export const SpotlightTemplate: React.FC<{ spec: SpotlightSpec }> = ({ spec }) =
       <div style={{ position: 'absolute', left: 0, right: 0, top, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 18, opacity: s }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 40 }}>
           <Img src={crest(spec.matchup.h)} style={{ width: size, height: size, objectFit: 'contain', transform: 'translateY(' + b + 'px) translateX(' + interpolate(s, [0, 1], [-160, 0]) + 'px)', filter: 'drop-shadow(0 0 40px rgba(255,255,255,0.35))' }} />
-          <div style={{ fontFamily: D(), fontSize: 80, color: 'rgba(255,255,255,0.7)' }}>V</div>
+          <div style={{ fontFamily: D(), fontSize: 80, color: 'rgba(255,255,255,0.7)' }}>{spec.matchup.sep ?? 'V'}</div>
           <Img src={crest(spec.matchup.a)} style={{ width: size, height: size, objectFit: 'contain', transform: 'translateY(' + -b + 'px) translateX(' + interpolate(s, [0, 1], [160, 0]) + 'px)', filter: 'drop-shadow(0 0 40px rgba(255,255,255,0.35))' }} />
         </div>
         <div style={{ fontFamily: HV(), fontSize: 30, letterSpacing: 5, color: 'rgba(255,255,255,0.85)' }}>{spec.matchup.line}</div>

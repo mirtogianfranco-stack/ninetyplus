@@ -33,268 +33,303 @@
   {
    "word": "and",
    "start": 2.42,
-   "end": 2.607
+   "end": 2.618
+  },
+  {
+   "word": "this",
+   "start": 2.638,
+   "end": 2.91
+  },
+  {
+   "word": "week",
+   "start": 2.93,
+   "end": 3.274
   },
   {
    "word": "it",
-   "start": 2.627,
-   "end": 2.745
+   "start": 3.294,
+   "end": 3.419
   },
   {
    "word": "is",
-   "start": 2.765,
-   "end": 2.882
+   "start": 3.439,
+   "end": 3.565
   },
   {
-   "word": "Spain",
-   "start": 2.902,
-   "end": 3.296
+   "word": "a",
+   "start": 3.585,
+   "end": 3.783
   },
   {
-   "word": "against",
-   "start": 3.316,
-   "end": 3.779
+   "word": "double.",
+   "start": 3.803,
+   "end": 4.22
   },
   {
-   "word": "England.",
-   "start": 3.799,
-   "end": 4.33
-  },
-  {
-   "word": "Spain",
-   "start": 4.59,
-   "end": 4.933
+   "word": "T\u00fcrkiye",
+   "start": 4.48,
+   "end": 4.884
   },
   {
    "word": "have",
-   "start": 4.953,
-   "end": 5.175
+   "start": 4.904,
+   "end": 5.167
   },
   {
-   "word": "scored",
-   "start": 5.195,
-   "end": 5.537
-  },
-  {
-   "word": "fourteen",
-   "start": 5.557,
-   "end": 6.021
-  },
-  {
-   "word": "goals",
-   "start": 6.041,
-   "end": 6.384
-  },
-  {
-   "word": "in",
-   "start": 6.404,
-   "end": 6.565
-  },
-  {
-   "word": "five",
-   "start": 6.585,
-   "end": 6.867
-  },
-  {
-   "word": "games,",
-   "start": 6.887,
-   "end": 7.23
-  },
-  {
-   "word": "and",
-   "start": 7.43,
-   "end": 7.648
-  },
-  {
-   "word": "won",
-   "start": 7.668,
-   "end": 7.966
+   "word": "lost",
+   "start": 5.187,
+   "end": 5.52
   },
   {
    "word": "all",
-   "start": 7.986,
-   "end": 8.283
+   "start": 5.54,
+   "end": 5.803
   },
   {
-   "word": "five.",
-   "start": 8.303,
-   "end": 8.68
+   "word": "five",
+   "start": 5.823,
+   "end": 6.156
   },
   {
-   "word": "England",
-   "start": 8.94,
-   "end": 9.436
+   "word": "games,",
+   "start": 6.176,
+   "end": 6.58
   },
   {
-   "word": "have",
-   "start": 9.456,
-   "end": 9.693
+   "word": "and",
+   "start": 6.78,
+   "end": 6.99
   },
   {
-   "word": "scored",
-   "start": 9.713,
-   "end": 10.08
+   "word": "conceded",
+   "start": 7.01,
+   "end": 7.757
   },
   {
-   "word": "sixteen.",
-   "start": 10.1,
-   "end": 10.66
-  },
-  {
-   "word": "And",
-   "start": 10.92,
-   "end": 11.084
-  },
-  {
-   "word": "when",
-   "start": 11.104,
-   "end": 11.329
-  },
-  {
-   "word": "they",
-   "start": 11.349,
-   "end": 11.513
-  },
-  {
-   "word": "met",
-   "start": 11.533,
-   "end": 11.758
-  },
-  {
-   "word": "at",
-   "start": 11.778,
-   "end": 11.881
-  },
-  {
-   "word": "Wembley,",
-   "start": 11.901,
-   "end": 12.31
-  },
-  {
-   "word": "it",
-   "start": 12.51,
-   "end": 12.617
-  },
-  {
-   "word": "finished",
-   "start": 12.637,
-   "end": 13.063
-  },
-  {
-   "word": "three",
-   "start": 13.083,
-   "end": 13.382
-  },
-  {
-   "word": "two",
-   "start": 13.402,
-   "end": 13.637
-  },
-  {
-   "word": "to",
-   "start": 13.657,
-   "end": 13.828
-  },
-  {
-   "word": "Spain.",
-   "start": 13.848,
-   "end": 14.21
+   "word": "thirteen.",
+   "start": 7.777,
+   "end": 8.37
   },
   {
    "word": "Spain",
-   "start": 14.47,
-   "end": 14.838
+   "start": 8.63,
+   "end": 8.986
   },
   {
    "word": "and",
-   "start": 14.858,
-   "end": 15.032
+   "start": 9.006,
+   "end": 9.174
+  },
+  {
+   "word": "England",
+   "start": 9.194,
+   "end": 9.675
+  },
+  {
+   "word": "have",
+   "start": 9.695,
+   "end": 9.926
+  },
+  {
+   "word": "each",
+   "start": 9.946,
+   "end": 10.239
+  },
+  {
+   "word": "scored",
+   "start": 10.259,
+   "end": 10.615
+  },
+  {
+   "word": "in",
+   "start": 10.635,
+   "end": 10.803
+  },
+  {
+   "word": "every",
+   "start": 10.823,
+   "end": 11.117
+  },
+  {
+   "word": "game.",
+   "start": 11.137,
+   "end": 11.43
+  },
+  {
+   "word": "And",
+   "start": 11.63,
+   "end": 11.809
+  },
+  {
+   "word": "every",
+   "start": 11.829,
+   "end": 12.141
+  },
+  {
+   "word": "game",
+   "start": 12.161,
+   "end": 12.472
+  },
+  {
+   "word": "either",
+   "start": 12.492,
+   "end": 12.804
+  },
+  {
+   "word": "side",
+   "start": 12.824,
+   "end": 13.135
+  },
+  {
+   "word": "has",
+   "start": 13.155,
+   "end": 13.401
+  },
+  {
+   "word": "played",
+   "start": 13.421,
+   "end": 13.798
+  },
+  {
+   "word": "has",
+   "start": 13.818,
+   "end": 14.064
+  },
+  {
+   "word": "had",
+   "start": 14.084,
+   "end": 14.329
+  },
+  {
+   "word": "two",
+   "start": 14.349,
+   "end": 14.594
+  },
+  {
+   "word": "goals",
+   "start": 14.614,
+   "end": 14.992
+  },
+  {
+   "word": "or",
+   "start": 15.012,
+   "end": 15.125
+  },
+  {
+   "word": "more.",
+   "start": 15.145,
+   "end": 15.39
+  },
+  {
+   "word": "France",
+   "start": 15.65,
+   "end": 16.059
+  },
+  {
+   "word": "to",
+   "start": 16.079,
+   "end": 16.274
+  },
+  {
+   "word": "win.",
+   "start": 16.294,
+   "end": 16.56
+  },
+  {
+   "word": "Spain",
+   "start": 16.76,
+   "end": 17.128
+  },
+  {
+   "word": "and",
+   "start": 17.148,
+   "end": 17.322
   },
   {
    "word": "England,",
-   "start": 15.052,
-   "end": 15.55
+   "start": 17.342,
+   "end": 17.84
   },
   {
-   "word": "three",
-   "start": 15.75,
-   "end": 16.086
+   "word": "two",
+   "start": 18.04,
+   "end": 18.295
   },
   {
    "word": "plus",
-   "start": 16.106,
-   "end": 16.442
+   "start": 18.315,
+   "end": 18.638
   },
   {
    "word": "goals.",
-   "start": 16.462,
-   "end": 16.87
+   "start": 18.658,
+   "end": 19.05
   },
   {
    "word": "Pick",
-   "start": 17.13,
-   "end": 17.407
+   "start": 19.31,
+   "end": 19.587
   },
   {
    "word": "of",
-   "start": 17.427,
-   "end": 17.555
+   "start": 19.607,
+   "end": 19.735
   },
   {
    "word": "the",
-   "start": 17.575,
-   "end": 17.703
+   "start": 19.755,
+   "end": 19.883
   },
   {
    "word": "weekend",
-   "start": 17.723,
-   "end": 18.296
+   "start": 19.903,
+   "end": 20.476
   },
   {
    "word": "is",
-   "start": 18.316,
-   "end": 18.444
+   "start": 20.496,
+   "end": 20.624
   },
   {
    "word": "three",
-   "start": 18.464,
-   "end": 18.815
+   "start": 20.644,
+   "end": 20.995
   },
   {
    "word": "and",
-   "start": 18.835,
-   "end": 19.038
+   "start": 21.015,
+   "end": 21.218
   },
   {
    "word": "oh.",
-   "start": 19.058,
-   "end": 19.26
+   "start": 21.238,
+   "end": 21.44
   },
   {
    "word": "Riding",
-   "start": 19.46,
-   "end": 19.968
+   "start": 21.64,
+   "end": 22.148
   },
   {
    "word": "with",
-   "start": 19.988,
-   "end": 20.194
+   "start": 22.168,
+   "end": 22.374
   },
   {
    "word": "us?",
-   "start": 20.214,
-   "end": 20.42
+   "start": 22.394,
+   "end": 22.6
   },
   {
    "word": "Comment",
-   "start": 20.62,
-   "end": 21.117
+   "start": 22.8,
+   "end": 23.297
   },
   {
    "word": "below.",
-   "start": 21.137,
-   "end": 21.56
+   "start": 23.317,
+   "end": 23.74
   }
  ],
- "duration": 21.78
+ "duration": 23.96
 }

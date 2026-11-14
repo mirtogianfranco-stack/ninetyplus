@@ -1,28 +1,29 @@
 import type { SpotlightSpec } from '../templates/SpotlightTemplate';
 import words from '../../video-projects/np-033/vo/words.json';
 
-// NP-033 Pick of the Weekend #4: Spain v England, 3+ GOALS. Nations League, Sun 15 Nov 2026, 2:45 PM ET (19:45Z).
-// Sources: ESPN uefa.nations results through 13 Nov (tools/espn-form.py, video-projects/intl-1112/form_nations_1114.json):
-// Spain 5-0-0, 14 scored; England 16 scored in 5; England 2-3 Spain at Wembley, 26 Sep 2026.
+// NP-033 Pick of the Weekend #4, a double: France to win v Turkiye + Spain v England 2+ GOALS. Nations League, both Sun 15 Nov
+// 2026, 2:45 PM ET (19:45Z). Owner's picks. Sources: ESPN uefa.nations results through 13 Nov (tools/espn-form.py,
+// video-projects/intl-1112/form_nations_1114.json): Turkiye 0-0-5, 13 conceded; Spain and England scored in all 5 games each;
+// every Spain game (5,5,4,3,2 goals) and every England game (5,2,7,3,3) had 2+ goals.
 export const spec: SpotlightSpec = {
   kind: 'spotlight', dir: 'np-033', words,
   topline: 'NINETY PLUS · RECORD 43-16',
   mark: { small: 'PICK OF THE', big: 'WEEKEND', seal: '#4' },
   badge: 'PICK OF THE WEEKEND #4',
-  matchup: { h: 'esp', a: 'eng', line: 'NATIONS LEAGUE · SUN 2:45 PM ET' },
+  matchup: { h: 'fra', a: 'esp', sep: '+', line: 'NATIONS LEAGUE DOUBLE · SUN 2:45 PM ET' },
   scenes: [
-    { from: 11, crest: 'esp', glow: 'rgba(200,16,46,0.8)', label: 'SPAIN · 5 GAMES', claim: ['SPAIN', 'PERFECT', 'AND SCORING'],
+    { from: 11, crest: 'fra', glow: 'rgba(0,35,149,0.85)', label: 'FRANCE v TÜRKIYE', claim: ['TÜRKIYE', 'LOST', 'ALL FIVE'], claimColor: 'red',
       devices: [
-        { kind: 'big', word: 15, value: '14', label: 'SPAIN GOALS IN 5 GAMES', top: 900 },
-        { kind: 'form', word: 21, label: 'SPAIN · NATIONS LEAGUE', results: ['W', 'W', 'W', 'W', 'W'], top: 700 },
+        { kind: 'form', word: 15, label: 'TÜRKIYE · NATIONS LEAGUE', results: ['L', 'L', 'L', 'L', 'L'], top: 700 },
+        { kind: 'big', word: 19, value: '13', label: 'GOALS TÜRKIYE HAVE CONCEDED', color: 'red', top: 900 },
       ] },
-    { from: 24, crest: 'eng', glow: 'rgba(255,255,255,0.6)', label: 'ENGLAND · 5 GAMES', claim: ['ENGLAND', 'SCORE', 'EVEN MORE'],
+    { from: 22, crest: 'esp', glow: 'rgba(200,16,46,0.8)', label: 'SPAIN v ENGLAND', claim: ['SPAIN + ENGLAND', 'GOALS IN', 'EVERY GAME'],
       devices: [
-        { kind: 'big', word: 27, value: '16', label: 'ENGLAND GOALS IN 5 GAMES', top: 900 },
-        { kind: 'chips', word: 35, items: [{ text: 'ENGLAND 2-3 SPAIN', tag: 'SEPT' }], top: 700 },
+        { kind: 'form', word: 27, label: '2+ GOALS · SPAIN GAMES', results: ['✓', '✓', '✓', '✓', '✓'], top: 700 },
+        { kind: 'form', word: 34, label: '2+ GOALS · ENGLAND GAMES', results: ['✓', '✓', '✓', '✓', '✓'], top: 880 },
       ] },
   ],
-  reveal: { from: 40, pills: [{ text: '3+ GOALS', word: 43 }] },
-  outro: { from: 46, record: { word: 51, label: 'SERIES RECORD', value: '3-0' }, banners: [{ word: 54, text: 'RIDING WITH US? COMMENT' }] },
-  emph: ['FOUR,', 'FOURTEEN', 'SIXTEEN.', 'THREE', 'PLUS', 'COMMENT'],
+  reveal: { from: 44, pills: [{ text: 'FRANCE TO WIN', word: 44 }, { text: 'SPAIN v ENGLAND 2+ GOALS', word: 50 }] },
+  outro: { from: 53, record: { word: 58, label: 'SERIES RECORD', value: '3-0' }, banners: [{ word: 61, text: 'RIDING WITH US? COMMENT' }] },
+  emph: ['DOUBLE.', 'FIVE', 'THIRTEEN.', 'EVERY', 'PLUS', 'COMMENT'],
 };

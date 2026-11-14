@@ -21,9 +21,10 @@ export const XSpotlight: React.FC<{ spec: SpotlightSpec; tall?: boolean; handle?
   const season = spec.topline.match(/RECORD\s+(\S+)/)?.[1];
   const rec = spec.outro.record;
   const stats = spec.scenes.flatMap((s) => s.devices).flatMap((d) =>
-    d.kind === 'form' ? [{ v: d.results.filter((r) => r === '✓' || r === 'W').length + '/' + d.results.length, l: d.label }]
+    d.kind === 'form' ? [{ v: d.results.every((r) => r === 'L') ? 'L×' + d.results.length : d.results.filter((r) => r === '✓' || r === 'W').length + '/' + d.results.length, l: d.label }]
       : d.kind === 'big' ? [{ v: d.value, l: d.label }] : []);
   const pad = tall ? 60 : 50;
+  const tight = stats.length > 3 || spec.reveal.pills.length > 1;   // a double pick: shrink so the record still fits
   const cr = tall ? 160 : 130;
   return (
     <AbsoluteFill style={{ background: '#0B0A0D', overflow: 'hidden' }}>
@@ -48,20 +49,20 @@ export const XSpotlight: React.FC<{ spec: SpotlightSpec; tall?: boolean; handle?
         </div>
         <div style={{ marginTop: tall ? 24 : 18, display: 'flex', alignItems: 'center', gap: tall ? 50 : 30 }}>
           <Img src={crest(spec.matchup.h)} style={{ width: cr, height: cr, objectFit: 'contain', filter: OUTLINE }} />
-          <div style={{ fontFamily: D(), fontSize: tall ? 70 : 46, color: 'rgba(255,255,255,0.75)' }}>V</div>
+          <div style={{ fontFamily: D(), fontSize: tall ? 70 : 46, color: 'rgba(255,255,255,0.75)' }}>{spec.matchup.sep ?? 'V'}</div>
           <Img src={crest(spec.matchup.a)} style={{ width: cr, height: cr, objectFit: 'contain', filter: OUTLINE }} />
         </div>
         <div style={{ marginTop: tall ? 22 : 12, fontFamily: HV(), fontSize: tall ? 26 : 17, letterSpacing: 3, color: '#fff', whiteSpace: 'nowrap' }}>{spec.matchup.line}</div>
       </div>
       {/* pick + case + record */}
-      <div style={{ position: 'absolute', top: tall ? 660 : 130, left: tall ? pad : 680, right: pad, display: 'flex', flexDirection: 'column', alignItems: tall ? 'center' : 'stretch', gap: tall ? 14 : 14 }}>
+      <div style={{ position: 'absolute', top: tall ? (tight ? 615 : 660) : 130, left: tall ? pad : 680, right: pad, display: 'flex', flexDirection: 'column', alignItems: tall ? 'center' : 'stretch', gap: tall ? 14 : 14 }}>
         {spec.reveal.pills.map((p) => (
-          <div key={p.text} style={{ background: GREEN, border: '4px solid ' + GOLD, borderRadius: 18, padding: tall ? '10px 40px' : '6px 18px', fontFamily: D(), fontSize: tall ? 76 : 44, color: '#0B0A0D', textAlign: 'center', whiteSpace: 'nowrap', transform: 'rotate(-2deg)', boxShadow: '0 0 40px rgba(34,197,94,0.5)' }}>{p.text}</div>
+          <div key={p.text} style={{ background: GREEN, border: '4px solid ' + GOLD, borderRadius: 18, padding: tall ? (tight ? '6px 30px' : '10px 40px') : '6px 18px', fontFamily: D(), fontSize: tall ? (tight ? 54 : 76) : (tight ? 34 : 44), color: '#0B0A0D', textAlign: 'center', whiteSpace: 'nowrap', transform: 'rotate(-2deg)', boxShadow: '0 0 40px rgba(34,197,94,0.5)' }}>{p.text}</div>
         ))}
         <div style={{ marginTop: tall ? 8 : 4, display: 'flex', flexDirection: 'column', gap: tall ? 10 : 6, width: '100%' }}>
           {stats.map((s) => (
-            <div key={s.l} style={{ display: 'flex', alignItems: 'center', gap: 16, background: 'rgba(11,10,13,0.6)', border: '2px solid rgba(255,255,255,0.18)', borderRadius: 14, padding: tall ? '8px 18px' : '4px 12px' }}>
-              <div style={{ fontFamily: D(), fontSize: tall ? 46 : 30, color: GOLD, minWidth: tall ? 100 : 66 }}>{s.v}</div>
+            <div key={s.l} style={{ display: 'flex', alignItems: 'center', gap: 16, background: 'rgba(11,10,13,0.6)', border: '2px solid rgba(255,255,255,0.18)', borderRadius: 14, padding: tall ? (tight ? '4px 18px' : '8px 18px') : (tight ? '2px 12px' : '4px 12px') }}>
+              <div style={{ fontFamily: D(), fontSize: tall ? (tight ? 38 : 46) : (tight ? 24 : 30), color: GOLD, minWidth: tall ? 100 : 66 }}>{s.v}</div>
               <div style={{ fontFamily: HV(), fontSize: tall ? 22 : 14, letterSpacing: 2, color: '#fff' }}>{s.l}</div>
             </div>
           ))}
@@ -69,7 +70,7 @@ export const XSpotlight: React.FC<{ spec: SpotlightSpec; tall?: boolean; handle?
         {rec && (
           <div style={{ marginTop: tall ? 6 : 2, display: 'flex', alignItems: 'baseline', justifyContent: 'center', gap: 16 }}>
             <div style={{ fontFamily: HV(), fontSize: tall ? 28 : 18, letterSpacing: 4, color: '#fff' }}>{rec.label}</div>
-            <div style={{ fontFamily: D(), fontSize: tall ? 90 : 58, color: GOLD, textShadow: '0 0 30px rgba(255,210,63,0.5)' }}>{rec.value}</div>
+            <div style={{ fontFamily: D(), fontSize: tall ? (tight ? 70 : 90) : (tight ? 44 : 58), color: GOLD, textShadow: '0 0 30px rgba(255,210,63,0.5)' }}>{rec.value}</div>
           </div>
         )}
       </div>
