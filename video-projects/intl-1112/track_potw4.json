@@ -1,0 +1,4 @@
+{"picks": [
+ {"card": "Pick of the Weekend #4", "label": "France to win v Turkiye", "league": "uefa.nations", "date": "20261115", "home": "France", "away": "rkiye", "type": "win", "team": "home"},
+ {"card": "Pick of the Weekend #4", "label": "Spain v England 2+ goals", "league": "uefa.nations", "date": "20261115", "home": "Spain", "away": "England", "type": "goals_over", "n": 2}
+]}
