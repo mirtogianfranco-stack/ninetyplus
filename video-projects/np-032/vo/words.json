@@ -1,0 +1,470 @@
+{
+ "words": [
+  {
+   "word": "So",
+   "start": 0.03,
+   "end": 0.326
+  },
+  {
+   "word": "close.",
+   "start": 0.346,
+   "end": 0.8
+  },
+  {
+   "word": "One",
+   "start": 0.99,
+   "end": 1.264
+  },
+  {
+   "word": "VAR",
+   "start": 1.284,
+   "end": 1.558
+  },
+  {
+   "word": "call",
+   "start": 1.578,
+   "end": 1.926
+  },
+  {
+   "word": "away",
+   "start": 1.946,
+   "end": 2.294
+  },
+  {
+   "word": "from",
+   "start": 2.314,
+   "end": 2.588
+  },
+  {
+   "word": "four",
+   "start": 2.608,
+   "end": 2.882
+  },
+  {
+   "word": "from",
+   "start": 2.902,
+   "end": 3.176
+  },
+  {
+   "word": "four.",
+   "start": 3.196,
+   "end": 3.47
+  },
+  {
+   "word": "Nations",
+   "start": 3.67,
+   "end": 4.21
+  },
+  {
+   "word": "League",
+   "start": 4.23,
+   "end": 4.56
+  },
+  {
+   "word": "card,",
+   "start": 4.58,
+   "end": 4.91
+  },
+  {
+   "word": "graded.",
+   "start": 5.11,
+   "end": 5.66
+  },
+  {
+   "word": "Belgium",
+   "start": 5.92,
+   "end": 6.454
+  },
+  {
+   "word": "came",
+   "start": 6.474,
+   "end": 6.8
+  },
+  {
+   "word": "from",
+   "start": 6.82,
+   "end": 7.078
+  },
+  {
+   "word": "behind",
+   "start": 7.098,
+   "end": 7.632
+  },
+  {
+   "word": "to",
+   "start": 7.652,
+   "end": 7.84
+  },
+  {
+   "word": "win",
+   "start": 7.86,
+   "end": 8.117
+  },
+  {
+   "word": "in",
+   "start": 8.137,
+   "end": 8.324
+  },
+  {
+   "word": "T\u00fcrkiye.",
+   "start": 8.344,
+   "end": 8.74
+  },
+  {
+   "word": "England",
+   "start": 9.0,
+   "end": 9.542
+  },
+  {
+   "word": "and",
+   "start": 9.562,
+   "end": 9.753
+  },
+  {
+   "word": "Croatia",
+   "start": 9.773,
+   "end": 10.385
+  },
+  {
+   "word": "needed",
+   "start": 10.405,
+   "end": 10.877
+  },
+  {
+   "word": "three",
+   "start": 10.897,
+   "end": 11.228
+  },
+  {
+   "word": "goals.",
+   "start": 11.248,
+   "end": 11.65
+  },
+  {
+   "word": "Kane's",
+   "start": 11.85,
+   "end": 12.273
+  },
+  {
+   "word": "penalty",
+   "start": 12.293,
+   "end": 12.864
+  },
+  {
+   "word": "made",
+   "start": 12.884,
+   "end": 13.233
+  },
+  {
+   "word": "it",
+   "start": 13.253,
+   "end": 13.381
+  },
+  {
+   "word": "three.",
+   "start": 13.401,
+   "end": 13.75
+  },
+  {
+   "word": "Spain",
+   "start": 14.01,
+   "end": 14.427
+  },
+  {
+   "word": "won",
+   "start": 14.447,
+   "end": 14.719
+  },
+  {
+   "word": "two",
+   "start": 14.739,
+   "end": 15.01
+  },
+  {
+   "word": "nil",
+   "start": 15.03,
+   "end": 15.301
+  },
+  {
+   "word": "in",
+   "start": 15.321,
+   "end": 15.52
+  },
+  {
+   "word": "Czechia.",
+   "start": 15.54,
+   "end": 16.03
+  },
+  {
+   "word": "Then",
+   "start": 16.29,
+   "end": 16.584
+  },
+  {
+   "word": "the",
+   "start": 16.604,
+   "end": 16.741
+  },
+  {
+   "word": "Netherlands",
+   "start": 16.761,
+   "end": 17.604
+  },
+  {
+   "word": "and",
+   "start": 17.624,
+   "end": 17.839
+  },
+  {
+   "word": "Greece.",
+   "start": 17.859,
+   "end": 18.31
+  },
+  {
+   "word": "Greece",
+   "start": 18.51,
+   "end": 18.879
+  },
+  {
+   "word": "scored",
+   "start": 18.899,
+   "end": 19.268
+  },
+  {
+   "word": "after",
+   "start": 19.288,
+   "end": 19.593
+  },
+  {
+   "word": "twenty",
+   "start": 19.613,
+   "end": 20.047
+  },
+  {
+   "word": "four",
+   "start": 20.067,
+   "end": 20.306
+  },
+  {
+   "word": "minutes,",
+   "start": 20.326,
+   "end": 20.76
+  },
+  {
+   "word": "but",
+   "start": 20.96,
+   "end": 21.205
+  },
+  {
+   "word": "VAR",
+   "start": 21.225,
+   "end": 21.47
+  },
+  {
+   "word": "ruled",
+   "start": 21.49,
+   "end": 21.868
+  },
+  {
+   "word": "it",
+   "start": 21.888,
+   "end": 22.0
+  },
+  {
+   "word": "out",
+   "start": 22.02,
+   "end": 22.265
+  },
+  {
+   "word": "for",
+   "start": 22.285,
+   "end": 22.464
+  },
+  {
+   "word": "handball.",
+   "start": 22.484,
+   "end": 23.06
+  },
+  {
+   "word": "The",
+   "start": 23.26,
+   "end": 23.386
+  },
+  {
+   "word": "Netherlands",
+   "start": 23.406,
+   "end": 24.189
+  },
+  {
+   "word": "won",
+   "start": 24.209,
+   "end": 24.48
+  },
+  {
+   "word": "seven",
+   "start": 24.5,
+   "end": 24.918
+  },
+  {
+   "word": "nil.",
+   "start": 24.938,
+   "end": 25.21
+  },
+  {
+   "word": "Three",
+   "start": 25.47,
+   "end": 25.808
+  },
+  {
+   "word": "from",
+   "start": 25.828,
+   "end": 26.094
+  },
+  {
+   "word": "four.",
+   "start": 26.114,
+   "end": 26.38
+  },
+  {
+   "word": "Bust.",
+   "start": 26.58,
+   "end": 27.07
+  },
+  {
+   "word": "Forty",
+   "start": 27.27,
+   "end": 27.675
+  },
+  {
+   "word": "three",
+   "start": 27.695,
+   "end": 28.029
+  },
+  {
+   "word": "and",
+   "start": 28.049,
+   "end": 28.242
+  },
+  {
+   "word": "sixteen",
+   "start": 28.262,
+   "end": 28.88
+  },
+  {
+   "word": "on",
+   "start": 28.9,
+   "end": 29.092
+  },
+  {
+   "word": "the",
+   "start": 29.112,
+   "end": 29.234
+  },
+  {
+   "word": "season.",
+   "start": 29.254,
+   "end": 29.73
+  },
+  {
+   "word": "Sunday,",
+   "start": 29.99,
+   "end": 30.59
+  },
+  {
+   "word": "the",
+   "start": 30.79,
+   "end": 30.902
+  },
+  {
+   "word": "Manchester",
+   "start": 30.922,
+   "end": 31.562
+  },
+  {
+   "word": "United",
+   "start": 31.582,
+   "end": 32.222
+  },
+  {
+   "word": "and",
+   "start": 32.242,
+   "end": 32.42
+  },
+  {
+   "word": "Pochettino",
+   "start": 32.44,
+   "end": 33.278
+  },
+  {
+   "word": "story.",
+   "start": 33.298,
+   "end": 33.74
+  },
+  {
+   "word": "Picks",
+   "start": 33.94,
+   "end": 34.262
+  },
+  {
+   "word": "are",
+   "start": 34.282,
+   "end": 34.399
+  },
+  {
+   "word": "back",
+   "start": 34.419,
+   "end": 34.672
+  },
+  {
+   "word": "on",
+   "start": 34.692,
+   "end": 34.878
+  },
+  {
+   "word": "the",
+   "start": 34.898,
+   "end": 35.014
+  },
+  {
+   "word": "twentieth.",
+   "start": 35.034,
+   "end": 35.63
+  },
+  {
+   "word": "Follow",
+   "start": 35.83,
+   "end": 36.145
+  },
+  {
+   "word": "so",
+   "start": 36.165,
+   "end": 36.369
+  },
+  {
+   "word": "you",
+   "start": 36.389,
+   "end": 36.536
+  },
+  {
+   "word": "do",
+   "start": 36.556,
+   "end": 36.76
+  },
+  {
+   "word": "not",
+   "start": 36.78,
+   "end": 36.983
+  },
+  {
+   "word": "miss",
+   "start": 37.003,
+   "end": 37.207
+  },
+  {
+   "word": "them.",
+   "start": 37.227,
+   "end": 37.43
+  }
+ ],
+ "duration": 37.65
+}
