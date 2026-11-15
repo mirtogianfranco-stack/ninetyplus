@@ -3,3 +3,8 @@
 - England 2-1 Croatia (3+ goals) WON: Rogers 24', Sucic 59', Kane pen 64'
 - Czechia 0-2 Spain WON: Baena pen 39'; Krejci red 72'
 - Netherlands 7-0 Greece, BTTS LOST: Summerville 6', Reijnders 12' 18' 33', Timber 40' 59', Malen 61'. ESPN commentary 24': Ioannidis (Greece) goal overturned by VAR for handball at 3-0. Card 3/4 BUST. Season 40-15 -> 43-16.
+
+# Pick of the Weekend #4 (np-033) results, Sun 15 Nov
+- France 2-1 Turkiye WON: Topcu OG 49', Kroupi 80'; Bardakci 90' (TUR)
+- Spain 2-3 England (2+ goals) WON: Kane pen 45', Konsa 53', Ben White 57' (ENG); Anderson red 63'; Oyarzabal pen 65', Nico Williams 75' (ESP)
+- POTW #4 LANDED (both legs). Series 4-0. Season 43-16 -> 45-16.
