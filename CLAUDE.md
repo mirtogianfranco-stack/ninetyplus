@@ -76,6 +76,9 @@ downloads its own browser. Fonts are local because the cloud proxy's certificate
 | Fri | Premier League card (Short) |
 | Sat | Best of the Rest + Pick of the Weekend (Shorts) |
 
+Owner feedback (15 Nov 2026): **Pick of the Weekend videos perform best** (single game, clear stakes, running series record).
+Lean on that shape: one game or a double, a streak on the line, the record on screen. Data stories are second priority; multi-leg cards are the base.
+
 Live tracking of every card: `tools/track.py <track.json>` (scheduled check-ins), X live posts offered per result.
 
 ## Tools
