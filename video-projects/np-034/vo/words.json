@@ -1,0 +1,1380 @@
+{
+ "words": [
+  {
+   "word": "Manchester",
+   "start": 0.03,
+   "end": 0.715
+  },
+  {
+   "word": "United",
+   "start": 0.735,
+   "end": 1.419
+  },
+  {
+   "word": "are",
+   "start": 1.439,
+   "end": 1.56
+  },
+  {
+   "word": "in",
+   "start": 1.58,
+   "end": 1.771
+  },
+  {
+   "word": "the",
+   "start": 1.791,
+   "end": 1.912
+  },
+  {
+   "word": "relegation",
+   "start": 1.932,
+   "end": 2.758
+  },
+  {
+   "word": "zone.",
+   "start": 2.778,
+   "end": 3.11
+  },
+  {
+   "word": "And",
+   "start": 3.31,
+   "end": 3.47
+  },
+  {
+   "word": "they",
+   "start": 3.49,
+   "end": 3.649
+  },
+  {
+   "word": "have",
+   "start": 3.669,
+   "end": 3.888
+  },
+  {
+   "word": "just",
+   "start": 3.908,
+   "end": 4.248
+  },
+  {
+   "word": "hired",
+   "start": 4.268,
+   "end": 4.607
+  },
+  {
+   "word": "Mauricio",
+   "start": 4.627,
+   "end": 5.265
+  },
+  {
+   "word": "Pochettino",
+   "start": 5.285,
+   "end": 6.043
+  },
+  {
+   "word": "to",
+   "start": 6.063,
+   "end": 6.222
+  },
+  {
+   "word": "get",
+   "start": 6.242,
+   "end": 6.462
+  },
+  {
+   "word": "them",
+   "start": 6.482,
+   "end": 6.701
+  },
+  {
+   "word": "out",
+   "start": 6.721,
+   "end": 6.941
+  },
+  {
+   "word": "of",
+   "start": 6.961,
+   "end": 7.06
+  },
+  {
+   "word": "it.",
+   "start": 7.08,
+   "end": 7.18
+  },
+  {
+   "word": "So,",
+   "start": 7.58,
+   "end": 8.07
+  },
+  {
+   "word": "can",
+   "start": 8.27,
+   "end": 8.526
+  },
+  {
+   "word": "Pochettino",
+   "start": 8.546,
+   "end": 9.424
+  },
+  {
+   "word": "fix",
+   "start": 9.444,
+   "end": 9.769
+  },
+  {
+   "word": "Manchester",
+   "start": 9.789,
+   "end": 10.46
+  },
+  {
+   "word": "United?",
+   "start": 10.48,
+   "end": 11.15
+  },
+  {
+   "word": "We",
+   "start": 11.35,
+   "end": 11.543
+  },
+  {
+   "word": "went",
+   "start": 11.563,
+   "end": 11.897
+  },
+  {
+   "word": "through",
+   "start": 11.917,
+   "end": 12.252
+  },
+  {
+   "word": "the",
+   "start": 12.272,
+   "end": 12.394
+  },
+  {
+   "word": "numbers.",
+   "start": 12.414,
+   "end": 12.89
+  },
+  {
+   "word": "Four",
+   "start": 13.09,
+   "end": 13.406
+  },
+  {
+   "word": "parts.",
+   "start": 13.426,
+   "end": 13.91
+  },
+  {
+   "word": "The",
+   "start": 14.11,
+   "end": 14.31
+  },
+  {
+   "word": "mess,",
+   "start": 14.33,
+   "end": 14.75
+  },
+  {
+   "word": "the",
+   "start": 14.95,
+   "end": 15.11
+  },
+  {
+   "word": "surprise,",
+   "start": 15.13,
+   "end": 15.83
+  },
+  {
+   "word": "the",
+   "start": 16.03,
+   "end": 16.146
+  },
+  {
+   "word": "real",
+   "start": 16.166,
+   "end": 16.486
+  },
+  {
+   "word": "problem,",
+   "start": 16.506,
+   "end": 17.03
+  },
+  {
+   "word": "and",
+   "start": 17.23,
+   "end": 17.415
+  },
+  {
+   "word": "the",
+   "start": 17.435,
+   "end": 17.552
+  },
+  {
+   "word": "verdict.",
+   "start": 17.572,
+   "end": 18.1
+  },
+  {
+   "word": "Part",
+   "start": 18.5,
+   "end": 18.863
+  },
+  {
+   "word": "one.",
+   "start": 18.883,
+   "end": 19.17
+  },
+  {
+   "word": "The",
+   "start": 19.37,
+   "end": 19.57
+  },
+  {
+   "word": "mess.",
+   "start": 19.59,
+   "end": 20.01
+  },
+  {
+   "word": "After",
+   "start": 20.41,
+   "end": 20.797
+  },
+  {
+   "word": "ten",
+   "start": 20.817,
+   "end": 21.122
+  },
+  {
+   "word": "games,",
+   "start": 21.142,
+   "end": 21.61
+  },
+  {
+   "word": "United",
+   "start": 21.81,
+   "end": 22.65
+  },
+  {
+   "word": "are",
+   "start": 22.67,
+   "end": 22.822
+  },
+  {
+   "word": "eighteenth.",
+   "start": 22.842,
+   "end": 23.51
+  },
+  {
+   "word": "Eight",
+   "start": 23.71,
+   "end": 23.992
+  },
+  {
+   "word": "points.",
+   "start": 24.012,
+   "end": 24.52
+  },
+  {
+   "word": "One",
+   "start": 24.72,
+   "end": 25.08
+  },
+  {
+   "word": "win.",
+   "start": 25.1,
+   "end": 25.46
+  },
+  {
+   "word": "They",
+   "start": 25.86,
+   "end": 26.021
+  },
+  {
+   "word": "have",
+   "start": 26.041,
+   "end": 26.261
+  },
+  {
+   "word": "not",
+   "start": 26.281,
+   "end": 26.502
+  },
+  {
+   "word": "kept",
+   "start": 26.522,
+   "end": 26.803
+  },
+  {
+   "word": "a",
+   "start": 26.823,
+   "end": 26.984
+  },
+  {
+   "word": "single",
+   "start": 27.004,
+   "end": 27.405
+  },
+  {
+   "word": "clean",
+   "start": 27.425,
+   "end": 27.767
+  },
+  {
+   "word": "sheet",
+   "start": 27.787,
+   "end": 28.068
+  },
+  {
+   "word": "all",
+   "start": 28.088,
+   "end": 28.309
+  },
+  {
+   "word": "season.",
+   "start": 28.329,
+   "end": 28.73
+  },
+  {
+   "word": "And",
+   "start": 29.12,
+   "end": 29.311
+  },
+  {
+   "word": "they",
+   "start": 29.331,
+   "end": 29.522
+  },
+  {
+   "word": "have",
+   "start": 29.542,
+   "end": 29.803
+  },
+  {
+   "word": "conceded",
+   "start": 29.823,
+   "end": 30.506
+  },
+  {
+   "word": "nineteen",
+   "start": 30.526,
+   "end": 31.138
+  },
+  {
+   "word": "goals.",
+   "start": 31.158,
+   "end": 31.56
+  },
+  {
+   "word": "Only",
+   "start": 31.76,
+   "end": 32.17
+  },
+  {
+   "word": "two",
+   "start": 32.19,
+   "end": 32.456
+  },
+  {
+   "word": "teams",
+   "start": 32.476,
+   "end": 32.886
+  },
+  {
+   "word": "have",
+   "start": 32.906,
+   "end": 33.172
+  },
+  {
+   "word": "let",
+   "start": 33.192,
+   "end": 33.459
+  },
+  {
+   "word": "in",
+   "start": 33.479,
+   "end": 33.674
+  },
+  {
+   "word": "more.",
+   "start": 33.694,
+   "end": 33.96
+  },
+  {
+   "word": "It",
+   "start": 34.36,
+   "end": 34.49
+  },
+  {
+   "word": "cost",
+   "start": 34.51,
+   "end": 34.864
+  },
+  {
+   "word": "Michael",
+   "start": 34.884,
+   "end": 35.388
+  },
+  {
+   "word": "Carrick",
+   "start": 35.408,
+   "end": 35.837
+  },
+  {
+   "word": "his",
+   "start": 35.857,
+   "end": 36.136
+  },
+  {
+   "word": "job.",
+   "start": 36.156,
+   "end": 36.51
+  },
+  {
+   "word": "Part",
+   "start": 36.91,
+   "end": 37.334
+  },
+  {
+   "word": "two.",
+   "start": 37.354,
+   "end": 37.69
+  },
+  {
+   "word": "The",
+   "start": 37.89,
+   "end": 38.048
+  },
+  {
+   "word": "surprise.",
+   "start": 38.068,
+   "end": 38.76
+  },
+  {
+   "word": "Here",
+   "start": 39.16,
+   "end": 39.412
+  },
+  {
+   "word": "is",
+   "start": 39.432,
+   "end": 39.548
+  },
+  {
+   "word": "what",
+   "start": 39.568,
+   "end": 39.821
+  },
+  {
+   "word": "the",
+   "start": 39.841,
+   "end": 39.957
+  },
+  {
+   "word": "table",
+   "start": 39.977,
+   "end": 40.433
+  },
+  {
+   "word": "does",
+   "start": 40.453,
+   "end": 40.705
+  },
+  {
+   "word": "not",
+   "start": 40.725,
+   "end": 40.978
+  },
+  {
+   "word": "show.",
+   "start": 40.998,
+   "end": 41.25
+  },
+  {
+   "word": "United",
+   "start": 41.45,
+   "end": 42.102
+  },
+  {
+   "word": "take",
+   "start": 42.122,
+   "end": 42.438
+  },
+  {
+   "word": "more",
+   "start": 42.458,
+   "end": 42.706
+  },
+  {
+   "word": "shots",
+   "start": 42.726,
+   "end": 43.042
+  },
+  {
+   "word": "than",
+   "start": 43.062,
+   "end": 43.244
+  },
+  {
+   "word": "any",
+   "start": 43.264,
+   "end": 43.512
+  },
+  {
+   "word": "team",
+   "start": 43.532,
+   "end": 43.848
+  },
+  {
+   "word": "in",
+   "start": 43.868,
+   "end": 44.05
+  },
+  {
+   "word": "the",
+   "start": 44.07,
+   "end": 44.184
+  },
+  {
+   "word": "league.",
+   "start": 44.204,
+   "end": 44.52
+  },
+  {
+   "word": "Nineteen",
+   "start": 44.72,
+   "end": 45.415
+  },
+  {
+   "word": "a",
+   "start": 45.435,
+   "end": 45.653
+  },
+  {
+   "word": "game.",
+   "start": 45.673,
+   "end": 46.05
+  },
+  {
+   "word": "Their",
+   "start": 46.45,
+   "end": 46.644
+  },
+  {
+   "word": "opponents",
+   "start": 46.664,
+   "end": 47.356
+  },
+  {
+   "word": "take",
+   "start": 47.376,
+   "end": 47.712
+  },
+  {
+   "word": "fewer",
+   "start": 47.732,
+   "end": 48.139
+  },
+  {
+   "word": "than",
+   "start": 48.159,
+   "end": 48.353
+  },
+  {
+   "word": "twelve.",
+   "start": 48.373,
+   "end": 48.78
+  },
+  {
+   "word": "That",
+   "start": 49.18,
+   "end": 49.434
+  },
+  {
+   "word": "gap",
+   "start": 49.454,
+   "end": 49.709
+  },
+  {
+   "word": "is",
+   "start": 49.729,
+   "end": 49.846
+  },
+  {
+   "word": "the",
+   "start": 49.866,
+   "end": 49.983
+  },
+  {
+   "word": "biggest",
+   "start": 50.003,
+   "end": 50.464
+  },
+  {
+   "word": "in",
+   "start": 50.484,
+   "end": 50.669
+  },
+  {
+   "word": "the",
+   "start": 50.689,
+   "end": 50.807
+  },
+  {
+   "word": "Premier",
+   "start": 50.827,
+   "end": 51.287
+  },
+  {
+   "word": "League.",
+   "start": 51.307,
+   "end": 51.63
+  },
+  {
+   "word": "Bigger",
+   "start": 51.83,
+   "end": 52.207
+  },
+  {
+   "word": "than",
+   "start": 52.227,
+   "end": 52.445
+  },
+  {
+   "word": "Brighton.",
+   "start": 52.465,
+   "end": 53.08
+  },
+  {
+   "word": "Bigger",
+   "start": 53.28,
+   "end": 53.664
+  },
+  {
+   "word": "than",
+   "start": 53.684,
+   "end": 53.907
+  },
+  {
+   "word": "Manchester",
+   "start": 53.927,
+   "end": 54.716
+  },
+  {
+   "word": "City.",
+   "start": 54.736,
+   "end": 55.12
+  },
+  {
+   "word": "Part",
+   "start": 55.52,
+   "end": 55.905
+  },
+  {
+   "word": "three.",
+   "start": 55.925,
+   "end": 56.31
+  },
+  {
+   "word": "The",
+   "start": 56.51,
+   "end": 56.629
+  },
+  {
+   "word": "real",
+   "start": 56.649,
+   "end": 56.975
+  },
+  {
+   "word": "problem.",
+   "start": 56.995,
+   "end": 57.53
+  },
+  {
+   "word": "United",
+   "start": 57.93,
+   "end": 58.572
+  },
+  {
+   "word": "score",
+   "start": 58.592,
+   "end": 58.903
+  },
+  {
+   "word": "with",
+   "start": 58.923,
+   "end": 59.101
+  },
+  {
+   "word": "just",
+   "start": 59.121,
+   "end": 59.499
+  },
+  {
+   "word": "twenty",
+   "start": 59.519,
+   "end": 59.962
+  },
+  {
+   "word": "six",
+   "start": 59.982,
+   "end": 60.293
+  },
+  {
+   "word": "percent",
+   "start": 60.313,
+   "end": 60.756
+  },
+  {
+   "word": "of",
+   "start": 60.776,
+   "end": 60.889
+  },
+  {
+   "word": "their",
+   "start": 60.909,
+   "end": 61.087
+  },
+  {
+   "word": "shots",
+   "start": 61.107,
+   "end": 61.418
+  },
+  {
+   "word": "on",
+   "start": 61.438,
+   "end": 61.617
+  },
+  {
+   "word": "target.",
+   "start": 61.637,
+   "end": 62.08
+  },
+  {
+   "word": "The",
+   "start": 62.28,
+   "end": 62.422
+  },
+  {
+   "word": "league",
+   "start": 62.442,
+   "end": 62.825
+  },
+  {
+   "word": "average",
+   "start": 62.845,
+   "end": 63.391
+  },
+  {
+   "word": "is",
+   "start": 63.411,
+   "end": 63.552
+  },
+  {
+   "word": "thirty",
+   "start": 63.572,
+   "end": 64.037
+  },
+  {
+   "word": "two.",
+   "start": 64.057,
+   "end": 64.36
+  },
+  {
+   "word": "At",
+   "start": 64.76,
+   "end": 64.903
+  },
+  {
+   "word": "the",
+   "start": 64.923,
+   "end": 65.067
+  },
+  {
+   "word": "other",
+   "start": 65.087,
+   "end": 65.393
+  },
+  {
+   "word": "end,",
+   "start": 65.413,
+   "end": 65.72
+  },
+  {
+   "word": "opponents",
+   "start": 65.92,
+   "end": 66.56
+  },
+  {
+   "word": "score",
+   "start": 66.58,
+   "end": 66.889
+  },
+  {
+   "word": "with",
+   "start": 66.909,
+   "end": 67.087
+  },
+  {
+   "word": "thirty",
+   "start": 67.107,
+   "end": 67.483
+  },
+  {
+   "word": "eight",
+   "start": 67.503,
+   "end": 67.747
+  },
+  {
+   "word": "percent",
+   "start": 67.767,
+   "end": 68.208
+  },
+  {
+   "word": "of",
+   "start": 68.228,
+   "end": 68.34
+  },
+  {
+   "word": "theirs.",
+   "start": 68.36,
+   "end": 68.67
+  },
+  {
+   "word": "So",
+   "start": 69.07,
+   "end": 69.308
+  },
+  {
+   "word": "they",
+   "start": 69.328,
+   "end": 69.502
+  },
+  {
+   "word": "waste",
+   "start": 69.522,
+   "end": 69.889
+  },
+  {
+   "word": "chances",
+   "start": 69.909,
+   "end": 70.405
+  },
+  {
+   "word": "at",
+   "start": 70.425,
+   "end": 70.534
+  },
+  {
+   "word": "one",
+   "start": 70.554,
+   "end": 70.792
+  },
+  {
+   "word": "end,",
+   "start": 70.812,
+   "end": 71.05
+  },
+  {
+   "word": "and",
+   "start": 71.25,
+   "end": 71.445
+  },
+  {
+   "word": "get",
+   "start": 71.465,
+   "end": 71.733
+  },
+  {
+   "word": "punished",
+   "start": 71.753,
+   "end": 72.235
+  },
+  {
+   "word": "at",
+   "start": 72.255,
+   "end": 72.379
+  },
+  {
+   "word": "the",
+   "start": 72.399,
+   "end": 72.523
+  },
+  {
+   "word": "other.",
+   "start": 72.543,
+   "end": 72.81
+  },
+  {
+   "word": "At",
+   "start": 73.21,
+   "end": 73.342
+  },
+  {
+   "word": "average",
+   "start": 73.362,
+   "end": 73.874
+  },
+  {
+   "word": "rates,",
+   "start": 73.894,
+   "end": 74.33
+  },
+  {
+   "word": "United",
+   "start": 74.53,
+   "end": 75.138
+  },
+  {
+   "word": "would",
+   "start": 75.158,
+   "end": 75.389
+  },
+  {
+   "word": "have",
+   "start": 75.409,
+   "end": 75.641
+  },
+  {
+   "word": "scored",
+   "start": 75.661,
+   "end": 76.017
+  },
+  {
+   "word": "seventeen",
+   "start": 76.037,
+   "end": 76.708
+  },
+  {
+   "word": "and",
+   "start": 76.728,
+   "end": 76.897
+  },
+  {
+   "word": "conceded",
+   "start": 76.917,
+   "end": 77.525
+  },
+  {
+   "word": "sixteen.",
+   "start": 77.545,
+   "end": 78.09
+  },
+  {
+   "word": "Instead,",
+   "start": 78.29,
+   "end": 78.96
+  },
+  {
+   "word": "it",
+   "start": 79.16,
+   "end": 79.304
+  },
+  {
+   "word": "is",
+   "start": 79.324,
+   "end": 79.468
+  },
+  {
+   "word": "fourteen",
+   "start": 79.488,
+   "end": 80.125
+  },
+  {
+   "word": "and",
+   "start": 80.145,
+   "end": 80.371
+  },
+  {
+   "word": "nineteen.",
+   "start": 80.391,
+   "end": 81.11
+  },
+  {
+   "word": "Part",
+   "start": 81.51,
+   "end": 81.912
+  },
+  {
+   "word": "four.",
+   "start": 81.932,
+   "end": 82.25
+  },
+  {
+   "word": "The",
+   "start": 82.45,
+   "end": 82.594
+  },
+  {
+   "word": "verdict.",
+   "start": 82.614,
+   "end": 83.25
+  },
+  {
+   "word": "Pochettino",
+   "start": 83.65,
+   "end": 84.508
+  },
+  {
+   "word": "starts",
+   "start": 84.528,
+   "end": 84.982
+  },
+  {
+   "word": "on",
+   "start": 85.002,
+   "end": 85.184
+  },
+  {
+   "word": "the",
+   "start": 85.204,
+   "end": 85.319
+  },
+  {
+   "word": "eighteenth.",
+   "start": 85.339,
+   "end": 85.86
+  },
+  {
+   "word": "His",
+   "start": 86.06,
+   "end": 86.317
+  },
+  {
+   "word": "first",
+   "start": 86.337,
+   "end": 86.734
+  },
+  {
+   "word": "game",
+   "start": 86.754,
+   "end": 87.081
+  },
+  {
+   "word": "is",
+   "start": 87.101,
+   "end": 87.219
+  },
+  {
+   "word": "Liverpool",
+   "start": 87.239,
+   "end": 87.913
+  },
+  {
+   "word": "away.",
+   "start": 87.933,
+   "end": 88.26
+  },
+  {
+   "word": "Then",
+   "start": 88.46,
+   "end": 88.732
+  },
+  {
+   "word": "Brentford",
+   "start": 88.752,
+   "end": 89.391
+  },
+  {
+   "word": "and",
+   "start": 89.411,
+   "end": 89.61
+  },
+  {
+   "word": "Coventry",
+   "start": 89.63,
+   "end": 90.268
+  },
+  {
+   "word": "at",
+   "start": 90.288,
+   "end": 90.414
+  },
+  {
+   "word": "home,",
+   "start": 90.434,
+   "end": 90.78
+  },
+  {
+   "word": "and",
+   "start": 90.98,
+   "end": 91.219
+  },
+  {
+   "word": "Palace",
+   "start": 91.239,
+   "end": 91.738
+  },
+  {
+   "word": "away.",
+   "start": 91.758,
+   "end": 92.17
+  },
+  {
+   "word": "This",
+   "start": 92.57,
+   "end": 92.791
+  },
+  {
+   "word": "team",
+   "start": 92.811,
+   "end": 93.093
+  },
+  {
+   "word": "already",
+   "start": 93.113,
+   "end": 93.575
+  },
+  {
+   "word": "creates",
+   "start": 93.595,
+   "end": 94.118
+  },
+  {
+   "word": "enough.",
+   "start": 94.138,
+   "end": 94.42
+  },
+  {
+   "word": "The",
+   "start": 94.62,
+   "end": 94.755
+  },
+  {
+   "word": "problem",
+   "start": 94.775,
+   "end": 95.377
+  },
+  {
+   "word": "is",
+   "start": 95.397,
+   "end": 95.533
+  },
+  {
+   "word": "in",
+   "start": 95.553,
+   "end": 95.766
+  },
+  {
+   "word": "both",
+   "start": 95.786,
+   "end": 96.154
+  },
+  {
+   "word": "penalty",
+   "start": 96.174,
+   "end": 96.776
+  },
+  {
+   "word": "areas,",
+   "start": 96.796,
+   "end": 97.32
+  },
+  {
+   "word": "and",
+   "start": 97.51,
+   "end": 97.703
+  },
+  {
+   "word": "that",
+   "start": 97.723,
+   "end": 97.986
+  },
+  {
+   "word": "can",
+   "start": 98.006,
+   "end": 98.27
+  },
+  {
+   "word": "turn",
+   "start": 98.29,
+   "end": 98.624
+  },
+  {
+   "word": "quickly.",
+   "start": 98.644,
+   "end": 99.12
+  },
+  {
+   "word": "Our",
+   "start": 99.52,
+   "end": 99.78
+  },
+  {
+   "word": "verdict?",
+   "start": 99.8,
+   "end": 100.34
+  },
+  {
+   "word": "United",
+   "start": 100.54,
+   "end": 101.243
+  },
+  {
+   "word": "are",
+   "start": 101.263,
+   "end": 101.388
+  },
+  {
+   "word": "out",
+   "start": 101.408,
+   "end": 101.677
+  },
+  {
+   "word": "of",
+   "start": 101.697,
+   "end": 101.822
+  },
+  {
+   "word": "the",
+   "start": 101.842,
+   "end": 101.967
+  },
+  {
+   "word": "bottom",
+   "start": 101.987,
+   "end": 102.4
+  },
+  {
+   "word": "three",
+   "start": 102.42,
+   "end": 102.762
+  },
+  {
+   "word": "by",
+   "start": 102.782,
+   "end": 103.051
+  },
+  {
+   "word": "Christmas.",
+   "start": 103.071,
+   "end": 103.63
+  },
+  {
+   "word": "And",
+   "start": 103.83,
+   "end": 104.014
+  },
+  {
+   "word": "a",
+   "start": 104.034,
+   "end": 104.217
+  },
+  {
+   "word": "top",
+   "start": 104.237,
+   "end": 104.489
+  },
+  {
+   "word": "half",
+   "start": 104.509,
+   "end": 104.828
+  },
+  {
+   "word": "finish",
+   "start": 104.848,
+   "end": 105.235
+  },
+  {
+   "word": "is",
+   "start": 105.255,
+   "end": 105.371
+  },
+  {
+   "word": "realistic.",
+   "start": 105.391,
+   "end": 106.05
+  },
+  {
+   "word": "Follow",
+   "start": 106.45,
+   "end": 106.812
+  },
+  {
+   "word": "for",
+   "start": 106.832,
+   "end": 107.004
+  },
+  {
+   "word": "a",
+   "start": 107.024,
+   "end": 107.195
+  },
+  {
+   "word": "new",
+   "start": 107.215,
+   "end": 107.514
+  },
+  {
+   "word": "data",
+   "start": 107.534,
+   "end": 107.896
+  },
+  {
+   "word": "story",
+   "start": 107.916,
+   "end": 108.342
+  },
+  {
+   "word": "every",
+   "start": 108.362,
+   "end": 108.661
+  },
+  {
+   "word": "week.",
+   "start": 108.681,
+   "end": 108.98
+  },
+  {
+   "word": "And",
+   "start": 109.18,
+   "end": 109.382
+  },
+  {
+   "word": "tell",
+   "start": 109.402,
+   "end": 109.677
+  },
+  {
+   "word": "us",
+   "start": 109.697,
+   "end": 109.899
+  },
+  {
+   "word": "in",
+   "start": 109.919,
+   "end": 110.121
+  },
+  {
+   "word": "the",
+   "start": 110.141,
+   "end": 110.269
+  },
+  {
+   "word": "comments.",
+   "start": 110.289,
+   "end": 110.86
+  },
+  {
+   "word": "Can",
+   "start": 111.06,
+   "end": 111.317
+  },
+  {
+   "word": "Pochettino",
+   "start": 111.337,
+   "end": 112.219
+  },
+  {
+   "word": "fix",
+   "start": 112.239,
+   "end": 112.566
+  },
+  {
+   "word": "United?",
+   "start": 112.586,
+   "end": 113.26
+  }
+ ],
+ "duration": 113.48
+}
