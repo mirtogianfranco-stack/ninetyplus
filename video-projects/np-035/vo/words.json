@@ -1,0 +1,305 @@
+{
+ "words": [
+  {
+   "word": "Still",
+   "start": 0.03,
+   "end": 0.364
+  },
+  {
+   "word": "perfect.",
+   "start": 0.384,
+   "end": 0.93
+  },
+  {
+   "word": "Pick",
+   "start": 1.13,
+   "end": 1.41
+  },
+  {
+   "word": "of",
+   "start": 1.43,
+   "end": 1.56
+  },
+  {
+   "word": "the",
+   "start": 1.58,
+   "end": 1.71
+  },
+  {
+   "word": "weekend,",
+   "start": 1.73,
+   "end": 2.31
+  },
+  {
+   "word": "graded.",
+   "start": 2.51,
+   "end": 3.06
+  },
+  {
+   "word": "France",
+   "start": 3.32,
+   "end": 3.717
+  },
+  {
+   "word": "needed",
+   "start": 3.737,
+   "end": 4.204
+  },
+  {
+   "word": "a",
+   "start": 4.224,
+   "end": 4.412
+  },
+  {
+   "word": "win.",
+   "start": 4.432,
+   "end": 4.69
+  },
+  {
+   "word": "They",
+   "start": 4.89,
+   "end": 5.09
+  },
+  {
+   "word": "beat",
+   "start": 5.11,
+   "end": 5.455
+  },
+  {
+   "word": "T\u00fcrkiye",
+   "start": 5.475,
+   "end": 5.895
+  },
+  {
+   "word": "two",
+   "start": 5.915,
+   "end": 6.187
+  },
+  {
+   "word": "one.",
+   "start": 6.207,
+   "end": 6.48
+  },
+  {
+   "word": "Spain",
+   "start": 6.74,
+   "end": 7.115
+  },
+  {
+   "word": "and",
+   "start": 7.135,
+   "end": 7.313
+  },
+  {
+   "word": "England",
+   "start": 7.333,
+   "end": 7.84
+  },
+  {
+   "word": "needed",
+   "start": 7.86,
+   "end": 8.301
+  },
+  {
+   "word": "two",
+   "start": 8.321,
+   "end": 8.565
+  },
+  {
+   "word": "goals.",
+   "start": 8.585,
+   "end": 8.96
+  },
+  {
+   "word": "They",
+   "start": 9.16,
+   "end": 9.352
+  },
+  {
+   "word": "got",
+   "start": 9.372,
+   "end": 9.636
+  },
+  {
+   "word": "five.",
+   "start": 9.656,
+   "end": 9.99
+  },
+  {
+   "word": "England",
+   "start": 10.19,
+   "end": 10.73
+  },
+  {
+   "word": "won",
+   "start": 10.75,
+   "end": 11.01
+  },
+  {
+   "word": "three",
+   "start": 11.03,
+   "end": 11.36
+  },
+  {
+   "word": "two.",
+   "start": 11.38,
+   "end": 11.64
+  },
+  {
+   "word": "The",
+   "start": 11.9,
+   "end": 12.035
+  },
+  {
+   "word": "double.",
+   "start": 12.055,
+   "end": 12.5
+  },
+  {
+   "word": "Landed.",
+   "start": 12.7,
+   "end": 13.26
+  },
+  {
+   "word": "Pick",
+   "start": 13.52,
+   "end": 13.8
+  },
+  {
+   "word": "of",
+   "start": 13.82,
+   "end": 13.95
+  },
+  {
+   "word": "the",
+   "start": 13.97,
+   "end": 14.1
+  },
+  {
+   "word": "weekend",
+   "start": 14.12,
+   "end": 14.7
+  },
+  {
+   "word": "is",
+   "start": 14.72,
+   "end": 14.85
+  },
+  {
+   "word": "four",
+   "start": 14.87,
+   "end": 15.15
+  },
+  {
+   "word": "and",
+   "start": 15.17,
+   "end": 15.375
+  },
+  {
+   "word": "oh.",
+   "start": 15.395,
+   "end": 15.6
+  },
+  {
+   "word": "Forty",
+   "start": 15.8,
+   "end": 16.209
+  },
+  {
+   "word": "five",
+   "start": 16.229,
+   "end": 16.566
+  },
+  {
+   "word": "and",
+   "start": 16.586,
+   "end": 16.78
+  },
+  {
+   "word": "sixteen",
+   "start": 16.8,
+   "end": 17.423
+  },
+  {
+   "word": "on",
+   "start": 17.443,
+   "end": 17.637
+  },
+  {
+   "word": "the",
+   "start": 17.657,
+   "end": 17.78
+  },
+  {
+   "word": "season.",
+   "start": 17.8,
+   "end": 18.28
+  },
+  {
+   "word": "Premier",
+   "start": 18.54,
+   "end": 19.001
+  },
+  {
+   "word": "League",
+   "start": 19.021,
+   "end": 19.345
+  },
+  {
+   "word": "picks",
+   "start": 19.365,
+   "end": 19.688
+  },
+  {
+   "word": "are",
+   "start": 19.708,
+   "end": 19.825
+  },
+  {
+   "word": "back",
+   "start": 19.845,
+   "end": 20.1
+  },
+  {
+   "word": "Friday.",
+   "start": 20.12,
+   "end": 20.65
+  },
+  {
+   "word": "Follow",
+   "start": 20.85,
+   "end": 21.165
+  },
+  {
+   "word": "so",
+   "start": 21.185,
+   "end": 21.389
+  },
+  {
+   "word": "you",
+   "start": 21.409,
+   "end": 21.556
+  },
+  {
+   "word": "do",
+   "start": 21.576,
+   "end": 21.78
+  },
+  {
+   "word": "not",
+   "start": 21.8,
+   "end": 22.003
+  },
+  {
+   "word": "miss",
+   "start": 22.023,
+   "end": 22.227
+  },
+  {
+   "word": "them.",
+   "start": 22.247,
+   "end": 22.45
+  }
+ ],
+ "duration": 22.67
+}
