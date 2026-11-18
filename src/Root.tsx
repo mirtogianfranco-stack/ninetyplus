@@ -25,6 +25,7 @@ import { StoryThumb } from './templates/StoryThumb';
 import { VerticalStory } from './templates/VerticalStory';
 import { spec as np030 } from './previews/np030';
 import { spec as np034 } from './previews/np034';
+import { spec as np036 } from './previews/np036';
 import { PreviewTemplate } from './templates/PreviewTemplate';
 import { spec as np025 } from './previews/np025';
 import { spec as np099 } from './previews/np099';
@@ -154,6 +155,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id='NP034' component={() => <PreviewTemplate spec={np034} />} durationInFrames={previewFrames(np034)} fps={30} width={1920} height={1080} />
     <Composition id='NP034V' component={() => <VerticalStory spec={np034} headline={['CAN POCH', 'FIX UNITED?']} />} durationInFrames={previewFrames(np034)} fps={30} width={1080} height={1920} />
     <Still id='NP034T' component={() => <StoryThumb dir='np-034' crest='mun' lines={['CAN POCH', 'FIX UNITED?']} stat='19.3' statLabel='SHOTS A GAME · MOST IN THE LEAGUE · STILL 18TH' glow='rgba(218,41,28,0.9)' />} width={1280} height={720} />
+    <Composition id='NP036' component={() => <PreviewTemplate spec={np036} />} durationInFrames={previewFrames(np036)} fps={30} width={1920} height={1080} />
+    <Composition id='NP036V' component={() => <VerticalStory spec={np036} headline={["WHAT'S WRONG", 'WITH CITY?']} />} durationInFrames={previewFrames(np036)} fps={30} width={1080} height={1920} />
+    <Still id='NP036T' component={() => <StoryThumb dir='np-036' crest='mci' lines={["WHAT'S WRONG", 'WITH CITY?']} stat='12%' statLabel='OF SHOTS ON TARGET SCORED IN THE LAST 3 GAMES' glow='rgba(108,171,221,0.9)' />} width={1280} height={720} />
     <Composition id='NP020' component={NP020Card} durationInFrames={cardFrames(np020)} fps={30} width={1080} height={1920} />
     <Still id='NP020X' component={() => <XCard spec={np020} />} width={1200} height={675} />
     <Still id='NP020XT' component={() => <XCard spec={np020} tall />} width={1080} height={1350} />

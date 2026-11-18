@@ -1,0 +1,337 @@
+[
+ {
+  "date": "2026-08-23",
+  "side": "home",
+  "op": "AFC Bournemouth",
+  "gf": 2,
+  "ga": 1,
+  "sh": "13",
+  "sot": "6",
+  "pos": "66.1",
+  "sha": "5",
+  "sota": "4",
+  "goals": [
+   [
+    "84'",
+    "Marc Gu\u00e9hi",
+    ""
+   ],
+   [
+    "90'+1'",
+    "Josko Gvardiol",
+    ""
+   ]
+  ],
+  "conceded": [
+   [
+    "26'",
+    "Marcus Tavernier"
+   ]
+  ],
+  "reds": []
+ },
+ {
+  "date": "2026-08-28",
+  "side": "away",
+  "op": "Crystal Palace",
+  "gf": 4,
+  "ga": 1,
+  "sh": "18",
+  "sot": "9",
+  "pos": "72.2",
+  "sha": "9",
+  "sota": "1",
+  "goals": [
+   [
+    "17'",
+    "Erling Haaland",
+    ""
+   ],
+   [
+    "54'",
+    "Rayan Cherki",
+    ""
+   ],
+   [
+    "59'",
+    "Rayan Cherki",
+    ""
+   ],
+   [
+    "84'",
+    "Erling Haaland",
+    ""
+   ]
+  ],
+  "conceded": [
+   [
+    "56'",
+    "Gianluigi Donnarumma"
+   ]
+  ],
+  "reds": []
+ },
+ {
+  "date": "2026-09-05",
+  "side": "home",
+  "op": "Coventry City",
+  "gf": 1,
+  "ga": 0,
+  "sh": "15",
+  "sot": "4",
+  "pos": "77.6",
+  "sha": "12",
+  "sota": "3",
+  "goals": [
+   [
+    "26'",
+    "Erling Haaland",
+    ""
+   ]
+  ],
+  "conceded": [],
+  "reds": []
+ },
+ {
+  "date": "2026-09-13",
+  "side": "away",
+  "op": "Manchester United",
+  "gf": 1,
+  "ga": 0,
+  "sh": "6",
+  "sot": "2",
+  "pos": "45.3",
+  "sha": "16",
+  "sota": "3",
+  "goals": [
+   [
+    "60'",
+    "Erling Haaland",
+    ""
+   ]
+  ],
+  "conceded": [],
+  "reds": [
+   [
+    "23'",
+    "Phil Foden",
+    true
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-20",
+  "side": "home",
+  "op": "Sunderland",
+  "gf": 5,
+  "ga": 3,
+  "sh": "16",
+  "sot": "6",
+  "pos": "55",
+  "sha": "17",
+  "sota": "9",
+  "goals": [
+   [
+    "9'",
+    "Enzo Fern\u00e1ndez",
+    ""
+   ],
+   [
+    "29'",
+    "Rayan Cherki",
+    ""
+   ],
+   [
+    "43'",
+    "Antoine Semenyo",
+    ""
+   ],
+   [
+    "57'",
+    "Antoine Semenyo",
+    ""
+   ],
+   [
+    "81'",
+    "Erling Haaland",
+    ""
+   ]
+  ],
+  "conceded": [
+   [
+    "12'",
+    "Brian Brobbey"
+   ],
+   [
+    "33'",
+    "Brian Brobbey"
+   ],
+   [
+    "59'",
+    "Brian Brobbey"
+   ]
+  ],
+  "reds": []
+ },
+ {
+  "date": "2026-10-11",
+  "side": "away",
+  "op": "Liverpool",
+  "gf": 3,
+  "ga": 0,
+  "sh": "15",
+  "sot": "4",
+  "pos": "64.6",
+  "sha": "13",
+  "sota": "6",
+  "goals": [
+   [
+    "65'",
+    "Erling Haaland",
+    ""
+   ],
+   [
+    "68'",
+    "J\u00e9r\u00e9my Doku",
+    ""
+   ],
+   [
+    "78'",
+    "Rayan Cherki",
+    ""
+   ]
+  ],
+  "conceded": [],
+  "reds": [
+   [
+    "62'",
+    "Ryan Gravenberch",
+    false
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-17",
+  "side": "home",
+  "op": "Ipswich Town",
+  "gf": 3,
+  "ga": 2,
+  "sh": "19",
+  "sot": "6",
+  "pos": "69.8",
+  "sha": "8",
+  "sota": "3",
+  "goals": [
+   [
+    "19'",
+    "Phil Foden",
+    ""
+   ],
+   [
+    "34'",
+    "Erling Haaland",
+    ""
+   ],
+   [
+    "69'",
+    "Erling Haaland",
+    ""
+   ]
+  ],
+  "conceded": [
+   [
+    "21'",
+    "Daizen Maeda"
+   ],
+   [
+    "90'",
+    "Zian Flemming"
+   ]
+  ],
+  "reds": []
+ },
+ {
+  "date": "2026-10-24",
+  "side": "away",
+  "op": "Aston Villa",
+  "gf": 1,
+  "ga": 2,
+  "sh": "15",
+  "sot": "7",
+  "pos": "63.2",
+  "sha": "8",
+  "sota": "2",
+  "goals": [
+   [
+    "52'",
+    "Erling Haaland",
+    ""
+   ]
+  ],
+  "conceded": [
+   [
+    "6'",
+    "Nicolas Jackson"
+   ],
+   [
+    "60'",
+    "Nicolas Jackson"
+   ]
+  ],
+  "reds": []
+ },
+ {
+  "date": "2026-10-31",
+  "side": "home",
+  "op": "Brighton & Hove Albion",
+  "gf": 0,
+  "ga": 1,
+  "sh": "21",
+  "sot": "6",
+  "pos": "62.4",
+  "sha": "7",
+  "sota": "3",
+  "goals": [],
+  "conceded": [
+   [
+    "11'",
+    "Yasin Ayari"
+   ]
+  ],
+  "reds": []
+ },
+ {
+  "date": "2026-11-07",
+  "side": "away",
+  "op": "Nottingham Forest",
+  "gf": 1,
+  "ga": 3,
+  "sh": "12",
+  "sot": "4",
+  "pos": "78",
+  "sha": "11",
+  "sota": "5",
+  "goals": [
+   [
+    "52'",
+    "Rayan Cherki",
+    ""
+   ]
+  ],
+  "conceded": [
+   [
+    "6'",
+    "Jair Cunha"
+   ],
+   [
+    "18'",
+    "Liam Delap"
+   ],
+   [
+    "73'",
+    "Liam Delap"
+   ]
+  ],
+  "reds": []
+ }
+]
