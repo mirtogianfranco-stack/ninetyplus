@@ -1,0 +1,46 @@
+eng.1 2026-11-21T12:30Z Manchester City (382) v Fulham (370) 2026-27-english-premier-league
+eng.1 2026-11-21T15:00Z AFC Bournemouth (349) v Nottingham Forest (393) 2026-27-english-premier-league
+eng.1 2026-11-21T15:00Z Aston Villa (362) v Sunderland (366) 2026-27-english-premier-league
+eng.1 2026-11-21T15:00Z Chelsea (363) v Leeds United (357) 2026-27-english-premier-league
+eng.1 2026-11-21T15:00Z Coventry City (388) v Crystal Palace (384) 2026-27-english-premier-league
+eng.1 2026-11-21T15:00Z Tottenham Hotspur (367) v Ipswich Town (373) 2026-27-english-premier-league
+eng.1 2026-11-21T17:30Z Newcastle United (361) v Arsenal (359) 2026-27-english-premier-league
+eng.1 2026-11-22T14:00Z Hull City (306) v Brighton & Hove Albion (331) 2026-27-english-premier-league
+eng.1 2026-11-22T16:30Z Liverpool (364) v Manchester United (360) 2026-27-english-premier-league
+eng.1 2026-11-23T20:00Z Brentford (337) v Everton (368) 2026-27-english-premier-league
+esp.1 2026-11-20T20:00Z Athletic Club (93) v Espanyol (88) 2026-27-laliga
+esp.1 2026-11-21T13:00Z Alavés (96) v Deportivo (90) 2026-27-laliga
+esp.1 2026-11-21T15:15Z Rayo Vallecano (101) v Valencia (94) 2026-27-laliga
+esp.1 2026-11-21T17:30Z Sevilla (243) v Real Betis (244) 2026-27-laliga
+esp.1 2026-11-21T20:00Z Real Madrid (86) v Celta Vigo (85) 2026-27-laliga
+esp.1 2026-11-22T13:00Z Barcelona (83) v Villarreal (102) 2026-27-laliga
+esp.1 2026-11-22T15:15Z Racing Santander (87) v Real Sociedad (89) 2026-27-laliga
+esp.1 2026-11-22T17:30Z Osasuna (97) v Málaga (99) 2026-27-laliga
+esp.1 2026-11-22T20:00Z Getafe (2922) v Atlético Madrid (1068) 2026-27-laliga
+esp.1 2026-11-23T20:00Z Levante (1538) v Elche (3751) 2026-27-laliga
+ger.1 2026-11-20T19:30Z Bayern Munich (132) v FC Cologne (122) 2026-27-german-bundesliga
+ger.1 2026-11-21T14:30Z 1. FC Union Berlin (598) v RB Leipzig (11420) 2026-27-german-bundesliga
+ger.1 2026-11-21T14:30Z Bayer Leverkusen (131) v SC Paderborn 07 (3307) 2026-27-german-bundesliga
+ger.1 2026-11-21T14:30Z Borussia Mönchengladbach (268) v Borussia Dortmund (124) 2026-27-german-bundesliga
+ger.1 2026-11-21T14:30Z Eintracht Frankfurt (125) v TSG Hoffenheim (7911) 2026-27-german-bundesliga
+ger.1 2026-11-21T14:30Z SV Elversberg (10388) v SC Freiburg (126) 2026-27-german-bundesliga
+ger.1 2026-11-21T17:30Z Schalke 04 (133) v VfB Stuttgart (134) 2026-27-german-bundesliga
+ger.1 2026-11-22T14:30Z FC Augsburg (3841) v Mainz (2950) 2026-27-german-bundesliga
+ger.1 2026-11-22T16:30Z Werder Bremen (137) v Hamburg SV (127) 2026-27-german-bundesliga
+ita.1 2026-11-21T14:00Z Como (2572) v Cagliari (2925) 2026-27-italian-serie-a
+ita.1 2026-11-21T14:00Z Lazio (112) v Lecce (113) 2026-27-italian-serie-a
+ita.1 2026-11-21T17:00Z Parma (115) v AS Roma (104) 2026-27-italian-serie-a
+ita.1 2026-11-21T19:45Z Napoli (114) v Torino (239) 2026-27-italian-serie-a
+ita.1 2026-11-22T11:30Z Juventus (111) v Venezia (17530) 2026-27-italian-serie-a
+ita.1 2026-11-22T14:00Z Bologna (107) v Udinese (118) 2026-27-italian-serie-a
+ita.1 2026-11-22T14:00Z Sassuolo (3997) v Genoa (3263) 2026-27-italian-serie-a
+ita.1 2026-11-22T17:00Z AC Milan (103) v Frosinone (4057) 2026-27-italian-serie-a
+ita.1 2026-11-22T19:45Z Atalanta (105) v Internazionale (110) 2026-27-italian-serie-a
+ita.1 2026-11-23T19:45Z Monza (4007) v Fiorentina (109) 2026-27-italian-serie-a
+usa.1 2026-11-21T19:00Z New England Revolution (189) v Philadelphia Union (10739) eastern-conference-playoffs---round-one
+usa.1 2026-11-21T21:00Z FC Dallas (185) v Portland Timbers (9723) western-conference-playoffs---round-one
+usa.1 2026-11-21T23:00Z Inter Miami CF (20232) v Columbus Crew (183) eastern-conference-playoffs---round-one
+usa.1 2026-11-22T21:00Z Nashville SC (18986) v TBD Away (131554) eastern-conference-playoffs---round-one
+usa.1 2026-11-22T23:30Z Chicago Fire FC (182) v Charlotte FC (21300) eastern-conference-playoffs---round-one
+usa.1 2026-11-23T01:30Z Vancouver Whitecaps (9727) v TBD Away (131554) western-conference-playoffs---round-one
+usa.1 2026-11-24T01:00Z St. Louis CITY SC (21812) v LAFC (18966) western-conference-playoffs---round-one

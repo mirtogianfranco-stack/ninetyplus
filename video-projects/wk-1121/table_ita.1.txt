@@ -1,0 +1,20 @@
+ 1 Lazio                  11 9-2-0 25-9  pts 29 | H 4-1-0 10-5 | A 5-1-0 15-4 | last5 WWWWD | btts 7 3+ 7 cs 4 fts 0
+ 2 Internazionale         11 9-1-1 28-13 pts 28 | H 6-0-0 19-7 | A 3-1-1 9-6 | last5 WWWLW | btts 7 3+ 8 cs 4 fts 0
+ 3 AS Roma                11 8-3-0 31-10 pts 27 | H 5-1-0 17-5 | A 3-2-0 14-5 | last5 WDWWW | btts 5 3+ 8 cs 6 fts 1
+ 4 AC Milan               11 7-3-1 23-13 pts 24 | H 4-0-1 13-7 | A 3-3-0 10-6 | last5 WWLWW | btts 8 3+ 7 cs 3 fts 0
+ 5 Como                   11 7-2-2 18-10 pts 23 | H 3-1-0 5-1 | A 4-1-2 13-9 | last5 WWWWL | btts 6 3+ 5 cs 3 fts 3
+ 6 Frosinone              11 6-2-3 24-15 pts 20 | H 5-0-1 16-6 | A 1-2-2 8-9 | last5 WDWWL | btts 5 3+ 6 cs 3 fts 3
+ 7 Juventus               11 5-3-3 15-12 pts 18 | H 3-1-1 7-4 | A 2-2-2 8-8 | last5 LWLWD | btts 4 3+ 3 cs 5 fts 2
+ 8 Bologna                11 5-2-4 16-14 pts 17 | H 1-2-2 6-8 | A 4-0-2 10-6 | last5 LWWWW | btts 7 3+ 6 cs 1 fts 3
+ 9 Cagliari               11 5-1-5 10-15 pts 16 | H 2-1-2 3-4 | A 3-0-3 7-11 | last5 LLLLW | btts 4 3+ 4 cs 4 fts 3
+10 Napoli                 11 4-3-4 18-14 pts 15 | H 2-2-1 9-6 | A 2-1-3 9-8 | last5 LDWLD | btts 6 3+ 5 cs 3 fts 2
+11 Torino                 11 4-2-5 15-17 pts 14 | H 2-1-3 8-11 | A 2-1-2 7-6 | last5 WWLLD | btts 8 3+ 7 cs 1 fts 2
+12 Atalanta               11 4-2-5 17-20 pts 14 | H 3-1-2 11-11 | A 1-1-3 6-9 | last5 LDDLW | btts 7 3+ 8 cs 2 fts 2
+13 Genoa                  11 4-1-6 11-16 pts 13 | H 3-1-3 8-10 | A 1-0-3 3-6 | last5 LWWWL | btts 6 3+ 5 cs 2 fts 3
+14 Lecce                  11 3-1-7 12-22 pts 10 | H 1-0-4 5-12 | A 2-1-3 7-10 | last5 WLLLD | btts 5 3+ 7 cs 2 fts 4
+15 Fiorentina             11 2-3-6 17-25 pts  9 | H 0-3-3 7-13 | A 2-0-3 10-12 | last5 LLDWD | btts 9 3+ 10 cs 0 fts 2
+16 Parma                  11 2-2-7  9-17 pts  8 | H 1-2-3 4-8 | A 1-0-4 5-9 | last5 LLDWL | btts 5 3+ 7 cs 2 fts 5
+17 Sassuolo               11 2-2-7 16-29 pts  8 | H 2-1-2 10-14 | A 0-1-5 6-15 | last5 LLLLL | btts 9 3+ 9 cs 0 fts 2
+18 Monza                  11 2-1-8 17-25 pts  7 | H 2-0-3 9-9 | A 0-1-5 8-16 | last5 WLLLL | btts 9 3+ 9 cs 1 fts 1
+19 Venezia                11 2-0-9  8-21 pts  6 | H 2-0-4 5-11 | A 0-0-5 3-10 | last5 WLLLW | btts 4 3+ 4 cs 1 fts 6
+20 Udinese                11 1-2-8 12-25 pts  5 | H 0-1-5 4-14 | A 1-1-3 8-11 | last5 LLDLL | btts 7 3+ 7 cs 1 fts 4

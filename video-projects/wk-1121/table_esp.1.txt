@@ -1,0 +1,20 @@
+ 1 Barcelona              12 11-0-1 48-13 pts 33 | H 5-0-1 24-7 | A 6-0-0 24-6 | last5 WWLWW | btts 8 3+ 11 cs 4 fts 0
+ 2 Real Madrid            12 10-0-2 31-10 pts 30 | H 5-0-0 17-3 | A 5-0-2 14-7 | last5 WWWWW | btts 7 3+ 10 cs 4 fts 1
+ 3 Atlético Madrid        12 9-1-2 23-10 pts 28 | H 4-1-1 12-5 | A 5-0-1 11-5 | last5 WWWWL | btts 5 3+ 8 cs 6 fts 1
+ 4 Real Betis             12 8-2-2 20-15 pts 26 | H 5-0-1 12-8 | A 3-2-1 8-7 | last5 WLDWW | btts 6 3+ 5 cs 6 fts 1
+ 5 Real Sociedad          12 7-1-4 21-20 pts 22 | H 4-1-1 8-7 | A 3-0-3 13-13 | last5 WWWLW | btts 8 3+ 9 cs 2 fts 3
+ 6 Sevilla                12 5-3-4 17-19 pts 18 | H 3-1-2 7-7 | A 2-2-2 10-12 | last5 DLWLD | btts 8 3+ 7 cs 4 fts 1
+ 7 Athletic Club          11 4-4-3 15-11 pts 16 | H 3-2-1 11-5 | A 1-2-2 4-6 | last5 DLWWD | btts 5 3+ 5 cs 5 fts 3
+ 8 Villarreal             12 4-3-5 17-15 pts 15 | H 2-1-3 8-7 | A 2-2-2 9-8 | last5 LDWLW | btts 7 3+ 7 cs 2 fts 4
+ 9 Deportivo              12 3-6-3 15-14 pts 15 | H 2-3-1 8-6 | A 1-3-2 7-8 | last5 LDLWD | btts 9 3+ 4 cs 1 fts 3
+10 Racing Santander       12 4-2-6 17-30 pts 14 | H 3-2-1 11-11 | A 1-0-5 6-19 | last5 DLWLW | btts 8 3+ 10 cs 0 fts 4
+11 Celta Vigo             12 2-7-3 10-10 pts 13 | H 2-3-2 9-6 | A 0-4-1 1-4 | last5 DWDLD | btts 4 3+ 4 cs 6 fts 7
+12 Alavés                 12 3-4-5 15-17 pts 13 | H 3-1-2 11-6 | A 0-3-3 4-11 | last5 LLDLD | btts 7 3+ 6 cs 4 fts 3
+13 Espanyol               12 3-3-6 13-14 pts 12 | H 1-2-3 6-7 | A 2-1-3 7-7 | last5 DLLWD | btts 7 3+ 6 cs 4 fts 2
+14 Rayo Vallecano         11 3-3-5 15-21 pts 12 | H 3-1-1 9-7 | A 0-2-4 6-14 | last5 DDLWL | btts 8 3+ 7 cs 1 fts 2
+15 Getafe                 12 3-3-6  8-18 pts 12 | H 3-3-0 8-4 | A 0-0-6 0-14 | last5 LDLWL | btts 4 3+ 4 cs 2 fts 6
+16 Osasuna                12 3-3-6 12-23 pts 12 | H 2-3-1 5-4 | A 1-0-5 7-19 | last5 LWLLD | btts 6 3+ 5 cs 3 fts 4
+17 Levante                12 2-5-5 16-21 pts 11 | H 2-1-2 13-12 | A 0-4-3 3-9 | last5 DWLLD | btts 7 3+ 7 cs 3 fts 5
+18 Elche                  12 2-4-6 14-20 pts 10 | H 0-1-5 4-14 | A 2-3-1 10-6 | last5 DDWLL | btts 6 3+ 6 cs 3 fts 5
+19 Valencia               12 2-3-7  8-20 pts  9 | H 0-2-5 3-14 | A 2-1-2 5-6 | last5 DDLWL | btts 4 3+ 6 cs 4 fts 6
+20 Málaga                 12 0-5-7  9-23 pts  5 | H 0-3-3 6-12 | A 0-2-4 3-11 | last5 DLDLL | btts 8 3+ 5 cs 1 fts 4
