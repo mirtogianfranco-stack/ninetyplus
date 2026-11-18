@@ -1,0 +1,320 @@
+{
+ "words": [
+  {
+   "word": "Pick",
+   "start": 0.03,
+   "end": 0.318
+  },
+  {
+   "word": "of",
+   "start": 0.338,
+   "end": 0.471
+  },
+  {
+   "word": "the",
+   "start": 0.491,
+   "end": 0.625
+  },
+  {
+   "word": "weekend,",
+   "start": 0.645,
+   "end": 1.24
+  },
+  {
+   "word": "number",
+   "start": 1.44,
+   "end": 1.878
+  },
+  {
+   "word": "five,",
+   "start": 1.898,
+   "end": 2.26
+  },
+  {
+   "word": "and",
+   "start": 2.46,
+   "end": 2.644
+  },
+  {
+   "word": "we",
+   "start": 2.664,
+   "end": 2.848
+  },
+  {
+   "word": "are",
+   "start": 2.868,
+   "end": 2.984
+  },
+  {
+   "word": "four",
+   "start": 3.004,
+   "end": 3.256
+  },
+  {
+   "word": "from",
+   "start": 3.276,
+   "end": 3.528
+  },
+  {
+   "word": "four.",
+   "start": 3.548,
+   "end": 3.8
+  },
+  {
+   "word": "Barcelona",
+   "start": 4.06,
+   "end": 4.846
+  },
+  {
+   "word": "have",
+   "start": 4.866,
+   "end": 5.115
+  },
+  {
+   "word": "scored",
+   "start": 5.135,
+   "end": 5.518
+  },
+  {
+   "word": "forty",
+   "start": 5.538,
+   "end": 5.921
+  },
+  {
+   "word": "eight",
+   "start": 5.941,
+   "end": 6.189
+  },
+  {
+   "word": "goals",
+   "start": 6.209,
+   "end": 6.592
+  },
+  {
+   "word": "in",
+   "start": 6.612,
+   "end": 6.794
+  },
+  {
+   "word": "twelve",
+   "start": 6.814,
+   "end": 7.197
+  },
+  {
+   "word": "games.",
+   "start": 7.217,
+   "end": 7.6
+  },
+  {
+   "word": "Eleven",
+   "start": 7.86,
+   "end": 8.301
+  },
+  {
+   "word": "of",
+   "start": 8.321,
+   "end": 8.433
+  },
+  {
+   "word": "their",
+   "start": 8.453,
+   "end": 8.631
+  },
+  {
+   "word": "twelve",
+   "start": 8.651,
+   "end": 9.027
+  },
+  {
+   "word": "games",
+   "start": 9.047,
+   "end": 9.422
+  },
+  {
+   "word": "have",
+   "start": 9.442,
+   "end": 9.686
+  },
+  {
+   "word": "had",
+   "start": 9.706,
+   "end": 9.949
+  },
+  {
+   "word": "three",
+   "start": 9.969,
+   "end": 10.279
+  },
+  {
+   "word": "goals",
+   "start": 10.299,
+   "end": 10.674
+  },
+  {
+   "word": "or",
+   "start": 10.694,
+   "end": 10.806
+  },
+  {
+   "word": "more.",
+   "start": 10.826,
+   "end": 11.07
+  },
+  {
+   "word": "And",
+   "start": 11.32,
+   "end": 11.485
+  },
+  {
+   "word": "Villarreal",
+   "start": 11.505,
+   "end": 12.104
+  },
+  {
+   "word": "games",
+   "start": 12.124,
+   "end": 12.475
+  },
+  {
+   "word": "have",
+   "start": 12.495,
+   "end": 12.722
+  },
+  {
+   "word": "had",
+   "start": 12.742,
+   "end": 12.969
+  },
+  {
+   "word": "three",
+   "start": 12.989,
+   "end": 13.278
+  },
+  {
+   "word": "or",
+   "start": 13.298,
+   "end": 13.402
+  },
+  {
+   "word": "more",
+   "start": 13.422,
+   "end": 13.649
+  },
+  {
+   "word": "in",
+   "start": 13.669,
+   "end": 13.835
+  },
+  {
+   "word": "seven",
+   "start": 13.855,
+   "end": 14.205
+  },
+  {
+   "word": "of",
+   "start": 14.225,
+   "end": 14.329
+  },
+  {
+   "word": "twelve.",
+   "start": 14.349,
+   "end": 14.7
+  },
+  {
+   "word": "Barcelona",
+   "start": 14.96,
+   "end": 15.799
+  },
+  {
+   "word": "and",
+   "start": 15.819,
+   "end": 16.014
+  },
+  {
+   "word": "Villarreal,",
+   "start": 16.034,
+   "end": 16.73
+  },
+  {
+   "word": "three",
+   "start": 16.93,
+   "end": 17.266
+  },
+  {
+   "word": "plus",
+   "start": 17.286,
+   "end": 17.623
+  },
+  {
+   "word": "goals.",
+   "start": 17.643,
+   "end": 18.05
+  },
+  {
+   "word": "Pick",
+   "start": 18.31,
+   "end": 18.609
+  },
+  {
+   "word": "of",
+   "start": 18.629,
+   "end": 18.768
+  },
+  {
+   "word": "the",
+   "start": 18.788,
+   "end": 18.927
+  },
+  {
+   "word": "weekend",
+   "start": 18.947,
+   "end": 19.564
+  },
+  {
+   "word": "is",
+   "start": 19.584,
+   "end": 19.724
+  },
+  {
+   "word": "four",
+   "start": 19.744,
+   "end": 20.042
+  },
+  {
+   "word": "and",
+   "start": 20.062,
+   "end": 20.281
+  },
+  {
+   "word": "oh.",
+   "start": 20.301,
+   "end": 20.52
+  },
+  {
+   "word": "Riding",
+   "start": 20.72,
+   "end": 21.228
+  },
+  {
+   "word": "with",
+   "start": 21.248,
+   "end": 21.454
+  },
+  {
+   "word": "us?",
+   "start": 21.474,
+   "end": 21.68
+  },
+  {
+   "word": "Comment",
+   "start": 21.88,
+   "end": 22.377
+  },
+  {
+   "word": "below.",
+   "start": 22.397,
+   "end": 22.82
+  }
+ ],
+ "duration": 23.04
+}
