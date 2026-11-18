@@ -151,7 +151,7 @@ def open_page(b, key):
         if key:
             y = b.para(f'<font color="#D62828"><b>{a}</b></font>', M + 32, y, W - 2 * M - 40, style(11.5, 15)) - 30
         else:
-            b.c.setStrokeColor(b.t.primary); b.c.setLineWidth(1.2); b.c.roundRect(M + 32, y - 250, W - 2 * M - 32, 250, 10); y -= 270
+            b.c.setStrokeColor(b.t.primary); b.c.setLineWidth(1.2); b.c.roundRect(M + 32, y - 232, W - 2 * M - 32, 232, 10); y -= 252
 
 
 def tracker(b):

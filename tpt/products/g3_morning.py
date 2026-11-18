@@ -1,6 +1,6 @@
-"""Grade 3 Ontario Math Morning Work: December (15 days of spiral review). Each day has five boxes, every box tagged with
+"""Grade 3 Ontario Math Morning Work, one month per run (spiral review). Each day has five boxes, every box tagged with
 its exact Grade 3 expectation code. Answers are computed, and the key is generated from the same data.
-First month of a monthly series (change MONTH/SEED/DAYS for the next month)."""
+Run: python3 products/g3_morning.py January (months and day counts are in MONTHS)."""
 import math, os, random, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE)); sys.path.insert(0, HERE)
@@ -8,7 +8,10 @@ from kit import Book, Theme, run, style, W, H, M, INK, GREY, KEYRED
 from kit.winter import snowflake
 from reportlab.lib.colors import white, HexColor
 
-MONTH, SEED, DAYS = "December", 1203, 15
+MONTHS = {"December": (1203, 15, "perfect for the weeks before winter break"),
+          "January": (101, 20, "a calm, predictable routine for the return from winter break")}
+MONTH = sys.argv[1] if len(sys.argv) > 1 else "December"
+SEED, DAYS, BLURB = MONTHS[MONTH]
 T = Theme("#0F766E", "#134E4A", "#FACC15", "#F0FDFA", "Fredoka")
 ONT = ("Ontario Mathematics, Grade 3. Daily boxes rotate through <b>B1.1, B1.3, B1.5</b> (number sense), <b>B2.2</b> (facts of 2, 5 "
        "and 10), <b>B2.5</b> (addition and subtraction problems to 1000), <b>B2.8</b> (unit fractions), <b>C1.3</b> (pattern "
@@ -144,7 +147,7 @@ def cover_art(b, x, y, w, h):
 
 def build(b):
     b.cover([f"{DAYS} days", "spiral review", "every box coded", "answer keys"])
-    b.guide(f"Fifteen days of Grade 3 math morning work for {MONTH}, perfect for the weeks before winter break. Every page has "
+    b.guide(f"{DAYS} days of Grade 3 math morning work for {MONTH}, {BLURB}. Every page has "
             "the same five boxes, so routines stay calm and students work independently: Number of the Day, Fact Power, Problem "
             "Solving, Fraction Fun and a rotating Spiral Review box (patterns, time, money, data or perimeter). Each box shows its "
             "Grade 3 expectation code.",
@@ -153,7 +156,7 @@ def build(b):
               "their strategies."),
              ("Assessment", "The codes on each box make it easy to note who needs another look at a skill. The bottom line lets "
               "students reflect on how the math felt."),
-             ("Series", "This is the December set of a monthly Grade 3 series that follows the same layout.")], ONT)
+             ("Series", f"This is the {MONTH} set of a monthly Grade 3 series that follows the same layout.")], ONT)
     for d in range(DAYS): day_page(b, d)
     for d in range(DAYS): day_page(b, d, key=True)
     b.terms()
@@ -176,7 +179,7 @@ every day keep the routine calm, while the skills spiral. **Every box is tagged 
 
 Full answer keys included. Part of a monthly Grade 3 morning work series.
 """,
-    keywords=["grade 3 morning work", "Ontario math grade 3", "spiral review", "math warm up", "December math", "bell work",
+    keywords=["grade 3 morning work", "Ontario math grade 3", "spiral review", "math warm up", f"{MONTH} math", "bell work",
               "Ontario curriculum", "grade 3 math", "daily math review", "no prep"])
 
 if __name__ == "__main__":
