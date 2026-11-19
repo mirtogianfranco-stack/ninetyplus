@@ -1,5 +1,7 @@
 # TPT catalog roadmap (K-8, all subjects)
 
+> **Read `AI-POLICY.md` first.** From 19 Nov 2026, new resources are teacher-created; Claude does not generate product content.
+
 Strategy: build **series**, not one-offs. Each series uses one format, so every new product is mostly content,
 buyers who like one buy the next, and 4+ related products become a discounted **bundle** (bundles are where the
 volume is). Seasonal products need to be listed **4-6 weeks early**.
