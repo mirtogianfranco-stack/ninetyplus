@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3-4-3 Press Picture</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Public+Sans:wght@400;600;800&display=swap">
+<style>
+:root{--bg:#F4F4F2;--card:#FCFCFB;--fg:#1B2226;--muted:#4A5260;--line:#DDE1E3;--turf:#E3ECE4;--turf-line:#9DB5A2;--us:#1B2226;--us-ring:#FCFCFB;--them:#AE132A;--accent:#AE132A;--soft:#F7DDE0;--ball:#E8862A}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12171A;--card:#1B2226;--fg:#EEF0F0;--muted:#A7B0B5;--line:#2E393F;--turf:#17231B;--turf-line:#3F5A47;--us:#EEF0F0;--us-ring:#12171A;--them:#EC5A68;--accent:#EC5A68;--soft:#3A1E23;--ball:#F0A65A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12171A;--card:#1B2226;--fg:#EEF0F0;--muted:#A7B0B5;--line:#2E393F;--turf:#17231B;--turf-line:#3F5A47;--us:#EEF0F0;--us-ring:#12171A;--them:#EC5A68;--accent:#EC5A68;--soft:#3A1E23;--ball:#F0A65A;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:'Public Sans',Arial,sans-serif;font-size:16px;line-height:1.5}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 16px 48px;display:flex;flex-direction:column;gap:20px}
+h1,h2{font-family:Oswald,'Arial Narrow',sans-serif;text-transform:uppercase;margin:0;line-height:1.1}
+h1{font-size:clamp(30px,6vw,44px)} h2{font-size:20px}
+.eyebrow{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0}
+p{margin:0}
+.grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:760px){.grid{grid-template-columns:1fr}}
+.pitch{background:var(--turf);border-radius:12px;padding:10px}
+svg{display:block;width:100%;height:auto}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tabs button{font:800 14px 'Public Sans',sans-serif;padding:8px 14px;border-radius:999px;border:2px solid var(--fg);background:transparent;color:var(--fg);cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.tabs button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.card{background:var(--card);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:10px}
+ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px}
+.key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);padding-top:8px;justify-content:center}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.pl{transition:transform .9s cubic-bezier(.3,.7,.2,1)}
+.arrows{transition:opacity .4s}
+.call{background:var(--soft);border-radius:8px;padding:10px 14px;font-weight:600}
+@media (prefers-reduced-motion:reduce){.pl{transition:none}}
+.lbl{font:700 11px 'Public Sans',sans-serif}
+</style></head><body>
+<div class="wrap">
+  <div>
+    <p class="eyebrow">Hamilton United 2010 Boys · Defending organization</p>
+    <h1>Our 3-4-3 press</h1>
+    <p style="color:var(--muted);margin-top:6px">Against a 4-3-3 with one 6, and against a double pivot (two 6s + a 10). Same triggers, same calls. Only the match-ups change.</p>
+  </div>
+  <div class="tabs" role="group" aria-label="Opponent and moment">
+    <span style="font-weight:800;font-size:13px;align-self:center;color:var(--muted)">THEIR ONE 6:</span>
+    <button type="button" data-s="A" aria-pressed="false">1 · Close the door</button>
+    <button type="button" data-s="B" aria-pressed="true">2 · GO</button>
+    <span style="font-weight:800;font-size:13px;align-self:center;color:var(--muted);margin-left:8px">THEIR TWO 6s + A 10:</span>
+    <button type="button" data-s="C" aria-pressed="false">3 · Close the door</button>
+    <button type="button" data-s="D" aria-pressed="false">4 · GO (CCB steps out)</button>
+    <button type="button" data-s="E" aria-pressed="false">5 · GO (back 3 stays)</button>
+  </div>
+  <div class="grid">
+    <div class="pitch">
+      <svg viewBox="0 0 600 680" role="img" aria-label="Vertical pitch, their goal at the top. Red 1-4-3-3 with one 6 builds out. Black 1-3-4-3 presses: ball-side 10 jumps to their left-back, our 9 shuts the pass back to the centre-back, the weak-side 10 comes inside onto their 6, ball-side 6 on their 8, right wing-back goal-side of their winger, far side tucked in.">
+        <g fill="none" stroke="var(--turf-line)" stroke-width="2">
+          <rect x="28" y="30" width="544" height="640"/>
+          <rect x="139" y="30" width="322" height="132"/><rect x="227" y="30" width="146" height="44"/>
+          <path d="M242 162 A 73 73 0 0 0 358 162"/>
+          <line x1="28" y1="450" x2="572" y2="450"/><circle cx="300" cy="450" r="73"/>
+          <line x1="28" y1="310" x2="572" y2="310" stroke-dasharray="6 6"/><line x1="28" y1="590" x2="572" y2="590" stroke-dasharray="6 6"/>
+        </g>
+        <rect x="271" y="22" width="58" height="8" fill="var(--turf-line)"/>
+        <g class="lbl" fill="var(--muted)"><text x="36" y="302">their defending third</text><text x="36" y="582">middle third</text><text x="36" y="444">halfway</text></g>
+        <!-- blocked lane wedge (state B) -->
+        <g id="arB" class="arrows">
+          <path d="M498 214 L 330 250 L 355 300 Z" fill="var(--accent)" opacity=".13"/>
+          <text class="lbl" x="352" y="236" fill="var(--accent)">inside lane shut</text>
+          <text class="lbl" x="40" y="238" fill="var(--muted)">left free: long, slow switch</text>
+          <path d="M405 252 Q 462 250 474 226" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M318 198 Q 365 192 384 182" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M212 262 Q 255 280 282 272" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M404 352 Q 418 348 422 344" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <line x1="372" y1="136" x2="490" y2="208" stroke="var(--ball)" stroke-width="3"/>
+          <text class="lbl" x="588" y="330" fill="var(--fg)" transform="rotate(-90 588 330)">sideline = 12th defender</text>
+        </g>
+        <g id="arA" class="arrows" style="opacity:0">
+          <line x1="300" y1="66" x2="364" y2="124" stroke="var(--ball)" stroke-width="3"/>
+          <path d="M300 205 Q 318 160 345 150" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M360 140 Q 330 190 302 228" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="7 5" opacity=".6"/>
+          <text class="lbl" x="230" y="196" fill="var(--accent)">door closed</text>
+          <path d="M378 136 Q 460 150 492 206" fill="none" stroke="var(--ball)" stroke-width="2" stroke-dasharray="7 5"/>
+          <text class="lbl" x="452" y="160" fill="var(--fg)">window open</text>
+        </g>
+        <g id="arC" class="arrows" style="opacity:0">
+          <line x1="300" y1="66" x2="364" y2="124" stroke="var(--ball)" stroke-width="3"/>
+          <path d="M300 228 Q 316 206 334 196" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M370 140 Q 362 200 352 236" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="7 5" opacity=".6"/>
+          <path d="M262 312 L 262 296" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M352 312 L 352 296" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M300 410 L 300 388" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <text class="lbl" x="384" y="214" fill="var(--accent)">one 6 hidden</text>
+          <text class="lbl" x="390" y="300" fill="var(--fg)">our 6s step up early</text>
+          <text class="lbl" x="328" y="388" fill="var(--fg)">CCB steps out on their 10</text>
+          <text class="lbl" x="40" y="176" fill="var(--fg)">10 holds the half-space</text>
+        </g>
+        <g id="arD" class="arrows" style="opacity:0">
+          <path d="M498 214 L 340 236 L 372 296 Z" fill="var(--accent)" opacity=".13"/>
+          <line x1="372" y1="136" x2="490" y2="208" stroke="var(--ball)" stroke-width="3"/>
+          <path d="M405 252 Q 462 250 474 226" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M318 198 Q 365 192 384 182" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M222 212 Q 242 222 260 222" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M262 290 L 262 314" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <text class="lbl" x="588" y="330" fill="var(--fg)" transform="rotate(-90 588 330)">sideline = 12th defender</text>
+          <text class="lbl" x="100" y="324" fill="var(--fg)">far 6 drops to cover</text>
+          <text class="lbl" x="330" y="470" fill="var(--fg)">2 v 1 on their 9</text>
+          <text class="lbl" x="40" y="238" fill="var(--muted)">left free: long switch</text>
+        </g>
+        <g id="arE" class="arrows" style="opacity:0">
+          <path d="M102 206 L 262 232 L 238 296 Z" fill="var(--accent)" opacity=".13"/>
+          <line x1="216" y1="138" x2="108" y2="200" stroke="var(--ball)" stroke-width="3"/>
+          <path d="M196 236 Q 150 238 132 226" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M290 206 Q 248 190 226 182" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M440 240 Q 416 226 398 222" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M266 332 L 264 308" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <path d="M352 310 Q 332 336 320 352" fill="none" stroke="var(--fg)" stroke-width="3" stroke-dasharray="2 6" marker-end="url(#m)"/>
+          <text class="lbl" x="16" y="420" fill="var(--fg)" transform="rotate(-90 16 420)">sideline = 12th defender</text>
+          <text class="lbl" x="334" y="392" fill="var(--fg)">weak-side 6 on their 10</text>
+          <text class="lbl" x="250" y="488" fill="var(--fg)">back 3 stays together</text>
+          <text class="lbl" x="452" y="196" fill="var(--muted)">left free: long switch</text>
+        </g>
+        <defs><marker id="m" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--fg)"/></marker></defs>
+        <g id="players"></g>
+      </svg>
+      <div class="key"><span><i class="dot" style="background:var(--us);outline:2px solid var(--fg)"></i>Us 1-3-4-3</span><span><i class="dot" style="background:var(--them)"></i>Them</span><span><i class="dot" style="background:var(--ball)"></i>Ball</span><span>Dotted = our movement</span></div>
+    </div>
+    <div class="card" id="text"></div>
+  </div>
+</div>
+<script>
+const TH=[ // label, [A,B,C,D], label override for C/D
+ ['GK',[[300,58],[300,58],[300,58],[300,58],[300,58]]],
+ ['RCB',[[230,128],[230,132],[230,128],[230,132],[222,134]]],
+ ['LCB',[[372,128],[380,132],[372,128],[380,132],[372,130]]],
+ ['RB',[[96,200],[100,205],[96,200],[100,205],[100,205]]],
+ ['LB',[[500,212],[500,214],[500,212],[500,214],[500,212]]],
+ ['6',[[300,232],[310,240],[255,250],[244,258],[250,252]],'6'],
+ ['8',[[200,296],[195,300],[350,250],[362,246],[352,250]],'6'],
+ ['8',[[412,290],[432,296],[300,342],[320,336],[305,336]],'10'],
+ ['RW',[[88,384],[90,380],[88,384],[90,380],[90,380]]],
+ ['9',[[300,402],[300,396],[300,412],[300,408],[300,408]]],
+ ['LW',[[512,384],[516,372],[512,384],[516,372],[512,384]]]];
+const US=[
+ ['9',[[300,205],[398,176],[352,186],[398,176],[214,176]]],
+ ['10',[[408,256],[478,226],[430,244],[478,226],[124,220]]],
+ ['10',[[205,262],[292,272],[210,210],[278,220],[382,220]]],
+ ['6',[[402,345],[430,334],[352,288],[368,284],[262,290]]],
+ ['6',[[214,342],[246,338],[262,288],[262,322],[312,366]]],
+ ['RWB',[[496,410],[506,414],[500,414],[506,414],[482,420]]],
+ ['LWB',[[104,410],[134,430],[104,414],[140,432],[100,414]]],
+ ['RCB',[[432,480],[430,474],[350,450],[352,446],[380,454]]],
+ ['CB',[[300,476],[300,444],[300,380],[318,366],[300,444]]],
+ ['LCB',[[168,480],[180,478],[250,450],[252,448],[220,454]]]];
+const IDX={A:0,B:1,C:2,D:3,E:4};
+const ball={A:[372,128],B:[500,214],C:[372,128],D:[500,214],E:[100,205]};
+const T={
+ A:`<h2>One 6 · 1 · Close the door</h2><p class="call">Trigger: the ball leaves their GK.</p><ol>
+ <li><b>Our 9</b> curves from inside to out as the ball travels, with their 6 in his shadow. Door to the middle: closed.</li>
+ <li><b>Our two 10s</b> stay inside on the 8s, so the CB’s only “window” is out to the fullback.</li>
+ <li><b>Everyone else</b> holds shape: 6s on the 8s, wing-backs on the wingers, back 3 on their 9.</li></ol>
+ <p style="color:var(--muted)">We’re not winning it yet. We’re deciding where it goes.</p>`,
+ B:`<h2>One 6 · 2 · Ball goes wide: GO</h2><p class="call">Trigger: ball travels to their LB (or a poor touch, back to goal, back pass).</p><ol>
+ <li><b>Ball-side 10 jumps</b> to their LB while the ball travels. Curve from inside, arrive side-on, show him down the line.</li>
+ <li><b>Our 9</b> slides across to shut the pass back to their LCB.</li>
+ <li><b>Weak-side 10 comes inside</b> onto their 6. Their only central outlet is gone.</li>
+ <li><b>Ball-side 6</b> steps onto their 8. <b>RWB</b> stays goal-side of their LW. <b>CB</b> steps onto their 9.</li>
+ <li><b>Far side tucks in.</b> Their RB is left free on purpose: that switch is long and slow, so we have time to shift.</li></ol>
+ <p class="call">“One goes, we all go.” The sideline is our 12th defender.</p>`,
+ C:`<h2>Two 6s · 3 · Close the door</h2><p class="call">Trigger: the ball leaves their GK. Same call, new match-ups.</p><ol>
+ <li><b>Our 9</b> curves onto the ball-side CB, but he can only hide <b>one</b> 6 now.</li>
+ <li><b>Our two 6s step up early and tight</b> on their two 6s, before the ball goes wide, not after.</li>
+ <li><b>Our CCB steps out</b> onto their 10 between the lines. He must not turn.</li>
+ <li><b>Weak-side 10</b> holds the half-space between their far CB and far 6.</li>
+ <li><b>Outside CBs</b> stay narrow on their 9 (2 v 1). Wing-backs goal-side of the wingers. Our GK plays high.</li></ol>`,
+ D:`<h2>Two 6s · 4 · Ball goes wide: GO</h2><p class="call">Trigger: ball travels to their LB. Same call: GO.</p><ol>
+ <li><b>Ball-side 10 jumps</b> to their LB, curving to shut the pass inside to their ball-side 6.</li>
+ <li><b>Our 9</b> shuts the pass back to their LCB.</li>
+ <li><b>Weak-side 10 comes inside</b> onto their <b>far 6</b>.</li>
+ <li>That frees <b>our far 6 to drop and cover</b> the space in front of our back line.</li>
+ <li><b>Ball-side 6</b> stays tight on their 6. <b>CCB</b> follows their 10. <b>Outside CBs</b>: 2 v 1 on their 9.</li></ol>
+ <p class="call">Biggest risk: the CCB has left the back line. The GK sweeps and the outside CBs talk. Not working? Drop to a 5-2-3 mid-block and press only on the fullback trigger.</p>`
+,
+ E:`<h2>Two 6s · 5 · GO, back 3 stays</h2><p class="call">Trigger: ball travels to their RB. Same call: GO.</p><ol>
+ <li><b>Strong-side 10 jumps</b> to their RB, curving to shut the pass inside to their strong-side 6.</li>
+ <li><b>Our 9</b> shuts the pass back to their RCB.</li>
+ <li><b>Weak-side 10</b> comes inside onto their <b>weak-side 6</b>.</li>
+ <li><b>Strong-side 6 jumps</b> onto their <b>strong-side 6</b>.</li>
+ <li><b>Weak-side 6</b> picks up their <b>10</b>, goal-side so he can’t turn.</li>
+ <li><b>Back 3 stays</b> together on their 9: no gap behind us. LWB goal-side of their RW; RWB tucks in.</li></ol>
+ <p class="call"><b>vs option 4:</b> the back line stays intact (safer against balls in behind), but our weak-side 6 covers a lot of ground to reach their 10. Choose it when their 10 sits deep or our CCB isn’t quick enough to step out.</p>`
+};
+const NS='http://www.w3.org/2000/svg', g=document.getElementById('players'), els=[];
+function mk(side,[lab,pos,alt]){const e=document.createElementNS(NS,'g');e.setAttribute('class','pl');
+ const c=document.createElementNS(NS,'circle');c.setAttribute('r','15');
+ if(side==='us'){c.setAttribute('fill','var(--us)');c.setAttribute('stroke','var(--fg)');c.setAttribute('stroke-width','2')}else{c.setAttribute('fill','var(--them)')}
+ const t=document.createElementNS(NS,'text');t.textContent=lab;t.setAttribute('text-anchor','middle');t.setAttribute('dy','4');
+ t.setAttribute('style',`font:800 ${lab.length>2?9:11}px 'Public Sans',sans-serif;fill:${side==='us'?'var(--us-ring)':'#FCFCFB'}`);
+ e.append(c,t);g.append(e);els.push({e,t,pos,lab,alt:alt||lab});}
+TH.forEach(p=>mk('them',p));US.forEach(p=>mk('us',p));
+const be=document.createElementNS(NS,'circle');be.setAttribute('r','7');be.setAttribute('fill','var(--ball)');be.setAttribute('stroke','var(--fg)');be.setAttribute('stroke-width','1.5');be.setAttribute('class','pl');g.append(be);
+function set(s){const i=IDX[s];els.forEach(o=>{const [x,y]=o.pos[i];o.e.style.transform=`translate(${x}px,${y}px)`;o.t.textContent=i>1?o.alt:o.lab;});
+ const [bx,by]=ball[s];be.style.transform=`translate(${bx+(s==='E'?-12:12)}px,${by+10}px)`;
+ ['A','B','C','D','E'].forEach(k=>document.getElementById('ar'+k).style.opacity=k===s?1:0);
+ document.getElementById('text').innerHTML=T[s];
+ document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.s===s));}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>set(b.dataset.s));
+set('B');
+</script>
+</body></html>
