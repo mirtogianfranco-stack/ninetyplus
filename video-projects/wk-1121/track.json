@@ -1,0 +1,10 @@
+{"picks": [
+ {"card": "Premier League card", "label": "City to win v Fulham", "league": "eng.1", "date": "20261121", "home": "Manchester City", "away": "Fulham", "type": "win", "team": "home"},
+ {"card": "Premier League card", "label": "Chelsea to win v Leeds", "league": "eng.1", "date": "20261121", "home": "Chelsea", "away": "Leeds", "type": "win", "team": "home"},
+ {"card": "Premier League card", "label": "Nicolas Jackson to score v Sunderland", "league": "eng.1", "date": "20261121", "home": "Aston Villa", "away": "Sunderland", "type": "scorer", "player": "Nicolas Jackson"},
+ {"card": "Best of the Rest", "label": "Dortmund to win at Gladbach", "league": "ger.1", "date": "20261121", "home": "nchengladbach", "away": "Dortmund", "type": "win", "team": "away"},
+ {"card": "Best of the Rest", "label": "Roma to win at Parma", "league": "ita.1", "date": "20261121", "home": "Parma", "away": "Roma", "type": "win", "team": "away"},
+ {"card": "Best of the Rest", "label": "Bellingham to score v Celta", "league": "esp.1", "date": "20261121", "home": "Real Madrid", "away": "Celta", "type": "scorer", "player": "Bellingham"},
+ {"card": "Best of the Rest", "label": "Juventus to win v Venezia", "league": "ita.1", "date": "20261122", "home": "Juventus", "away": "Venezia", "type": "win", "team": "home"},
+ {"card": "Pick of the Weekend #5", "label": "Barcelona v Villarreal 3+ goals", "league": "esp.1", "date": "20261122", "home": "Barcelona", "away": "Villarreal", "type": "goals_over", "n": 3}
+]}
