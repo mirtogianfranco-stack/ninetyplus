@@ -37,13 +37,13 @@ ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px}
     <p style="color:var(--muted);margin-top:6px">Against a 4-3-3 with one 6, and against a double pivot (two 6s + a 10). Same triggers, same calls. Only the match-ups change.</p>
   </div>
   <div class="tabs" role="group" aria-label="Opponent and moment">
-    <span style="font-weight:800;font-size:13px;align-self:center;color:var(--muted)">THEIR ONE 6:</span>
-    <button type="button" data-s="A" aria-pressed="false">1 · Close the door</button>
-    <button type="button" data-s="B" aria-pressed="true">2 · GO</button>
-    <span style="font-weight:800;font-size:13px;align-self:center;color:var(--muted);margin-left:8px">THEIR TWO 6s + A 10:</span>
-    <button type="button" data-s="C" aria-pressed="false">3 · Close the door</button>
-    <button type="button" data-s="D" aria-pressed="false">4 · GO (CCB steps out)</button>
-    <button type="button" data-s="E" aria-pressed="false">5 · GO (back 3 stays)</button>
+    <span style="font-weight:800;font-size:13px;align-self:center;color:var(--muted)">OPTION 1 · THEIR ONE 6:</span>
+    <button type="button" data-s="A" aria-pressed="false">Close the door</button>
+    <button type="button" data-s="B" aria-pressed="true">GO</button>
+    <span style="font-weight:800;font-size:13px;align-self:center;color:var(--muted);margin-left:8px">OPTIONS 2–3 · THEIR TWO 6s + A 10:</span>
+    <button type="button" data-s="C" aria-pressed="false">Close the door</button>
+    <button type="button" data-s="D" aria-pressed="false">Option 2 · GO (CCB steps out)</button>
+    <button type="button" data-s="E" aria-pressed="false">Option 3 · GO (back 3 stays)</button>
   </div>
   <div class="grid">
     <div class="pitch">
@@ -149,25 +149,25 @@ const US=[
 const IDX={A:0,B:1,C:2,D:3,E:4};
 const ball={A:[372,128],B:[500,214],C:[372,128],D:[500,214],E:[100,205]};
 const T={
- A:`<h2>One 6 · 1 · Close the door</h2><p class="call">Trigger: the ball leaves their GK.</p><ol>
+ A:`<h2>Option 1 · Close the door</h2><p class="call">Trigger: the ball leaves their GK.</p><ol>
  <li><b>Our 9</b> curves from inside to out as the ball travels, with their 6 in his shadow. Door to the middle: closed.</li>
  <li><b>Our two 10s</b> stay inside on the 8s, so the CB’s only “window” is out to the fullback.</li>
  <li><b>Everyone else</b> holds shape: 6s on the 8s, wing-backs on the wingers, back 3 on their 9.</li></ol>
  <p style="color:var(--muted)">We’re not winning it yet. We’re deciding where it goes.</p>`,
- B:`<h2>One 6 · 2 · Ball goes wide: GO</h2><p class="call">Trigger: ball travels to their LB (or a poor touch, back to goal, back pass).</p><ol>
+ B:`<h2>Option 1 · Ball goes wide: GO</h2><p class="call">Trigger: ball travels to their LB (or a poor touch, back to goal, back pass).</p><ol>
  <li><b>Ball-side 10 jumps</b> to their LB while the ball travels. Curve from inside, arrive side-on, show him down the line.</li>
  <li><b>Our 9</b> slides across to shut the pass back to their LCB.</li>
  <li><b>Weak-side 10 comes inside</b> onto their 6. Their only central outlet is gone.</li>
  <li><b>Ball-side 6</b> steps onto their 8. <b>RWB</b> stays goal-side of their LW. <b>CB</b> steps onto their 9.</li>
  <li><b>Far side tucks in.</b> Their RB is left free on purpose: that switch is long and slow, so we have time to shift.</li></ol>
  <p class="call">“One goes, we all go.” The sideline is our 12th defender.</p>`,
- C:`<h2>Two 6s · 3 · Close the door</h2><p class="call">Trigger: the ball leaves their GK. Same call, new match-ups.</p><ol>
+ C:`<h2>Option 2 · Close the door</h2><p class="call">Trigger: the ball leaves their GK. Same call, new match-ups.</p><ol>
  <li><b>Our 9</b> curves onto the ball-side CB, but he can only hide <b>one</b> 6 now.</li>
  <li><b>Our two 6s step up early and tight</b> on their two 6s, before the ball goes wide, not after.</li>
  <li><b>Our CCB steps out</b> onto their 10 between the lines. He must not turn.</li>
  <li><b>Weak-side 10</b> holds the half-space between their far CB and far 6.</li>
  <li><b>Outside CBs</b> stay narrow on their 9 (2 v 1). Wing-backs goal-side of the wingers. Our GK plays high.</li></ol>`,
- D:`<h2>Two 6s · 4 · Ball goes wide: GO</h2><p class="call">Trigger: ball travels to their LB. Same call: GO.</p><ol>
+ D:`<h2>Option 2 · GO, CCB steps out</h2><p class="call">Trigger: ball travels to their LB. Same call: GO.</p><ol>
  <li><b>Ball-side 10 jumps</b> to their LB, curving to shut the pass inside to their ball-side 6.</li>
  <li><b>Our 9</b> shuts the pass back to their LCB.</li>
  <li><b>Weak-side 10 comes inside</b> onto their <b>far 6</b>.</li>
@@ -175,14 +175,14 @@ const T={
  <li><b>Ball-side 6</b> stays tight on their 6. <b>CCB</b> follows their 10. <b>Outside CBs</b>: 2 v 1 on their 9.</li></ol>
  <p class="call">Biggest risk: the CCB has left the back line. The GK sweeps and the outside CBs talk. Not working? Drop to a 5-2-3 mid-block and press only on the fullback trigger.</p>`
 ,
- E:`<h2>Two 6s · 5 · GO, back 3 stays</h2><p class="call">Trigger: ball travels to their RB. Same call: GO.</p><ol>
+ E:`<h2>Option 3 · GO, back 3 stays</h2><p class="call">Trigger: ball travels to their RB. Same call: GO.</p><ol>
  <li><b>Strong-side 10 jumps</b> to their RB, curving to shut the pass inside to their strong-side 6.</li>
  <li><b>Our 9</b> shuts the pass back to their RCB.</li>
  <li><b>Weak-side 10</b> comes inside onto their <b>weak-side 6</b>.</li>
  <li><b>Strong-side 6 jumps</b> onto their <b>strong-side 6</b>.</li>
  <li><b>Weak-side 6</b> picks up their <b>10</b>, goal-side so he can’t turn.</li>
  <li><b>Back 3 stays</b> together on their 9: no gap behind us. LWB goal-side of their RW; RWB tucks in.</li></ol>
- <p class="call"><b>vs option 4:</b> the back line stays intact (safer against balls in behind), but our weak-side 6 covers a lot of ground to reach their 10. Choose it when their 10 sits deep or our CCB isn’t quick enough to step out.</p>`
+ <p class="call"><b>vs Option 2:</b> the back line stays intact (safer against balls in behind), but our weak-side 6 covers a lot of ground to reach their 10. Choose it when their 10 sits deep or our CCB isn’t quick enough to step out.</p>`
 };
 const NS='http://www.w3.org/2000/svg', g=document.getElementById('players'), els=[];
 function mk(side,[lab,pos,alt]){const e=document.createElementNS(NS,'g');e.setAttribute('class','pl');
