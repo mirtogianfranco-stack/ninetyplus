@@ -4,3 +4,4 @@
 - Aston Villa 0-0 Sunderland LOST (Nicolas Jackson to score)
 - PL card 0/3 BUST.
 - Gladbach 0-1 Dortmund WON: Nmecha 80'
+- Parma 1-5 Roma WON: Malen 39' 68' 77' 90' (four), Rodrigo Mora 71'; Elphège 54' (PAR). Best of the Rest 2/2 so far.
