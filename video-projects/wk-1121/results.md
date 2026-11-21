@@ -5,3 +5,4 @@
 - PL card 0/3 BUST.
 - Gladbach 0-1 Dortmund WON: Nmecha 80'
 - Parma 1-5 Roma WON: Malen 39' 68' 77' 90' (four), Rodrigo Mora 71'; Elphège 54' (PAR). Best of the Rest 2/2 so far.
+- Real Madrid 2-1 Celta (90+4' live at check) WON (Bellingham to score): Bellingham 66', Carlos Espí 85'; Pablo Durán 6' (CEL). Best of the Rest 3/3 so far.
