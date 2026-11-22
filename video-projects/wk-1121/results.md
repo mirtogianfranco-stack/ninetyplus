@@ -6,3 +6,6 @@
 - Gladbach 0-1 Dortmund WON: Nmecha 80'
 - Parma 1-5 Roma WON: Malen 39' 68' 77' 90' (four), Rodrigo Mora 71'; Elphège 54' (PAR). Best of the Rest 2/2 so far.
 - Real Madrid 2-1 Celta (90+4' live at check) WON (Bellingham to score): Bellingham 66', Carlos Espí 85'; Pablo Durán 6' (CEL). Best of the Rest 3/3 so far.
+- Juventus 4-0 Venezia WON: Woltemade 53', Koopmeiners 59', Cabal header 65', Kolo Muani pen 71'. Best of the Rest 4/4 LANDED.
+- Barcelona 3-2 Villarreal WON (3+ goals), Pick of the Weekend #5: Buchanan 5', Oluwaseyi 7' (VIL); Gerard Martín header 57', Fermín López 61', Pau Navarro OG 67' (BAR); Navarro red 90+3'. Line cleared at 61'.
+- WEEKEND 6-3 (PL 0/3, BotR 4/4, PotW 1/1). Season 45-16 -> 51-19. Pick of the Weekend 5-0.
