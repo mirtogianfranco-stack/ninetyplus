@@ -1,0 +1,705 @@
+{
+ "words": [
+  {
+   "word": "Still",
+   "start": 0.03,
+   "end": 0.379
+  },
+  {
+   "word": "perfect.",
+   "start": 0.399,
+   "end": 0.97
+  },
+  {
+   "word": "And",
+   "start": 1.17,
+   "end": 1.374
+  },
+  {
+   "word": "two",
+   "start": 1.394,
+   "end": 1.674
+  },
+  {
+   "word": "clubs",
+   "start": 1.694,
+   "end": 2.122
+  },
+  {
+   "word": "are",
+   "start": 2.142,
+   "end": 2.272
+  },
+  {
+   "word": "dead",
+   "start": 2.292,
+   "end": 2.571
+  },
+  {
+   "word": "to",
+   "start": 2.591,
+   "end": 2.796
+  },
+  {
+   "word": "us.",
+   "start": 2.816,
+   "end": 3.02
+  },
+  {
+   "word": "Pick",
+   "start": 3.28,
+   "end": 3.568
+  },
+  {
+   "word": "of",
+   "start": 3.588,
+   "end": 3.721
+  },
+  {
+   "word": "the",
+   "start": 3.741,
+   "end": 3.875
+  },
+  {
+   "word": "weekend.",
+   "start": 3.895,
+   "end": 4.49
+  },
+  {
+   "word": "Barcelona",
+   "start": 4.69,
+   "end": 5.499
+  },
+  {
+   "word": "and",
+   "start": 5.519,
+   "end": 5.706
+  },
+  {
+   "word": "Villarreal",
+   "start": 5.726,
+   "end": 6.397
+  },
+  {
+   "word": "needed",
+   "start": 6.417,
+   "end": 6.88
+  },
+  {
+   "word": "three",
+   "start": 6.9,
+   "end": 7.226
+  },
+  {
+   "word": "goals.",
+   "start": 7.246,
+   "end": 7.64
+  },
+  {
+   "word": "Villarreal",
+   "start": 7.84,
+   "end": 8.436
+  },
+  {
+   "word": "went",
+   "start": 8.456,
+   "end": 8.744
+  },
+  {
+   "word": "two",
+   "start": 8.764,
+   "end": 8.99
+  },
+  {
+   "word": "up",
+   "start": 9.01,
+   "end": 9.175
+  },
+  {
+   "word": "in",
+   "start": 9.195,
+   "end": 9.359
+  },
+  {
+   "word": "seven",
+   "start": 9.379,
+   "end": 9.729
+  },
+  {
+   "word": "minutes.",
+   "start": 9.749,
+   "end": 10.16
+  },
+  {
+   "word": "Then",
+   "start": 10.36,
+   "end": 10.627
+  },
+  {
+   "word": "Barcelona",
+   "start": 10.647,
+   "end": 11.49
+  },
+  {
+   "word": "scored",
+   "start": 11.51,
+   "end": 11.921
+  },
+  {
+   "word": "three,",
+   "start": 11.941,
+   "end": 12.28
+  },
+  {
+   "word": "and",
+   "start": 12.48,
+   "end": 12.689
+  },
+  {
+   "word": "won",
+   "start": 12.709,
+   "end": 12.994
+  },
+  {
+   "word": "three",
+   "start": 13.014,
+   "end": 13.375
+  },
+  {
+   "word": "two.",
+   "start": 13.395,
+   "end": 13.68
+  },
+  {
+   "word": "Landed.",
+   "start": 13.88,
+   "end": 14.51
+  },
+  {
+   "word": "Five",
+   "start": 14.71,
+   "end": 15.167
+  },
+  {
+   "word": "and",
+   "start": 15.187,
+   "end": 15.454
+  },
+  {
+   "word": "oh.",
+   "start": 15.474,
+   "end": 15.74
+  },
+  {
+   "word": "Best",
+   "start": 16.0,
+   "end": 16.362
+  },
+  {
+   "word": "of",
+   "start": 16.382,
+   "end": 16.515
+  },
+  {
+   "word": "the",
+   "start": 16.535,
+   "end": 16.668
+  },
+  {
+   "word": "rest.",
+   "start": 16.688,
+   "end": 17.05
+  },
+  {
+   "word": "Dortmund",
+   "start": 17.25,
+   "end": 17.958
+  },
+  {
+   "word": "won",
+   "start": 17.978,
+   "end": 18.281
+  },
+  {
+   "word": "at",
+   "start": 18.301,
+   "end": 18.442
+  },
+  {
+   "word": "Gladbach.",
+   "start": 18.462,
+   "end": 19.17
+  },
+  {
+   "word": "Roma",
+   "start": 19.37,
+   "end": 19.821
+  },
+  {
+   "word": "won",
+   "start": 19.841,
+   "end": 20.134
+  },
+  {
+   "word": "five",
+   "start": 20.154,
+   "end": 20.526
+  },
+  {
+   "word": "one,",
+   "start": 20.546,
+   "end": 20.84
+  },
+  {
+   "word": "and",
+   "start": 21.04,
+   "end": 21.241
+  },
+  {
+   "word": "Malen",
+   "start": 21.261,
+   "end": 21.755
+  },
+  {
+   "word": "scored",
+   "start": 21.775,
+   "end": 22.196
+  },
+  {
+   "word": "four.",
+   "start": 22.216,
+   "end": 22.49
+  },
+  {
+   "word": "Bellingham",
+   "start": 22.69,
+   "end": 23.254
+  },
+  {
+   "word": "scored",
+   "start": 23.274,
+   "end": 23.691
+  },
+  {
+   "word": "against",
+   "start": 23.711,
+   "end": 24.202
+  },
+  {
+   "word": "Celta.",
+   "start": 24.222,
+   "end": 24.64
+  },
+  {
+   "word": "And",
+   "start": 24.84,
+   "end": 25.052
+  },
+  {
+   "word": "Juventus",
+   "start": 25.072,
+   "end": 25.902
+  },
+  {
+   "word": "won",
+   "start": 25.922,
+   "end": 26.212
+  },
+  {
+   "word": "four",
+   "start": 26.232,
+   "end": 26.521
+  },
+  {
+   "word": "nil.",
+   "start": 26.541,
+   "end": 26.83
+  },
+  {
+   "word": "Four",
+   "start": 27.03,
+   "end": 27.327
+  },
+  {
+   "word": "from",
+   "start": 27.347,
+   "end": 27.643
+  },
+  {
+   "word": "four.",
+   "start": 27.663,
+   "end": 27.96
+  },
+  {
+   "word": "Landed.",
+   "start": 28.16,
+   "end": 28.79
+  },
+  {
+   "word": "The",
+   "start": 29.05,
+   "end": 29.186
+  },
+  {
+   "word": "Premier",
+   "start": 29.206,
+   "end": 29.731
+  },
+  {
+   "word": "League",
+   "start": 29.751,
+   "end": 30.121
+  },
+  {
+   "word": "card.",
+   "start": 30.141,
+   "end": 30.51
+  },
+  {
+   "word": "City",
+   "start": 30.71,
+   "end": 31.056
+  },
+  {
+   "word": "drew",
+   "start": 31.076,
+   "end": 31.422
+  },
+  {
+   "word": "with",
+   "start": 31.442,
+   "end": 31.641
+  },
+  {
+   "word": "Fulham.",
+   "start": 31.661,
+   "end": 32.08
+  },
+  {
+   "word": "Chelsea",
+   "start": 32.28,
+   "end": 32.748
+  },
+  {
+   "word": "lost",
+   "start": 32.768,
+   "end": 33.053
+  },
+  {
+   "word": "four",
+   "start": 33.073,
+   "end": 33.297
+  },
+  {
+   "word": "one",
+   "start": 33.317,
+   "end": 33.541
+  },
+  {
+   "word": "to",
+   "start": 33.561,
+   "end": 33.724
+  },
+  {
+   "word": "Leeds.",
+   "start": 33.744,
+   "end": 34.09
+  },
+  {
+   "word": "And",
+   "start": 34.29,
+   "end": 34.466
+  },
+  {
+   "word": "Jackson",
+   "start": 34.486,
+   "end": 34.99
+  },
+  {
+   "word": "blanked",
+   "start": 35.01,
+   "end": 35.448
+  },
+  {
+   "word": "against",
+   "start": 35.468,
+   "end": 35.906
+  },
+  {
+   "word": "Sunderland.",
+   "start": 35.926,
+   "end": 36.56
+  },
+  {
+   "word": "Nil",
+   "start": 36.76,
+   "end": 37.06
+  },
+  {
+   "word": "from",
+   "start": 37.08,
+   "end": 37.38
+  },
+  {
+   "word": "three.",
+   "start": 37.4,
+   "end": 37.78
+  },
+  {
+   "word": "Bust.",
+   "start": 37.98,
+   "end": 38.46
+  },
+  {
+   "word": "City",
+   "start": 38.72,
+   "end": 39.006
+  },
+  {
+   "word": "and",
+   "start": 39.026,
+   "end": 39.19
+  },
+  {
+   "word": "Chelsea",
+   "start": 39.21,
+   "end": 39.68
+  },
+  {
+   "word": "picks",
+   "start": 39.7,
+   "end": 39.986
+  },
+  {
+   "word": "in",
+   "start": 40.006,
+   "end": 40.169
+  },
+  {
+   "word": "the",
+   "start": 40.189,
+   "end": 40.292
+  },
+  {
+   "word": "Premier",
+   "start": 40.312,
+   "end": 40.72
+  },
+  {
+   "word": "League",
+   "start": 40.74,
+   "end": 41.027
+  },
+  {
+   "word": "this",
+   "start": 41.047,
+   "end": 41.271
+  },
+  {
+   "word": "season.",
+   "start": 41.291,
+   "end": 41.7
+  },
+  {
+   "word": "Zero",
+   "start": 41.9,
+   "end": 42.354
+  },
+  {
+   "word": "from",
+   "start": 42.374,
+   "end": 42.624
+  },
+  {
+   "word": "seven.",
+   "start": 42.644,
+   "end": 43.03
+  },
+  {
+   "word": "We",
+   "start": 43.23,
+   "end": 43.392
+  },
+  {
+   "word": "do",
+   "start": 43.412,
+   "end": 43.634
+  },
+  {
+   "word": "not",
+   "start": 43.654,
+   "end": 43.876
+  },
+  {
+   "word": "trust",
+   "start": 43.896,
+   "end": 44.239
+  },
+  {
+   "word": "either",
+   "start": 44.259,
+   "end": 44.542
+  },
+  {
+   "word": "of",
+   "start": 44.562,
+   "end": 44.663
+  },
+  {
+   "word": "them",
+   "start": 44.683,
+   "end": 44.906
+  },
+  {
+   "word": "anymore.",
+   "start": 44.926,
+   "end": 45.39
+  },
+  {
+   "word": "Six",
+   "start": 45.65,
+   "end": 46.001
+  },
+  {
+   "word": "and",
+   "start": 46.021,
+   "end": 46.224
+  },
+  {
+   "word": "three",
+   "start": 46.244,
+   "end": 46.595
+  },
+  {
+   "word": "on",
+   "start": 46.615,
+   "end": 46.818
+  },
+  {
+   "word": "the",
+   "start": 46.838,
+   "end": 46.966
+  },
+  {
+   "word": "weekend.",
+   "start": 46.986,
+   "end": 47.56
+  },
+  {
+   "word": "Fifty",
+   "start": 47.76,
+   "end": 48.185
+  },
+  {
+   "word": "one",
+   "start": 48.205,
+   "end": 48.481
+  },
+  {
+   "word": "and",
+   "start": 48.501,
+   "end": 48.704
+  },
+  {
+   "word": "nineteen",
+   "start": 48.724,
+   "end": 49.371
+  },
+  {
+   "word": "on",
+   "start": 49.391,
+   "end": 49.593
+  },
+  {
+   "word": "the",
+   "start": 49.613,
+   "end": 49.741
+  },
+  {
+   "word": "season.",
+   "start": 49.761,
+   "end": 50.26
+  },
+  {
+   "word": "Champions",
+   "start": 50.52,
+   "end": 51.145
+  },
+  {
+   "word": "League",
+   "start": 51.165,
+   "end": 51.467
+  },
+  {
+   "word": "picks",
+   "start": 51.487,
+   "end": 51.79
+  },
+  {
+   "word": "Tuesday,",
+   "start": 51.81,
+   "end": 52.37
+  },
+  {
+   "word": "and",
+   "start": 52.57,
+   "end": 52.765
+  },
+  {
+   "word": "the",
+   "start": 52.785,
+   "end": 52.908
+  },
+  {
+   "word": "data",
+   "start": 52.928,
+   "end": 53.337
+  },
+  {
+   "word": "story",
+   "start": 53.357,
+   "end": 53.838
+  },
+  {
+   "word": "Thursday.",
+   "start": 53.858,
+   "end": 54.41
+  },
+  {
+   "word": "Follow",
+   "start": 54.61,
+   "end": 54.933
+  },
+  {
+   "word": "so",
+   "start": 54.953,
+   "end": 55.162
+  },
+  {
+   "word": "you",
+   "start": 55.182,
+   "end": 55.334
+  },
+  {
+   "word": "do",
+   "start": 55.354,
+   "end": 55.563
+  },
+  {
+   "word": "not",
+   "start": 55.583,
+   "end": 55.792
+  },
+  {
+   "word": "miss",
+   "start": 55.812,
+   "end": 56.021
+  },
+  {
+   "word": "them.",
+   "start": 56.041,
+   "end": 56.25
+  }
+ ],
+ "duration": 56.47
+}
