@@ -1,0 +1,555 @@
+{
+ "words": [
+  {
+   "word": "Still",
+   "start": 0.03,
+   "end": 0.403
+  },
+  {
+   "word": "no",
+   "start": 0.423,
+   "end": 0.717
+  },
+  {
+   "word": "City.",
+   "start": 0.737,
+   "end": 1.11
+  },
+  {
+   "word": "Still",
+   "start": 1.31,
+   "end": 1.664
+  },
+  {
+   "word": "no",
+   "start": 1.684,
+   "end": 1.962
+  },
+  {
+   "word": "Chelsea.",
+   "start": 1.982,
+   "end": 2.56
+  },
+  {
+   "word": "Champions",
+   "start": 2.76,
+   "end": 3.47
+  },
+  {
+   "word": "League",
+   "start": 3.49,
+   "end": 3.835
+  },
+  {
+   "word": "card.",
+   "start": 3.855,
+   "end": 4.2
+  },
+  {
+   "word": "Paris",
+   "start": 4.46,
+   "end": 4.8
+  },
+  {
+   "word": "have",
+   "start": 4.82,
+   "end": 5.04
+  },
+  {
+   "word": "scored",
+   "start": 5.06,
+   "end": 5.4
+  },
+  {
+   "word": "twenty",
+   "start": 5.42,
+   "end": 5.82
+  },
+  {
+   "word": "in",
+   "start": 5.84,
+   "end": 6.0
+  },
+  {
+   "word": "four",
+   "start": 6.02,
+   "end": 6.24
+  },
+  {
+   "word": "Champions",
+   "start": 6.26,
+   "end": 6.84
+  },
+  {
+   "word": "League",
+   "start": 6.86,
+   "end": 7.14
+  },
+  {
+   "word": "games,",
+   "start": 7.16,
+   "end": 7.5
+  },
+  {
+   "word": "and",
+   "start": 7.7,
+   "end": 7.887
+  },
+  {
+   "word": "every",
+   "start": 7.907,
+   "end": 8.233
+  },
+  {
+   "word": "one",
+   "start": 8.253,
+   "end": 8.509
+  },
+  {
+   "word": "had",
+   "start": 8.529,
+   "end": 8.785
+  },
+  {
+   "word": "three",
+   "start": 8.805,
+   "end": 9.131
+  },
+  {
+   "word": "goals",
+   "start": 9.151,
+   "end": 9.545
+  },
+  {
+   "word": "or",
+   "start": 9.565,
+   "end": 9.684
+  },
+  {
+   "word": "more.",
+   "start": 9.704,
+   "end": 9.96
+  },
+  {
+   "word": "Paris",
+   "start": 10.16,
+   "end": 10.612
+  },
+  {
+   "word": "and",
+   "start": 10.632,
+   "end": 10.848
+  },
+  {
+   "word": "Roma,",
+   "start": 10.868,
+   "end": 11.32
+  },
+  {
+   "word": "three",
+   "start": 11.52,
+   "end": 11.856
+  },
+  {
+   "word": "plus",
+   "start": 11.876,
+   "end": 12.212
+  },
+  {
+   "word": "goals.",
+   "start": 12.232,
+   "end": 12.64
+  },
+  {
+   "word": "Como",
+   "start": 12.9,
+   "end": 13.306
+  },
+  {
+   "word": "have",
+   "start": 13.326,
+   "end": 13.55
+  },
+  {
+   "word": "scored",
+   "start": 13.57,
+   "end": 13.915
+  },
+  {
+   "word": "nineteen",
+   "start": 13.935,
+   "end": 14.464
+  },
+  {
+   "word": "in",
+   "start": 14.484,
+   "end": 14.646
+  },
+  {
+   "word": "four,",
+   "start": 14.666,
+   "end": 14.89
+  },
+  {
+   "word": "and",
+   "start": 15.09,
+   "end": 15.28
+  },
+  {
+   "word": "AEK",
+   "start": 15.3,
+   "end": 15.98
+  },
+  {
+   "word": "have",
+   "start": 16.0,
+   "end": 16.26
+  },
+  {
+   "word": "lost",
+   "start": 16.28,
+   "end": 16.61
+  },
+  {
+   "word": "both",
+   "start": 16.63,
+   "end": 16.96
+  },
+  {
+   "word": "away",
+   "start": 16.98,
+   "end": 17.31
+  },
+  {
+   "word": "games.",
+   "start": 17.33,
+   "end": 17.73
+  },
+  {
+   "word": "Como",
+   "start": 17.93,
+   "end": 18.39
+  },
+  {
+   "word": "to",
+   "start": 18.41,
+   "end": 18.596
+  },
+  {
+   "word": "win.",
+   "start": 18.616,
+   "end": 18.87
+  },
+  {
+   "word": "Lens",
+   "start": 19.12,
+   "end": 19.411
+  },
+  {
+   "word": "have",
+   "start": 19.431,
+   "end": 19.661
+  },
+  {
+   "word": "conceded",
+   "start": 19.681,
+   "end": 20.283
+  },
+  {
+   "word": "sixteen",
+   "start": 20.303,
+   "end": 20.844
+  },
+  {
+   "word": "in",
+   "start": 20.864,
+   "end": 21.031
+  },
+  {
+   "word": "four,",
+   "start": 21.051,
+   "end": 21.28
+  },
+  {
+   "word": "including",
+   "start": 21.48,
+   "end": 22.123
+  },
+  {
+   "word": "nine",
+   "start": 22.143,
+   "end": 22.454
+  },
+  {
+   "word": "at",
+   "start": 22.474,
+   "end": 22.586
+  },
+  {
+   "word": "home",
+   "start": 22.606,
+   "end": 22.918
+  },
+  {
+   "word": "to",
+   "start": 22.938,
+   "end": 23.116
+  },
+  {
+   "word": "Como.",
+   "start": 23.136,
+   "end": 23.58
+  },
+  {
+   "word": "Leipzig",
+   "start": 23.78,
+   "end": 24.463
+  },
+  {
+   "word": "to",
+   "start": 24.483,
+   "end": 24.698
+  },
+  {
+   "word": "win.",
+   "start": 24.718,
+   "end": 25.01
+  },
+  {
+   "word": "Harry",
+   "start": 25.27,
+   "end": 25.545
+  },
+  {
+   "word": "Kane",
+   "start": 25.565,
+   "end": 25.841
+  },
+  {
+   "word": "has",
+   "start": 25.861,
+   "end": 26.077
+  },
+  {
+   "word": "scored",
+   "start": 26.097,
+   "end": 26.431
+  },
+  {
+   "word": "in",
+   "start": 26.451,
+   "end": 26.608
+  },
+  {
+   "word": "three",
+   "start": 26.628,
+   "end": 26.904
+  },
+  {
+   "word": "of",
+   "start": 26.924,
+   "end": 27.022
+  },
+  {
+   "word": "four",
+   "start": 27.042,
+   "end": 27.258
+  },
+  {
+   "word": "in",
+   "start": 27.278,
+   "end": 27.435
+  },
+  {
+   "word": "this",
+   "start": 27.455,
+   "end": 27.671
+  },
+  {
+   "word": "competition,",
+   "start": 27.691,
+   "end": 28.38
+  },
+  {
+   "word": "and",
+   "start": 28.58,
+   "end": 28.79
+  },
+  {
+   "word": "Lille",
+   "start": 28.81,
+   "end": 29.172
+  },
+  {
+   "word": "have",
+   "start": 29.192,
+   "end": 29.478
+  },
+  {
+   "word": "let",
+   "start": 29.498,
+   "end": 29.784
+  },
+  {
+   "word": "in",
+   "start": 29.804,
+   "end": 30.014
+  },
+  {
+   "word": "ten.",
+   "start": 30.034,
+   "end": 30.32
+  },
+  {
+   "word": "Harry",
+   "start": 30.52,
+   "end": 30.925
+  },
+  {
+   "word": "Kane",
+   "start": 30.945,
+   "end": 31.35
+  },
+  {
+   "word": "to",
+   "start": 31.37,
+   "end": 31.605
+  },
+  {
+   "word": "score.",
+   "start": 31.625,
+   "end": 32.03
+  },
+  {
+   "word": "And",
+   "start": 32.29,
+   "end": 32.459
+  },
+  {
+   "word": "a",
+   "start": 32.479,
+   "end": 32.647
+  },
+  {
+   "word": "Thursday",
+   "start": 32.667,
+   "end": 33.15
+  },
+  {
+   "word": "bonus.",
+   "start": 33.17,
+   "end": 33.59
+  },
+  {
+   "word": "Milan",
+   "start": 33.78,
+   "end": 34.204
+  },
+  {
+   "word": "are",
+   "start": 34.224,
+   "end": 34.352
+  },
+  {
+   "word": "unbeaten",
+   "start": 34.372,
+   "end": 35.019
+  },
+  {
+   "word": "in",
+   "start": 35.039,
+   "end": 35.241
+  },
+  {
+   "word": "six",
+   "start": 35.261,
+   "end": 35.611
+  },
+  {
+   "word": "away",
+   "start": 35.631,
+   "end": 35.981
+  },
+  {
+   "word": "games",
+   "start": 36.001,
+   "end": 36.426
+  },
+  {
+   "word": "in",
+   "start": 36.446,
+   "end": 36.648
+  },
+  {
+   "word": "Serie",
+   "start": 36.668,
+   "end": 37.018
+  },
+  {
+   "word": "A.",
+   "start": 37.038,
+   "end": 37.24
+  },
+  {
+   "word": "Milan",
+   "start": 37.44,
+   "end": 37.936
+  },
+  {
+   "word": "to",
+   "start": 37.956,
+   "end": 38.194
+  },
+  {
+   "word": "win",
+   "start": 38.214,
+   "end": 38.538
+  },
+  {
+   "word": "or",
+   "start": 38.558,
+   "end": 38.71
+  },
+  {
+   "word": "draw.",
+   "start": 38.73,
+   "end": 39.14
+  },
+  {
+   "word": "Which",
+   "start": 39.4,
+   "end": 39.68
+  },
+  {
+   "word": "leg",
+   "start": 39.7,
+   "end": 39.92
+  },
+  {
+   "word": "breaks",
+   "start": 39.94,
+   "end": 40.34
+  },
+  {
+   "word": "first?",
+   "start": 40.36,
+   "end": 40.7
+  },
+  {
+   "word": "Comment",
+   "start": 40.9,
+   "end": 41.42
+  },
+  {
+   "word": "your",
+   "start": 41.44,
+   "end": 41.651
+  },
+  {
+   "word": "pick.",
+   "start": 41.671,
+   "end": 41.96
+  }
+ ],
+ "duration": 42.18
+}

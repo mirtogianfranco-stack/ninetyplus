@@ -37,6 +37,8 @@ import { NP027Card } from './cards/NP027';
 import { NP031Card } from './cards/NP031';
 import { NP037Card } from './cards/NP037';
 import { spec as np037 } from './cards/np037';
+import { NP041Card } from './cards/NP041';
+import { spec as np041 } from './cards/np041';
 import { NP038Card } from './cards/NP038';
 import { spec as np038 } from './cards/np038';
 import { spec as np031 } from './cards/np031';
@@ -189,6 +191,8 @@ export const RemotionRoot: React.FC = () => (
     <Still id='NP031XT' component={() => <XCard spec={np031} tall />} width={1080} height={1350} />
     <Composition id='NP037' component={NP037Card} durationInFrames={cardFrames(np037)} fps={30} width={1080} height={1920} />
     <Still id='NP037XT' component={() => <XCard spec={np037} tall />} width={1080} height={1350} />
+    <Composition id='NP041' component={NP041Card} durationInFrames={cardFrames(np041)} fps={30} width={1080} height={1920} />
+    <Still id='NP041XT' component={() => <XCard spec={np041} tall />} width={1080} height={1350} />
     <Composition id='NP038' component={NP038Card} durationInFrames={cardFrames(np038)} fps={30} width={1080} height={1920} />
     <Still id='NP038XT' component={() => <XCard spec={np038} tall />} width={1080} height={1350} />
     <Composition id='NP017' component={NP017Card} durationInFrames={cardFrames(np017)} fps={30} width={1080} height={1920} />
