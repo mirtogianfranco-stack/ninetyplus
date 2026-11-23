@@ -316,240 +316,225 @@
    "end": 25.01
   },
   {
-   "word": "Harry",
+   "word": "Tasos",
    "start": 25.27,
-   "end": 25.545
+   "end": 25.801
   },
   {
-   "word": "Kane",
-   "start": 25.565,
-   "end": 25.841
+   "word": "Douvikas",
+   "start": 25.821,
+   "end": 26.421
   },
   {
    "word": "has",
-   "start": 25.861,
-   "end": 26.077
+   "start": 26.441,
+   "end": 26.696
   },
   {
    "word": "scored",
-   "start": 26.097,
-   "end": 26.431
+   "start": 26.716,
+   "end": 27.109
   },
   {
    "word": "in",
-   "start": 26.451,
-   "end": 26.608
+   "start": 27.129,
+   "end": 27.316
   },
   {
-   "word": "three",
-   "start": 26.628,
-   "end": 26.904
-  },
-  {
-   "word": "of",
-   "start": 26.924,
-   "end": 27.022
+   "word": "all",
+   "start": 27.336,
+   "end": 27.591
   },
   {
    "word": "four",
-   "start": 27.042,
-   "end": 27.258
+   "start": 27.611,
+   "end": 27.867
   },
   {
-   "word": "in",
-   "start": 27.278,
-   "end": 27.435
-  },
-  {
-   "word": "this",
-   "start": 27.455,
-   "end": 27.671
-  },
-  {
-   "word": "competition,",
-   "start": 27.691,
-   "end": 28.38
+   "word": "games,",
+   "start": 27.887,
+   "end": 28.28
   },
   {
    "word": "and",
-   "start": 28.58,
-   "end": 28.79
+   "start": 28.47,
+   "end": 28.663
   },
   {
-   "word": "Lille",
-   "start": 28.81,
-   "end": 29.172
-  },
-  {
-   "word": "have",
-   "start": 29.192,
-   "end": 29.478
-  },
-  {
-   "word": "let",
-   "start": 29.498,
-   "end": 29.784
+   "word": "nobody",
+   "start": 28.683,
+   "end": 29.232
   },
   {
    "word": "in",
-   "start": 29.804,
-   "end": 30.014
+   "start": 29.252,
+   "end": 29.446
   },
   {
-   "word": "ten.",
-   "start": 30.034,
-   "end": 30.32
+   "word": "the",
+   "start": 29.466,
+   "end": 29.588
   },
   {
-   "word": "Harry",
-   "start": 30.52,
-   "end": 30.925
+   "word": "competition",
+   "start": 29.608,
+   "end": 30.441
   },
   {
-   "word": "Kane",
-   "start": 30.945,
-   "end": 31.35
+   "word": "has",
+   "start": 30.461,
+   "end": 30.726
+  },
+  {
+   "word": "more.",
+   "start": 30.746,
+   "end": 31.01
+  },
+  {
+   "word": "Douvikas",
+   "start": 31.21,
+   "end": 31.894
   },
   {
    "word": "to",
-   "start": 31.37,
-   "end": 31.605
+   "start": 31.914,
+   "end": 32.129
   },
   {
    "word": "score.",
-   "start": 31.625,
-   "end": 32.03
+   "start": 32.149,
+   "end": 32.52
   },
   {
    "word": "And",
-   "start": 32.29,
-   "end": 32.459
+   "start": 32.78,
+   "end": 32.949
   },
   {
    "word": "a",
-   "start": 32.479,
-   "end": 32.647
+   "start": 32.969,
+   "end": 33.137
   },
   {
    "word": "Thursday",
-   "start": 32.667,
-   "end": 33.15
+   "start": 33.157,
+   "end": 33.64
   },
   {
    "word": "bonus.",
-   "start": 33.17,
-   "end": 33.59
+   "start": 33.66,
+   "end": 34.08
   },
   {
    "word": "Milan",
-   "start": 33.78,
-   "end": 34.204
+   "start": 34.27,
+   "end": 34.694
   },
   {
    "word": "are",
-   "start": 34.224,
-   "end": 34.352
+   "start": 34.714,
+   "end": 34.842
   },
   {
    "word": "unbeaten",
-   "start": 34.372,
-   "end": 35.019
+   "start": 34.862,
+   "end": 35.509
   },
   {
    "word": "in",
-   "start": 35.039,
-   "end": 35.241
+   "start": 35.529,
+   "end": 35.731
   },
   {
    "word": "six",
-   "start": 35.261,
-   "end": 35.611
+   "start": 35.751,
+   "end": 36.101
   },
   {
    "word": "away",
-   "start": 35.631,
-   "end": 35.981
+   "start": 36.121,
+   "end": 36.471
   },
   {
    "word": "games",
-   "start": 36.001,
-   "end": 36.426
+   "start": 36.491,
+   "end": 36.916
   },
   {
    "word": "in",
-   "start": 36.446,
-   "end": 36.648
+   "start": 36.936,
+   "end": 37.138
   },
   {
    "word": "Serie",
-   "start": 36.668,
-   "end": 37.018
+   "start": 37.158,
+   "end": 37.508
   },
   {
    "word": "A.",
-   "start": 37.038,
-   "end": 37.24
+   "start": 37.528,
+   "end": 37.73
   },
   {
    "word": "Milan",
-   "start": 37.44,
-   "end": 37.936
+   "start": 37.93,
+   "end": 38.426
   },
   {
    "word": "to",
-   "start": 37.956,
-   "end": 38.194
+   "start": 38.446,
+   "end": 38.684
   },
   {
    "word": "win",
-   "start": 38.214,
-   "end": 38.538
+   "start": 38.704,
+   "end": 39.028
   },
   {
    "word": "or",
-   "start": 38.558,
-   "end": 38.71
+   "start": 39.048,
+   "end": 39.2
   },
   {
    "word": "draw.",
-   "start": 38.73,
-   "end": 39.14
+   "start": 39.22,
+   "end": 39.63
   },
   {
    "word": "Which",
-   "start": 39.4,
-   "end": 39.68
+   "start": 39.89,
+   "end": 40.17
   },
   {
    "word": "leg",
-   "start": 39.7,
-   "end": 39.92
+   "start": 40.19,
+   "end": 40.41
   },
   {
    "word": "breaks",
-   "start": 39.94,
-   "end": 40.34
+   "start": 40.43,
+   "end": 40.83
   },
   {
    "word": "first?",
-   "start": 40.36,
-   "end": 40.7
+   "start": 40.85,
+   "end": 41.19
   },
   {
    "word": "Comment",
-   "start": 40.9,
-   "end": 41.42
+   "start": 41.39,
+   "end": 41.91
   },
   {
    "word": "your",
-   "start": 41.44,
-   "end": 41.651
+   "start": 41.93,
+   "end": 42.141
   },
   {
    "word": "pick.",
-   "start": 41.671,
-   "end": 41.96
+   "start": 42.161,
+   "end": 42.45
   }
  ],
- "duration": 42.18
+ "duration": 42.67
 }
