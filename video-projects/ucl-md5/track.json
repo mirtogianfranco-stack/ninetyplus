@@ -1,0 +1,7 @@
+{"picks": [
+ {"card": "Champions League card", "label": "Como to win v AEK", "league": "uefa.champions", "date": "20261124", "home": "Como", "away": "AEK", "type": "win", "team": "home"},
+ {"card": "Champions League card", "label": "Leipzig to win v Lens", "league": "uefa.champions", "date": "20261124", "home": "Leipzig", "away": "Lens", "type": "win", "team": "home"},
+ {"card": "Champions League card", "label": "Douvikas to score v AEK", "league": "uefa.champions", "date": "20261124", "home": "Como", "away": "AEK", "type": "scorer", "player": "Douvikas"},
+ {"card": "Champions League card", "label": "PSG v Roma 3+ goals", "league": "uefa.champions", "date": "20261125", "home": "Paris", "away": "Roma", "type": "goals_over", "n": 3},
+ {"card": "Champions League card", "label": "Milan win or draw at Olympiacos (bonus)", "league": "uefa.europa", "date": "20261126", "home": "Olympiacos", "away": "Milan", "type": "win_or_draw", "team": "away"}
+]}
