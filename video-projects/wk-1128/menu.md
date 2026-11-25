@@ -29,3 +29,10 @@
 1. Arsenal v Man City: Arsenal to win (headline game; "no City").
 2. Deportivo v Barcelona: 3+ goals (12 of 13).
 3. Como v Juventus: Como win or draw (data story tie-in).
+## More Pick of the Weekend options (asked 25 Nov). ESPN through 24 Nov.
+- Elche v Atletico, Sat 12:30 PM: Atletico to win. Atletico away W6 L1 (won by 2+ in 4); Elche home 0-1-5.
+- Freiburg v Leipzig, Sun 9:30 AM: 3+ goals. Freiburg home 3+ in 4/5 (4-1, 5-0, 2-1, 1-3, 2-0); Leipzig away 3+ in 3/5 (6-1, 1-5, 3-1).
+- Hamburg v Bayern, Sat 9:30 AM: 3+ goals. Bayern away 3+ in 4/5, BTTS 4/5; Hamburg home 3+ in 3/4.
+- Torino v Lazio, Sat 12:00 PM: Lazio win or draw. Lazio away 5-1-0; Torino home lost 3 of 6.
+- Double: Real Madrid win (home 6/6) + Barcelona win (away 6/6).
+- Messi v Columbus, Fri 8:00 PM (MLS R1 G2, Miami lost G1 3-0 at home): 26 goals, scored in 18/35. Friday night = before a Sat post.
