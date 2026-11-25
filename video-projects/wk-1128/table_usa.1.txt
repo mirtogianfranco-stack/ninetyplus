@@ -1,0 +1,32 @@
+ 1 Nashville SC           35 23-8-4 71-26 pts 77 | H 15-2-1 48-15 | A 8-6-3 23-11 | last5 WDWWL | btts 15 3+ 19 cs 17 fts 7
+ 2 Vancouver Whitecaps    35 20-7-8 76-34 pts 67 | H 12-2-4 46-16 | A 8-5-4 30-18 | last5 LWWWW | btts 17 3+ 20 cs 14 fts 6
+ 3 FC Dallas              35 17-10-8 65-51 pts 61 | H 10-5-3 35-23 | A 7-5-5 30-28 | last5 WLDWW | btts 21 3+ 23 cs 9 fts 8
+ 4 New England Revolution 35 19-4-12 57-47 pts 61 | H 12-2-4 33-20 | A 7-2-8 24-27 | last5 WWLLW | btts 21 3+ 24 cs 7 fts 8
+ 5 Inter Miami CF         35 16-12-7 80-62 pts 60 | H 6-9-3 46-34 | A 10-3-4 34-28 | last5 LDWDL | btts 26 3+ 27 cs 6 fts 4
+ 6 Charlotte FC           35 16-9-10 68-52 pts 57 | H 10-4-3 37-16 | A 6-5-7 31-36 | last5 LWWDW | btts 24 3+ 26 cs 7 fts 6
+ 7 St. Louis CITY SC      35 16-9-10 62-50 pts 57 | H 10-4-4 39-25 | A 6-5-6 23-25 | last5 LLLWW | btts 23 3+ 20 cs 6 fts 7
+ 8 Chicago Fire FC        35 16-7-12 65-56 pts 55 | H 9-2-7 34-27 | A 7-5-5 31-29 | last5 WDWLL | btts 26 3+ 27 cs 7 fts 3
+ 9 San Jose Earthquakes   35 15-10-10 59-52 pts 55 | H 8-5-5 32-27 | A 7-5-5 27-25 | last5 LDWLW | btts 24 3+ 21 cs 7 fts 5
+10 FC Cincinnati          36 14-10-12 71-76 pts 52 | H 9-3-5 39-32 | A 5-7-7 32-44 | last5 DWLWW | btts 25 3+ 24 cs 5 fts 6
+11 Houston Dynamo FC      35 14-9-12 44-45 pts 51 | H 8-5-4 19-15 | A 6-4-8 25-30 | last5 DWLLL | btts 15 3+ 15 cs 13 fts 10
+12 Philadelphia Union     35 14-8-13 66-54 pts 50 | H 8-5-4 32-19 | A 6-3-9 34-35 | last5 LDLWL | btts 23 3+ 23 cs 7 fts 8
+13 Columbus Crew          35 15-5-15 62-52 pts 50 | H 9-2-6 29-19 | A 6-3-9 33-33 | last5 WWWWW | btts 23 3+ 25 cs 9 fts 4
+14 LAFC                   35 12-11-12 54-43 pts 47 | H 9-4-4 32-18 | A 3-7-8 22-25 | last5 DDLLL | btts 19 3+ 19 cs 13 fts 6
+15 Seattle Sounders FC    35 12-11-12 45-47 pts 47 | H 8-5-5 27-24 | A 4-6-7 18-23 | last5 DLLWD | btts 21 3+ 16 cs 8 fts 8
+16 Real Salt Lake         36 13-7-16 54-55 pts 46 | H 10-3-4 33-22 | A 3-4-12 21-33 | last5 WLWDL | btts 25 3+ 24 cs 4 fts 7
+17 Portland Timbers       35 13-7-15 62-64 pts 46 | H 9-4-4 37-28 | A 4-3-11 25-36 | last5 WWWWL | btts 25 3+ 25 cs 3 fts 8
+18 Orlando City SC        35 13-7-15 64-81 pts 46 | H 10-3-5 34-25 | A 3-4-10 30-56 | last5 DDLWL | btts 24 3+ 27 cs 5 fts 6
+19 Minnesota United FC    34 11-11-12 56-58 pts 44 | H 5-7-5 25-22 | A 6-4-7 31-36 | last5 WDWWW | btts 25 3+ 23 cs 6 fts 6
+20 LA Galaxy              34 11-11-12 50-57 pts 44 | H 7-6-4 26-21 | A 4-5-8 24-36 | last5 WDDWL | btts 26 3+ 23 cs 5 fts 4
+21 Colorado Rapids        34 12-7-15 47-50 pts 43 | H 10-3-4 31-19 | A 2-4-11 16-31 | last5 DWDLL | btts 17 3+ 17 cs 11 fts 8
+22 New York City FC       34 10-12-12 49-45 pts 42 | H 5-6-6 30-24 | A 5-6-6 19-21 | last5 DDWDW | btts 23 3+ 17 cs 6 fts 6
+23 Red Bull New York      34 12-6-16 48-62 pts 42 | H 7-3-7 27-29 | A 5-3-9 21-33 | last5 LWLLW | btts 20 3+ 20 cs 6 fts 9
+24 Toronto FC             34 9-12-13 52-67 pts 39 | H 6-9-2 36-33 | A 3-3-11 16-34 | last5 WLWLL | btts 27 3+ 24 cs 4 fts 5
+25 San Diego FC           34 9-11-14 57-63 pts 38 | H 6-5-6 37-30 | A 3-6-8 20-33 | last5 DDLWL | btts 20 3+ 23 cs 8 fts 6
+26 Austin FC              34 8-10-16 42-65 pts 34 | H 4-6-7 22-25 | A 4-4-9 20-40 | last5 LWLLL | btts 24 3+ 24 cs 5 fts 7
+27 Atlanta United FC      34 9-6-19 43-60 pts 33 | H 5-2-10 26-33 | A 4-4-9 17-27 | last5 LLLWL | btts 22 3+ 23 cs 4 fts 10
+28 D.C. United            34 7-12-15 39-61 pts 33 | H 5-5-7 20-29 | A 2-7-8 19-32 | last5 LLLLL | btts 20 3+ 21 cs 6 fts 12
+29 CF Montréal            34 6-8-20 37-69 pts 26 | H 4-5-8 19-25 | A 2-3-12 18-44 | last5 DLLDL | btts 17 3+ 20 cs 4 fts 14
+30 Sporting Kansas City   34 7-5-22 40-81 pts 26 | H 3-5-9 24-35 | A 4-0-13 16-46 | last5 LLLDW | btts 22 3+ 26 cs 2 fts 10
+31 MLS All-Stars           1 1-0-0  4-3  pts  3 | H 1-0-0 4-3 | A 0-0-0 0-0 | last5 W | btts 1 3+ 1 cs 0 fts 0
+32 Liga MX All-Stars       1 0-0-1  3-4  pts  0 | H 0-0-0 0-0 | A 0-0-1 3-4 | last5 L | btts 1 3+ 1 cs 0 fts 0
