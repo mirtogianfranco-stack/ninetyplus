@@ -1,0 +1,47 @@
+eng.1 Fri 3:00 PM | Nottingham Forest v Chelsea
+eng.1 Sat 10:00 AM | Leeds United v Coventry City
+eng.1 Sat 10:00 AM | Manchester United v Brentford
+eng.1 Sat 12:30 PM | Ipswich Town v Aston Villa
+eng.1 Sun 7:00 AM | Everton v Liverpool
+eng.1 Sun 9:05 AM | Brighton & Hove Albion v Newcastle United
+eng.1 Sun 9:05 AM | Crystal Palace v Hull City
+eng.1 Sun 9:05 AM | Fulham v AFC Bournemouth
+eng.1 Sun 9:05 AM | Sunderland v Tottenham Hotspur
+eng.1 Sun 11:30 AM | Arsenal v Manchester City
+esp.1 Fri 3:00 PM | Levante v Racing Santander
+esp.1 Sat 8:00 AM | Real Betis v Rayo Vallecano
+esp.1 Sat 10:15 AM | Málaga v Athletic Club
+esp.1 Sat 12:30 PM | Elche v Atlético Madrid
+esp.1 Sat 3:00 PM | Real Madrid v Alavés
+esp.1 Sun 8:00 AM | Valencia v Osasuna
+esp.1 Sun 10:15 AM | Deportivo v Barcelona
+esp.1 Sun 12:30 PM | Celta Vigo v Villarreal
+esp.1 Sun 3:00 PM | Real Sociedad v Sevilla
+esp.1 Mon 3:00 PM | Espanyol v Getafe
+ger.1 Fri 2:30 PM | Werder Bremen v Borussia Mönchengladbach
+ger.1 Sat 9:30 AM | FC Cologne v SV Elversberg
+ger.1 Sat 9:30 AM | Hamburg SV v Bayern Munich
+ger.1 Sat 9:30 AM | Mainz v 1. FC Union Berlin
+ger.1 Sat 9:30 AM | SC Paderborn 07 v Schalke 04
+ger.1 Sat 12:30 PM | VfB Stuttgart v Eintracht Frankfurt
+ger.1 Sun 9:30 AM | SC Freiburg v RB Leipzig
+ger.1 Sun 11:30 AM | TSG Hoffenheim v FC Augsburg
+ger.1 Sun 1:30 PM | Borussia Dortmund v Bayer Leverkusen
+ita.1 Fri 2:45 PM | Venezia v Bologna
+ita.1 Sat 9:00 AM | Frosinone v Parma
+ita.1 Sat 12:00 PM | Torino v Lazio
+ita.1 Sat 2:45 PM | Internazionale v Genoa
+ita.1 Sun 6:30 AM | Udinese v Fiorentina
+ita.1 Sun 9:00 AM | Sassuolo v Napoli
+ita.1 Sun 12:00 PM | AS Roma v Monza
+ita.1 Sun 2:45 PM | Como v Juventus
+ita.1 Mon 12:30 PM | Lecce v Atalanta
+ita.1 Mon 2:45 PM | Cagliari v AC Milan
+usa.1 Fri 8:00 PM | Columbus Crew v Inter Miami CF
+usa.1 Fri 10:00 PM | Real Salt Lake v Vancouver Whitecaps
+usa.1 Sat 12:30 PM | Charlotte FC v Chicago Fire FC
+usa.1 Sat 2:30 PM | Houston Dynamo FC v San Jose Earthquakes
+usa.1 Sat 4:30 PM | Philadelphia Union v New England Revolution
+usa.1 Sat 6:30 PM | FC Cincinnati v Nashville SC
+usa.1 Sat 8:30 PM | LAFC v St. Louis CITY SC
+usa.1 Sat 10:30 PM | Portland Timbers v FC Dallas

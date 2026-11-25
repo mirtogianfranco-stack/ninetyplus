@@ -1,0 +1,20 @@
+ 1 Arsenal                11 9-1-1 17-7  pts 28 | H 5-0-0 10-2 | A 4-1-1 7-5 | last5 WWWWD | btts 3 3+ 5 cs 7 fts 1
+ 2 Brighton & Hove Albion 11 7-1-3 26-9  pts 22 | H 4-1-0 15-1 | A 3-0-3 11-8 | last5 WLWWL | btts 2 3+ 5 cs 7 fts 2
+ 3 Manchester City        11 7-1-3 22-14 pts 22 | H 4-1-1 12-8 | A 3-0-2 10-6 | last5 WLLLD | btts 7 3+ 7 cs 3 fts 1
+ 4 Liverpool              11 6-3-2 18-10 pts 21 | H 2-2-2 8-6 | A 4-1-0 10-4 | last5 WWLWW | btts 4 3+ 6 cs 5 fts 3
+ 5 AFC Bournemouth        11 5-3-3 18-14 pts 18 | H 3-2-1 9-4 | A 2-1-2 9-10 | last5 WWWWW | btts 6 3+ 6 cs 4 fts 1
+ 6 Brentford              11 4-5-2 20-11 pts 17 | H 4-1-1 14-3 | A 0-4-1 6-8 | last5 LDWLW | btts 6 3+ 6 cs 4 fts 1
+ 7 Leeds United           11 4-5-2 14-9  pts 17 | H 2-3-0 7-3 | A 2-2-2 7-6 | last5 DDLWW | btts 6 3+ 3 cs 4 fts 3
+ 8 Chelsea                11 5-1-5 20-20 pts 16 | H 3-1-2 14-12 | A 2-0-3 6-8 | last5 WLWLL | btts 6 3+ 7 cs 2 fts 3
+ 9 Everton                11 4-4-3 12-14 pts 16 | H 3-1-1 8-5 | A 1-3-2 4-9 | last5 LLWWL | btts 4 3+ 4 cs 4 fts 4
+10 Tottenham Hotspur      11 4-3-4 12-11 pts 15 | H 3-1-2 9-6 | A 1-2-2 3-5 | last5 WWWLW | btts 3 3+ 3 cs 5 fts 5
+11 Hull City              11 3-5-3 13-11 pts 14 | H 2-4-0 9-5 | A 1-1-3 4-6 | last5 LDDLW | btts 5 3+ 4 cs 4 fts 3
+12 Aston Villa            11 3-5-3 14-17 pts 14 | H 1-3-2 6-7 | A 2-2-1 8-10 | last5 WWDDD | btts 6 3+ 6 cs 3 fts 4
+13 Newcastle United       11 3-4-4 15-18 pts 13 | H 1-3-2 8-9 | A 2-1-2 7-9 | last5 LWLDD | btts 7 3+ 6 cs 2 fts 2
+14 Coventry City          11 4-0-7 13-21 pts 12 | H 3-0-3 10-11 | A 1-0-4 3-10 | last5 LLWLW | btts 5 3+ 7 cs 1 fts 5
+15 Fulham                 11 2-5-4 11-13 pts 11 | H 1-2-2 7-8 | A 1-3-2 4-5 | last5 WWDDD | btts 7 3+ 3 cs 3 fts 2
+16 Ipswich Town           11 3-2-6 15-22 pts 11 | H 2-1-2 6-7 | A 1-1-4 9-15 | last5 LDDLL | btts 8 3+ 7 cs 0 fts 3
+17 Nottingham Forest      11 2-3-6  9-15 pts  9 | H 1-1-3 3-4 | A 1-2-3 6-11 | last5 LDLWL | btts 5 3+ 4 cs 1 fts 6
+18 Sunderland             11 2-3-6  8-17 pts  9 | H 2-1-2 2-4 | A 0-2-4 6-13 | last5 LDLWD | btts 4 3+ 3 cs 4 fts 5
+19 Manchester United      11 1-5-5 14-23 pts  8 | H 1-2-2 10-11 | A 0-3-3 4-12 | last5 DLLDL | btts 6 3+ 5 cs 0 fts 5
+20 Crystal Palace         11 2-1-8 12-27 pts  7 | H 1-0-4 7-13 | A 1-1-4 5-14 | last5 LLLLL | btts 6 3+ 7 cs 1 fts 5
