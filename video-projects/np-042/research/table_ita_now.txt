@@ -1,0 +1,8 @@
+1 Lazio 12 10 2 0 28 9 32
+2 AS Roma 12 9 3 0 36 11 30
+3 Internazionale 12 9 2 1 32 17 29
+4 AC Milan 12 8 3 1 28 14 27
+5 Como 12 8 2 2 20 10 26
+6 Juventus 12 6 3 3 19 12 21
+7 Frosinone 12 6 2 4 25 20 20
+8 Napoli 12 5 3 4 19 14 18

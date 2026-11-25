@@ -26,6 +26,7 @@ import { VerticalStory } from './templates/VerticalStory';
 import { spec as np030 } from './previews/np030';
 import { spec as np034 } from './previews/np034';
 import { spec as np036 } from './previews/np036';
+import { spec as np042 } from './previews/np042';
 import { PreviewTemplate } from './templates/PreviewTemplate';
 import { spec as np025 } from './previews/np025';
 import { spec as np099 } from './previews/np099';
@@ -174,6 +175,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id='NP036' component={() => <PreviewTemplate spec={np036} />} durationInFrames={previewFrames(np036)} fps={30} width={1920} height={1080} />
     <Composition id='NP036V' component={() => <VerticalStory spec={np036} headline={["WHAT'S WRONG", 'WITH CITY?']} />} durationInFrames={previewFrames(np036)} fps={30} width={1080} height={1920} />
     <Still id='NP036T' component={() => <StoryThumb dir='np-036' crest='mci' lines={["WHAT'S WRONG", 'WITH CITY?']} stat='12%' statLabel='OF SHOTS ON TARGET SCORED IN THE LAST 3 GAMES' glow='rgba(108,171,221,0.9)' />} width={1280} height={720} />
+    <Composition id='NP042' component={() => <PreviewTemplate spec={np042} />} durationInFrames={previewFrames(np042)} fps={30} width={1920} height={1080} />
+    <Composition id='NP042V' component={() => <VerticalStory spec={np042} headline={['HOW IS COMO', 'DOING THIS?']} />} durationInFrames={previewFrames(np042)} fps={30} width={1080} height={1920} />
+    <Still id='NP042T' component={() => <StoryThumb dir='np-042' crest='com' lines={['HOW IS COMO', 'DOING THIS?']} stat='61.8%' statLabel='POSSESSION · THE MOST IN SERIE A' glow='rgba(0,90,170,0.9)' />} width={1280} height={720} />
     <Composition id='NP020' component={NP020Card} durationInFrames={cardFrames(np020)} fps={30} width={1080} height={1920} />
     <Still id='NP020X' component={() => <XCard spec={np020} />} width={1200} height={675} />
     <Still id='NP020XT' component={() => <XCard spec={np020} tall />} width={1080} height={1350} />
