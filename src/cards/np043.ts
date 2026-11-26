@@ -6,13 +6,13 @@ import words from '../../video-projects/np-043/vo/words.json';
 // 2-2 Villa, 1-1 Hull, 0-2 Brighton (scored in 4 of 5); Liverpool away D W W W W (4-1-0), Liverpool 4-0 United 22 Nov;
 // Coventry away 0-3, 0-1, 1-0, 1-3, 1-3 (lost 4 of 5); Evanilson scored in each of Bournemouth's last 6 league games
 // (ESPN scoring plays 10 Oct - 21 Nov). Kick-offs ESPN (Sat 15:00Z = 10:00 AM EST, Sun 12:00Z = 7:00 AM, 14:05Z = 9:05 AM).
-// record: update to the latest season record before render (53-20 after CL Tuesday; PSG Wed + Milan Thu pending).
+// record 55-20 after Champions League MD5 + Europa bonus.
 export const spec: CardSpec = {
   dir: 'np-043',
   words,
   title: ['WEEKEND', 'CARD'],
   tag: 'PREMIER LEAGUE',
-  record: '53-20',
+  record: '55-20',
   fan: { left: { crest: 'liv' }, right: { crest: 'bou' }, centers: ['mun', 'lee'], glows: ['rgba(200,16,46,0.8)', 'rgba(218,41,28,0.75)'] },
   picks: [
     {
