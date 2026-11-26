@@ -1,0 +1,525 @@
+{
+ "words": [
+  {
+   "word": "So",
+   "start": 0.03,
+   "end": 0.326
+  },
+  {
+   "word": "close.",
+   "start": 0.346,
+   "end": 0.8
+  },
+  {
+   "word": "Four",
+   "start": 1.0,
+   "end": 1.269
+  },
+  {
+   "word": "from",
+   "start": 1.289,
+   "end": 1.558
+  },
+  {
+   "word": "five,",
+   "start": 1.578,
+   "end": 1.92
+  },
+  {
+   "word": "and",
+   "start": 2.12,
+   "end": 2.296
+  },
+  {
+   "word": "the",
+   "start": 2.316,
+   "end": 2.426
+  },
+  {
+   "word": "card",
+   "start": 2.446,
+   "end": 2.752
+  },
+  {
+   "word": "still",
+   "start": 2.772,
+   "end": 3.078
+  },
+  {
+   "word": "went",
+   "start": 3.098,
+   "end": 3.404
+  },
+  {
+   "word": "down.",
+   "start": 3.424,
+   "end": 3.73
+  },
+  {
+   "word": "The",
+   "start": 3.99,
+   "end": 4.117
+  },
+  {
+   "word": "Champions",
+   "start": 4.137,
+   "end": 4.854
+  },
+  {
+   "word": "League",
+   "start": 4.874,
+   "end": 5.222
+  },
+  {
+   "word": "card.",
+   "start": 5.242,
+   "end": 5.59
+  },
+  {
+   "word": "Como",
+   "start": 5.79,
+   "end": 6.255
+  },
+  {
+   "word": "beat",
+   "start": 6.275,
+   "end": 6.602
+  },
+  {
+   "word": "AEK",
+   "start": 6.622,
+   "end": 7.295
+  },
+  {
+   "word": "one",
+   "start": 7.315,
+   "end": 7.573
+  },
+  {
+   "word": "nil.",
+   "start": 7.593,
+   "end": 7.85
+  },
+  {
+   "word": "Leipzig",
+   "start": 8.05,
+   "end": 8.657
+  },
+  {
+   "word": "beat",
+   "start": 8.677,
+   "end": 9.005
+  },
+  {
+   "word": "Lens",
+   "start": 9.025,
+   "end": 9.353
+  },
+  {
+   "word": "three",
+   "start": 9.373,
+   "end": 9.701
+  },
+  {
+   "word": "one.",
+   "start": 9.721,
+   "end": 9.98
+  },
+  {
+   "word": "Paris",
+   "start": 10.18,
+   "end": 10.586
+  },
+  {
+   "word": "and",
+   "start": 10.606,
+   "end": 10.8
+  },
+  {
+   "word": "Roma",
+   "start": 10.82,
+   "end": 11.226
+  },
+  {
+   "word": "drew",
+   "start": 11.246,
+   "end": 11.581
+  },
+  {
+   "word": "two",
+   "start": 11.601,
+   "end": 11.866
+  },
+  {
+   "word": "two,",
+   "start": 11.886,
+   "end": 12.15
+  },
+  {
+   "word": "and",
+   "start": 12.35,
+   "end": 12.545
+  },
+  {
+   "word": "Malen's",
+   "start": 12.565,
+   "end": 13.118
+  },
+  {
+   "word": "penalty",
+   "start": 13.138,
+   "end": 13.692
+  },
+  {
+   "word": "made",
+   "start": 13.712,
+   "end": 14.05
+  },
+  {
+   "word": "it",
+   "start": 14.07,
+   "end": 14.193
+  },
+  {
+   "word": "four",
+   "start": 14.213,
+   "end": 14.48
+  },
+  {
+   "word": "goals.",
+   "start": 14.5,
+   "end": 14.91
+  },
+  {
+   "word": "But",
+   "start": 15.11,
+   "end": 15.365
+  },
+  {
+   "word": "Douvikas",
+   "start": 15.385,
+   "end": 15.985
+  },
+  {
+   "word": "did",
+   "start": 16.005,
+   "end": 16.26
+  },
+  {
+   "word": "not",
+   "start": 16.28,
+   "end": 16.536
+  },
+  {
+   "word": "score.",
+   "start": 16.556,
+   "end": 16.88
+  },
+  {
+   "word": "Bust.",
+   "start": 17.08,
+   "end": 17.56
+  },
+  {
+   "word": "The",
+   "start": 17.76,
+   "end": 17.873
+  },
+  {
+   "word": "top",
+   "start": 17.893,
+   "end": 18.14
+  },
+  {
+   "word": "scorer",
+   "start": 18.16,
+   "end": 18.608
+  },
+  {
+   "word": "picked",
+   "start": 18.628,
+   "end": 18.941
+  },
+  {
+   "word": "the",
+   "start": 18.961,
+   "end": 19.075
+  },
+  {
+   "word": "wrong",
+   "start": 19.095,
+   "end": 19.342
+  },
+  {
+   "word": "night",
+   "start": 19.362,
+   "end": 19.676
+  },
+  {
+   "word": "to",
+   "start": 19.696,
+   "end": 19.876
+  },
+  {
+   "word": "go",
+   "start": 19.896,
+   "end": 20.143
+  },
+  {
+   "word": "quiet.",
+   "start": 20.163,
+   "end": 20.61
+  },
+  {
+   "word": "And",
+   "start": 20.87,
+   "end": 21.053
+  },
+  {
+   "word": "the",
+   "start": 21.072,
+   "end": 21.188
+  },
+  {
+   "word": "Thursday",
+   "start": 21.208,
+   "end": 21.728
+  },
+  {
+   "word": "bonus.",
+   "start": 21.748,
+   "end": 22.2
+  },
+  {
+   "word": "Milan",
+   "start": 22.4,
+   "end": 22.805
+  },
+  {
+   "word": "were",
+   "start": 22.825,
+   "end": 23.018
+  },
+  {
+   "word": "two",
+   "start": 23.038,
+   "end": 23.301
+  },
+  {
+   "word": "down",
+   "start": 23.321,
+   "end": 23.656
+  },
+  {
+   "word": "at",
+   "start": 23.676,
+   "end": 23.798
+  },
+  {
+   "word": "Olympiacos,",
+   "start": 23.818,
+   "end": 24.79
+  },
+  {
+   "word": "then",
+   "start": 24.99,
+   "end": 25.284
+  },
+  {
+   "word": "scored",
+   "start": 25.304,
+   "end": 25.756
+  },
+  {
+   "word": "four.",
+   "start": 25.776,
+   "end": 26.07
+  },
+  {
+   "word": "Win",
+   "start": 26.27,
+   "end": 26.621
+  },
+  {
+   "word": "or",
+   "start": 26.641,
+   "end": 26.806
+  },
+  {
+   "word": "draw.",
+   "start": 26.826,
+   "end": 27.27
+  },
+  {
+   "word": "Landed.",
+   "start": 27.47,
+   "end": 28.1
+  },
+  {
+   "word": "Four",
+   "start": 28.36,
+   "end": 28.679
+  },
+  {
+   "word": "and",
+   "start": 28.699,
+   "end": 28.933
+  },
+  {
+   "word": "one",
+   "start": 28.953,
+   "end": 29.272
+  },
+  {
+   "word": "on",
+   "start": 29.292,
+   "end": 29.527
+  },
+  {
+   "word": "the",
+   "start": 29.547,
+   "end": 29.696
+  },
+  {
+   "word": "legs.",
+   "start": 29.716,
+   "end": 30.12
+  },
+  {
+   "word": "Fifty",
+   "start": 30.32,
+   "end": 30.749
+  },
+  {
+   "word": "five",
+   "start": 30.769,
+   "end": 31.123
+  },
+  {
+   "word": "and",
+   "start": 31.143,
+   "end": 31.348
+  },
+  {
+   "word": "twenty",
+   "start": 31.368,
+   "end": 31.872
+  },
+  {
+   "word": "on",
+   "start": 31.892,
+   "end": 32.096
+  },
+  {
+   "word": "the",
+   "start": 32.116,
+   "end": 32.246
+  },
+  {
+   "word": "season.",
+   "start": 32.266,
+   "end": 32.77
+  },
+  {
+   "word": "Premier",
+   "start": 33.03,
+   "end": 33.475
+  },
+  {
+   "word": "League",
+   "start": 33.495,
+   "end": 33.807
+  },
+  {
+   "word": "picks",
+   "start": 33.827,
+   "end": 34.139
+  },
+  {
+   "word": "Friday,",
+   "start": 34.159,
+   "end": 34.67
+  },
+  {
+   "word": "and",
+   "start": 34.87,
+   "end": 35.056
+  },
+  {
+   "word": "pick",
+   "start": 35.076,
+   "end": 35.332
+  },
+  {
+   "word": "of",
+   "start": 35.352,
+   "end": 35.469
+  },
+  {
+   "word": "the",
+   "start": 35.489,
+   "end": 35.607
+  },
+  {
+   "word": "weekend",
+   "start": 35.627,
+   "end": 36.157
+  },
+  {
+   "word": "number",
+   "start": 36.177,
+   "end": 36.57
+  },
+  {
+   "word": "six",
+   "start": 36.59,
+   "end": 36.914
+  },
+  {
+   "word": "on",
+   "start": 36.934,
+   "end": 37.121
+  },
+  {
+   "word": "Saturday.",
+   "start": 37.141,
+   "end": 37.74
+  },
+  {
+   "word": "Follow",
+   "start": 37.94,
+   "end": 38.263
+  },
+  {
+   "word": "so",
+   "start": 38.283,
+   "end": 38.492
+  },
+  {
+   "word": "you",
+   "start": 38.512,
+   "end": 38.664
+  },
+  {
+   "word": "do",
+   "start": 38.684,
+   "end": 38.893
+  },
+  {
+   "word": "not",
+   "start": 38.913,
+   "end": 39.122
+  },
+  {
+   "word": "miss",
+   "start": 39.142,
+   "end": 39.351
+  },
+  {
+   "word": "them.",
+   "start": 39.371,
+   "end": 39.58
+  }
+ ],
+ "duration": 39.8
+}
