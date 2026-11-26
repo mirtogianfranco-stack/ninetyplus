@@ -1,0 +1,395 @@
+{
+ "words": [
+  {
+   "word": "Pick",
+   "start": 0.03,
+   "end": 0.318
+  },
+  {
+   "word": "of",
+   "start": 0.338,
+   "end": 0.471
+  },
+  {
+   "word": "the",
+   "start": 0.491,
+   "end": 0.625
+  },
+  {
+   "word": "weekend,",
+   "start": 0.645,
+   "end": 1.24
+  },
+  {
+   "word": "number",
+   "start": 1.44,
+   "end": 1.862
+  },
+  {
+   "word": "six,",
+   "start": 1.882,
+   "end": 2.23
+  },
+  {
+   "word": "and",
+   "start": 2.43,
+   "end": 2.606
+  },
+  {
+   "word": "we",
+   "start": 2.626,
+   "end": 2.803
+  },
+  {
+   "word": "are",
+   "start": 2.823,
+   "end": 2.934
+  },
+  {
+   "word": "five",
+   "start": 2.954,
+   "end": 3.261
+  },
+  {
+   "word": "from",
+   "start": 3.281,
+   "end": 3.523
+  },
+  {
+   "word": "five.",
+   "start": 3.543,
+   "end": 3.85
+  },
+  {
+   "word": "Inter",
+   "start": 4.11,
+   "end": 4.483
+  },
+  {
+   "word": "Miami",
+   "start": 4.503,
+   "end": 4.942
+  },
+  {
+   "word": "lost",
+   "start": 4.962,
+   "end": 5.27
+  },
+  {
+   "word": "the",
+   "start": 5.29,
+   "end": 5.401
+  },
+  {
+   "word": "first",
+   "start": 5.421,
+   "end": 5.794
+  },
+  {
+   "word": "game",
+   "start": 5.814,
+   "end": 6.121
+  },
+  {
+   "word": "three",
+   "start": 6.141,
+   "end": 6.449
+  },
+  {
+   "word": "nil",
+   "start": 6.469,
+   "end": 6.711
+  },
+  {
+   "word": "at",
+   "start": 6.731,
+   "end": 6.842
+  },
+  {
+   "word": "home.",
+   "start": 6.862,
+   "end": 7.17
+  },
+  {
+   "word": "Lose",
+   "start": 7.37,
+   "end": 7.724
+  },
+  {
+   "word": "in",
+   "start": 7.744,
+   "end": 7.948
+  },
+  {
+   "word": "Columbus,",
+   "start": 7.968,
+   "end": 8.62
+  },
+  {
+   "word": "and",
+   "start": 8.82,
+   "end": 9.044
+  },
+  {
+   "word": "their",
+   "start": 9.064,
+   "end": 9.289
+  },
+  {
+   "word": "season",
+   "start": 9.309,
+   "end": 9.86
+  },
+  {
+   "word": "is",
+   "start": 9.88,
+   "end": 10.022
+  },
+  {
+   "word": "over.",
+   "start": 10.042,
+   "end": 10.43
+  },
+  {
+   "word": "Lionel",
+   "start": 10.68,
+   "end": 11.164
+  },
+  {
+   "word": "Messi",
+   "start": 11.184,
+   "end": 11.48
+  },
+  {
+   "word": "has",
+   "start": 11.5,
+   "end": 11.732
+  },
+  {
+   "word": "twenty",
+   "start": 11.752,
+   "end": 12.173
+  },
+  {
+   "word": "six",
+   "start": 12.193,
+   "end": 12.488
+  },
+  {
+   "word": "goals",
+   "start": 12.508,
+   "end": 12.867
+  },
+  {
+   "word": "this",
+   "start": 12.887,
+   "end": 13.119
+  },
+  {
+   "word": "season.",
+   "start": 13.139,
+   "end": 13.56
+  },
+  {
+   "word": "He",
+   "start": 13.76,
+   "end": 13.939
+  },
+  {
+   "word": "has",
+   "start": 13.959,
+   "end": 14.203
+  },
+  {
+   "word": "scored",
+   "start": 14.223,
+   "end": 14.6
+  },
+  {
+   "word": "in",
+   "start": 14.62,
+   "end": 14.799
+  },
+  {
+   "word": "eighteen",
+   "start": 14.819,
+   "end": 15.262
+  },
+  {
+   "word": "of",
+   "start": 15.282,
+   "end": 15.395
+  },
+  {
+   "word": "thirty",
+   "start": 15.415,
+   "end": 15.792
+  },
+  {
+   "word": "five",
+   "start": 15.812,
+   "end": 16.123
+  },
+  {
+   "word": "games.",
+   "start": 16.143,
+   "end": 16.52
+  },
+  {
+   "word": "And",
+   "start": 16.77,
+   "end": 16.948
+  },
+  {
+   "word": "the",
+   "start": 16.968,
+   "end": 17.081
+  },
+  {
+   "word": "last",
+   "start": 17.101,
+   "end": 17.412
+  },
+  {
+   "word": "time",
+   "start": 17.432,
+   "end": 17.742
+  },
+  {
+   "word": "Miami",
+   "start": 17.762,
+   "end": 18.205
+  },
+  {
+   "word": "went",
+   "start": 18.225,
+   "end": 18.536
+  },
+  {
+   "word": "to",
+   "start": 18.556,
+   "end": 18.735
+  },
+  {
+   "word": "Columbus,",
+   "start": 18.755,
+   "end": 19.33
+  },
+  {
+   "word": "he",
+   "start": 19.53,
+   "end": 19.767
+  },
+  {
+   "word": "scored.",
+   "start": 19.787,
+   "end": 20.28
+  },
+  {
+   "word": "Win",
+   "start": 20.54,
+   "end": 20.883
+  },
+  {
+   "word": "or",
+   "start": 20.903,
+   "end": 21.064
+  },
+  {
+   "word": "go",
+   "start": 21.084,
+   "end": 21.427
+  },
+  {
+   "word": "home.",
+   "start": 21.447,
+   "end": 21.88
+  },
+  {
+   "word": "Lionel",
+   "start": 22.08,
+   "end": 22.692
+  },
+  {
+   "word": "Messi",
+   "start": 22.712,
+   "end": 23.088
+  },
+  {
+   "word": "to",
+   "start": 23.108,
+   "end": 23.325
+  },
+  {
+   "word": "score.",
+   "start": 23.345,
+   "end": 23.72
+  },
+  {
+   "word": "Pick",
+   "start": 23.98,
+   "end": 24.274
+  },
+  {
+   "word": "of",
+   "start": 24.294,
+   "end": 24.432
+  },
+  {
+   "word": "the",
+   "start": 24.452,
+   "end": 24.589
+  },
+  {
+   "word": "weekend",
+   "start": 24.609,
+   "end": 25.218
+  },
+  {
+   "word": "is",
+   "start": 25.238,
+   "end": 25.375
+  },
+  {
+   "word": "five",
+   "start": 25.395,
+   "end": 25.768
+  },
+  {
+   "word": "and",
+   "start": 25.788,
+   "end": 26.004
+  },
+  {
+   "word": "oh.",
+   "start": 26.024,
+   "end": 26.24
+  },
+  {
+   "word": "Riding",
+   "start": 26.44,
+   "end": 26.948
+  },
+  {
+   "word": "with",
+   "start": 26.968,
+   "end": 27.174
+  },
+  {
+   "word": "us?",
+   "start": 27.194,
+   "end": 27.4
+  },
+  {
+   "word": "Comment",
+   "start": 27.6,
+   "end": 28.097
+  },
+  {
+   "word": "below.",
+   "start": 28.117,
+   "end": 28.54
+  }
+ ],
+ "duration": 28.76
+}

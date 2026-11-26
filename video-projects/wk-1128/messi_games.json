@@ -1,0 +1,326 @@
+[
+{
+"date": "2026-02-22",
+"h": "LAFC",
+"a": "Inter Miami CF",
+"hg": 3,
+"ag": 0,
+"messi": []
+},
+{
+"date": "2026-03-02",
+"h": "Orlando City SC",
+"a": "Inter Miami CF",
+"hg": 2,
+"ag": 4,
+"messi": [
+"57'",
+"90'"
+]
+},
+{
+"date": "2026-03-07",
+"h": "D.C. United",
+"a": "Inter Miami CF",
+"hg": 1,
+"ag": 2,
+"messi": [
+"27'"
+]
+},
+{
+"date": "2026-03-14",
+"h": "Charlotte FC",
+"a": "Inter Miami CF",
+"hg": 0,
+"ag": 0,
+"messi": []
+},
+{
+"date": "2026-03-22",
+"h": "New York City FC",
+"a": "Inter Miami CF",
+"hg": 2,
+"ag": 3,
+"messi": [
+"61'"
+]
+},
+{
+"date": "2026-04-04",
+"h": "Inter Miami CF",
+"a": "Austin FC",
+"hg": 2,
+"ag": 2,
+"messi": [
+"10'"
+]
+},
+{
+"date": "2026-04-11",
+"h": "Inter Miami CF",
+"a": "Red Bull New York",
+"hg": 2,
+"ag": 2,
+"messi": []
+},
+{
+"date": "2026-04-18",
+"h": "Colorado Rapids",
+"a": "Inter Miami CF",
+"hg": 2,
+"ag": 3,
+"messi": [
+"18'",
+"79'"
+]
+},
+{
+"date": "2026-04-23",
+"h": "Real Salt Lake",
+"a": "Inter Miami CF",
+"hg": 0,
+"ag": 2,
+"messi": []
+},
+{
+"date": "2026-04-25",
+"h": "Inter Miami CF",
+"a": "New England Revolution",
+"hg": 1,
+"ag": 1,
+"messi": []
+},
+{
+"date": "2026-05-02",
+"h": "Inter Miami CF",
+"a": "Orlando City SC",
+"hg": 3,
+"ag": 4,
+"messi": [
+"33'"
+]
+},
+{
+"date": "2026-05-09",
+"h": "Toronto FC",
+"a": "Inter Miami CF",
+"hg": 2,
+"ag": 4,
+"messi": [
+"75'"
+]
+},
+{
+"date": "2026-05-13",
+"h": "FC Cincinnati",
+"a": "Inter Miami CF",
+"hg": 3,
+"ag": 5,
+"messi": [
+"24'",
+"55'"
+]
+},
+{
+"date": "2026-05-17",
+"h": "Inter Miami CF",
+"a": "Portland Timbers",
+"hg": 2,
+"ag": 0,
+"messi": [
+"31'"
+]
+},
+{
+"date": "2026-05-24",
+"h": "Inter Miami CF",
+"a": "Philadelphia Union",
+"hg": 6,
+"ag": 4,
+"messi": []
+},
+{
+"date": "2026-07-22",
+"h": "Inter Miami CF",
+"a": "Chicago Fire FC",
+"hg": 3,
+"ag": 2,
+"messi": []
+},
+{
+"date": "2026-07-25",
+"h": "CF Montr\u00e9al",
+"a": "Inter Miami CF",
+"hg": 0,
+"ag": 1,
+"messi": []
+},
+{
+"date": "2026-08-02",
+"h": "Inter Miami CF",
+"a": "Columbus Crew",
+"hg": 2,
+"ag": 2,
+"messi": []
+},
+{
+"date": "2026-08-16",
+"h": "Nashville SC",
+"a": "Inter Miami CF",
+"hg": 4,
+"ag": 1,
+"messi": []
+},
+{
+"date": "2026-08-19",
+"h": "Philadelphia Union",
+"a": "Inter Miami CF",
+"hg": 2,
+"ag": 2,
+"messi": [
+"26'"
+]
+},
+{
+"date": "2026-08-22",
+"h": "Inter Miami CF",
+"a": "Toronto FC",
+"hg": 1,
+"ag": 2,
+"messi": [
+"82'"
+]
+},
+{
+"date": "2026-08-29",
+"h": "Inter Miami CF",
+"a": "CF Montr\u00e9al",
+"hg": 7,
+"ag": 1,
+"messi": [
+"40'",
+"52'",
+"83'",
+"90'+6'"
+]
+},
+{
+"date": "2026-09-06",
+"h": "Inter Miami CF",
+"a": "Atlanta United FC",
+"hg": 2,
+"ag": 2,
+"messi": []
+},
+{
+"date": "2026-09-10",
+"h": "Chicago Fire FC",
+"a": "Inter Miami CF",
+"hg": 1,
+"ag": 1,
+"messi": []
+},
+{
+"date": "2026-09-12",
+"h": "Inter Miami CF",
+"a": "Nashville SC",
+"hg": 2,
+"ag": 2,
+"messi": [
+"62'"
+]
+},
+{
+"date": "2026-09-20",
+"h": "Inter Miami CF",
+"a": "San Diego FC",
+"hg": 2,
+"ag": 2,
+"messi": [
+"24'"
+]
+},
+{
+"date": "2026-09-27",
+"h": "Columbus Crew",
+"a": "Inter Miami CF",
+"hg": 2,
+"ag": 1,
+"messi": [
+"33'"
+]
+},
+{
+"date": "2026-10-10",
+"h": "Inter Miami CF",
+"a": "D.C. United",
+"hg": 4,
+"ag": 0,
+"messi": [
+"47'",
+"60'"
+]
+},
+{
+"date": "2026-10-14",
+"h": "Inter Miami CF",
+"a": "New York City FC",
+"hg": 2,
+"ag": 0,
+"messi": []
+},
+{
+"date": "2026-10-17",
+"h": "Atlanta United FC",
+"a": "Inter Miami CF",
+"hg": 1,
+"ag": 3,
+"messi": [
+"56'",
+"60'"
+]
+},
+{
+"date": "2026-10-24",
+"h": "Red Bull New York",
+"a": "Inter Miami CF",
+"hg": 2,
+"ag": 0,
+"messi": []
+},
+{
+"date": "2026-10-28",
+"h": "Inter Miami CF",
+"a": "FC Cincinnati",
+"hg": 2,
+"ag": 2,
+"messi": []
+},
+{
+"date": "2026-11-02",
+"h": "New England Revolution",
+"a": "Inter Miami CF",
+"hg": 1,
+"ag": 2,
+"messi": [
+"83'"
+]
+},
+{
+"date": "2026-11-07",
+"h": "Inter Miami CF",
+"a": "Charlotte FC",
+"hg": 3,
+"ag": 3,
+"messi": []
+},
+{
+"date": "2026-11-21",
+"h": "Inter Miami CF",
+"a": "Columbus Crew",
+"hg": 0,
+"ag": 3,
+"messi": []
+}
+]
