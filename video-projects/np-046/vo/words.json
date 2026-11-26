@@ -1,0 +1,360 @@
+{
+ "words": [
+  {
+   "word": "Best",
+   "start": 0.03,
+   "end": 0.385
+  },
+  {
+   "word": "of",
+   "start": 0.405,
+   "end": 0.535
+  },
+  {
+   "word": "the",
+   "start": 0.555,
+   "end": 0.685
+  },
+  {
+   "word": "rest,",
+   "start": 0.705,
+   "end": 1.06
+  },
+  {
+   "word": "and",
+   "start": 1.26,
+   "end": 1.474
+  },
+  {
+   "word": "it",
+   "start": 1.494,
+   "end": 1.63
+  },
+  {
+   "word": "starts",
+   "start": 1.65,
+   "end": 2.177
+  },
+  {
+   "word": "in",
+   "start": 2.197,
+   "end": 2.411
+  },
+  {
+   "word": "Milan.",
+   "start": 2.431,
+   "end": 2.88
+  },
+  {
+   "word": "Inter",
+   "start": 3.14,
+   "end": 3.519
+  },
+  {
+   "word": "have",
+   "start": 3.539,
+   "end": 3.785
+  },
+  {
+   "word": "won",
+   "start": 3.805,
+   "end": 4.051
+  },
+  {
+   "word": "all",
+   "start": 4.071,
+   "end": 4.316
+  },
+  {
+   "word": "six",
+   "start": 4.336,
+   "end": 4.649
+  },
+  {
+   "word": "home",
+   "start": 4.669,
+   "end": 4.981
+  },
+  {
+   "word": "games,",
+   "start": 5.001,
+   "end": 5.38
+  },
+  {
+   "word": "and",
+   "start": 5.58,
+   "end": 5.783
+  },
+  {
+   "word": "scored",
+   "start": 5.803,
+   "end": 6.23
+  },
+  {
+   "word": "nineteen.",
+   "start": 6.25,
+   "end": 6.9
+  },
+  {
+   "word": "Inter",
+   "start": 7.1,
+   "end": 7.546
+  },
+  {
+   "word": "to",
+   "start": 7.566,
+   "end": 7.779
+  },
+  {
+   "word": "win.",
+   "start": 7.799,
+   "end": 8.09
+  },
+  {
+   "word": "Fiorentina",
+   "start": 8.35,
+   "end": 9.194
+  },
+  {
+   "word": "games",
+   "start": 9.214,
+   "end": 9.593
+  },
+  {
+   "word": "have",
+   "start": 9.613,
+   "end": 9.858
+  },
+  {
+   "word": "had",
+   "start": 9.878,
+   "end": 10.124
+  },
+  {
+   "word": "three",
+   "start": 10.144,
+   "end": 10.456
+  },
+  {
+   "word": "goals",
+   "start": 10.476,
+   "end": 10.855
+  },
+  {
+   "word": "or",
+   "start": 10.875,
+   "end": 10.988
+  },
+  {
+   "word": "more",
+   "start": 11.008,
+   "end": 11.254
+  },
+  {
+   "word": "in",
+   "start": 11.274,
+   "end": 11.453
+  },
+  {
+   "word": "eleven",
+   "start": 11.473,
+   "end": 11.918
+  },
+  {
+   "word": "of",
+   "start": 11.938,
+   "end": 12.051
+  },
+  {
+   "word": "twelve.",
+   "start": 12.071,
+   "end": 12.45
+  },
+  {
+   "word": "Udinese",
+   "start": 12.65,
+   "end": 13.562
+  },
+  {
+   "word": "and",
+   "start": 13.582,
+   "end": 13.778
+  },
+  {
+   "word": "Fiorentina,",
+   "start": 13.798,
+   "end": 14.71
+  },
+  {
+   "word": "three",
+   "start": 14.91,
+   "end": 15.246
+  },
+  {
+   "word": "plus",
+   "start": 15.266,
+   "end": 15.602
+  },
+  {
+   "word": "goals.",
+   "start": 15.622,
+   "end": 16.03
+  },
+  {
+   "word": "Nashville",
+   "start": 16.29,
+   "end": 16.758
+  },
+  {
+   "word": "had",
+   "start": 16.778,
+   "end": 17.037
+  },
+  {
+   "word": "the",
+   "start": 17.057,
+   "end": 17.176
+  },
+  {
+   "word": "best",
+   "start": 17.196,
+   "end": 17.525
+  },
+  {
+   "word": "record",
+   "start": 17.545,
+   "end": 18.013
+  },
+  {
+   "word": "in",
+   "start": 18.033,
+   "end": 18.222
+  },
+  {
+   "word": "MLS.",
+   "start": 18.242,
+   "end": 18.85
+  },
+  {
+   "word": "They",
+   "start": 19.05,
+   "end": 19.234
+  },
+  {
+   "word": "lost",
+   "start": 19.254,
+   "end": 19.575
+  },
+  {
+   "word": "the",
+   "start": 19.595,
+   "end": 19.711
+  },
+  {
+   "word": "first",
+   "start": 19.731,
+   "end": 20.12
+  },
+  {
+   "word": "game,",
+   "start": 20.14,
+   "end": 20.46
+  },
+  {
+   "word": "so",
+   "start": 20.66,
+   "end": 20.938
+  },
+  {
+   "word": "it",
+   "start": 20.958,
+   "end": 21.088
+  },
+  {
+   "word": "is",
+   "start": 21.108,
+   "end": 21.237
+  },
+  {
+   "word": "win",
+   "start": 21.257,
+   "end": 21.535
+  },
+  {
+   "word": "or",
+   "start": 21.555,
+   "end": 21.684
+  },
+  {
+   "word": "go",
+   "start": 21.704,
+   "end": 21.983
+  },
+  {
+   "word": "home",
+   "start": 22.003,
+   "end": 22.356
+  },
+  {
+   "word": "in",
+   "start": 22.376,
+   "end": 22.579
+  },
+  {
+   "word": "Cincinnati.",
+   "start": 22.599,
+   "end": 23.4
+  },
+  {
+   "word": "Nashville",
+   "start": 23.6,
+   "end": 24.165
+  },
+  {
+   "word": "to",
+   "start": 24.185,
+   "end": 24.416
+  },
+  {
+   "word": "win.",
+   "start": 24.436,
+   "end": 24.75
+  },
+  {
+   "word": "Which",
+   "start": 25.01,
+   "end": 25.29
+  },
+  {
+   "word": "leg",
+   "start": 25.31,
+   "end": 25.53
+  },
+  {
+   "word": "breaks",
+   "start": 25.55,
+   "end": 25.95
+  },
+  {
+   "word": "first?",
+   "start": 25.97,
+   "end": 26.31
+  },
+  {
+   "word": "Comment",
+   "start": 26.51,
+   "end": 27.03
+  },
+  {
+   "word": "your",
+   "start": 27.05,
+   "end": 27.261
+  },
+  {
+   "word": "pick.",
+   "start": 27.281,
+   "end": 27.57
+  }
+ ],
+ "duration": 27.79
+}
