@@ -1,3 +1,53 @@
-{"picks": [
- {"card": "Pick of the Weekend #6", "label": "Messi to score at Columbus", "league": "usa.1", "date": "20261127", "home": "Columbus", "away": "Inter Miami", "type": "scorer", "player": "Messi"}
-]}
+{
+ "picks": [
+  {
+   "card": "Premier League card",
+   "label": "Man Utd v Brentford both score",
+   "league": "eng.1",
+   "date": "20261128",
+   "home": "Manchester United",
+   "away": "Brentford",
+   "type": "btts"
+  },
+  {
+   "card": "Premier League card",
+   "label": "Leeds to win v Coventry",
+   "league": "eng.1",
+   "date": "20261128",
+   "home": "Leeds",
+   "away": "Coventry",
+   "type": "win",
+   "team": "home"
+  },
+  {
+   "card": "Premier League card",
+   "label": "Liverpool win or draw at Everton",
+   "league": "eng.1",
+   "date": "20261129",
+   "home": "Everton",
+   "away": "Liverpool",
+   "type": "win_or_draw",
+   "team": "away"
+  },
+  {
+   "card": "Premier League card",
+   "label": "Evanilson to score at Fulham",
+   "league": "eng.1",
+   "date": "20261129",
+   "home": "Fulham",
+   "away": "Bournemouth",
+   "type": "scorer",
+   "player": "Evanilson"
+  },
+  {
+   "card": "Pick of the Weekend #6",
+   "label": "Messi to score at Columbus",
+   "league": "usa.1",
+   "date": "20261127",
+   "home": "Columbus",
+   "away": "Inter Miami",
+   "type": "scorer",
+   "player": "Messi"
+  }
+ ]
+}
