@@ -48,6 +48,36 @@
    "away": "Inter Miami",
    "type": "scorer",
    "player": "Messi"
+  },
+  {
+   "card": "Best of the Rest",
+   "label": "Inter to win v Genoa",
+   "league": "ita.1",
+   "date": "20261128",
+   "home": "Internazionale",
+   "away": "Genoa",
+   "type": "win",
+   "team": "home"
+  },
+  {
+   "card": "Best of the Rest",
+   "label": "Udinese v Fiorentina 3+ goals",
+   "league": "ita.1",
+   "date": "20261129",
+   "home": "Udinese",
+   "away": "Fiorentina",
+   "type": "goals_over",
+   "n": 3
+  },
+  {
+   "card": "Best of the Rest",
+   "label": "Nashville to win at Cincinnati",
+   "league": "usa.1",
+   "date": "20261128",
+   "home": "Cincinnati",
+   "away": "Nashville",
+   "type": "win",
+   "team": "away"
   }
  ]
 }
